@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0f2e-f338-5620-a215" revision="2" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Ghar" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="a0d2-a464-576a-d53f" name="Flitters" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0d74-51f5-cdef-1da6" name="Flitter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="88cb-8269-0777-b47e" name="Probe Unit" hidden="false">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e0b7-4216-5e20-71c4" profileTypeId="1650-77b3-10d1-6406" name="Flitter" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="-"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="-"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="-"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="3"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="-"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2ab9-ffed-3ff2-6498" targetId="485f-1f8e-7808-4a17" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0a47-9677-96a8-9f0a" targetId="a985-d1e1-a15f-c261" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9030-9dea-f00b-e2ed" name="Ghar Assault Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c8dc-aa17-3f85-1a20" name="Ghar Leader" points="64.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4a53-b51f-7123-323c" name="Leader Rank" defaultEntryId="a799-d9a3-ebfc-67cc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b7bc-86de-3e5c-be44" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6a34-83de-3b72-2df5" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="78f6-7498-ff9d-5fab" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="4baa-fe7b-22c2-5032" targetId="e048-25d9-af17-bdf0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="a799-d9a3-ebfc-67cc" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="0a8a-5a76-fe11-8d1d" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bcc0-e929-33d2-f9cb" profileTypeId="1650-77b3-10d1-6406" name="Ghar Leader" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4850-1a32-f160-03dc" name="Ghar Trooper" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4422-aed5-9fe5-489f" profileTypeId="1650-77b3-10d1-6406" name="Ghar Trooper" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value=""/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7db0-3bc8-ba66-2437" name="Plasma Dumps" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="9030-9dea-f00b-e2ed" incrementChildId="c8dc-aa17-3f85-1a20" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="9030-9dea-f00b-e2ed" incrementChildId="4850-1a32-f160-03dc" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="3b0a-3a3a-9ba0-4a01" name="Plasma Amplifiers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="9030-9dea-f00b-e2ed" incrementChildId="4850-1a32-f160-03dc" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="9030-9dea-f00b-e2ed" incrementChildId="c8dc-aa17-3f85-1a20" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fef7-39df-2b98-1c66" name="Infantry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="85ac-ff6e-0649-05db" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9666-60fb-6002-9667" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c0c-fe84-bfff-3841" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cadd-7f5d-ed2e-aba9" targetId="3cfd-07d8-f685-fa34" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0b52-400d-e2fa-6607" targetId="36a7-e564-c80c-2a7e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="46f3-8791-7cb4-e161" targetId="ff6d-c9e5-a6c4-f336" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5670-d9f9-4779-7a23" name="Ghar Battle Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c899-96c3-90ae-a7a9" name="Ghar Leader" points="64.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ed36-f6c6-fac2-472f" name="Leader Rank" defaultEntryId="3838-1f18-c382-1842" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="78c3-921d-2bd5-383a" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="def0-0837-7bc3-25ae" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="0495-fa3a-71ea-d922" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6064-746c-6cd3-27d4" targetId="e048-25d9-af17-bdf0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="3838-1f18-c382-1842" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cfcb-4c21-1ed8-979c" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5c33-dfa5-d641-858a" profileTypeId="1650-77b3-10d1-6406" name="Ghar Leader" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d842-422d-f043-b735" name="Ghar Trooper" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="db6c-eadd-2a2b-79bd" profileTypeId="1650-77b3-10d1-6406" name="Ghar Trooper" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value=""/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b8b4-04a9-1ee9-228b" name="Plasma Dumps" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="5670-d9f9-4779-7a23" incrementChildId="c899-96c3-90ae-a7a9" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="5670-d9f9-4779-7a23" incrementChildId="d842-422d-f043-b735" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="ef06-9064-c307-e665" name="Plasma Amplifiers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="5670-d9f9-4779-7a23" incrementChildId="d842-422d-f043-b735" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="5670-d9f9-4779-7a23" incrementChildId="c899-96c3-90ae-a7a9" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="54a7-9a44-ddc3-e465" name="Infantry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="5337-8aa7-11e4-24e8" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96af-24be-477b-617d" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4e88-7e17-35a9-efdb" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf73-74f7-d7bd-e099" targetId="3fde-b133-beb3-43d7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f21b-beb2-224e-5e3f" name="Ghar Bombardment Crawler" points="243.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="170">
+      <entries>
+        <entry id="1a33-1125-41be-a84c" name="Ghar Bombardment Crawler" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9eb2-f76c-73b5-402f" profileTypeId="1650-77b3-10d1-6406" name="Ghar Bombardment Crawler" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="13"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="de28-8ddf-2e9e-68c3" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8895-d3a3-1fce-a3d8" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="13e6-878c-c923-5a97" targetId="5a09-7c98-31f2-0b1b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a8a2-a078-6edf-978b" name="Plasma Amplifiers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f21b-beb2-224e-5e3f" incrementChildId="1a33-1125-41be-a84c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f21b-beb2-224e-5e3f" incrementChildId="ef3d-dcd6-70ae-c6c6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="6a4c-fdb7-ebdb-0a84" name="Plasma Dumps" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="f21b-beb2-224e-5e3f" incrementChildId="1a33-1125-41be-a84c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="f21b-beb2-224e-5e3f" incrementChildId="ef3d-dcd6-70ae-c6c6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="ef3d-dcd6-70ae-c6c6" name="Ghar Scutter" points="26.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0b1b-0a86-07ce-c5ec" targetId="562c-13be-8455-d77b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5805-0b73-8f17-f572" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d6a3-4bb5-e5d9-3659" name="Vehicle Unit / Mixed Vehicle + Mounts" hidden="false" book="">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="6c25-a970-0fbe-4d43" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca90-0d51-325e-f239" targetId="23c8-9405-75ca-7f03" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8af0-5935-c435-77e1" targetId="09d0-48ed-82d2-38b5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="82e8-1e97-c543-e349" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a66d-463b-3e43-e86e" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8b5a-d5f0-e539-a0ee" name="Ghar Bomber Squad" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4a98-4c68-15aa-a072" name="Ghar Leader" points="64.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="1801-be82-bad9-46b6" name="Leader Rank" defaultEntryId="1133-61fa-0a8e-be9c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="e148-d3dc-c579-ecba" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="206a-a126-a295-7465" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="5d73-1f5e-0487-13e2" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f30e-8b02-26ec-f5a4" targetId="e048-25d9-af17-bdf0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="1133-61fa-0a8e-be9c" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="fbc6-19e6-ecb2-afe8" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c216-69a9-3e8a-0f02" profileTypeId="1650-77b3-10d1-6406" name="Ghar Leader" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9f8b-ab48-0d2d-e501" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a18c-40ae-d918-8109" name="Ghar Trooper" points="60.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="be58-28f6-c6ca-323c" profileTypeId="1650-77b3-10d1-6406" name="Ghar Trooper" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value=""/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0e80-ade2-0809-2392" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3a43-be53-21c6-bb37" name="Plasma Dumps" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="0d6e-d1da-4558-5a99" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="4a98-4c68-15aa-a072" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="90ee-0a6f-9336-975d" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="a18c-40ae-d918-8109" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="28a7-4a00-8b9f-618b" name="Plasma Amplifiers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="a18c-40ae-d918-8109" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="4a98-4c68-15aa-a072" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="0d6e-d1da-4558-5a99" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="8b5a-d5f0-e539-a0ee" incrementChildId="90ee-0a6f-9336-975d" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="0d6e-d1da-4558-5a99" name="Ghar Bomb Trooper" points="63.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="952f-9f4c-cbc4-2ebc" profileTypeId="1650-77b3-10d1-6406" name="Ghar Bomb Trooper" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="3"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="10"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (12)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="39b2-7138-f2dd-425b" targetId="e376-d612-25ff-b855" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="90ee-0a6f-9336-975d" name="Ghar Scutter" points="47.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6790-53e2-2efa-2be5" targetId="562c-13be-8455-d77b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e66e-6adf-a0cd-5f9c" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ca5c-7445-3e1f-4676" name="Infantry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="2b2a-cf47-51fe-1daf" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="016f-eaf3-dbd7-ac1e" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7729-636d-e51e-d6f7" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8a8c-71c0-d041-09a6" name="Ghar Command Crawler" points="243.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="170">
+      <entries>
+        <entry id="cc54-51ee-9a73-2c3f" name="Ghar Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="a1eb-a7e9-0ba1-9166" name="Leader Rank" defaultEntryId="4f80-8e2f-3425-932a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="4f80-8e2f-3425-932a" name="Leader 2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6243-126a-8498-6540" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="bbd9-af80-b959-dbe0" name="Leader 3" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="585f-d49e-dc61-d4ba" targetId="e048-25d9-af17-bdf0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="4351-2a97-c5fa-68de" name="High Commander" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6df5-d261-e1a6-cc51" targetId="48e7-7b6b-328c-29fe" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e177-ef68-f56f-fd00" profileTypeId="f9a2-eeae-3284-75fd" name="Ghar Commander" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="5"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="10"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="13"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="8"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="9"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="bb84-7c0e-852e-ef11" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="66d8-4c57-7b8f-aa81" targetId="3fde-b133-beb3-43d7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a403-8e75-3775-b0a9" name="Plasma Amplifiers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="8a8c-71c0-d041-09a6" incrementChildId="cc54-51ee-9a73-2c3f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="6675-7341-53d3-7e85" name="Plasma Dumps" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="8a8c-71c0-d041-09a6" incrementChildId="8a8c-71c0-d041-09a6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0436-9fe8-9e6b-50a5" name="Vehicle Command Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="6467-0c52-2d03-3bf8" targetId="1d76-267d-696a-2e8a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8915-9dfa-3860-1897" targetId="ae1d-2212-b0ef-48b6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="340c-1a14-abeb-546e" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c4ce-ab60-efd6-a256" targetId="23c8-9405-75ca-7f03" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6212-fa71-4521-332a" targetId="09d0-48ed-82d2-38b5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d54c-a9c9-6971-285c" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6ac4-7768-08a8-a64f" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="52ba-dd45-2ef8-eb63" name="Outcast Command Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b7fa-60d2-b829-a7be" name="Ghar Outcast Slave Driver" points="32.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="2c6c-c547-40d6-1aa1" name="Leader Rank" defaultEntryId="062f-d351-aae1-6beb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="9345-f6d3-a552-07e5" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5336-2f21-1f45-5c4c" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="c663-4689-f9b7-54a7" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7d79-5892-4be0-8e52" targetId="e048-25d9-af17-bdf0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="062f-d351-aae1-6beb" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="fcf5-1500-66f6-2d74" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="62c3-dbc2-e49b-7295" profileTypeId="1650-77b3-10d1-6406" name="Ghar Outcast Slave Driver" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="71f3-5c76-98db-4716" targetId="4a94-ffc8-8d46-6869" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2eb4-601c-fb91-f555" targetId="1d76-267d-696a-2e8a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="051d-ccd9-1c23-6d4a" targetId="ae1d-2212-b0ef-48b6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c451-d195-16f0-bc4d" name="Outcast" points="4.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c4c8-bc7c-e7b7-fdbf" profileTypeId="1650-77b3-10d1-6406" name="Outcast" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="6cfb-8ee0-4610-646d" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="dcc1-0cf8-5b64-89eb" name="Infantry Command Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="2c06-feb9-7429-4b91" targetId="dc72-b0e2-b8cb-2d5c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2d17-14ce-3721-d6c7" targetId="ccca-f1e8-512c-ade7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cb3e-e577-5ce4-de30" name="Outcast Disruptor Cannon" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="de51-23ed-0173-ba47" name="Outcast Crew" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7164-36d2-198f-7357" profileTypeId="1650-77b3-10d1-6406" name="Outcast Crew" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="6"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="6"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cc71-0ba4-2876-cc38" name="Outcast Leader" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="d3c3-c5ff-1552-7d0b" name="Leader Rank" defaultEntryId="d813-a45b-705e-5144" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="99a0-ce67-06df-5518" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cb31-6745-fde4-599b" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="d813-a45b-705e-5144" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="aa5f-bdb7-15d1-83ac" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8423-c5d8-cf5b-d8c7" profileTypeId="1650-77b3-10d1-6406" name="Outcast Leader" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2387-ed4c-8c83-472f" targetId="dc72-b0e2-b8cb-2d5c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="99.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="52ba-dd45-2ef8-eb63" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="45cb-83a8-6ea1-a8b5" name="Weapon Team Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6cfb-8ee0-4610-646d" name="Outcast Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0c5f-a39d-f318-124e" name="Ghar Outcast Leader" points="18.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="50bf-9324-c229-dc31" name="Leader Rank" defaultEntryId="58e7-f2da-c1d5-9e91" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="37d5-2b3f-ce65-3e11" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f136-0b80-27fb-a306" targetId="9d03-08db-93a6-4f05" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="58e7-f2da-c1d5-9e91" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="ac7e-ab6f-d757-d732" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="dd3e-68d4-544c-7f74" profileTypeId="1650-77b3-10d1-6406" name="Ghar Outcast Leader" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7b56-0416-c6ba-a4c6" targetId="4d36-a47c-487c-f893" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f22f-86cd-4a95-b370" name="Ghar Outcast" points="5.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="11" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0f2a-9654-0dee-ffe2" profileTypeId="1650-77b3-10d1-6406" name="Ghar Outcast" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="6"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="6"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6e24-74a4-80af-9ca3" targetId="4d36-a47c-487c-f893" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="770f-0ac0-8238-7bfc" name="Outcast Weapon Team of Two" points="24.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e5e5-dfa3-af34-ae28" profileTypeId="1650-77b3-10d1-6406" name="Outcast Weapon Team of Two" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="6"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="6"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="47a4-e76a-0c78-f0f8" targetId="a975-754b-83c3-802b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e266-7204-4b62-9954" name="Infantry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="438c-b342-0622-0896" targetId="c429-23e1-056e-cfd3" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="6cfb-8ee0-4610-646d" incrementChildId="0c5f-a39d-f318-124e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="6cfb-8ee0-4610-646d" incrementChildId="f22f-86cd-4a95-b370" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="true" numRepeats="1" incrementParentId="6cfb-8ee0-4610-646d" incrementChildId="770f-0ac0-8238-7bfc" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="fd3a-9dc3-6585-6d3e" name="Tectorist Scouts" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b572-c2ed-763c-a0a4" name="Tectorist Scout" points="5.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d0e9-50a7-5823-cc89" profileTypeId="1650-77b3-10d1-6406" name="Tectorist Scouts" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="6"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="3"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="7"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9d42-7e5f-bbf0-acd4" targetId="ccca-f1e8-512c-ade7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f6a8-13c6-b9ac-c035" targetId="24a5-60f8-93fc-7dff" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8061-c0ee-f0f9-6958" targetId="485f-1f8e-7808-4a17" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0361-c2bf-5185-8a0b" name="Special: Sharded Infantry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="bee5-b458-d288-7e29" targetId="3b86-3198-ef3c-030e" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1de0-bc86-9c78-0a15" name="Wrecker" points="30.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4f33-d4dd-0d5d-5d25" name="Mounted Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3660-6724-8c24-7b00" profileTypeId="1650-77b3-10d1-6406" name="Ghar Wrecker" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="7"/>
+            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="-"/>
+            <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="7"/>
+            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="4 (10)"/>
+            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="29a1-79f1-cc3e-bf8a" targetId="ac9f-9690-ac50-3e99" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6134-f048-10c3-6377" targetId="23c8-9405-75ca-7f03" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="89a5-d8cb-d79c-c1c1" targetId="931b-a54d-a846-cb74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1036-b394-2250-91f0" targetId="a985-d1e1-a15f-c261" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b602-7148-7417-d812" targetId="f5cb-d1fc-6b00-39f5" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="562c-13be-8455-d77b" name="Bomb Feeder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e376-d612-25ff-b855" name="Disruptor Bomber" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a975-754b-83c3-802b" name="Disruptor Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="ff6d-c9e5-a6c4-f336" name="Disruptor Discharger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3cfd-07d8-f685-fa34" name="Gouger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="ac9f-9690-ac50-3e99" name="Grabber" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5a09-7c98-31f2-0b1b" name="Heavy Disruptor Bomber" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4dd7-482d-315c-e7a8" name="High Commander" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0e9b-9aae-bd16-d30f" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="da65-5109-5f5f-0f9a" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4d36-a47c-487c-f893" name="Lugger Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="dc72-b0e2-b8cb-2d5c" name="Maglash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0924-6883-4fd0-7896" name="Plasma Amplifier" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="36a7-e564-c80c-2a7e" name="Plasma Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6e7f-8fb9-1596-4ab8" name="Plasma Dump" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c429-23e1-056e-cfd3" name="Plasma Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3fde-b133-beb3-43d7" name="Scourer Cannon" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3b86-3198-ef3c-030e" name="Tector Rods" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="1d76-267d-696a-2e8a" name="Command" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="23c8-9405-75ca-7f03" name="Crawler" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="ae1d-2212-b0ef-48b6" name="Follow" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="4a94-ffc8-8d46-6869" name="Hero" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="48e7-7b6b-328c-29fe" name="High Commander" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="931b-a54d-a846-cb74" name="Large" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="24a5-60f8-93fc-7dff" name="Leader" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="9d03-08db-93a6-4f05" name="Leader 2" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="e048-25d9-af17-bdf0" name="Leader 3" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="09d0-48ed-82d2-38b5" name="MOD2" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="ccca-f1e8-512c-ade7" name="Outcasts" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="f5cb-d1fc-6b00-39f5" name="Plasma Reactor" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="a985-d1e1-a15f-c261" name="Scramble Proof" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="485f-1f8e-7808-4a17" name="Shard" hidden="false">
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
