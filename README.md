@@ -15,7 +15,7 @@ Gates of Antares
 
 __What's this?__
 
-BSData organisation created this project. It's GitHub repository of datafiles.
+BSData organisation created this project. It's GitHub repository of datafiles for Gates Of Antares, made by Warlord Games.
 Maintained by community, in no way endorsed by BattleScribe. If you want
 to develop - cool! We need you! Take a look at [Getting Started wiki][]
 
