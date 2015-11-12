@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="162d-cc8a-d6e7-6973" revision="3" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="162d-cc8a-d6e7-6973" revision="4" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1405-a43b-534b-ab05" name="C3 Drop Command Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1205,7 +1205,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a36b-0cdc-9716-8cfc" name="C3D1/GP Light General Purpose Drone" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a36b-0cdc-9716-8cfc" name="C3D1/GP Light General Purpose Drone" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA Rulebook" page="166">
       <entries>
         <entry id="a6bb-3d3f-5754-ad06" name="General Purpose Drone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -1271,9 +1271,6 @@
           <modifiers/>
         </link>
         <link id="a93f-bf33-c898-fbb5" targetId="d571-d584-85fc-9110" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cf2a-d03c-8969-ecbc" targetId="b145-19b3-baae-ff39" linkType="entry">
           <modifiers/>
         </link>
         <link id="698c-3dae-36c9-d2f2" targetId="b145-19b3-baae-ff39" linkType="entry">
@@ -1342,9 +1339,6 @@
           <modifiers/>
         </link>
         <link id="9c1a-1711-fece-d2b7" targetId="d571-d584-85fc-9110" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="671a-acfe-ecc2-cae0" targetId="b145-19b3-baae-ff39" linkType="entry">
           <modifiers/>
         </link>
         <link id="c804-b7e1-f76f-7b56" targetId="b145-19b3-baae-ff39" linkType="entry">
