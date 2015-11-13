@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" revision="4" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" revision="5" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="ee766e00-0168-11be-e251-23243581de9e" name="Scouting Force" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="500.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -140,6 +140,15 @@
         <characteristic id="5b77-3595-2819-675c" name="Res"/>
         <characteristic id="c0d8-f6fd-a474-1385" name="Init"/>
         <characteristic id="135d-efc3-5039-b6e6" name="Co"/>
+      </characteristics>
+    </profileType>
+    <profileType id="ecae-8ac8-2c13-0dd3" name="Weapon">
+      <characteristics>
+        <characteristic id="c2de-17f1-10e2-2c0a" name="Effective"/>
+        <characteristic id="995e-b5e6-4c63-0baa" name="Long"/>
+        <characteristic id="bf58-0ad5-c7ee-3fd9" name="Extreme"/>
+        <characteristic id="897c-d3c4-3983-896a" name="Strike Value"/>
+        <characteristic id="7e87-2586-653f-d6ec" name="Special Rules"/>
       </characteristics>
     </profileType>
   </profileTypes>
