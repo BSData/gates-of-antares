@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" revision="0" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Algoryn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" revision="1" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Algoryn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b73b-6140-e2ca-f0c1" name="AI Assault Command Squad" points="69.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -2589,6 +2589,18 @@
         </link>
       </links>
     </entry>
+    <entry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="120">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2aa0-3909-ff3b-5bfe" targetId="b7c6-fc7c-d48b-aae4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d571-d584-85fc-9110" name="Batter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="11">
       <entries/>
       <entryGroups/>
@@ -2596,6 +2608,30 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="af35-43cb-665c-f896" name="Booster Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="111">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="afb1-18d4-57fc-1fd3" profileTypeId="1650-77b3-10d1-6406" name="Booster Drone" hidden="false" book="BtGoA" page="111">
+          <characteristics>
+            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
+            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
+            <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
+            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
+            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
+            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="be1b-5f25-85e3-4789" targetId="c3e6-4e9b-858c-80d3" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="4933-25f0-2896-ac60" name="Camo Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="112">
       <entries/>
@@ -2825,6 +2861,38 @@
           <modifiers/>
         </link>
         <link id="8e03-d6b4-1fab-5cd2" targetId="6305-72fa-da02-235b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="de01-ba7b-11ee-55ca" profileTypeId="ecae-8ac8-2c13-0dd3" name="Disruptor Discharger" hidden="false" book="BtGoA" page="86">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="Point blank shooting only"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="Point blank shooting only"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="Point blank shooting only"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, No Cover, Disruptor, Grenade"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e755-a7a2-1343-d27a" targetId="5d64-4bf5-e947-95d1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b2cb-0542-2c44-9f1b" targetId="ca96-58c9-9551-d4fe" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="049f-1e26-3f5d-a4f9" targetId="a41d-d55e-6d97-049d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="adad-ebe2-3953-6510" targetId="6305-72fa-da02-235b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3091,6 +3159,29 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="f99c-daab-b3d7-9c61" name="Implosion Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="85">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="50ac-e85f-6480-9e2e" profileTypeId="ecae-8ac8-2c13-0dd3" name="Implosion Grenades" hidden="false" book="BtGoA" page="85">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Hazardous H2H, Grenade"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9868-0703-9743-d4b5" targetId="1c2c-6574-0a17-f90c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="b357-a997-60e5-053e" name="IMTel Stave" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="67">
       <entries>
@@ -3571,6 +3662,169 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="7849-7fc2-0006-8fbd" name="Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="cf32-46fd-cdce-80dd" name="Munitions" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2f9e-d8b5-f1a8-6e4c" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c2fb-c9db-5e9c-dcfe" targetId="7a3b-74a5-3ced-dd88" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="9622-01bf-0303-e5f7" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="47c5-9ed0-b50a-45b7" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1838-cbe5-7c85-395d" targetId="c1ba-c745-22a8-e2d7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6568-0044-8497-b002" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="876b-029d-8c49-cf28" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8a68-f508-7c9e-1ee4" targetId="117a-a2aa-4be7-dffe" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1fe7-d90c-fd8b-2777" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2f18-3173-0eea-f19f" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a787-c45e-8df6-7cdb" targetId="28a0-7151-a0c5-9495" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="4acd-4d6e-c5ce-c202" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="99d6-3f14-a1e9-779b" name="Net" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c8d2-16b3-5523-a9b1" targetId="ac33-af99-2d76-c981" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e014-fd16-bd43-6ead" name="Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6ffa-8857-9b93-35b5" targetId="1045-95cb-5504-9050" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3eba-9eb4-bf44-4b04" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="057c-a217-e792-8ef7" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7fae-ff88-b94e-934e" targetId="c1ba-c745-22a8-e2d7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="49a1-2fba-ff8f-c1b0" targetId="117a-a2aa-4be7-dffe" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7acb-0144-9a6a-9840" targetId="1045-95cb-5504-9050" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="878e-a6f2-d2ce-4e02" targetId="ac33-af99-2d76-c981" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ed06-0ab3-bc83-05de" targetId="28a0-7151-a0c5-9495" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="03ee-325f-d6f1-fd20" targetId="7a3b-74a5-3ced-dd88" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="8d63-0835-da60-a624" targetId="b996-131f-b84a-4724" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="bf0f-913b-e028-8891" name="Nano Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="113">
       <entries/>
       <entryGroups/>
@@ -3587,6 +3841,18 @@
       <profiles/>
       <links>
         <link id="6edf-03c1-417f-13e8" targetId="3559-4b87-980d-f90d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="eb94-d1e8-1084-71b3" name="Phase Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="93">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3da3-80ac-dc11-6809" targetId="b28d-571e-af69-4582" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3619,6 +3885,14 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="a18f-8d16-f879-e590" name="Phaseshift Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="122">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="67b6-d6f5-5ba3-e50d" name="Plasma Bombard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="82">
       <entries/>
@@ -3989,6 +4263,18 @@
         </link>
       </links>
     </entry>
+    <entry id="3878-9363-1705-9eda" name="Soma Graft" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="121">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3d50-6009-476b-2dd3" targetId="1253-ef5b-67d4-3e18" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f3aa-148a-0460-c7e5" name="Spotter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="BtGoA" page="114">
       <entries/>
       <entryGroups/>
@@ -4063,6 +4349,35 @@
           <modifiers/>
           <links>
             <link id="b385-bf67-9722-e7f9" targetId="a00c-0542-f2a5-8124" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f31c-6e5c-19c0-ada7" name="Twin Mag Repeaters" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="69">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="4e5a-4594-d2da-527c" name="Mag Repeater" defaultEntryId="513b-6ec0-e655-02cd" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="513b-6ec0-e655-02cd" targetId="790a-6841-6372-870b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="273a-5de1-c9e1-5310" name="Mag Repeater" defaultEntryId="6e82-7e87-0e72-610f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6e82-7e87-0e72-610f" targetId="790a-6841-6372-870b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -4189,321 +4504,6 @@
         </link>
       </links>
     </entry>
-    <entry id="7849-7fc2-0006-8fbd" name="Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="cf32-46fd-cdce-80dd" name="Munitions" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="2f9e-d8b5-f1a8-6e4c" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c2fb-c9db-5e9c-dcfe" targetId="7a3b-74a5-3ced-dd88" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="9622-01bf-0303-e5f7" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="47c5-9ed0-b50a-45b7" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="1838-cbe5-7c85-395d" targetId="c1ba-c745-22a8-e2d7" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6568-0044-8497-b002" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="876b-029d-8c49-cf28" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8a68-f508-7c9e-1ee4" targetId="117a-a2aa-4be7-dffe" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="1fe7-d90c-fd8b-2777" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2f18-3173-0eea-f19f" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="a787-c45e-8df6-7cdb" targetId="28a0-7151-a0c5-9495" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="4acd-4d6e-c5ce-c202" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="99d6-3f14-a1e9-779b" name="Net" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c8d2-16b3-5523-a9b1" targetId="ac33-af99-2d76-c981" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="e014-fd16-bd43-6ead" name="Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="hide" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="cf32-46fd-cdce-80dd" incrementChildId="057c-a217-e792-8ef7" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="6ffa-8857-9b93-35b5" targetId="1045-95cb-5504-9050" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="3eba-9eb4-bf44-4b04" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="057c-a217-e792-8ef7" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="87">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7fae-ff88-b94e-934e" targetId="c1ba-c745-22a8-e2d7" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="49a1-2fba-ff8f-c1b0" targetId="117a-a2aa-4be7-dffe" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7acb-0144-9a6a-9840" targetId="1045-95cb-5504-9050" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="878e-a6f2-d2ce-4e02" targetId="ac33-af99-2d76-c981" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="ed06-0ab3-bc83-05de" targetId="28a0-7151-a0c5-9495" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="03ee-325f-d6f1-fd20" targetId="7a3b-74a5-3ced-dd88" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="8d63-0835-da60-a624" targetId="b996-131f-b84a-4724" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="f99c-daab-b3d7-9c61" name="Implosion Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="85">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="50ac-e85f-6480-9e2e" profileTypeId="ecae-8ac8-2c13-0dd3" name="Implosion Grenades" hidden="false" book="BtGoA" page="85">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Hazardous H2H, Grenade"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9868-0703-9743-d4b5" targetId="1c2c-6574-0a17-f90c" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="de01-ba7b-11ee-55ca" profileTypeId="ecae-8ac8-2c13-0dd3" name="Disruptor Discharger" hidden="false" book="BtGoA" page="86">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="Point blank shooting only"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="Point blank shooting only"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="Point blank shooting only"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, No Cover, Disruptor, Grenade"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e755-a7a2-1343-d27a" targetId="5d64-4bf5-e947-95d1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b2cb-0542-2c44-9f1b" targetId="ca96-58c9-9551-d4fe" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="049f-1e26-3f5d-a4f9" targetId="a41d-d55e-6d97-049d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="adad-ebe2-3953-6510" targetId="6305-72fa-da02-235b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="af35-43cb-665c-f896" name="Booster Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="111">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="afb1-18d4-57fc-1fd3" profileTypeId="1650-77b3-10d1-6406" name="Booster Drone" hidden="false" book="BtGoA" page="111">
-          <characteristics>
-            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
-            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
-            <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
-            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
-            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
-            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="be1b-5f25-85e3-4789" targetId="c3e6-4e9b-858c-80d3" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="eb94-d1e8-1084-71b3" name="Phase Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="93">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="3da3-80ac-dc11-6809" targetId="b28d-571e-af69-4582" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="120">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2aa0-3909-ff3b-5bfe" targetId="b7c6-fc7c-d48b-aae4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3878-9363-1705-9eda" name="Soma Graft" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="121">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="3d50-6009-476b-2dd3" targetId="1253-ef5b-67d4-3e18" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a18f-8d16-f879-e590" name="Phaseshift Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="122">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="f31c-6e5c-19c0-ada7" name="Twin Mag Repeaters" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="69">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="4e5a-4594-d2da-527c" name="Mag Repeater" defaultEntryId="513b-6ec0-e655-02cd" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="513b-6ec0-e655-02cd" targetId="790a-6841-6372-870b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="273a-5de1-c9e1-5310" name="Mag Repeater" defaultEntryId="6e82-7e87-0e72-610f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6e82-7e87-0e72-610f" targetId="790a-6841-6372-870b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
@@ -4513,6 +4513,20 @@
     </rule>
     <rule id="61e2-3707-ade3-c9ad" name="3 Attacks" hidden="false" book="BtGoA" page="133">
       <description>Three attacks in close combat.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7daf-414b-c030-7626" name="AG Chute" hidden="false" book="BtGoA" page="120">
+      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
+      <modifiers/>
+    </rule>
+    <rule id="c1ba-c745-22a8-e2d7" name="Arc" hidden="false" book="BtGoA" page="88">
+      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
+
+OH shots are affected if the target is within 3&quot; of the marker. </description>
+      <modifiers/>
+    </rule>
+    <rule id="b7c6-fc7c-d48b-aae4" name="Auto-Workshop" hidden="false" book="BtGoA" page="121">
+      <description>Activated from any order to the unit. Affects every vehicle, weapon drone, weapon team, and machine mounted unit within 5&quot; of the unit, and itself. Roll D10 - on 1-5, nothing happens, 6-10 each unit removes a pin.</description>
       <modifiers/>
     </rule>
     <rule id="04d9-a48d-7b25-4dd3" name="Blast D10" hidden="false" book="BtGoA">
@@ -4529,6 +4543,14 @@
     </rule>
     <rule id="b050-496a-ed16-2b2a" name="Blast D5" hidden="false" book="BtGoA">
       <description>Inflicts D5 hits on a successful shooting attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="117a-a2aa-4be7-dffe" name="Blur" hidden="false" book="BtGoA" page="89">
+      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c3e6-4e9b-858c-80d3" name="Booster Drone" hidden="false" book="BtGoA" page="92">
+      <description>Infantry, Weapon Team, or Command unit gains +1 armor bonus from reflex, hyperlight, and phase armor. Cannot benefit units with HL boosters.</description>
       <modifiers/>
     </rule>
     <rule id="fd72-d48c-e8af-4883" name="Choose Target" hidden="false" book="BtGoA" page="70">
@@ -4590,6 +4612,16 @@ Fast units may break off of assault after point blank shooting has been conducte
       <description>In H2H counts as hand weapon +1 Str bonus. Grenade hits compound in H2H - if a model takes suffers two or more hits from grenades, add all SVs together and take one Res test.</description>
       <modifiers/>
     </rule>
+    <rule id="1045-95cb-5504-9050" name="Grip" hidden="false" book="BtGoA" page="87">
+      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
+
+If a unit moves within 3&quot; it must take the Ag test as above. </description>
+      <modifiers/>
+    </rule>
+    <rule id="1c2c-6574-0a17-f90c" name="Hazardous H2H" hidden="false" book="BtGoA" page="85">
+      <description>Any H2H Str roll of 10 hits the user, not enemy.</description>
+      <modifiers/>
+    </rule>
     <rule id="a846-6829-3398-bac1" name="Heavy" hidden="false" book="BtGoA" page="134">
       <description>Movement restricted across obstacles per p22. Cannot cross obstacles at a run. Agility test required to cross at advance. When rolling resistance checks only fail on a 10, roll on damage chart p37.</description>
       <modifiers/>
@@ -4600,6 +4632,14 @@ Fast units may break off of assault after point blank shooting has been conducte
     </rule>
     <rule id="34e0-c5a3-3998-5d0b" name="High Commander" hidden="false" book="BtGoA" page="134">
       <description>May re-roll every failed resist test once. May use command, hero, and follow special rules on any units.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b436-1f8a-5d3a-2d7d" name="HL Armor" hidden="false" book="BtGoA" page="93">
+      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
+      <modifiers/>
+    </rule>
+    <rule id="56ab-52fc-9557-2586" name="HL Booster" hidden="false" book="BtGoA" page="93">
+      <description>+1 Res on top of all other bonuses.</description>
       <modifiers/>
     </rule>
     <rule id="3b84-9d0e-a3c1-6c1f" name="Inaccurate" hidden="false" book="BtGoA" page="70">
@@ -4658,6 +4698,16 @@ Cannot be used on non-humans. </description>
       <description>Unit contributes three die to the dice pool and may act thrice per turn. Always treated as having used the most recent action.</description>
       <modifiers/>
     </rule>
+    <rule id="ac33-af99-2d76-c981" name="Net" hidden="false" book="BtGoA" page="88">
+      <description>Roll to hit as normal for a blast weapon. Target does not suffer blast damage, rather suffers pins:
+
+X-Launcher: D3+1 pin
+X-Howitzer: D5+1 pin
+Mag Mortar: D10+1 pin
+
+Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
+      <modifiers/>
+    </rule>
     <rule id="a41d-d55e-6d97-049d" name="No Cover" hidden="false" book="BtGoA" page="71">
       <description>No cover bonus to Res roll.</description>
       <modifiers/>
@@ -4677,12 +4727,24 @@ Cannot be used on non-humans. </description>
       <description>Command, hero, and follow rules only work on Outcast units. Cannot benefit from command, hero, or follow from non-Outcast unless it is a High Commander.</description>
       <modifiers/>
     </rule>
+    <rule id="3559-4b87-980d-f90d" name="Overload Ammo" hidden="false" book="BtGoA" page="89">
+      <description>Can only be used with direct fire. SV = 3, single hit. If a 10 is rolled on Acc roll, shot misses, cannot be re-rolled, and overload ammo cannot be used again.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b28d-571e-af69-4582" name="Phase Armor" hidden="false" book="BtGoA" page="93">
+      <description>10&quot; or less, +1 Res. Greater than 10&quot;, +2 Res. May make a down reaction even if it already has order die - flip to down if so. </description>
+      <modifiers/>
+    </rule>
     <rule id="6b03-2ad4-34c1-7f73" name="Plasma Fade" hidden="false" book="BtGoA" page="76">
       <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
       <modifiers/>
     </rule>
     <rule id="0f12-545e-1c86-f482" name="Plasma Reactor" hidden="false" book="BtGoA" page="1367">
       <description>Lucky hits are allocated by shooter and hit plasma reactor. On a Res failure of 10, roll for every other model in unit and on a 10 they are removed as well.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5d64-4bf5-e947-95d1" name="Point Blank Shooting Only" hidden="false" book="BtGoA" page="86">
+      <description>May only be used for point blank shooting. Cannot be used for H2H.</description>
       <modifiers/>
     </rule>
     <rule id="b6e3-9cf0-1a9f-a941" name="Random SV" hidden="false" book="BtGoA" page="66">
@@ -4713,8 +4775,18 @@ Cannot be used on non-humans. </description>
       <description>Passes order check to assault on any roll except a 10, regardless of modifiers.</description>
       <modifiers/>
     </rule>
+    <rule id="28a0-7151-a0c5-9495" name="Scoot" hidden="false" book="BtGoA" page="88">
+      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
+      <modifiers/>
+    </rule>
     <rule id="94f5-4a4c-92ad-94f9" name="Scramble Proof" hidden="false" book="BtGoA" page="137">
       <description>Not affected by scrambler munitions. Vehicles may be affected by scoot. Subverter matrixes cannot affect model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a3b-74a5-3ced-dd88" name="Scrambler" hidden="false" book="BtGoA" page="88">
+      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
+
+Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
       <modifiers/>
     </rule>
     <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false" book="BtGoA" page="137">
@@ -4730,6 +4802,10 @@ Shard units never take pins. Always assumed to pass order tests. </description>
     <rule id="0c20-4983-db8a-0d56" name="Shared SV" hidden="false" book="BtGoA">
       <modifiers/>
     </rule>
+    <rule id="5bd0-9ab2-0523-cbc8" name="Slingnet Ammo" hidden="false" book="BtGoA" page="112">
+      <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
+      <modifiers/>
+    </rule>
     <rule id="7c88-64d4-50ad-2313" name="Slow" hidden="false" book="BtGoA" page="137">
       <description>Move at half pace.</description>
       <modifiers/>
@@ -4738,100 +4814,23 @@ Shard units never take pins. Always assumed to pass order tests. </description>
       <description>Deploy anywhere within player&apos;s half. Snipers may not be deployed within 20&quot; of other snipers, enemy may not deploy within 10&quot;. </description>
       <modifiers/>
     </rule>
-    <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false" book="BtGoA" page="137">
-      <description>May transport 10 human sized models.</description>
-      <modifiers/>
-    </rule>
-    <rule id="99fd-f354-1703-5941" name="Variable Res/Strike" hidden="false" book="BtGoA" page="66">
-      <description>Use to boost Res +2 or give a SV +2 each round of fighting. If used as +2 SV, counts as Grenade. </description>
-      <modifiers/>
-    </rule>
-    <rule id="c1ba-c745-22a8-e2d7" name="Arc" hidden="false" book="BtGoA" page="88">
-      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
-
-OH shots are affected if the target is within 3&quot; of the marker. </description>
-      <modifiers/>
-    </rule>
-    <rule id="117a-a2aa-4be7-dffe" name="Blur" hidden="false" book="BtGoA" page="89">
-      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1045-95cb-5504-9050" name="Grip" hidden="false" book="BtGoA" page="87">
-      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
-
-If a unit moves within 3&quot; it must take the Ag test as above. </description>
-      <modifiers/>
-    </rule>
-    <rule id="ac33-af99-2d76-c981" name="Net" hidden="false" book="BtGoA" page="88">
-      <description>Roll to hit as normal for a blast weapon. Target does not suffer blast damage, rather suffers pins:
-
-X-Launcher: D3+1 pin
-X-Howitzer: D5+1 pin
-Mag Mortar: D10+1 pin
-
-Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
-      <modifiers/>
-    </rule>
-    <rule id="28a0-7151-a0c5-9495" name="Scoot" hidden="false" book="BtGoA" page="88">
-      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7a3b-74a5-3ced-dd88" name="Scrambler" hidden="false" book="BtGoA" page="88">
-      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
-
-Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
+    <rule id="1253-ef5b-67d4-3e18" name="Soma Graft" hidden="false" book="BtGoA" page="121">
+      <description>May activate when a unit takes a Co test. Will past any Co test on any score other than 10. If a 10 is rolled, unit goes out of control and must roll the order die to generate an order. The unit does not have to comply, but if it does an order that is the only one it can do.</description>
       <modifiers/>
     </rule>
     <rule id="b996-131f-b84a-4724" name="Special Munition" hidden="false" book="BtGoA" page="87">
       <description>Stays on the battlefield until it ceases to work p87. Use a marker to locate where shot lands.</description>
       <modifiers/>
     </rule>
-    <rule id="3559-4b87-980d-f90d" name="Overload Ammo" hidden="false" book="BtGoA" page="89">
-      <description>Can only be used with direct fire. SV = 3, single hit. If a 10 is rolled on Acc roll, shot misses, cannot be re-rolled, and overload ammo cannot be used again.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1c2c-6574-0a17-f90c" name="Hazardous H2H" hidden="false" book="BtGoA" page="85">
-      <description>Any H2H Str roll of 10 hits the user, not enemy.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5d64-4bf5-e947-95d1" name="Point Blank Shooting Only" hidden="false" book="BtGoA" page="86">
-      <description>May only be used for point blank shooting. Cannot be used for H2H.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c3e6-4e9b-858c-80d3" name="Booster Drone" hidden="false" book="BtGoA" page="92">
-      <description>Infantry, Weapon Team, or Command unit gains +1 armor bonus from reflex, hyperlight, and phase armor. Cannot benefit units with HL boosters.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b436-1f8a-5d3a-2d7d" name="HL Armor" hidden="false" book="BtGoA" page="93">
-      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
-      <modifiers/>
-    </rule>
-    <rule id="56ab-52fc-9557-2586" name="HL Booster" hidden="false" book="BtGoA" page="93">
-      <description>+1 Res on top of all other bonuses.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b28d-571e-af69-4582" name="Phase Armor" hidden="false" book="BtGoA" page="93">
-      <description>10&quot; or less, +1 Res. Greater than 10&quot;, +2 Res. May make a down reaction even if it already has order die - flip to down if so. </description>
-      <modifiers/>
-    </rule>
-    <rule id="b7c6-fc7c-d48b-aae4" name="Auto-Workshop" hidden="false" book="BtGoA" page="121">
-      <description>Activated from any order to the unit. Affects every vehicle, weapon drone, weapon team, and machine mounted unit within 5&quot; of the unit, and itself. Roll D10 - on 1-5, nothing happens, 6-10 each unit removes a pin.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7daf-414b-c030-7626" name="AG Chute" hidden="false" book="BtGoA" page="120">
-      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
-      <modifiers/>
-    </rule>
-    <rule id="1253-ef5b-67d4-3e18" name="Soma Graft" hidden="false" book="BtGoA" page="121">
-      <description>May activate when a unit takes a Co test. Will past any Co test on any score other than 10. If a 10 is rolled, unit goes out of control and must roll the order die to generate an order. The unit does not have to comply, but if it does an order that is the only one it can do.</description>
-      <modifiers/>
-    </rule>
     <rule id="cd8d-624c-ed86-e310" name="Subverter Matrix" hidden="false" book="BtGoA" page="122">
-      <description></description>
       <modifiers/>
     </rule>
-    <rule id="5bd0-9ab2-0523-cbc8" name="Slingnet Ammo" hidden="false" book="BtGoA" page="112">
-      <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
+    <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false" book="BtGoA" page="137">
+      <description>May transport 10 human sized models.</description>
+      <modifiers/>
+    </rule>
+    <rule id="99fd-f354-1703-5941" name="Variable Res/Strike" hidden="false" book="BtGoA" page="66">
+      <description>Use to boost Res +2 or give a SV +2 each round of fighting. If used as +2 SV, counts as Grenade. </description>
       <modifiers/>
     </rule>
   </sharedRules>
