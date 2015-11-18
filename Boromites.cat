@@ -1775,6 +1775,15 @@
         <link id="bcfc-1260-ee41-7b0a" targetId="cd51-1764-7fd7-e8c1" linkType="entry">
           <modifiers/>
         </link>
+        <link id="708c-9680-b0ce-6521" targetId="eb7b-7605-9eca-cb60" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="10b1-ce07-3cee-1888" targetId="418e-35d2-e555-d54f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="304d-5ccd-7ab2-5ba9" targetId="7d25-d2b6-7130-a3c0" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </entries>
@@ -2088,6 +2097,9 @@
       <modifiers/>
     </rule>
     <rule id="eb7b-7605-9eca-cb60" name="Weapon Team Unit" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="7d25-d2b6-7130-a3c0" name="Slow" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
