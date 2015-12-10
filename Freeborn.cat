@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" revision="1" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Freeborn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" revision="2" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Freeborn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="35d4-23c3-a72c-e397" name="0-1 Special Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -369,7 +369,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="4ecc-3f7f-9999-5af9" name="SlingNet Ammo for Micro-X Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4ecc-3f7f-9999-5af9" name="SlingNet Ammo for Micro-X Launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -441,7 +441,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d05f-990a-ae91-4196" name="Feral Meld Skark (Mhagris)" points="115.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
+    <entry id="d05f-990a-ae91-4196" name="Feral Meld Skark (Mhagris)" points="115.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
       <entries>
         <entry id="d398-8780-d6cb-1241" name="Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
@@ -639,7 +639,7 @@
                 </link>
                 <link id="ac42-4a97-d2ca-35a4" targetId="e6db-6ed3-1a26-ea56" linkType="entry">
                   <modifiers>
-                    <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="increment" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1379,7 +1379,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1405-a43b-534b-ab05" name="Freeborn Nuhu Renegade" points="64.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
+    <entry id="1405-a43b-534b-ab05" name="Freeborn Nuhu Renegade" points="132.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
       <entries/>
       <entryGroups>
         <entryGroup id="a2f4-4dc6-77ae-47c3" name="Freeborn NuHu" defaultEntryId="df76-0766-2149-0a05" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1972,6 +1972,14 @@
                 </modifier>
               </modifiers>
             </link>
+            <link id="a7eb-103f-f984-c4f9" targetId="71c9-4382-01cf-c737" linkType="entry">
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -2093,18 +2101,10 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
         </link>
         <link id="fb8b-24f9-d8dd-340d" targetId="f3aa-148a-0460-c7e5" linkType="entry">
           <modifiers>
-            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
@@ -2117,18 +2117,10 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
         </link>
         <link id="e376-109d-9eeb-8277" targetId="b145-19b3-baae-ff39" linkType="entry">
           <modifiers>
-            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
@@ -2604,43 +2596,6 @@
         </link>
       </links>
     </entry>
-    <entry id="5dcd-bab6-1f25-0e1c" name="Scout Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="178">
-      <entries>
-        <entry id="d71e-dea9-a547-4ad4" name="Scout Probe" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="4d1a-750f-a521-9748" profileTypeId="1650-77b3-10d1-6406" name="Scout Probe" hidden="false" book="BtGoA" page="178">
-              <characteristics>
-                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="-"/>
-                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="-"/>
-                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="-"/>
-                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5"/>
-                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="-"/>
-                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="513a-bdeb-bad5-0c83" targetId="00b8-b49c-4c61-2943" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c1cd-61c1-df04-7b1e" name="Probe Unit" hidden="false" book="">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="969a-8139-9654-9cdf" name="Skyraider Command Squad" points="164.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="174">
       <entries>
         <entry id="d40e-0a4d-13fa-863b" name="Skyraider Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
@@ -3075,7 +3030,7 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="1b32-6cc9-8dc9-64b3" targetId="790a-6841-6372-870b" linkType="entry">
+            <link id="1b32-6cc9-8dc9-64b3" targetId="b018-6101-d2e3-b4ea" linkType="entry">
               <modifiers/>
             </link>
           </links>
