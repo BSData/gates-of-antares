@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="162d-cc8a-d6e7-6973" revision="7" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="162d-cc8a-d6e7-6973" revision="8" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1405-a43b-534b-ab05" name="C3 Drop Command Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -2054,12 +2054,12 @@
           <profiles>
             <profile id="95b2-3212-c130-e214" profileTypeId="f9a2-eeae-3284-75fd" name="Nuhu Mandarin" hidden="false">
               <characteristics>
-                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag"/>
-                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc"/>
-                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str"/>
-                <characteristic characteristicId="5b77-3595-2819-675c" name="Res"/>
-                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init"/>
-                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co"/>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="6"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="4"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="4(7)"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="9"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="9"/>
               </characteristics>
               <modifiers/>
             </profile>
