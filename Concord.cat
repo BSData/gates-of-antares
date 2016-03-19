@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="162d-cc8a-d6e7-6973" revision="9" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="162d-cc8a-d6e7-6973" revision="8" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1405-a43b-534b-ab05" name="C3 Drop Command Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -86,14 +86,7 @@
           <links/>
         </entry>
       </entries>
-      <entryGroups>
-        <entryGroup id="5886-d8eb-f8c4-3cc1" name="&gt; Must be selected for C3 Drop Command Squad &lt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="b2d5-107a-301c-db27" name="Limited Choice" hidden="false" book="">
@@ -137,7 +130,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7e0e-0ad9-3f7d-3935" name="C3 Drop Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true" page="162">
+    <entry id="7e0e-0ad9-3f7d-3935" name="C3 Drop Squad" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="162">
       <entries>
         <entry id="1b18-4178-f712-5760" name="Drop Leader" points="67.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -245,14 +238,7 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="1405-a43b-534b-ab05" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules>
         <rule id="f7e9-18b1-1387-bb1b" name="Infantry Unit" hidden="false">
           <modifiers/>
@@ -1217,9 +1203,6 @@
         <link id="d552-66fd-dbb5-ed74" targetId="67b6-d6f5-5ba3-e50d" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6a8d-94b0-ee1c-e058" targetId="5629-d76b-5a55-179c" linkType="entry">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="a36b-0cdc-9716-8cfc" name="C3D1/GP Light General Purpose Drone" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA Rulebook" page="166">
@@ -1297,7 +1280,7 @@
     </entry>
     <entry id="27d6-8e6e-6cc7-18c5" name="Concord C3D1 Light Support Drone" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="163">
       <entries>
-        <entry id="163a-45b6-d4d6-09e2" name="Weapon Drone" points="59.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="163a-45b6-d4d6-09e2" name="Weapon Drone" points="59.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1334,6 +1317,14 @@
             </link>
           </links>
         </entry>
+        <entry id="8f8a-745d-151a-09d4" name="Plasma Light Support Gun" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1353,34 +1344,75 @@
         <link id="c804-b7e1-f76f-7b56" targetId="b145-19b3-baae-ff39" linkType="entry">
           <modifiers/>
         </link>
-        <link id="a16a-009d-73a2-6fed" targetId="f4e9-1c9c-1014-6840" linkType="entry">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="f289-1af8-99bc-f4a0" name="Concord C3D2 Medium Support Drone" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="163">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="bf52-a9e2-d6e7-992d" name="Weapon Options" defaultEntryId="b008-ca71-9c86-9877" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7c27-828a-5fff-4aec" name="Weapon Drone" points="93.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="6bf9-15e9-26e9-ed8a" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="18a3-0379-cff3-354a" name="Plasma Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="b899-ef38-8811-60b5" targetId="cf3a-e6a9-bdc0-e0ae" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="fb73-2ebc-b0de-1ab3" targetId="93db-3751-fdd4-08f9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1fa7-dec8-5e1e-8e93" targetId="71c9-4382-01cf-c737" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b603-8b62-0c8b-d436" profileTypeId="1650-77b3-10d1-6406" name="Weapon Drone" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="7"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="6"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="1"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="10"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2b5f-9e97-3b6c-5ff5" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="f289-1af8-99bc-f4a0" incrementChildId="7c27-828a-5fff-4aec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
           <links>
-            <link id="b008-ca71-9c86-9877" targetId="f4e9-1c9c-1014-6840" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a18d-1327-c0bc-423e" targetId="5ddb-4a12-6df4-8473" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7643-7fea-a221-9ac3" targetId="93db-3751-fdd4-08f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dbf2-aa98-b9cd-c1c6" targetId="71c9-4382-01cf-c737" linkType="entry">
+            <link id="331a-f697-7d79-20be" targetId="3377-9408-33bb-6a02" linkType="rule">
               <modifiers/>
             </link>
           </links>
-        </entryGroup>
-      </entryGroups>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="be1c-b54c-1197-58ae" name="Weapon Drone Unit" hidden="false">
@@ -2221,18 +2253,7 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="0449-0604-d12b-c667" profileTypeId="ecae-8ac8-2c13-0dd3" name="Compression Cannon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="7/4/2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Compressor, No Cover, Cycle"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="93db-3751-fdd4-08f9" name="Fractal Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2240,47 +2261,24 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="3802-8b14-67d4-3d03" profileTypeId="ecae-8ac8-2c13-0dd3" name="Fractal Cannon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2 +1 max 10"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Fractal Lock"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="b8d1-46be-c623-ad68" name="Gun Drone" points="14.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+      <entries>
+        <entry id="c59b-5030-15b0-e9d2" name="Plasma Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="03f9-7fce-b407-1a1b" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Carbine - Scatter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="60d5-ef7f-0b90-2083" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Carbine - Single Shot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="eff8-bb0e-1b1d-bbb2" name="HL armor" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
@@ -2384,28 +2382,7 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="a93a-94fc-e3b5-e1b8" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Carbine - Single Shot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="6122-be58-3536-af82" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Carbine - Scatter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="7ac3-5fd7-f7a8-3a01" name="Plasma Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
@@ -2413,18 +2390,7 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="b08b-1856-f945-288d" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenades" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="47d9-8149-9744-9849" name="Plasma Lance" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2432,57 +2398,15 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="7f40-061e-0a5f-d0de" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Lance - Single Shot" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e447-8c77-e492-46ef" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Lance - Scatter" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0c46-9f1f-0973-1ee8" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Lance - Lance" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="4"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Choose Target, Inaccurate"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
-    <entry id="cf3a-e6a9-bdc0-e0ae" name="Plasma Light Support " points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+    <entry id="cf3a-e6a9-bdc0-e0ae" name="Plasma Light Support Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="310d-953a-6f56-970e" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Light Support Gun" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF3"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="e6db-6ed3-1a26-ea56" name="Plasma Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2490,18 +2414,7 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="b9eb-1bd9-e8f2-c116" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Pistol" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="20"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="30"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="b145-19b3-baae-ff39" name="Shield Drone" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2561,87 +2474,7 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="8528-2c83-b289-fbca" profileTypeId="ecae-8ac8-2c13-0dd3" name="X-Sling" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="20"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f4e9-1c9c-1014-6840" name="Plasma Light Support Gun (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="377f-b32d-bb92-114e" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Light Support Gun" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF3"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5ddb-4a12-6df4-8473" name="Plasma Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="fdcb-addf-033c-ea1c" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Cannon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="6"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Plasma Fade"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="e409-da16-6837-06ec" name="Self Repair" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
       <profiles/>
-      <links>
-        <link id="bef2-31ba-b012-dabe" targetId="3377-9408-33bb-6a02" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5629-d76b-5a55-179c" name="x-Howitzer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a7c6-aee7-52e6-8e1a" profileTypeId="ecae-8ac8-2c13-0dd3" name="x-Howitzer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-50"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="100"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="250"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="OH, Blast D10, No Cover"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
       <links/>
     </entry>
   </sharedEntries>
