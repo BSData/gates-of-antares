@@ -1,126 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="162d-cc8a-d6e7-6973" revision="10" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="f53b-8cb2-f46e-ec68" name="C3 Strike Command Squad" points="110.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9217-51b5-1490-c20f" name="&lt; Strike Commander" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="4845-6259-0e92-0f04" name="&lt; Strike Commander Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="2d9d-8454-98ba-682e" name="Sling net ammo" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="6149-c82a-e122-2d99" targetId="a90a-fea5-107f-a019" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e5ba-45ac-5c32-8928" targetId="9686-36fa-7ae7-f4dc" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="be34-e860-46d0-d7e6" targetId="6c13-252f-55b8-4de9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="de1c-d5c3-afcd-f486" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="691a-aa46-2b4f-a09b" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="25b4-7c4e-e579-4fee" name="&lt; Strike Trooper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4d3d-b808-7a51-2ddb" targetId="6688-b331-6578-fb30" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="f7b9-5bbf-7725-846a" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4ffe-2e60-ece1-d9c4" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="67f6-07bc-f0ba-b0bd" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="208f-cc74-13ed-c2c0" name="&gt; Add. Strike Trooper" points="22.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="7d6e-3f72-9b20-35c7" name="Plasma Grenades" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="f53b-8cb2-f46e-ec68" incrementChildId="208f-cc74-13ed-c2c0" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="cae2-4212-bddf-59df" targetId="9c65-fbf8-41f5-47be" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="d30a-66b4-b1ee-5cdd" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ead8-0218-98ae-8ddd" targetId="057e-2e8a-1952-9de0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5aef-5d71-d3a9-8546" targetId="9f16-5a27-44b5-7471" linkType="entry">
-              <modifiers>
-                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="208f-cc74-13ed-c2c0" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="points" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="141.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="0654-4b4e-d76b-a53d" name="Drop Commander" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -219,144 +99,6 @@
               <modifiers/>
             </link>
             <link id="023c-d4fc-bc70-009a" targetId="057e-2e8a-1952-9de0" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="6429-1b89-b557-736b" name="NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a2f5-7c0a-21e5-7b0b" name="C3 Strike Squad" points="112.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="4585-b223-90c4-2300" name="Strike Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="a1c8-a638-2ac0-59f7" name="&lt; Strike Leader Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="3fa7-19d2-dda2-7943" name="Sling net ammo" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="bfc0-350f-9a46-8d50" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="09bd-d290-6e0b-b074" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3c07-30e8-c617-6952" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="f0ca-a9ef-7e02-61a1" targetId="6c13-252f-55b8-4de9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8961-e96e-3d2a-16b3" targetId="af6e-dcdb-77a5-b67e" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3dd7-c3aa-50ca-26b2" name="Strike Trooper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="cfe4-65fc-7598-d48f" targetId="6688-b331-6578-fb30" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="45f8-b33d-edab-0bce" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ea98-5c97-9dce-8cd8" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="5ce3-0d5d-4909-be5b" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="4d40-1fe3-9491-8967" name="&gt; Add. Strike Trooper" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="826e-6c50-646d-62a2" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="482c-adc0-0ca1-f078" targetId="9f16-5a27-44b5-7471" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="a2f5-7c0a-21e5-7b0b" incrementChildId="4d40-1fe3-9491-8967" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="eb78-241c-6416-105d" targetId="3dd4-3b5c-6873-e8f2" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -510,6 +252,414 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="0244-6cd5-9260-c12e" name="C3 Inerceptor Command Squad" points="168.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="fa12-b792-1fff-89e3" name="Interceptor Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ce12-0c6b-11e5-f498" name="&lt; Interceptor Commander Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="bd12-7ad6-eb09-08ba" targetId="a90a-fea5-107f-a019" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="bfb6-68f8-a0d9-8704" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="4184-69be-aeef-c7c8" name="&lt; Compactor Drone &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="c45c-f06e-c46e-735c" targetId="c87f-f5b0-1134-8ad9" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="28e5-31d6-d8bc-f14f" targetId="d776-f344-44a4-c41b" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links>
+                <link id="0c83-600a-114d-f8e4" targetId="001a-9f15-b25b-b784" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5132-537b-21da-a068" targetId="7dac-aa85-fc80-51d5" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5cac-dbde-7763-5ddd" targetId="9286-cbf7-0641-5ce1" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="c8d2-d4de-e467-c706" targetId="12f1-610b-0dc9-4732" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="77c5-7b49-1b1a-443b" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ea21-ecb8-ce22-00d3" targetId="658c-b2dd-98f4-dafb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8b1d-c9da-076d-d08e" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5f70-3d2c-69d6-3b63" targetId="34f9-12c5-7e7b-114c" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="3ad9-f6de-2222-14d7" targetId="12f1-610b-0dc9-4732" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="89fc-31e3-8d85-5d84" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="18db-e7fa-3661-289b" targetId="658c-b2dd-98f4-dafb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="2f44-92da-46f8-619d" name="C3 Inerceptor Squad" points="136.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries>
+        <entry id="de4c-b135-70a3-c87b" name="Interceptor Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="8166-a3dd-75ec-ccde" name="&lt; Interceptor Leader Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="27d8-164a-139b-f635" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="d50e-bf71-848e-6052" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="ce84-8225-4665-1f93" name="&lt; Compactor Drone &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="8273-8353-1f36-d7ab" targetId="c87f-f5b0-1134-8ad9" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="b208-5e92-279a-11da" targetId="d776-f344-44a4-c41b" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links>
+                <link id="efdc-79df-b753-fd9e" targetId="001a-9f15-b25b-b784" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="36c1-2192-553f-9dcf" targetId="7dac-aa85-fc80-51d5" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0179-fa9f-3b06-4db2" targetId="12f1-610b-0dc9-4732" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5b9e-0f99-9282-7ef1" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="dd0f-496a-c08e-56b4" targetId="658c-b2dd-98f4-dafb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="27e0-cc93-d2c1-3dec" targetId="9ed6-e3f2-8847-d7a2" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8783-ed89-1004-1495" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5664-48f1-1957-c3d8" targetId="34f9-12c5-7e7b-114c" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="1c5e-3cc6-d497-2644" targetId="12f1-610b-0dc9-4732" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1318-0d29-4a43-dd78" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0628-7b69-d134-8ece" targetId="658c-b2dd-98f4-dafb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0244-6cd5-9260-c12e" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f53b-8cb2-f46e-ec68" name="C3 Strike Command Squad" points="110.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9217-51b5-1490-c20f" name="&lt; Strike Commander" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4845-6259-0e92-0f04" name="&lt; Strike Commander Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="2d9d-8454-98ba-682e" name="Sling net ammo" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="6149-c82a-e122-2d99" targetId="a90a-fea5-107f-a019" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e5ba-45ac-5c32-8928" targetId="9686-36fa-7ae7-f4dc" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="be34-e860-46d0-d7e6" targetId="6c13-252f-55b8-4de9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="de1c-d5c3-afcd-f486" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="691a-aa46-2b4f-a09b" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="25b4-7c4e-e579-4fee" name="&lt; Strike Trooper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4d3d-b808-7a51-2ddb" targetId="6688-b331-6578-fb30" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f7b9-5bbf-7725-846a" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4ffe-2e60-ece1-d9c4" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="67f6-07bc-f0ba-b0bd" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="208f-cc74-13ed-c2c0" name="&gt; Add. Strike Trooper" points="22.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7d6e-3f72-9b20-35c7" name="Plasma Grenades" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="f53b-8cb2-f46e-ec68" incrementChildId="208f-cc74-13ed-c2c0" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="cae2-4212-bddf-59df" targetId="9c65-fbf8-41f5-47be" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d30a-66b4-b1ee-5cdd" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ead8-0218-98ae-8ddd" targetId="057e-2e8a-1952-9de0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5aef-5d71-d3a9-8546" targetId="9f16-5a27-44b5-7471" linkType="entry">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="208f-cc74-13ed-c2c0" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="points" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a2f5-7c0a-21e5-7b0b" name="C3 Strike Squad" points="112.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4585-b223-90c4-2300" name="Strike Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="a1c8-a638-2ac0-59f7" name="&lt; Strike Leader Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="3fa7-19d2-dda2-7943" name="Sling net ammo" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="bfc0-350f-9a46-8d50" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="09bd-d290-6e0b-b074" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3c07-30e8-c617-6952" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f0ca-a9ef-7e02-61a1" targetId="6c13-252f-55b8-4de9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8961-e96e-3d2a-16b3" targetId="af6e-dcdb-77a5-b67e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3dd7-c3aa-50ca-26b2" name="Strike Trooper" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="cfe4-65fc-7598-d48f" targetId="6688-b331-6578-fb30" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="45f8-b33d-edab-0bce" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ea98-5c97-9dce-8cd8" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5ce3-0d5d-4909-be5b" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4d40-1fe3-9491-8967" name="&gt; Add. Strike Trooper" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="826e-6c50-646d-62a2" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="482c-adc0-0ca1-f078" targetId="9f16-5a27-44b5-7471" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="a2f5-7c0a-21e5-7b0b" incrementChildId="4d40-1fe3-9491-8967" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="eb78-241c-6416-105d" targetId="3dd4-3b5c-6873-e8f2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="37f1-afbf-0787-df72" name="C3 Support Team" points="40.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="6fd3-42ff-1e26-f82f" name="Strike Trooper Crew" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
@@ -615,133 +765,6 @@
           </modifiers>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="d626-a99a-6470-71ad" name="C3D1 Light Support Drone " points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="37d5-656f-d5c1-4397" name="Weapon Drone" points="59.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7f94-248b-3341-8ab0" targetId="18f2-0352-9cf8-66a5" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="cf0a-fdfc-c22e-fadb" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="b508-d3f3-6f27-4975" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="50fc-d0da-6514-b4dd" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e89f-034f-fda6-f951" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="4da3-5d4c-1262-53ab" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="c7a3-afb1-fa42-b4d3" targetId="8c55-0529-22ab-3fa6" linkType="entry">
-              <modifiers>
-                <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="d626-a99a-6470-71ad" childId="37d5-656f-d5c1-4397" field="selections" type="greater than" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="f089-4381-fa63-0074" targetId="c74e-2993-3474-7869" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3601-a65d-7f14-cf86" name="C3D2 Medium Support Drone " points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="156e-1f5a-b7e7-1783" name="Weapon Drone" points="93.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bca1-3c81-da93-aefb" targetId="be8e-2c8f-8288-e92a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="86e7-9193-c4cf-b4c7" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="0f08-649f-cdb0-8d16" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a405-a61d-2eb0-1e80" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="f787-39f9-566b-e5ff" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="f298-b1a6-4486-7b3a" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="34a7-a9ba-8af3-becb" name="&lt; Weapon Option &gt;" defaultEntryId="d929-5f73-e58b-90d8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="d929-5f73-e58b-90d8" targetId="62c2-106a-28aa-6cf5" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="907e-68db-aaaf-9a2f" targetId="90ca-6c03-a803-a140" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="b25e-f181-2b5c-7cc4" targetId="6ded-5798-dd23-8e6f" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="2100-0b04-3ec7-174f" targetId="5a7d-3845-90ba-32eb" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links>
-            <link id="4064-6c5e-df77-f08e" targetId="8c55-0529-22ab-3fa6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
       <links/>
     </entry>
     <entry id="48b0-cf3d-3699-f8a3" name="C3 Support Team with Plasma Bombard" points="120.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -968,6 +991,242 @@
         </link>
       </links>
     </entry>
+    <entry id="d626-a99a-6470-71ad" name="C3D1 Light Support Drone " points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="37d5-656f-d5c1-4397" name="Weapon Drone" points="59.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7f94-248b-3341-8ab0" targetId="18f2-0352-9cf8-66a5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="cf0a-fdfc-c22e-fadb" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b508-d3f3-6f27-4975" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="50fc-d0da-6514-b4dd" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e89f-034f-fda6-f951" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="4da3-5d4c-1262-53ab" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c7a3-afb1-fa42-b4d3" targetId="8c55-0529-22ab-3fa6" linkType="entry">
+              <modifiers>
+                <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="d626-a99a-6470-71ad" childId="37d5-656f-d5c1-4397" field="selections" type="greater than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f089-4381-fa63-0074" targetId="c74e-2993-3474-7869" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8bdd-d11f-ed0d-dac8" name="C3D1/GP Light General Purpose Drone" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+      <entries>
+        <entry id="0fa5-4678-1a3f-decf" name="GP Drone" points="20.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="0411-749e-e748-cb7e" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="418e-8281-9f52-5710" targetId="001a-9f15-b25b-b784" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="07b5-6bbe-485f-fa1d" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b3d1-0620-3de8-f5b9" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8c08-5e2f-7fda-f019" targetId="8c55-0529-22ab-3fa6" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="92b5-4abb-5821-b649" targetId="76e8-05d6-ff37-7205" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0f76-aef5-4eed-fb15" targetId="f9ce-3eb5-0335-1b53" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3601-a65d-7f14-cf86" name="C3D2 Medium Support Drone " points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="156e-1f5a-b7e7-1783" name="Weapon Drone" points="93.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bca1-3c81-da93-aefb" targetId="be8e-2c8f-8288-e92a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="86e7-9193-c4cf-b4c7" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="0f08-649f-cdb0-8d16" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a405-a61d-2eb0-1e80" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f787-39f9-566b-e5ff" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="f298-b1a6-4486-7b3a" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="34a7-a9ba-8af3-becb" name="&lt; Weapon Option &gt;" defaultEntryId="d929-5f73-e58b-90d8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="d929-5f73-e58b-90d8" targetId="62c2-106a-28aa-6cf5" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="907e-68db-aaaf-9a2f" targetId="90ca-6c03-a803-a140" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b25e-f181-2b5c-7cc4" targetId="6ded-5798-dd23-8e6f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2100-0b04-3ec7-174f" targetId="5a7d-3845-90ba-32eb" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links>
+            <link id="4064-6c5e-df77-f08e" targetId="8c55-0529-22ab-3fa6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a829-1685-c4b5-55b6" name="C3M25 Heavy Combat Drone " points="0.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9432-f296-0817-a41e" name="Heavy Combat Drone" points="418.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="52d9-2f82-4813-deb1" targetId="1c7c-b76a-8d9f-4405" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="fc27-7742-3460-32c5" targetId="c74e-2993-3474-7869" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="ba92-e188-5152-68a3" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="25d4-fe83-5977-2551" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3866-b4ff-b88f-c46f" targetId="2750-e65f-4c66-8235" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2bbd-905d-dab7-121e" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="232d-2ec2-4ebb-33e8" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ab1d-b82e-4fa4-af4b" name="&lt; Weapon Option &gt;" defaultEntryId="1f48-758b-70a2-1b46" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="a48c-1f8a-649a-6c31" targetId="c521-ffae-2a9d-88f9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1f48-758b-70a2-1b46" targetId="1bc9-ce44-fdbe-ef90" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links>
+            <link id="c984-ceed-ca03-2965" targetId="8c55-0529-22ab-3fa6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="3440-9714-d7d3-3653" name="C3M4 Combat Drone " points="249.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="c49a-cae5-0917-dff0" name="Weapon Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1040,123 +1299,6 @@
         </link>
       </links>
     </entry>
-    <entry id="c4d4-9418-6246-d85d" name="C3T7 Transporter Drone " points="194.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="288e-be87-ca44-03e8" name="Transporter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="87f0-50e3-da01-55f0" targetId="1aa8-c7f2-fa2d-324a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="460e-6cab-a7b9-878c" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="9543-75e4-e4b2-ca03" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="03eb-ebb9-cdf3-ec98" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b6d4-1bbf-8e0d-d2ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="c909-6003-f9c2-386e" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="daf1-967b-4024-7ec8" targetId="8c55-0529-22ab-3fa6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="fb4e-c4f1-715d-c497" targetId="c74e-2993-3474-7869" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a829-1685-c4b5-55b6" name="C3M25 Heavy Combat Drone " points="0.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9432-f296-0817-a41e" name="Heavy Combat Drone" points="418.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="52d9-2f82-4813-deb1" targetId="1c7c-b76a-8d9f-4405" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="fc27-7742-3460-32c5" targetId="c74e-2993-3474-7869" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="ba92-e188-5152-68a3" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="25d4-fe83-5977-2551" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3866-b4ff-b88f-c46f" targetId="2750-e65f-4c66-8235" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2bbd-905d-dab7-121e" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="232d-2ec2-4ebb-33e8" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="ab1d-b82e-4fa4-af4b" name="&lt; Weapon Option &gt;" defaultEntryId="1f48-758b-70a2-1b46" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="a48c-1f8a-649a-6c31" targetId="c521-ffae-2a9d-88f9" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="1f48-758b-70a2-1b46" targetId="1bc9-ce44-fdbe-ef90" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links>
-            <link id="c984-ceed-ca03-2965" targetId="8c55-0529-22ab-3fa6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="9974-fc89-ef4b-59fe" name="C3M50 Heavy Support Drone " points="0.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="e948-5e36-fc7b-117e" name="Heavy Support Drone" points="418.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1225,26 +1367,57 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c4d4-9418-6246-d85d" name="C3T7 Transporter Drone " points="194.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="70f6-51e9-f4f6-761f" name="Target Probe" points="5.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="288e-be87-ca44-03e8" name="Transporter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="ec43-8043-3ccc-fe21" targetId="9ce3-1277-65a2-7ab0" linkType="profile">
+            <link id="87f0-50e3-da01-55f0" targetId="1aa8-c7f2-fa2d-324a" linkType="profile">
               <modifiers/>
             </link>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="460e-6cab-a7b9-878c" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9543-75e4-e4b2-ca03" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="03eb-ebb9-cdf3-ec98" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b6d4-1bbf-8e0d-d2ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c909-6003-f9c2-386e" name="&lt; Weapon Drone Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="daf1-967b-4024-7ec8" targetId="8c55-0529-22ab-3fa6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="fb4e-c4f1-715d-c497" targetId="c74e-2993-3474-7869" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1267,6 +1440,41 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="6429-1b89-b557-736b" name="NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7780-9268-8805-991a" name="Scout Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="275e-c158-8f26-53c9" name="Scout Probe" points="10.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1288,39 +1496,16 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="8bdd-d11f-ed0d-dac8" name="C3D1/GP Light General Purpose Drone" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+    <entry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0fa5-4678-1a3f-decf" name="GP Drone" points="20.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="70f6-51e9-f4f6-761f" name="Target Probe" points="5.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="0411-749e-e748-cb7e" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="418e-8281-9f52-5710" targetId="001a-9f15-b25b-b784" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="07b5-6bbe-485f-fa1d" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="b3d1-0620-3de8-f5b9" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="8c08-5e2f-7fda-f019" targetId="8c55-0529-22ab-3fa6" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="92b5-4abb-5821-b649" targetId="76e8-05d6-ff37-7205" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="0f76-aef5-4eed-fb15" targetId="f9ce-3eb5-0335-1b53" linkType="profile">
+            <link id="ec43-8043-3ccc-fe21" targetId="9ce3-1277-65a2-7ab0" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1328,191 +1513,6 @@
       </entries>
       <entryGroups/>
       <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="0244-6cd5-9260-c12e" name="C3 Inerceptor Command Squad" points="168.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="fa12-b792-1fff-89e3" name="Interceptor Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="ce12-0c6b-11e5-f498" name="&lt; Interceptor Commander Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="bd12-7ad6-eb09-08ba" targetId="a90a-fea5-107f-a019" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="bfb6-68f8-a0d9-8704" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="4184-69be-aeef-c7c8" name="&lt; Compactor Drone &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="c45c-f06e-c46e-735c" targetId="c87f-f5b0-1134-8ad9" linkType="entry">
-                      <modifiers/>
-                    </link>
-                    <link id="28e5-31d6-d8bc-f14f" targetId="d776-f344-44a4-c41b" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <links>
-                <link id="0c83-600a-114d-f8e4" targetId="001a-9f15-b25b-b784" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="5132-537b-21da-a068" targetId="7dac-aa85-fc80-51d5" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5cac-dbde-7763-5ddd" targetId="9286-cbf7-0641-5ce1" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="c8d2-d4de-e467-c706" targetId="12f1-610b-0dc9-4732" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="77c5-7b49-1b1a-443b" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ea21-ecb8-ce22-00d3" targetId="658c-b2dd-98f4-dafb" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8b1d-c9da-076d-d08e" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5f70-3d2c-69d6-3b63" targetId="34f9-12c5-7e7b-114c" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="3ad9-f6de-2222-14d7" targetId="12f1-610b-0dc9-4732" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="89fc-31e3-8d85-5d84" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="18db-e7fa-3661-289b" targetId="658c-b2dd-98f4-dafb" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2f44-92da-46f8-619d" name="C3 Inerceptor Squad" points="136.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries>
-        <entry id="de4c-b135-70a3-c87b" name="Interceptor Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="8166-a3dd-75ec-ccde" name="&lt; Interceptor Leader Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="27d8-164a-139b-f635" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="d50e-bf71-848e-6052" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="ce84-8225-4665-1f93" name="&lt; Compactor Drone &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="8273-8353-1f36-d7ab" targetId="c87f-f5b0-1134-8ad9" linkType="entry">
-                      <modifiers/>
-                    </link>
-                    <link id="b208-5e92-279a-11da" targetId="d776-f344-44a4-c41b" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <links>
-                <link id="efdc-79df-b753-fd9e" targetId="001a-9f15-b25b-b784" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="36c1-2192-553f-9dcf" targetId="7dac-aa85-fc80-51d5" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0179-fa9f-3b06-4db2" targetId="12f1-610b-0dc9-4732" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5b9e-0f99-9282-7ef1" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dd0f-496a-c08e-56b4" targetId="658c-b2dd-98f4-dafb" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="27e0-cc93-d2c1-3dec" targetId="9ed6-e3f2-8847-d7a2" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8783-ed89-1004-1495" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5664-48f1-1957-c3d8" targetId="34f9-12c5-7e7b-114c" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="1c5e-3cc6-d497-2644" targetId="12f1-610b-0dc9-4732" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1318-0d29-4a43-dd78" targetId="eafe-a83e-6cfd-0559" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0628-7b69-d134-8ece" targetId="658c-b2dd-98f4-dafb" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0244-6cd5-9260-c12e" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -1521,31 +1521,7 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="bf65-f7cb-1b50-d144" name="HL Armour (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e16f-acd1-265c-07f9" name="Spotter Drone (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="f095-7ba3-b868-32de" name="Spotter Drone (2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="001a-9f15-b25b-b784" name="Spotter Drone " points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e745-6ace-c0d4-6e35" name="AG Chute (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1569,58 +1545,131 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="eafe-a83e-6cfd-0559" name="Plasma Carbine (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="c87f-f5b0-1134-8ad9" name="Compactor Drone" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d776-f344-44a4-c41b" name="Compactor Drone with Compacted Plasma Cannon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="a184-65ab-58d9-e876" targetId="4c0f-9a37-2cd9-3f28" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="fb83-6166-8d22-f6e2" targetId="acdc-a95e-a973-0c70" linkType="profile">
+        <link id="b2e8-9d64-9d68-23e5" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="057e-2e8a-1952-9de0" name="Medi-Drone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e745-6ace-c0d4-6e35" name="AG Chute (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="af36-fa25-9ae1-e8a1" name="Sub-M. X-Sling (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="9f16-5a27-44b5-7471" name="Plasma Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c521-ffae-2a9d-88f9" name="Compression Bombard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="ae6b-5d5f-8311-739e" targetId="9c65-fbf8-41f5-47be" linkType="profile">
+        <link id="a79e-c4ad-b89d-ac26" targetId="a854-0768-aa9e-8d94" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="a90a-fea5-107f-a019" name="Leader 3" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6ded-5798-dd23-8e6f" name="Compression Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="80bf-613e-52b4-f160" name="Compression Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f482-b1f7-5e3a-1960" name="Fractal Bombard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9156-5e49-d0a8-7993" targetId="cfed-0e3a-38c7-9618" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="90ca-6c03-a803-a140" name="Fractal Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="bc22-c5b0-170a-0ca8" targetId="e262-8ce4-a7d5-4d81" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="69d9-b84f-3c40-15fb" name="Fractal Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4a79-2c10-c161-2234" targetId="e262-8ce4-a7d5-4d81" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5343-3c10-ccc3-0233" name="Gun Drone (2)" points="14.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="bf65-f7cb-1b50-d144" name="HL Armour (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="12f1-610b-0dc9-4732" name="HL Armour Boost (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c7a8-840b-096e-e2b8" name="IMTeL Stave (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="658c-b2dd-98f4-dafb" name="Interceptor Bike with Twin Plasma Carbines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="41bd-5499-889a-ab16" name="Leader" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1636,6 +1685,203 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="a90a-fea5-107f-a019" name="Leader 3" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9e56-0965-ea32-7ff4" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="eb71-6245-efd5-67c9" name="Mag Mortar" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9df9-40f7-3d08-b560" targetId="5ba2-ac85-01a5-31be" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="057e-2e8a-1952-9de0" name="Medi-Drone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a2e9-2b00-2191-a410" name="Nano Drone (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="1bc9-ce44-fdbe-ef90" name="Plasma Bombard (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c3b5-10fe-6527-f82f" targetId="581f-ff61-2525-a4b4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="10e6-b49c-4401-a1cd" name="Plasma Cannon" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d5c2-2c99-c6f0-8b8e" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5a7d-3845-90ba-32eb" name="Plasma Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="96a4-2cce-4307-8f7b" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3dfc-49e9-adcb-ae48" name="Plasma Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="95ff-37b4-8a0c-72d9" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="eafe-a83e-6cfd-0559" name="Plasma Carbine (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a184-65ab-58d9-e876" targetId="4c0f-9a37-2cd9-3f28" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="fb83-6166-8d22-f6e2" targetId="acdc-a95e-a973-0c70" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9f16-5a27-44b5-7471" name="Plasma Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ae6b-5d5f-8311-739e" targetId="9c65-fbf8-41f5-47be" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3dd4-3b5c-6873-e8f2" name="Plasma Lance" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7122-7702-547f-efa1" targetId="3376-2497-6739-ec52" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cc9d-d4f8-59db-be3c" targetId="db92-0aca-cde3-4d2d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6d1e-8151-bd04-c247" targetId="19f6-390a-0d7c-8acb" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7dac-aa85-fc80-51d5" name="Plasma Lance (Bike)" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="95fd-068f-3527-ff41" targetId="3376-2497-6739-ec52" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3303-cedc-7f35-8d8c" targetId="db92-0aca-cde3-4d2d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8d2b-05f1-d035-fca6" targetId="19f6-390a-0d7c-8acb" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="21a7-132d-6703-9ff6" name="Plasma Lance (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="eae9-4fdc-d5ae-f150" targetId="3376-2497-6739-ec52" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="44f0-8649-d04a-801b" targetId="db92-0aca-cde3-4d2d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e52e-5001-8214-66e6" targetId="19f6-390a-0d7c-8acb" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="62c2-106a-28aa-6cf5" name="Plasma Light Support Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7d58-9532-baa3-0f50" targetId="2940-5bc4-f1ca-b78c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c74e-2993-3474-7869" name="Plasma Light Support Gun (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f652-56d4-3777-5ff0" targetId="2940-5bc4-f1ca-b78c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="2f22-37fa-4076-d255" name="Plasma Pistol (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1648,15 +1894,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c7a8-840b-096e-e2b8" name="IMTeL Stave (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="a2e9-2b00-2191-a410" name="Nano Drone (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8c55-0529-22ab-3fa6" name="Self Repair" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1680,7 +1918,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5343-3c10-ccc3-0233" name="Gun Drone (2)" points="14.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="001a-9f15-b25b-b784" name="Spotter Drone " points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1688,55 +1926,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="6c13-252f-55b8-4de9" name="X-Sling (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2d1d-7464-b34a-31f5" targetId="7c13-1aa1-5557-6103" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3dd4-3b5c-6873-e8f2" name="Plasma Lance" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7122-7702-547f-efa1" targetId="3376-2497-6739-ec52" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="cc9d-d4f8-59db-be3c" targetId="db92-0aca-cde3-4d2d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6d1e-8151-bd04-c247" targetId="19f6-390a-0d7c-8acb" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="21a7-132d-6703-9ff6" name="Plasma Lance (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="eae9-4fdc-d5ae-f150" targetId="3376-2497-6739-ec52" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="44f0-8649-d04a-801b" targetId="db92-0aca-cde3-4d2d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="e52e-5001-8214-66e6" targetId="19f6-390a-0d7c-8acb" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="9e56-0965-ea32-7ff4" name="Leader 3" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f095-7ba3-b868-32de" name="Spotter Drone (2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1744,87 +1934,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="10e6-b49c-4401-a1cd" name="Plasma Cannon" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d5c2-2c99-c6f0-8b8e" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="afc8-4f62-e1e2-1e4c" name="X-Launcher (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="aa0c-e16b-5128-7f51" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="35a6-2947-8313-2439" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="9b70-8763-8019-2225" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="e570-13a4-d27e-215b" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="5e54-2d41-0080-e6f2" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="1093-7921-7cb3-c7e7" name="Net and Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="2186-a4a5-9712-4d5f" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d588-2e56-e502-10ec" targetId="b984-90ae-a8e5-83c8" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="41bd-5499-889a-ab16" name="Leader" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e16f-acd1-265c-07f9" name="Spotter Drone (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1832,19 +1942,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="c74e-2993-3474-7869" name="Plasma Light Support Gun (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="f652-56d4-3777-5ff0" targetId="2940-5bc4-f1ca-b78c" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8c55-0529-22ab-3fa6" name="Self Repair" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="af36-fa25-9ae1-e8a1" name="Sub-M. X-Sling (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1852,61 +1950,13 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="90ca-6c03-a803-a140" name="Fractal Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="bc22-c5b0-170a-0ca8" targetId="e262-8ce4-a7d5-4d81" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6ded-5798-dd23-8e6f" name="Compression Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="76e8-05d6-ff37-7205" name="Subverter Matrix" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="5a7d-3845-90ba-32eb" name="Plasma Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="96a4-2cce-4307-8f7b" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="62c2-106a-28aa-6cf5" name="Plasma Light Support Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7d58-9532-baa3-0f50" targetId="2940-5bc4-f1ca-b78c" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1bc9-ce44-fdbe-ef90" name="Plasma Bombard (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="c3b5-10fe-6527-f82f" targetId="581f-ff61-2525-a4b4" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
     <entry id="e2b4-a034-c8ce-e376" name="X-Howitzer (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1972,74 +2022,6 @@
       <profiles/>
       <links>
         <link id="a4a1-491f-e195-4e0d" targetId="d0b6-5e2a-243d-b6ea" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3dfc-49e9-adcb-ae48" name="Plasma Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="95ff-37b4-8a0c-72d9" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="69d9-b84f-3c40-15fb" name="Fractal Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="4a79-2c10-c161-2234" targetId="e262-8ce4-a7d5-4d81" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="80bf-613e-52b4-f160" name="Compression Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="c521-ffae-2a9d-88f9" name="Compression Bombard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="a79e-c4ad-b89d-ac26" targetId="a854-0768-aa9e-8d94" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f482-b1f7-5e3a-1960" name="Fractal Bombard" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9156-5e49-d0a8-7993" targetId="cfed-0e3a-38c7-9618" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="eb71-6245-efd5-67c9" name="Mag Mortar" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9df9-40f7-3d08-b560" targetId="5ba2-ac85-01a5-31be" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2112,64 +2094,82 @@
         </link>
       </links>
     </entry>
-    <entry id="76e8-05d6-ff37-7205" name="Subverter Matrix" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="afc8-4f62-e1e2-1e4c" name="X-Launcher (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="12f1-610b-0dc9-4732" name="HL Armour Boost (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="658c-b2dd-98f4-dafb" name="Interceptor Bike with Twin Plasma Carbines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="7dac-aa85-fc80-51d5" name="Plasma Lance (Bike)" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="aa0c-e16b-5128-7f51" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="35a6-2947-8313-2439" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="9b70-8763-8019-2225" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e570-13a4-d27e-215b" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5e54-2d41-0080-e6f2" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1093-7921-7cb3-c7e7" name="Net and Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2186-a4a5-9712-4d5f" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="95fd-068f-3527-ff41" targetId="3376-2497-6739-ec52" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="3303-cedc-7f35-8d8c" targetId="db92-0aca-cde3-4d2d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="8d2b-05f1-d035-fca6" targetId="19f6-390a-0d7c-8acb" linkType="profile">
+        <link id="d588-2e56-e502-10ec" targetId="b984-90ae-a8e5-83c8" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="c87f-f5b0-1134-8ad9" name="Compactor Drone" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="d776-f344-44a4-c41b" name="Compactor Drone with Compacted Plasma Cannon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6c13-252f-55b8-4de9" name="X-Sling (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="b2e8-9d64-9d68-23e5" targetId="ffe9-0b4e-fc35-d442" linkType="profile">
+        <link id="2d1d-7464-b34a-31f5" targetId="7c13-1aa1-5557-6103" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2305,6 +2305,16 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="a854-0768-aa9e-8d94" profileTypeId="ecae-8ac8-2c13-0dd3" name="Compression Bombard" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-50"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="100"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="150"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="9/7/5"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Compressor, No Cover, Cycle"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="fb4a-7317-0e7a-7278" profileTypeId="ecae-8ac8-2c13-0dd3" name="Compression Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-30"/>
@@ -2371,6 +2381,16 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="cfed-0e3a-38c7-9618" profileTypeId="ecae-8ac8-2c13-0dd3" name="Fractal Bombard" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="50"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="100"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="200"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3 +2 max 10"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Fractal Lock"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="e262-8ce4-a7d5-4d81" profileTypeId="ecae-8ac8-2c13-0dd3" name="Fractal Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
@@ -2430,6 +2450,16 @@
           <conditionGroups/>
         </modifier>
       </modifiers>
+    </profile>
+    <profile id="5ba2-ac85-01a5-31be" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Mortar" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-30"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="OHx2, Blast D10, No Cover"/>
+      </characteristics>
+      <modifiers/>
     </profile>
     <profile id="078e-4753-3545-ba51" profileTypeId="1650-77b3-10d1-6406" name="Medi-Probe" hidden="false">
       <characteristics>
@@ -2680,36 +2710,6 @@
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a854-0768-aa9e-8d94" profileTypeId="ecae-8ac8-2c13-0dd3" name="Compression Bombard" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-50"/>
-        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="100"/>
-        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="150"/>
-        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="9/7/5"/>
-        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Compressor, No Cover, Cycle"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="cfed-0e3a-38c7-9618" profileTypeId="ecae-8ac8-2c13-0dd3" name="Fractal Bombard" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="50"/>
-        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="100"/>
-        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="200"/>
-        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3 +2 max 10"/>
-        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Fractal Lock"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="5ba2-ac85-01a5-31be" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Mortar" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-30"/>
-        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
-        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
-        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
-        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="OHx2, Blast D10, No Cover"/>
       </characteristics>
       <modifiers/>
     </profile>

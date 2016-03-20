@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" revision="6" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" revision="6" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="ee766e00-0168-11be-e251-23243581de9e" name="Scouting Force" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="500.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -13,9 +13,6 @@
           <modifiers/>
         </category>
         <category id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Auxiliary" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="663a-246b-f604-a528" name="Army Option" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -35,9 +32,6 @@
         <category id="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Strategic" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="663a-246b-f604-a528" name="Army Options" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -53,9 +47,6 @@
           <modifiers/>
         </category>
         <category id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Auxiliary" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="663a-246b-f604-a528" name="Army Options" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -75,9 +66,6 @@
         <category id="481abf13-c03e-0dd0-d520-9f9837253cbe" name="Tactical" minSelections="5" maxSelections="7" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="663a-246b-f604-a528" name="Army Optiions" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -93,9 +81,6 @@
           <modifiers/>
         </category>
         <category id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Auxiliary" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="663a-246b-f604-a528" name="Army Options" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -115,9 +100,6 @@
         <category id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Auxiliary" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="663a-246b-f604-a528" name="Army Options" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -135,9 +117,6 @@
         <category id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Auxiliary" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="663a-246b-f604-a528" name="Army Options" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="10" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -151,6 +130,7 @@
         <characteristic id="f214-abe8-c922-c51b" name="Res"/>
         <characteristic id="08b9-e038-7ba6-488e" name="Init"/>
         <characteristic id="3993-27b0-c3d9-de20" name="Co"/>
+        <characteristic id="3baa-9cfd-f273-822d" name="Special"/>
       </characteristics>
     </profileType>
     <profileType id="f9a2-eeae-3284-75fd" name="Limited Choice">
@@ -161,6 +141,7 @@
         <characteristic id="5b77-3595-2819-675c" name="Res"/>
         <characteristic id="c0d8-f6fd-a474-1385" name="Init"/>
         <characteristic id="135d-efc3-5039-b6e6" name="Co"/>
+        <characteristic id="ab43-4d1c-4651-b424" name="Special"/>
       </characteristics>
     </profileType>
     <profileType id="ecae-8ac8-2c13-0dd3" name="Weapon">
@@ -170,11 +151,6 @@
         <characteristic id="bf58-0ad5-c7ee-3fd9" name="Extreme"/>
         <characteristic id="897c-d3c4-3983-896a" name="Strike Value"/>
         <characteristic id="7e87-2586-653f-d6ec" name="Special Rules"/>
-      </characteristics>
-    </profileType>
-    <profileType id="22f9-0f0f-8c78-df97" name="Army Options ">
-      <characteristics>
-        <characteristic id="94d7-0b6c-3d5d-737a" name="Info"/>
       </characteristics>
     </profileType>
   </profileTypes>
