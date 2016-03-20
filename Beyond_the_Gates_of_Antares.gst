@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" revision="5" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" revision="6" battleScribeVersion="1.15" name="Beyond the Gates of Antares" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="ee766e00-0168-11be-e251-23243581de9e" name="Scouting Force" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="500.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -130,6 +130,7 @@
         <characteristic id="f214-abe8-c922-c51b" name="Res"/>
         <characteristic id="08b9-e038-7ba6-488e" name="Init"/>
         <characteristic id="3993-27b0-c3d9-de20" name="Co"/>
+        <characteristic id="3baa-9cfd-f273-822d" name="Special"/>
       </characteristics>
     </profileType>
     <profileType id="f9a2-eeae-3284-75fd" name="Limited Choice">
@@ -140,6 +141,7 @@
         <characteristic id="5b77-3595-2819-675c" name="Res"/>
         <characteristic id="c0d8-f6fd-a474-1385" name="Init"/>
         <characteristic id="135d-efc3-5039-b6e6" name="Co"/>
+        <characteristic id="ab43-4d1c-4651-b424" name="Special"/>
       </characteristics>
     </profileType>
     <profileType id="ecae-8ac8-2c13-0dd3" name="Weapon">
