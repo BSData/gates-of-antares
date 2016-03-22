@@ -1,7 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="162d-cc8a-d6e7-6973" revision="10" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="141.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="50dc-8c05-18ca-21fd" name="C3 Support Team with X-Howitzer" points="65.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2128-0f7e-a018-741c" name="&lt; Strike Trooper Crew" points="15.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8fcd-aca2-3e34-86d5" targetId="ce28-e8fe-4290-f477" linkType="profile">
+              <modifiers>
+                <modifier type="set" field="3baa-9cfd-f273-822d" value="Large, Slow" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="a432-4162-50cd-9141" targetId="2f22-37fa-4076-d255" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b06e-1486-b609-2b22" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5ec4-75b0-1c8b-ffb9" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a0f9-f70a-57b7-afb5" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3b25-3924-3cb4-8684" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c595-3b46-4549-eb2a" name="&lt; Promote &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4072-bde7-2e1d-c785" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="90e3-3446-28a3-e602" targetId="41bd-5499-889a-ab16" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2d4e-a3f4-fe14-5878" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
+          <characteristics>
+            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
+            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+            <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="5"/>
+            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
+            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+            <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Leader"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="3baa-9cfd-f273-822d" value="Leader 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="cf30-f234-691c-47bd" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="50dc-8c05-18ca-21fd" childId="90e3-3446-28a3-e602" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b4ea-cc3f-579f-5e09" targetId="e16f-acd1-265c-07f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="443c-3093-f104-6df7" targetId="e2b4-a034-c8ce-e376" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6429-1b89-b557-736b" name="&lt; NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="87.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="0654-4b4e-d76b-a53d" name="Drop Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -47,7 +185,7 @@
             </link>
           </links>
         </entry>
-        <entry id="d1b3-dbb7-cee4-68b5" name="Drop Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d1b3-dbb7-cee4-68b5" name="Drop Trooper" points="27.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -107,25 +245,12 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="27.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="d1b3-dbb7-cee4-68b5" field="selections" type="at least" value="3.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="27.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="d1b3-dbb7-cee4-68b5" field="selections" type="at least" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="6459-ea8a-0c57-1278" name="C3 Drop Squad" points="176.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="6459-ea8a-0c57-1278" name="C3 Drop Squad" points="67.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
         <entry id="3f1f-e456-24f8-eb1b" name="Drop Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -178,7 +303,7 @@
             </link>
           </links>
         </entry>
-        <entry id="823f-b505-a915-8e27" name="Drop Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="823f-b505-a915-8e27" name="Drop Trooper" points="26.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -203,7 +328,7 @@
             </link>
           </links>
         </entry>
-        <entry id="0742-5d15-198f-f65a" name="Drop Trooper with Plasma Lance" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="0742-5d15-198f-f65a" name="Drop Trooper with Plasma Lance" points="31.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -277,30 +402,6 @@
         <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="e8e7-16fc-e243-8d1a" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="0742-5d15-198f-f65a" field="selections" type="equal to" value="2.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="26.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="823f-b505-a915-8e27" field="selections" type="at least" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="26.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="823f-b505-a915-8e27" field="selections" type="at least" value="6.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="26.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="823f-b505-a915-8e27" field="selections" type="at least" value="5.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -496,7 +597,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f53b-8cb2-f46e-ec68" name="C3 Strike Command Squad" points="110.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f53b-8cb2-f46e-ec68" name="C3 Strike Command Squad" points="66.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="9217-51b5-1490-c20f" name="&lt; Strike Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -539,7 +640,7 @@
             </link>
           </links>
         </entry>
-        <entry id="25b4-7c4e-e579-4fee" name="&lt; Strike Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="25b4-7c4e-e579-4fee" name="&lt; Strike Trooper" points="22.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -593,27 +694,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="22.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="25b4-7c4e-e579-4fee" field="selections" type="at least" value="3.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="22.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="25b4-7c4e-e579-4fee" field="selections" type="at least" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="a2f5-7c0a-21e5-7b0b" name="C3 Strike Squad" points="112.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a2f5-7c0a-21e5-7b0b" name="C3 Strike Squad" points="32.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="3dd7-c3aa-50ca-26b2" name="&lt; Strike Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="3dd7-c3aa-50ca-26b2" name="&lt; Strike Trooper" points="20.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -638,7 +726,7 @@
             </link>
           </links>
         </entry>
-        <entry id="da65-0727-324a-34da" name="&lt; Strike Trooper With Plasma Lance" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="da65-0727-324a-34da" name="&lt; Strike Trooper With Plasma Lance" points="23.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -777,33 +865,14 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="3dd7-c3aa-50ca-26b2" field="selections" type="at least" value="5.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="3dd7-c3aa-50ca-26b2" field="selections" type="at least" value="7.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="3dd7-c3aa-50ca-26b2" field="selections" type="at least" value="6.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="37f1-afbf-0787-df72" name="C3 Support Team" points="40.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="37f1-afbf-0787-df72" name="C3 Support Team" points="10.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="6fd3-42ff-1e26-f82f" name="&lt; Strike Trooper Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="6fd3-42ff-1e26-f82f" name="&lt; Strike Trooper Crew" points="15.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -862,14 +931,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="6fd3-42ff-1e26-f82f" field="selections" type="at least" value="3.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="65ed-1aa6-1ac1-fef1" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
@@ -906,9 +968,9 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="48b0-cf3d-3699-f8a3" name="C3 Support Team with Plasma Bombard" points="120.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="48b0-cf3d-3699-f8a3" name="C3 Support Team with Plasma Bombard" points="75.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0d6a-0bd6-38ee-e3b2" name="&lt; Strike Trooper Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="0d6a-0bd6-38ee-e3b2" name="&lt; Strike Trooper Crew" points="15.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -965,20 +1027,7 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="0d6a-0bd6-38ee-e3b2" field="selections" type="at least" value="3.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="0d6a-0bd6-38ee-e3b2" field="selections" type="at least" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles>
         <profile id="b8eb-6958-badc-9897" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
@@ -1018,122 +1067,6 @@
           <modifiers/>
         </link>
         <link id="2b4a-afa0-4d3a-91da" targetId="1bc9-ce44-fdbe-ef90" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="50dc-8c05-18ca-21fd" name="&lt; C3 Support Team with X-Howitzer" points="110.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2128-0f7e-a018-741c" name="&lt; Strike Trooper Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8fcd-aca2-3e34-86d5" targetId="ce28-e8fe-4290-f477" linkType="profile">
-              <modifiers>
-                <modifier type="set" field="3baa-9cfd-f273-822d" value="Large, Slow" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="a432-4162-50cd-9141" targetId="2f22-37fa-4076-d255" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b06e-1486-b609-2b22" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="5ec4-75b0-1c8b-ffb9" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="a0f9-f70a-57b7-afb5" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3b25-3924-3cb4-8684" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="c595-3b46-4549-eb2a" name="&lt; Promote &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="4072-bde7-2e1d-c785" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="90e3-3446-28a3-e602" targetId="41bd-5499-889a-ab16" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="2128-0f7e-a018-741c" field="selections" type="at least" value="3.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="2128-0f7e-a018-741c" field="selections" type="at least" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="2d4e-a3f4-fe14-5878" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
-          <characteristics>
-            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
-            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
-            <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="5"/>
-            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
-            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
-            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
-            <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Leader"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="3baa-9cfd-f273-822d" value="Leader 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="show" field="cf30-f234-691c-47bd" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="50dc-8c05-18ca-21fd" childId="90e3-3446-28a3-e602" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b4ea-cc3f-579f-5e09" targetId="e16f-acd1-265c-07f9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="443c-3093-f104-6df7" targetId="e2b4-a034-c8ce-e376" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1586,41 +1519,6 @@
       <rules/>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="6429-1b89-b557-736b" name="&lt; NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
     <entry id="7780-9268-8805-991a" name="Scout Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -2782,6 +2680,18 @@
         </modifier>
       </modifiers>
     </profile>
+    <profile id="4d7e-f31f-84d4-d57a" profileTypeId="f9a2-eeae-3284-75fd" name="Strike Leader Kai Lek Atasrin" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5 "/>
+        <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="5"/>
+        <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="5"/>
+        <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="6(8)"/>
+        <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="7"/>
+        <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="9"/>
+        <characteristic characteristicId="ab43-4d1c-4651-b424" name="Special" value="One for All, Wound, Leader 3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="6688-b331-6578-fb30" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper" hidden="false">
       <characteristics>
         <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
@@ -2857,19 +2767,6 @@
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4d7e-f31f-84d4-d57a" profileTypeId="f9a2-eeae-3284-75fd" name="Strike Leader Kai Lek Atasrin" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5
-"/>
-        <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="5"/>
-        <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="5"/>
-        <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="6(8)"/>
-        <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="7"/>
-        <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="9"/>
-        <characteristic characteristicId="ab43-4d1c-4651-b424" name="Special" value="One for All, Wound, Leader 3"/>
       </characteristics>
       <modifiers/>
     </profile>
