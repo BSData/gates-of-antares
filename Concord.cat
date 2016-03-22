@@ -1,110 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="162d-cc8a-d6e7-6973" revision="10" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="50dc-8c05-18ca-21fd" name="C3 Support Team with X-Howitzer" points="65.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2128-0f7e-a018-741c" name="&lt; Strike Trooper Crew" points="15.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8fcd-aca2-3e34-86d5" targetId="ce28-e8fe-4290-f477" linkType="profile">
-              <modifiers>
-                <modifier type="set" field="3baa-9cfd-f273-822d" value="Large, Slow" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="a432-4162-50cd-9141" targetId="2f22-37fa-4076-d255" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b06e-1486-b609-2b22" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="5ec4-75b0-1c8b-ffb9" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="a0f9-f70a-57b7-afb5" targetId="001a-9f15-b25b-b784" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3b25-3924-3cb4-8684" targetId="3ac2-e4a6-9011-4985" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="c595-3b46-4549-eb2a" name="&lt; Promote &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="4072-bde7-2e1d-c785" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="90e3-3446-28a3-e602" targetId="41bd-5499-889a-ab16" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2d4e-a3f4-fe14-5878" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
-          <characteristics>
-            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
-            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
-            <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="5"/>
-            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
-            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
-            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
-            <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Leader"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="3baa-9cfd-f273-822d" value="Leader 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="show" field="cf30-f234-691c-47bd" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="50dc-8c05-18ca-21fd" childId="90e3-3446-28a3-e602" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b4ea-cc3f-579f-5e09" targetId="e16f-acd1-265c-07f9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="443c-3093-f104-6df7" targetId="e2b4-a034-c8ce-e376" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6429-1b89-b557-736b" name="&lt; NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6429-1b89-b557-736b" name="NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1071,6 +968,109 @@
         </link>
       </links>
     </entry>
+    <entry id="50dc-8c05-18ca-21fd" name="C3 Support Team with X-Howitzer" points="65.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2128-0f7e-a018-741c" name="&lt; Strike Trooper Crew" points="15.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8fcd-aca2-3e34-86d5" targetId="ce28-e8fe-4290-f477" linkType="profile">
+              <modifiers>
+                <modifier type="set" field="3baa-9cfd-f273-822d" value="Large, Slow" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="a432-4162-50cd-9141" targetId="2f22-37fa-4076-d255" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b06e-1486-b609-2b22" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5ec4-75b0-1c8b-ffb9" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a0f9-f70a-57b7-afb5" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3b25-3924-3cb4-8684" targetId="3ac2-e4a6-9011-4985" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c595-3b46-4549-eb2a" name="&lt; Promote &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4072-bde7-2e1d-c785" targetId="cd4f-0ce9-a6a4-b34a" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="90e3-3446-28a3-e602" targetId="41bd-5499-889a-ab16" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2d4e-a3f4-fe14-5878" profileTypeId="1650-77b3-10d1-6406" name="Strike Trooper crew Leader" hidden="true">
+          <characteristics>
+            <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
+            <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+            <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="5"/>
+            <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
+            <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="7"/>
+            <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
+            <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Leader"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="3baa-9cfd-f273-822d" value="Leader 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="cf30-f234-691c-47bd" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="50dc-8c05-18ca-21fd" childId="4072-bde7-2e1d-c785" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="50dc-8c05-18ca-21fd" childId="90e3-3446-28a3-e602" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b4ea-cc3f-579f-5e09" targetId="e16f-acd1-265c-07f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="443c-3093-f104-6df7" targetId="e2b4-a034-c8ce-e376" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d626-a99a-6470-71ad" name="C3D1 Light Support Drone " points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="37d5-656f-d5c1-4397" name="&lt; Weapon Drone" points="59.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1561,6 +1561,113 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="6880-209f-8a1d-66e0" name="Commander Kamrana Josen" points="116.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f086-dae6-6909-f7de" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="008d-8ba9-1c63-93b5" name="Strike Trooper" points="22.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e57d-104e-c987-6e7a" targetId="6688-b331-6578-fb30" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="ac02-ab26-6f62-e9fc" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="52f5-a617-55f3-24aa" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4a2c-44b8-d548-19f4" targetId="001a-9f15-b25b-b784" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1947-c19e-f8e5-1439" targetId="9f16-5a27-44b5-7471" linkType="entry">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="6880-209f-8a1d-66e0" incrementChildId="008d-8ba9-1c63-93b5" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="6880-209f-8a1d-66e0" childId="f7e5-aff8-59a3-fb0d" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7d36-9ad2-0909-dddf" name="&lt; Commander Options &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f7e5-aff8-59a3-fb0d" name="Plasma Grenade Bandoliers" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="6880-209f-8a1d-66e0" childId="1947-c19e-f8e5-1439" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4d4b-85f0-9e35-d04d" targetId="92a3-aaae-bc24-0d2d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6030-d671-9f86-c945" name="Jurry-Rigged HL Booster" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="53eb-6d1b-6804-c1e0" targetId="bf65-f7cb-1b50-d144" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="971d-3652-33ec-641a" targetId="eafe-a83e-6cfd-0559" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="182f-8079-ec5a-498b" targetId="218d-189c-09c7-3b45" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f214-abe8-c922-c51b" value="5(8)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="6880-209f-8a1d-66e0" childId="6030-d671-9f86-c945" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
   </entries>
   <rules/>
@@ -2767,6 +2874,28 @@
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="218d-189c-09c7-3b45" profileTypeId="1650-77b3-10d1-6406" name="Commander Kamrana Josen" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
+        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="6"/>
+        <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="6"/>
+        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
+        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="9"/>
+        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
+        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Command, Follow, Hero, Unstoppable, Wound 3, Leader3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="92a3-aaae-bc24-0d2d" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenade Bandolier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="-"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="-"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, Hazardous H2H"/>
       </characteristics>
       <modifiers/>
     </profile>
