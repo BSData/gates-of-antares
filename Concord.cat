@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="162d-cc8a-d6e7-6973" revision="10" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="6429-1b89-b557-736b" name="NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="87.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="0654-4b4e-d76b-a53d" name="Drop Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1499,69 +1464,6 @@
         </link>
       </links>
     </entry>
-    <entry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="c7bd-920e-b6e5-ef99" name="&lt; Medi-probe" points="10.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d758-744a-7ac4-7804" targetId="078e-4753-3545-ba51" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="7780-9268-8805-991a" name="Scout Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="275e-c158-8f26-53c9" name="&lt; Scout Probe" points="10.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="05b3-477e-3ab6-c2a4" targetId="56b9-5224-e0df-8218" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="70f6-51e9-f4f6-761f" name="&lt; Target Probe" points="5.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ec43-8043-3ccc-fe21" targetId="9ce3-1277-65a2-7ab0" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="6880-209f-8a1d-66e0" name="Commander Kamrana Josen" points="116.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -1668,6 +1570,104 @@
           </modifiers>
         </link>
       </links>
+    </entry>
+    <entry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c7bd-920e-b6e5-ef99" name="&lt; Medi-probe" points="10.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d758-744a-7ac4-7804" targetId="078e-4753-3545-ba51" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6429-1b89-b557-736b" name="NuHu Mandarin" points="164.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ae11-f605-d815-9109" name="&lt; Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6fd3-49ff-c60c-3624" targetId="f095-7ba3-b868-32de" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bb6a-48bd-2cf1-f430" targetId="057e-2e8a-1952-9de0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="775b-177d-e6ac-c3ac" targetId="5ed8-6bd4-d0f7-d7f0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2523-96e0-03f8-2625" targetId="5343-3c10-ccc3-0233" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6fd9-afd5-d70f-d751" targetId="41d1-a002-0258-c407" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1133-9cc8-d005-ca82" targetId="a2e9-2b00-2191-a410" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7780-9268-8805-991a" name="Scout Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="275e-c158-8f26-53c9" name="&lt; Scout Probe" points="10.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="05b3-477e-3ab6-c2a4" targetId="56b9-5224-e0df-8218" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="70f6-51e9-f4f6-761f" name="&lt; Target Probe" points="5.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ec43-8043-3ccc-fe21" targetId="9ce3-1277-65a2-7ab0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </entries>
   <rules/>
@@ -1855,7 +1855,71 @@
     </entry>
     <entry id="eb71-6245-efd5-67c9" name="Mag Mortar" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="0e6a-0256-18e1-20af" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a356-4661-a11e-41b8" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a24b-a381-fb00-eb9f" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3925-0866-3aea-e356" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0afe-04ff-398b-3496" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5271-6bc1-1ad7-e9ba" name="Net " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1cd3-e444-8b62-dc9b" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4d2c-7d84-fe17-0c8f" name="Grip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -2113,9 +2177,9 @@
     <entry id="e2b4-a034-c8ce-e376" name="X-Howitzer (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="5495-dab3-5833-e42c" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="b978-51cf-53e5-76e2" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="f015-fa5f-961a-176c" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="0d36-1521-ad51-b6b1" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2123,7 +2187,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="89af-881f-42f7-fd0a" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="7f82-3547-707f-f62a" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2131,7 +2195,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="460b-553d-781f-9e59" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="7f3f-9e54-ef43-1c07" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2139,7 +2203,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="ff0d-dd09-28da-65e0" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="7e92-9a38-3610-6200" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2147,7 +2211,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="7777-d819-e6dc-a384" name="Net and Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="d74e-7cd9-91fb-3288" name="Net " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2155,7 +2219,15 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="0f25-ae71-3865-85eb" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="4e7f-7cf8-cf28-26d5" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d598-90e0-72e1-97ba" name="Grip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2181,9 +2253,9 @@
     <entry id="85bd-3565-8ecd-a94f" name="X-Howitzer (E)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="d9f0-6dec-0064-91de" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="2002-5ec3-65ff-e6b9" name="&lt; Munition &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="f4c0-f73e-b311-f22a" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="91ea-e15b-c53b-57fa" name="Scrambler" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2191,7 +2263,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="2c18-1b2d-6bfd-24c9" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="cd9a-90e3-b3ef-c370" name="Arc" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2199,7 +2271,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="9a25-ce92-2a4c-9972" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1795-2a6d-14e3-9854" name="Blur" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2207,7 +2279,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="64cb-3f17-f16a-17d0" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="136b-82ae-5216-4b8f" name="Scoot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2215,7 +2287,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="cdc3-9aac-0336-21a5" name="Net and Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="23e9-d16e-e2a0-c4e1" name="Net " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2223,7 +2295,15 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="99d5-c464-4515-aa66" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="6d4b-26a8-eaaf-4108" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0792-0d6e-2fc9-45bc" name="Grip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2283,7 +2363,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="1093-7921-7cb3-c7e7" name="Net and Grip" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1093-7921-7cb3-c7e7" name="Net " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2292,6 +2372,14 @@
               <links/>
             </entry>
             <entry id="2186-a4a5-9712-4d5f" name="All" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="cf1a-3b50-d033-c9dd" name="Grip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2454,6 +2542,18 @@
         <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="8"/>
         <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="8"/>
         <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="MOD2, Transport 10, Large"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="218d-189c-09c7-3b45" profileTypeId="1650-77b3-10d1-6406" name="Commander Kamrana Josen" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
+        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="6"/>
+        <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="6"/>
+        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
+        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="9"/>
+        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
+        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Command, Follow, Hero, Unstoppable, Wound 3, Leader3"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2677,6 +2777,16 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="92a3-aaae-bc24-0d2d" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenade Bandolier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="-"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="-"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, Hazardous H2H"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="9c65-fbf8-41f5-47be" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenades" hidden="false">
       <characteristics>
         <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
@@ -2874,28 +2984,6 @@
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="218d-189c-09c7-3b45" profileTypeId="1650-77b3-10d1-6406" name="Commander Kamrana Josen" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
-        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="6"/>
-        <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="6"/>
-        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="5(7)"/>
-        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="9"/>
-        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
-        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special" value="Command, Follow, Hero, Unstoppable, Wound 3, Leader3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="92a3-aaae-bc24-0d2d" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenade Bandolier" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
-        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="-"/>
-        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="-"/>
-        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
-        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, Hazardous H2H"/>
       </characteristics>
       <modifiers/>
     </profile>
