@@ -1367,8 +1367,13 @@
                   <entryGroups/>
                   <modifiers/>
                   <links>
-                    <link id="bfcd-6dc1-7032-9eca" targetId="b018-6101-d2e3-b4ea" linkType="entry">
-                      <modifiers/>
+                    <link id="bfcd-6dc1-7032-9eca" targetId="059b-38f7-0313-5ae4" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="points" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                   </links>
                 </entryGroup>
@@ -1509,8 +1514,13 @@
                   <entryGroups/>
                   <modifiers/>
                   <links>
-                    <link id="bff1-9762-306f-171b" targetId="e6db-6ed3-1a26-ea56" linkType="entry">
-                      <modifiers/>
+                    <link id="bff1-9762-306f-171b" targetId="b018-6101-d2e3-b4ea" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="points" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                   </links>
                 </entryGroup>
