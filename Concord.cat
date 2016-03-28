@@ -2777,6 +2777,16 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="9c65-fbf8-41f5-47be" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenade" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
+        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
+        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
+        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
+        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="92a3-aaae-bc24-0d2d" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenade Bandolier" hidden="false">
       <characteristics>
         <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
@@ -2784,16 +2794,6 @@
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="-"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D4, Hazardous H2H"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="9c65-fbf8-41f5-47be" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Grenades" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="5"/>
-        <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
-        <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
-        <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
-        <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="-"/>
       </characteristics>
       <modifiers/>
     </profile>
