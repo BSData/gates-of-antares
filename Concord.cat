@@ -2604,6 +2604,9 @@ Mag Mortar: D10+1 pin
 Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
       <modifiers/>
     </rule>
+    <rule id="4abc-52df-bbed-7b28" name="New Rule" hidden="false">
+      <modifiers/>
+    </rule>
     <rule id="fbb8-f81a-2985-1273" name="Plasma Fade" hidden="false" book="BtGoA" page="76">
       <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
       <modifiers/>
@@ -2651,9 +2654,6 @@ D10 Result:
 4: Take D3 additional pins and go down. Weapon malfunction.
 5: Take D6 additional pins and take a break test - destroyed if failed, go down if passed.
 6-10: Destroyed</description>
-      <modifiers/>
-    </rule>
-    <rule id="4abc-52df-bbed-7b28" name="New Rule" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
@@ -3181,6 +3181,18 @@ D10 Result:
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="74c6-e541-9bf3-7b75" profileTypeId="1650-77b3-10d1-6406" name="New Profile" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
+        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
+        <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
+        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
+        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
+        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
+        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
       </characteristics>
       <modifiers/>
     </profile>
