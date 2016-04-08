@@ -2604,9 +2604,6 @@ Mag Mortar: D10+1 pin
 Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="0cea-c47e-7c2e-2ea2" name="New Rule" hidden="false">
-      <modifiers/>
-    </rule>
     <rule id="fbb8-f81a-2985-1273" name="Plasma Fade" hidden="false" book="BtGoA" page="76">
       <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
       <modifiers/>
@@ -2654,6 +2651,9 @@ D10 Result:
 4: Take D3 additional pins and go down. Weapon malfunction.
 5: Take D6 additional pins and take a break test - destroyed if failed, go down if passed.
 6-10: Destroyed</description>
+      <modifiers/>
+    </rule>
+    <rule id="4abc-52df-bbed-7b28" name="New Rule" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
