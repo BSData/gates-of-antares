@@ -3,7 +3,7 @@
   <entries>
     <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="87.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0654-4b4e-d76b-a53d" name="Drop Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0654-4b4e-d76b-a53d" name="&gt; Drop Commander" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="4cfa-2333-4c35-356e" name="&lt; Drop Commander Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -112,9 +112,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="6459-ea8a-0c57-1278" name="C3 Drop Squad" points="67.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="6459-ea8a-0c57-1278" name="C3 Drop Squad" points="98.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="3f1f-e456-24f8-eb1b" name="Drop Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3f1f-e456-24f8-eb1b" name="&gt; Drop Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="627f-e775-551d-a76b" name="&lt; Strike Leader Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -168,14 +168,7 @@
         <entry id="823f-b505-a915-8e27" name="Drop Trooper" points="26.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6459-ea8a-0c57-1278" childId="0742-5d15-198f-f65a" field="selections" type="equal to" value="2.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
           <links>
@@ -188,32 +181,18 @@
             <link id="b2c6-6d61-9ac9-0a04" targetId="eafe-a83e-6cfd-0559" linkType="entry">
               <modifiers/>
             </link>
+            <link id="7d7d-a379-286b-228e" targetId="21a7-132d-6703-9ff6" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entry>
-        <entry id="0742-5d15-198f-f65a" name="Drop Trooper with Plasma Lance" points="31.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0742-5d15-198f-f65a" name="Plasma Lance" points="5.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6459-ea8a-0c57-1278" childId="823f-b505-a915-8e27" field="selections" type="equal to" value="6.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
-          <links>
-            <link id="2865-091f-b179-3d47" targetId="1219-e29a-7fa7-a09e" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="a776-201f-e70a-3273" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="09ef-a38a-c4c7-eab5" targetId="21a7-132d-6703-9ff6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups>
@@ -306,7 +285,7 @@
             </link>
           </links>
         </entry>
-        <entry id="8b1d-c9da-076d-d08e" name="&lt; Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8b1d-c9da-076d-d08e" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -396,7 +375,7 @@
             </link>
           </links>
         </entry>
-        <entry id="8783-ed89-1004-1495" name="&lt; Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8783-ed89-1004-1495" name="Interceptor Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -502,7 +481,7 @@
             </link>
           </links>
         </entry>
-        <entry id="25b4-7c4e-e579-4fee" name="&lt; Strike Trooper" points="22.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="25b4-7c4e-e579-4fee" name="Strike Trooper" points="22.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -563,17 +542,10 @@
     </entry>
     <entry id="a2f5-7c0a-21e5-7b0b" name="C3 Strike Squad" points="32.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="3dd7-c3aa-50ca-26b2" name="&lt; Strike Trooper" points="20.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3dd7-c3aa-50ca-26b2" name="Strike Trooper" points="20.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="a2f5-7c0a-21e5-7b0b" childId="da65-0727-324a-34da" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
           <links>
@@ -588,26 +560,13 @@
             </link>
           </links>
         </entry>
-        <entry id="da65-0727-324a-34da" name="&lt; Strike Trooper With Plasma Lance" points="23.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="da65-0727-324a-34da" name="Plasma Lance" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="a2f5-7c0a-21e5-7b0b" childId="3dd7-c3aa-50ca-26b2" field="selections" type="equal to" value="7.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="1d51-ab77-ada6-6fd0" targetId="6688-b331-6578-fb30" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="1317-ef0a-e014-d480" targetId="bf65-f7cb-1b50-d144" linkType="entry">
-              <modifiers/>
-            </link>
             <link id="73c1-5b5c-b994-a075" targetId="21a7-132d-6703-9ff6" linkType="entry">
               <modifiers/>
             </link>
@@ -2546,46 +2505,14 @@
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="5c9b-1bde-ee01-04a4" name="Command" hidden="false">
+    <rule id="7680-b7ff-1ca0-9855" name="AG Chute" hidden="false" book="BtGoA" page="120">
+      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
       <modifiers/>
     </rule>
-    <rule id="b0ca-8e7d-d03f-f027" name="Fast" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="7bc9-5e98-2914-5abd" name="Follow" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="3c64-6022-a5f1-9c04" name="Hero" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="a221-d53c-b4bd-b52c" name="Large" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="e441-c3a6-7d61-2c63" name="Leader" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="7850-89e7-bab8-86e9" name="Leader 2" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="05bb-4d34-70cd-25d2" name="Leader 3" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="d8dc-cf25-ef95-c94b" name="Limited Choice" hidden="false" book="">
-      <modifiers/>
-    </rule>
-    <rule id="5565-ce10-1c78-1ee7" name="MOD2" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="8151-2e24-94ee-0477" name="MOD3" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="7c88-64d4-50ad-2313" name="Slow" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false">
+    <rule id="4052-0eb4-88d7-cab0" name="Arc" hidden="false" book="BtGoA" page="88">
+      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
+
+OH shots are affected if the target is within 3&quot; of the marker. </description>
       <modifiers/>
     </rule>
     <rule id="178b-d746-0f1a-74ec" name="Batter Drone" hidden="false" book="BtGoA" page="110">
@@ -2616,55 +2543,55 @@ No protection is offered for OH shots.</description>
       <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
       <modifiers/>
     </rule>
-    <rule id="9d5f-b605-0d92-695d" name="HL Armor" hidden="false" book="BtGoA" page="93">
-      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
+    <rule id="5c9b-1bde-ee01-04a4" name="Command" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="19d8-5c9a-2e1f-4d8e" name="Spotter Drone" hidden="false" book="BtGoA" page="114">
-      <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
-
-Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
+    <rule id="b0ca-8e7d-d03f-f027" name="Fast" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="3f71-546f-6b34-b449" name="Weapon Drone" hidden="false" book="BtGoA" page="115">
-      <description>Always measure to model, not base. Not allowed to assault. Never take a break test, however auto-break if suffer pins equal to their Co stat. If drone fails a Res test, roll on Weapon Drone Damage Chart.
-
-D10 Result:
-1: Take one additional pin and go down.
-2: Take D3 additional pins and go down.
-3: Take D3 additional pins and go down. Immobilized.
-4: Take D3 additional pins and go down. Weapon malfunction.
-5: Take D6 additional pins and take a break test - destroyed if failed, go down if passed.
-6-10: Destroyed</description>
-      <modifiers/>
-    </rule>
-    <rule id="1b89-5e18-0f71-7dc5" name="Slingnet Ammo" hidden="false" book="BtGoA" page="112">
-      <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1c4c-aaaf-0a08-e69e" name="Self Repair" hidden="false" book="BtGoA" page="137">
-      <description>Give unit rally order. If no pins exist after order, may attempt one repair on  immobilisation or weapon. 1-5 = success, 6-10 failure. Success = that function is working again.</description>
-      <modifiers/>
-    </rule>
-    <rule id="fbb8-f81a-2985-1273" name="Plasma Fade" hidden="false" book="BtGoA" page="76">
-      <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
-      <modifiers/>
-    </rule>
-    <rule id="0cea-c47e-7c2e-2ea2" name="New Rule" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="2ff2-534c-34fe-b56b" name="Medi-Drone" hidden="false" book="BtGoA" page="113">
-      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
-      <modifiers/>
-    </rule>
-    <rule id="f62d-5e99-81f7-07dd" name="Inaccurate" hidden="false" book="BtGoA" page="70">
-      <description>Additional -1 Acc penalty.</description>
+    <rule id="7bc9-5e98-2914-5abd" name="Follow" hidden="false">
       <modifiers/>
     </rule>
     <rule id="053b-a389-59c4-0e00" name="Grip" hidden="false" book="BtGoA" page="87">
       <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
 
 If a unit moves within 3&quot; it must take the Ag test as above. </description>
+      <modifiers/>
+    </rule>
+    <rule id="3c64-6022-a5f1-9c04" name="Hero" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="9d5f-b605-0d92-695d" name="HL Armor" hidden="false" book="BtGoA" page="93">
+      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
+      <modifiers/>
+    </rule>
+    <rule id="f62d-5e99-81f7-07dd" name="Inaccurate" hidden="false" book="BtGoA" page="70">
+      <description>Additional -1 Acc penalty.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a221-d53c-b4bd-b52c" name="Large" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="e441-c3a6-7d61-2c63" name="Leader" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="7850-89e7-bab8-86e9" name="Leader 2" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="05bb-4d34-70cd-25d2" name="Leader 3" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="d8dc-cf25-ef95-c94b" name="Limited Choice" hidden="false" book="">
+      <modifiers/>
+    </rule>
+    <rule id="2ff2-534c-34fe-b56b" name="Medi-Drone" hidden="false" book="BtGoA" page="113">
+      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
+      <modifiers/>
+    </rule>
+    <rule id="5565-ce10-1c78-1ee7" name="MOD2" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="8151-2e24-94ee-0477" name="MOD3" hidden="false">
       <modifiers/>
     </rule>
     <rule id="b81d-9f77-4c39-3887" name="Net" hidden="false" book="BtGoA" page="88">
@@ -2677,10 +2604,11 @@ Mag Mortar: D10+1 pin
 Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="4052-0eb4-88d7-cab0" name="Arc" hidden="false" book="BtGoA" page="88">
-      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
-
-OH shots are affected if the target is within 3&quot; of the marker. </description>
+    <rule id="4abc-52df-bbed-7b28" name="New Rule" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="fbb8-f81a-2985-1273" name="Plasma Fade" hidden="false" book="BtGoA" page="76">
+      <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
       <modifiers/>
     </rule>
     <rule id="f2cb-33fd-610a-eda3" name="Scoot" hidden="false" book="BtGoA" page="88">
@@ -2693,8 +2621,39 @@ OH shots are affected if the target is within 3&quot; of the marker. </descripti
 Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="7680-b7ff-1ca0-9855" name="AG Chute" hidden="false" book="BtGoA" page="120">
-      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
+    <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="1c4c-aaaf-0a08-e69e" name="Self Repair" hidden="false" book="BtGoA" page="137">
+      <description>Give unit rally order. If no pins exist after order, may attempt one repair on  immobilisation or weapon. 1-5 = success, 6-10 failure. Success = that function is working again.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1b89-5e18-0f71-7dc5" name="Slingnet Ammo" hidden="false" book="BtGoA" page="112">
+      <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7c88-64d4-50ad-2313" name="Slow" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="19d8-5c9a-2e1f-4d8e" name="Spotter Drone" hidden="false" book="BtGoA" page="114">
+      <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
+
+Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="3f71-546f-6b34-b449" name="Weapon Drone" hidden="false" book="BtGoA" page="115">
+      <description>Always measure to model, not base. Not allowed to assault. Never take a break test, however auto-break if suffer pins equal to their Co stat. If drone fails a Res test, roll on Weapon Drone Damage Chart.
+
+D10 Result:
+1: Take one additional pin and go down.
+2: Take D3 additional pins and go down.
+3: Take D3 additional pins and go down. Immobilized.
+4: Take D3 additional pins and go down. Weapon malfunction.
+5: Take D6 additional pins and take a break test - destroyed if failed, go down if passed.
+6-10: Destroyed</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -3222,6 +3181,18 @@ Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cea
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="74c6-e541-9bf3-7b75" profileTypeId="1650-77b3-10d1-6406" name="New Profile" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
+        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
+        <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
+        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
+        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
+        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
+        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
       </characteristics>
       <modifiers/>
     </profile>
