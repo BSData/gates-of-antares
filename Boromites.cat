@@ -2316,13 +2316,13 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="569a-18bc-859d-de0a" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Cannon" hidden="false">
+        <profile id="569a-18bc-859d-de0a" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Gun" hidden="false" book="BRB" page="69">
           <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="50"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="100"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="5"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Massive Damage"/>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="60"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value=""/>
           </characteristics>
           <modifiers/>
         </profile>
