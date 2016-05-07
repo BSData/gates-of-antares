@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="18ef-359c-e44c-e44a" revision="3" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+    <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
       <entries>
-        <entry id="e8ef-1777-4402-6ec0" name="Block!" points="5.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="e8ef-1777-4402-6ec0" name="Block!" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -11,7 +11,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b615-30f1-ad69-12c1" name="Get Up!" points="10.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="b615-30f1-ad69-12c1" name="Get Up!" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
