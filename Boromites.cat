@@ -43,7 +43,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="7221-adbb-9c56-8b4f" name="Marksman" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="7221-adbb-9c56-8b4f" name="Marksman" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
