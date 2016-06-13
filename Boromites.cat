@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" revision="3" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" revision="4" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+    <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
       <entries>
-        <entry id="e8ef-1777-4402-6ec0" name="Block!" points="5.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="e8ef-1777-4402-6ec0" name="Block!" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -11,7 +11,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b615-30f1-ad69-12c1" name="Get Up!" points="10.0" categoryId="663a-246b-f604-a528" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="b615-30f1-ad69-12c1" name="Get Up!" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43,7 +43,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="7221-adbb-9c56-8b4f" name="Marksman" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+        <entry id="7221-adbb-9c56-8b4f" name="Marksman" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2316,13 +2316,13 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="569a-18bc-859d-de0a" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Cannon" hidden="false">
+        <profile id="569a-18bc-859d-de0a" profileTypeId="ecae-8ac8-2c13-0dd3" name="Mag Gun" hidden="false" book="BRB" page="69">
           <characteristics>
-            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="50"/>
-            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="100"/>
-            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="5"/>
-            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Massive Damage"/>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="60"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value=""/>
           </characteristics>
           <modifiers/>
         </profile>
