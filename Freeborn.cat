@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="64d6-1cd3-6226-4554" revision="3" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Freeborn" authorName="Michael Ovsenik / Vescarea" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="66a7-b2ec-cfcc-8359" name="&lt; Commnd Squad Options - Must choose first" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="66a7-b2ec-cfcc-8359" name="Commnd Squad Options - Must choose first" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="c017-7f96-06bd-fd6b" name="Select one of the following option and the relevent selection will appear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="3933-5e9f-f85c-ba75" name="1&lt; Add 2 extra bodygaurds" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="3933-5e9f-f85c-ba75" name="1Add 2 extra bodygaurds" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -14,7 +14,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="a400-34cd-f726-fbf6" name="9&lt; Add Batter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a400-34cd-f726-fbf6" name="9Add Batter Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -22,7 +22,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="ad0d-a741-67ad-5d5c" name="7&lt; Add up to 2 Gun Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="ad0d-a741-67ad-5d5c" name="7Add up to 2 Gun Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -30,7 +30,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="d17a-ef4d-2148-25e8" name="8&lt; Add up to 2 shield Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="d17a-ef4d-2148-25e8" name="8Add up to 2 shield Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -38,7 +38,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="6559-a8ba-d266-7c27" name="2&lt; HL Armour for unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="6559-a8ba-d266-7c27" name="2HL Armour for unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -46,7 +46,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="1ef5-d006-6a32-fddb" name="3&lt; Phase Armour for unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1ef5-d006-6a32-fddb" name="3Phase Armour for unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -54,7 +54,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="a04c-3029-b790-0cdb" name="4&lt; Give Captain plasma Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a04c-3029-b790-0cdb" name="4Give Captain plasma Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -62,7 +62,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="a90a-cec1-cd13-3c17" name="5&lt; Give Captain Compression Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a90a-cec1-cd13-3c17" name="5Give Captain Compression Carbine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -70,7 +70,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="7f96-ddf7-af5d-958a" name="6&lt; Give Bodygaurds Compression carbines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="7f96-ddf7-af5d-958a" name="6Give Bodygaurds Compression carbines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -78,7 +78,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="39a7-bedc-c912-a9f0" name="0&lt; None" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="39a7-bedc-c912-a9f0" name="0None" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers>
@@ -106,10 +106,10 @@
     </entry>
     <entry id="a44f-4447-aff2-0dcd" name="Domari Squad (Household Troops)" points="22.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
       <entries>
-        <entry id="c61f-6de1-069d-821f" name="&lt; Household Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
+        <entry id="c61f-6de1-069d-821f" name="Household Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
           <entries/>
           <entryGroups>
-            <entryGroup id="eeeb-14fc-3015-51fc" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="eeeb-14fc-3015-51fc" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -119,7 +119,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="614f-b64a-4c29-8d4f" name="&lt; Ranged Weapon &gt;" defaultEntryId="2bc1-4f6e-02ba-7d1c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="614f-b64a-4c29-8d4f" name="Ranged Weapon" defaultEntryId="2bc1-4f6e-02ba-7d1c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -216,7 +216,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="678a-8f30-acb7-0053" name="&lt; Unit Armor &gt;" defaultEntryId="a03c-46bd-0028-b43e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="678a-8f30-acb7-0053" name="Unit Armor" defaultEntryId="a03c-46bd-0028-b43e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -226,7 +226,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="e31c-0032-c416-8471" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e31c-0032-c416-8471" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -272,7 +272,7 @@
         <entry id="d398-8780-d6cb-1241" name="&gt; Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="fa1b-d08c-0a23-97f5" name="&lt; Leader Level &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="fa1b-d08c-0a23-97f5" name="Leader Level" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -379,10 +379,10 @@
     </entry>
     <entry id="1044-b654-0ca0-e5ad" name="Feral Skark Squad (Mhagris)" points="115.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
       <entries>
-        <entry id="c7f9-56fe-b1f2-8d86" name="&lt; Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
+        <entry id="c7f9-56fe-b1f2-8d86" name="Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="fdfc-05ca-f8f0-d848" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="fdfc-05ca-f8f0-d848" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="7938-5e37-03c2-36f9" name="Leader Two" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -479,7 +479,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="6a38-a612-5d6b-f4b0" name="&lt; Unit Ranged Weapon &gt;" defaultEntryId="fe21-b7fd-711d-b2f5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6a38-a612-5d6b-f4b0" name="Unit Ranged Weapon" defaultEntryId="fe21-b7fd-711d-b2f5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -489,7 +489,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="835f-70e0-eb3b-6fe3" name="&lt; Unit Armor&gt;" defaultEntryId="3555-0453-6307-704b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="835f-70e0-eb3b-6fe3" name="Unit Armor&gt;" defaultEntryId="3555-0453-6307-704b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -499,7 +499,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="f1fd-e630-1832-069b" name="&lt; Unit Close Combat Weapon &gt;" defaultEntryId="ae29-c766-0fde-446c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f1fd-e630-1832-069b" name="Unit Close Combat Weapon" defaultEntryId="ae29-c766-0fde-446c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -539,10 +539,10 @@
     </entry>
     <entry id="5cda-2300-7dae-8090" name="Feral Squad (Mhagris)" points="18.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BTGOA" page="191">
       <entries>
-        <entry id="060b-a9a7-c641-af07" name="&lt; Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
+        <entry id="060b-a9a7-c641-af07" name="Feral Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
           <entries/>
           <entryGroups>
-            <entryGroup id="7bf3-7f8c-bb36-8056" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="7bf3-7f8c-bb36-8056" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -555,7 +555,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="f6c4-adbe-a27d-129a" name="&lt; Ranged Weapon &gt;" defaultEntryId="b6be-4b77-ef52-cd3a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="f6c4-adbe-a27d-129a" name="Ranged Weapon" defaultEntryId="b6be-4b77-ef52-cd3a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -609,7 +609,7 @@
         <entry id="26dc-46a0-f598-e869" name="Feral Fighter" points="11.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="11" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="b699-14bd-4f42-6832" name="&lt; Ranged Weapon &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="b699-14bd-4f42-6832" name="Ranged Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -650,7 +650,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="13f2-f4e6-8cb9-000e" name="&lt; Unit Armor &gt;" defaultEntryId="0479-9c51-eb5f-7880" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="13f2-f4e6-8cb9-000e" name="Unit Armor" defaultEntryId="0479-9c51-eb5f-7880" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="0479-9c51-eb5f-7880" name="None" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -736,7 +736,7 @@
         <entry id="c30a-e7b6-bb84-7bb5" name="Striker" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="c647-b28b-df13-6d30" name="&lt; Unit Weapon &gt;" defaultEntryId="b030-5851-0170-e80b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="c647-b28b-df13-6d30" name="Unit Weapon" defaultEntryId="b030-5851-0170-e80b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -781,7 +781,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="eb1e-c626-334f-2865" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="eb1e-c626-334f-2865" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -813,10 +813,10 @@
     </entry>
     <entry id="b73b-6140-e2ca-f0c1" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="b36d-f9f6-80eb-6f8a" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="b36d-f9f6-80eb-6f8a" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="ee93-85a8-a748-3858" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="ee93-85a8-a748-3858" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -826,10 +826,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="0c11-a12d-3376-0b4b" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="0c11-a12d-3376-0b4b" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="d72b-f17d-2842-5908" name="&lt; Armour &gt;" defaultEntryId="d821-bfad-6e70-be4a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="d72b-f17d-2842-5908" name="Armour" defaultEntryId="d821-bfad-6e70-be4a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -839,7 +839,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="6343-7996-c9c2-e583" name="&lt; Weapons &gt;" defaultEntryId="c38c-46e0-0457-f57d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="6343-7996-c9c2-e583" name="Weapons" defaultEntryId="c38c-46e0-0457-f57d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -873,7 +873,7 @@
         <entry id="6b48-ec12-ab6c-2063" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="c9a4-5ee7-f187-8235" name="&lt; Armour &gt;" defaultEntryId="5b9a-d663-bb0e-6480" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="c9a4-5ee7-f187-8235" name="Armour" defaultEntryId="5b9a-d663-bb0e-6480" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -883,7 +883,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="ce36-0f86-ad2b-2de0" name="&lt; Weapons &gt;" defaultEntryId="ffe5-b36e-981d-67c8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="ce36-0f86-ad2b-2de0" name="Weapons" defaultEntryId="ffe5-b36e-981d-67c8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -912,7 +912,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="87b2-db05-700b-2ce2" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="87b2-db05-700b-2ce2" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1006,10 +1006,10 @@
     </entry>
     <entry id="15e4-e4af-15f1-94c3" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="8b00-b972-e10d-1390" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="8b00-b972-e10d-1390" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="b997-071f-1f47-aee8" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="b997-071f-1f47-aee8" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1019,10 +1019,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="992a-ced2-9419-513c" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="992a-ced2-9419-513c" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="f80a-cee4-23df-5b8d" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="f80a-cee4-23df-5b8d" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1032,7 +1032,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="a5f8-02a4-689a-510f" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="a5f8-02a4-689a-510f" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1066,7 +1066,7 @@
         <entry id="16e2-4b59-8a36-351a" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="70fa-1e75-d60b-2e16" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="70fa-1e75-d60b-2e16" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1076,7 +1076,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="05c5-0dc8-f360-2012" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="05c5-0dc8-f360-2012" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1105,7 +1105,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="4fd9-336f-cb2a-74cb" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4fd9-336f-cb2a-74cb" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1148,10 +1148,10 @@
     </entry>
     <entry id="4224-b512-8e27-a7ae" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="8166-8ae2-85a7-d508" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="8166-8ae2-85a7-d508" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="ec55-a3a6-79d2-3d8d" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="ec55-a3a6-79d2-3d8d" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1161,10 +1161,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="bc83-ae90-8685-ec61" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="bc83-ae90-8685-ec61" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="8610-880b-d363-2842" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="8610-880b-d363-2842" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1174,7 +1174,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="b05f-e970-7acf-b5c2" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="b05f-e970-7acf-b5c2" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1208,7 +1208,7 @@
         <entry id="733f-d5cf-9ed2-cd37" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="2a25-debf-a112-08f8" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2a25-debf-a112-08f8" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1218,7 +1218,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="64e2-25c4-0a20-fd6f" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="64e2-25c4-0a20-fd6f" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1247,7 +1247,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="01c0-de81-eb4f-6520" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="01c0-de81-eb4f-6520" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1290,10 +1290,10 @@
     </entry>
     <entry id="0f65-b8ed-b8b2-294a" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="6f3f-e7de-8b1f-9a45" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="6f3f-e7de-8b1f-9a45" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="3f21-c5d0-9056-3513" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="3f21-c5d0-9056-3513" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1303,10 +1303,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="eba6-42f4-e601-d9d4" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="eba6-42f4-e601-d9d4" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="0c25-94d1-2ee1-8f97" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="0c25-94d1-2ee1-8f97" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1316,7 +1316,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="1d89-7fac-a8ca-dea9" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="1d89-7fac-a8ca-dea9" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1355,7 +1355,7 @@
         <entry id="f539-7c50-1fed-c0fe" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="db1b-d74c-4488-f114" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="db1b-d74c-4488-f114" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1365,7 +1365,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="da8e-2b95-0031-818a" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="da8e-2b95-0031-818a" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1394,7 +1394,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="6c4b-1586-3d8b-dbda" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6c4b-1586-3d8b-dbda" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1437,10 +1437,10 @@
     </entry>
     <entry id="ff83-951c-1523-67b4" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="0b68-b15d-4f21-400d" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="0b68-b15d-4f21-400d" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="4f77-859f-d36f-3f51" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="4f77-859f-d36f-3f51" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1450,10 +1450,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="534d-0cc6-dc8f-0e4a" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="534d-0cc6-dc8f-0e4a" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="6168-628e-5ed2-eaa9" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="6168-628e-5ed2-eaa9" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1463,7 +1463,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="5ec4-d224-e3cc-e5a6" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="5ec4-d224-e3cc-e5a6" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1502,7 +1502,7 @@
         <entry id="b52c-6be6-7a76-ba77" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="48ac-19f4-04e6-2834" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="48ac-19f4-04e6-2834" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1512,7 +1512,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="1095-6dad-810d-ff4f" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="1095-6dad-810d-ff4f" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1534,7 +1534,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="4329-ec3b-739b-0050" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4329-ec3b-739b-0050" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1577,10 +1577,10 @@
     </entry>
     <entry id="d603-36ff-a2eb-312f" name="Freeborn Command Squad" points="70.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="3c30-80dd-c936-7ccf" name="&lt; Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
+        <entry id="3c30-80dd-c936-7ccf" name="Freeborn Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="6111-3b3b-a2ef-bdbc" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="6111-3b3b-a2ef-bdbc" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1590,10 +1590,10 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="c091-1c08-a4c1-1e30" name="&lt;Freeborn Captain Equipment &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="c091-1c08-a4c1-1e30" name="&lt;Freeborn Captain Equipment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="90d1-c02b-6791-3678" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="90d1-c02b-6791-3678" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1603,7 +1603,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="954d-9823-9e71-fdb2" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="954d-9823-9e71-fdb2" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1637,7 +1637,7 @@
         <entry id="70ef-17b0-4cc6-59d6" name="Bodygaurds" points="26.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="190">
           <entries/>
           <entryGroups>
-            <entryGroup id="b2b0-8472-6f6f-b03b" name="&lt; Armour &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="b2b0-8472-6f6f-b03b" name="Armour" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1647,7 +1647,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="cd16-bf68-6808-737f" name="&lt; Weapons &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="cd16-bf68-6808-737f" name="Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1669,7 +1669,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="1359-b8c0-aedb-1bbe" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1359-b8c0-aedb-1bbe" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1715,7 +1715,7 @@
         <entry id="d45c-a6e2-b912-4bcd" name="Freeborn Crew" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="8b71-ca9c-1ca2-0abc" name="&lt; Unit Weapon &gt;" defaultEntryId="42ad-31e5-60a7-9e01" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="8b71-ca9c-1ca2-0abc" name="Unit Weapon" defaultEntryId="42ad-31e5-60a7-9e01" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1733,7 +1733,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="9dd0-b9bb-59a6-5f05" name="&lt; Unit Armor &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9dd0-b9bb-59a6-5f05" name="Unit Armor" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1763,7 +1763,7 @@
             </link>
           </links>
         </entry>
-        <entry id="fbf9-c041-1c4f-707d" name="&lt; Promote &gt;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fbf9-c041-1c4f-707d" name="Promote" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1777,7 +1777,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="a4e6-016c-c52f-4548" name="&lt; Support Weapon &gt;" defaultEntryId="f434-b021-4e80-826a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="a4e6-016c-c52f-4548" name="Support Weapon" defaultEntryId="f434-b021-4e80-826a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1811,7 +1811,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="16f8-cbcf-1527-66e2" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="16f8-cbcf-1527-66e2" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1849,12 +1849,12 @@
     <entry id="1405-a43b-534b-ab05" name="Freeborn Nuhu Renegade" points="132.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
       <entries/>
       <entryGroups>
-        <entryGroup id="a2f4-4dc6-77ae-47c3" name="&lt; Freeborn Renegade Option &gt;" defaultEntryId="df76-0766-2149-0a05" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="a2f4-4dc6-77ae-47c3" name="Freeborn Renegade Option" defaultEntryId="df76-0766-2149-0a05" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="df76-0766-2149-0a05" name="Freeborn Nuhu Renegade" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
               <entries/>
               <entryGroups>
-                <entryGroup id="b8fc-7c31-a28e-2734" name="&lt; Close Combat Weapon &gt;" defaultEntryId="6411-27f7-6c9d-41d5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="b8fc-7c31-a28e-2734" name="Close Combat Weapon" defaultEntryId="6411-27f7-6c9d-41d5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1864,7 +1864,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="dfa1-9c18-5508-8d84" name="&lt; Ranged Weapon &gt;" defaultEntryId="5252-b85f-713e-89e3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="dfa1-9c18-5508-8d84" name="Ranged Weapon" defaultEntryId="5252-b85f-713e-89e3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1899,7 +1899,7 @@
             <entry id="1b3e-6788-9f9a-5ed5" name="Freeborn NuHu Renegade Meld" points="163.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="7f1e-6fe3-4c0d-1835" name="&lt; Close Combat Weapon &gt;" defaultEntryId="4e50-184a-086b-ddf4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="7f1e-6fe3-4c0d-1835" name="Close Combat Weapon" defaultEntryId="4e50-184a-086b-ddf4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1909,7 +1909,7 @@
                     </link>
                   </links>
                 </entryGroup>
-                <entryGroup id="71f0-8ea7-438d-6aaf" name="&lt; Ranged Weapon &gt;" defaultEntryId="7123-c19b-8cec-f0c7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="71f0-8ea7-438d-6aaf" name="Ranged Weapon" defaultEntryId="7123-c19b-8cec-f0c7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -2005,7 +2005,7 @@
     </entry>
     <entry id="0223-7d39-0a7c-f8a9" name="Freeborn Skyraider Squad" points="121.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="174">
       <entries>
-        <entry id="cffa-15d6-0631-ed32" name="&lt; Skyraider Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
+        <entry id="cffa-15d6-0631-ed32" name="Skyraider Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
           <entries/>
           <entryGroups>
             <entryGroup id="6fb4-5cba-7e48-83e2" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2047,7 +2047,7 @@
         <entry id="b5b1-72ee-b28c-ed4a" name="Skyraider Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
           <entries/>
           <entryGroups>
-            <entryGroup id="d042-54cc-962c-5c4e" name="&lt; Ranged Weapon &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="d042-54cc-962c-5c4e" name="Ranged Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2069,7 +2069,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="84fe-b5cd-ab19-23e4" name="&lt; Skyraider &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="84fe-b5cd-ab19-23e4" name="Skyraider" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2079,7 +2079,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="46d3-88f8-ecac-204c" name="&lt; Special Weapon Option &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="46d3-88f8-ecac-204c" name="Special Weapon Option" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2092,7 +2092,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="f5d5-4b78-eab5-56a2" name="&lt; Unit Armor &gt;" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f5d5-4b78-eab5-56a2" name="Unit Armor" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2105,7 +2105,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="d56e-be22-258f-698c" name="&lt; Unit Options &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d56e-be22-258f-698c" name="Unit Options " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2140,7 +2140,7 @@
         <entry id="bb44-58f4-62b7-989d" name="Freeborn Crew" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="da65-0295-8e02-4356" name="&lt; Unit Weapon &gt;" defaultEntryId="e081-6f9b-47f1-8d2e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="da65-0295-8e02-4356" name="Unit Weapon" defaultEntryId="e081-6f9b-47f1-8d2e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2158,7 +2158,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="8003-fecb-500b-a2f1" name="&lt; Unit Armor &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="8003-fecb-500b-a2f1" name="Unit Armor" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2188,7 +2188,7 @@
             </link>
           </links>
         </entry>
-        <entry id="d75e-75e5-9d66-7884" name="&lt; Promote &gt;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d75e-75e5-9d66-7884" name="Promote" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2202,7 +2202,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="7b8f-9d4d-fe28-010d" name="&lt; Support Weapon &gt;" defaultEntryId="c4cb-5ad3-29f5-e064" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7b8f-9d4d-fe28-010d" name="Support Weapon" defaultEntryId="c4cb-5ad3-29f5-e064" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2220,7 +2220,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="8ae5-cb57-4392-b6d3" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8ae5-cb57-4392-b6d3" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2260,7 +2260,7 @@
         <entry id="3b68-a4c9-03bb-dd68" name="Freeborn Crew" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="193">
           <entries/>
           <entryGroups>
-            <entryGroup id="09ce-fa1f-63c6-0dee" name="&lt; Unit Weapon &gt;" defaultEntryId="e022-953c-7321-fa34" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="09ce-fa1f-63c6-0dee" name="Unit Weapon" defaultEntryId="e022-953c-7321-fa34" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2270,7 +2270,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="af1b-11cd-5a0f-d758" name="&lt; Unit Armor &gt;" defaultEntryId="20cd-dacc-9c25-5545" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="af1b-11cd-5a0f-d758" name="Unit Armor" defaultEntryId="20cd-dacc-9c25-5545" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2300,7 +2300,7 @@
             </link>
           </links>
         </entry>
-        <entry id="5baf-a32e-e0b0-f74a" name="&lt; Promote &gt;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5baf-a32e-e0b0-f74a" name="Promote" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2367,7 +2367,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="52c4-3f29-7cff-341f" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="52c4-3f29-7cff-341f" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2442,7 +2442,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="3dc6-b2b7-80a4-d6db" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3dc6-b2b7-80a4-d6db" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="7189-205b-e43f-4b47" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2498,7 +2498,7 @@
         <entry id="01f5-c3d0-42de-8d99" name="&gt; Transporter Drone" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="195">
           <entries/>
           <entryGroups>
-            <entryGroup id="0bd6-01b0-8347-296b" name="&lt; Weapon &gt;" defaultEntryId="dd0c-d323-b658-fa67" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="0bd6-01b0-8347-296b" name="Weapon" defaultEntryId="dd0c-d323-b658-fa67" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2528,7 +2528,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="bcac-a955-0a97-bdb0" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="bcac-a955-0a97-bdb0" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="e39c-f576-faa5-f1da" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2586,7 +2586,7 @@
         <entry id="30bd-b309-a7e2-ce17" name="&gt; Combat Drone" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="195">
           <entries/>
           <entryGroups>
-            <entryGroup id="e349-a387-3011-cdb4" name="&lt; Main Weapon &gt;" defaultEntryId="64cd-d0a7-af3d-bd56" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="e349-a387-3011-cdb4" name="Main Weapon" defaultEntryId="64cd-d0a7-af3d-bd56" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2627,7 +2627,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="42d3-0396-7538-2afe" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="42d3-0396-7538-2afe" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="3d7b-8b6c-0bc7-2176" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2682,7 +2682,7 @@
         <entry id="aaf8-6738-2b45-c252" name="&gt; Heavy Support Drone" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="195">
           <entries/>
           <entryGroups>
-            <entryGroup id="5086-9f66-b442-f987" name="&lt; Weapon &gt;" defaultEntryId="1e4a-57fb-e968-6982" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="5086-9f66-b442-f987" name="Weapon" defaultEntryId="1e4a-57fb-e968-6982" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2718,7 +2718,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="8226-5f69-098e-16a2" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8226-5f69-098e-16a2" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="b1c4-3032-4af5-5874" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2835,7 +2835,7 @@
     </entry>
     <entry id="969a-8139-9654-9cdf" name="Skyraider Command Squad" points="164.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="174">
       <entries>
-        <entry id="d40e-0a4d-13fa-863b" name="&lt; Skyraider Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
+        <entry id="d40e-0a4d-13fa-863b" name="Skyraider Captain" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
           <entries/>
           <entryGroups>
             <entryGroup id="e0b2-8c3a-7575-9736" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2877,7 +2877,7 @@
         <entry id="2c42-d94f-83c4-fb4f" name="Skyraider Trooper" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
           <entries/>
           <entryGroups>
-            <entryGroup id="62da-827c-1a4c-bfef" name="&lt; Ranged Weapon &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="62da-827c-1a4c-bfef" name="Ranged Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2899,7 +2899,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="2996-96fd-31e3-fe8c" name="&lt; Skyraider &gt;" defaultEntryId="92a3-2543-174e-504b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="2996-96fd-31e3-fe8c" name="Skyraider" defaultEntryId="92a3-2543-174e-504b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2909,7 +2909,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="5f94-8423-056d-5f54" name="&lt; Special Weapon Option &gt;" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5f94-8423-056d-5f54" name="Special Weapon Option" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2922,7 +2922,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="2d2f-4f61-9b31-50b5" name="&lt; Unit Armor &gt;" defaultEntryId="6df8-de07-b4b9-201f" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="2d2f-4f61-9b31-50b5" name="Unit Armor" defaultEntryId="6df8-de07-b4b9-201f" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2935,7 +2935,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1858-3233-777b-6a0f" name="&lt; Unit Options &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1858-3233-777b-6a0f" name="Unit Options " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2970,7 +2970,7 @@
         <entry id="e215-3b85-89ba-1fc8" name="&gt; Transporter Drone" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="195">
           <entries/>
           <entryGroups>
-            <entryGroup id="8a07-2ee4-8417-4ab3" name="&lt; Weapon &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="8a07-2ee4-8417-4ab3" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -3016,7 +3016,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="48a3-5d25-ade2-1097" name="&lt; Unit Options &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="48a3-5d25-ade2-1097" name="Unit Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="ad46-f5e3-e9f3-a7de" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3096,10 +3096,10 @@
     </entry>
     <entry id="40ad-08b6-fa6a-0171" name="Vardanari Squad (Guards)" points="32.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
       <entries>
-        <entry id="c3fa-7787-a4d1-50f8" name="&lt; Vardinari Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
+        <entry id="c3fa-7787-a4d1-50f8" name="Vardinari Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="191">
           <entries/>
           <entryGroups>
-            <entryGroup id="189f-239f-cc54-f496" name="&lt; Leader Level &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="189f-239f-cc54-f496" name="Leader Level" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="6cd8-052e-b9da-e94e" name="Leader 2" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -3118,7 +3118,7 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="f5ed-8cd5-154e-1987" name="&lt; Ranged Weapon &gt;" defaultEntryId="c12f-a100-2c77-940b" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="f5ed-8cd5-154e-1987" name="Ranged Weapon" defaultEntryId="c12f-a100-2c77-940b" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -5616,7 +5616,7 @@ May load or unload when their unit makes an action, even down order following fa
     <rule id="6305-72fa-da02-235b" name="Disruptor" hidden="false" book="BtGoA" page="79">
       <description>A target hit by a disruptor weapon gets no cover bonus to its Res roll against the hit.
 
-A non-Ghar target hit by a disruptor weapon takes 2 pins rather than the usual 1 pin. If the target has Res &gt; 10, it takes these pins even if the hit is successfully resisted. Ghar do not suffer these pins. 
+A non-Ghar target hit by a disruptor weapon takes 2 pins rather than the usual 1 pin. If the target has Res 10, it takes these pins even if the hit is successfully resisted. Ghar do not suffer these pins. 
 
 Buddy drones can be allocated hits from this weapon by the shooter from any hits, not just lucky hits.
 
