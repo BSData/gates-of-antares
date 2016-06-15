@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="162d-cc8a-d6e7-6973" revision="10" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="162d-cc8a-d6e7-6973" revision="11" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Concord" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="e8e7-16fc-e243-8d1a" name="C3 Drop Command Squad " points="87.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -341,7 +341,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="2f44-92da-46f8-619d" name="C3 Inerceptor Squad" points="136.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="2f44-92da-46f8-619d" name="C3 Inerceptor Squad" points="136.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="de4c-b135-70a3-c87b" name="&lt; Interceptor Leader" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2922,6 +2922,18 @@ D10 Result:
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="74c6-e541-9bf3-7b75" profileTypeId="1650-77b3-10d1-6406" name="New Profile" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
+        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
+        <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
+        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
+        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
+        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
+        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="41d1-a002-0258-c407" profileTypeId="1650-77b3-10d1-6406" name="NuHu Mandarin" hidden="false">
       <characteristics>
         <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="5"/>
@@ -3181,18 +3193,6 @@ D10 Result:
         <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
         <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
         <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Blast D3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="74c6-e541-9bf3-7b75" profileTypeId="1650-77b3-10d1-6406" name="New Profile" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag"/>
-        <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc"/>
-        <characteristic characteristicId="8294-36f1-6431-2145" name="Str"/>
-        <characteristic characteristicId="f214-abe8-c922-c51b" name="Res"/>
-        <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init"/>
-        <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co"/>
-        <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
       </characteristics>
       <modifiers/>
     </profile>
