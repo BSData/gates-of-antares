@@ -1830,13 +1830,7 @@
         <link id="48d4-1461-0769-1773" targetId="418e-35d2-e555-d54f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c54b-7cd4-55ed-f20f" targetId="1f30-6aae-d989-4ea2" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="d6ff-ab95-696d-d560" targetId="ec07-8982-914d-8377" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1ba8-29fe-6972-cac1" targetId="9868-f4bb-3021-6a60" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1974,13 +1968,7 @@
         <link id="bbc9-a073-071b-8750" targetId="418e-35d2-e555-d54f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d3d8-3399-4a27-2f14" targetId="1f30-6aae-d989-4ea2" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="0c07-2b3b-0131-f400" targetId="ec07-8982-914d-8377" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d7bc-ac84-e6d5-7d29" targetId="9868-f4bb-3021-6a60" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2937,7 +2925,18 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="d1b1-310f-7267-f00b" profileTypeId="ecae-8ac8-2c13-0dd3" name="Locomite Attack" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="H2H Only"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="H2H Only"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="H2H Only"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="2"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="1840-59e5-dd80-f4bb" name="Scout Probe" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="120">
@@ -3195,9 +3194,6 @@
     <rule id="b72c-b9d6-e702-b322" name="Limited Choice" hidden="false" book="BRB" page="158">
       <modifiers/>
     </rule>
-    <rule id="9868-f4bb-3021-6a60" name="Locomite 1 Attack" hidden="false" book="BRB" page="130">
-      <modifiers/>
-    </rule>
     <rule id="4a4d-04f6-0073-5c53" name="MOD2" hidden="false" book="BRB" page="136">
       <modifiers/>
     </rule>
@@ -3223,12 +3219,6 @@
       <modifiers/>
     </rule>
     <rule id="4107-3248-4948-5e1f" name="Spotter Drone" hidden="false" book="brb" page="114">
-      <modifiers/>
-    </rule>
-    <rule id="1f30-6aae-d989-4ea2" name="SV2" hidden="false" book="BRB" page="31">
-      <modifiers/>
-    </rule>
-    <rule id="2a3d-c0e6-ae5f-4b95" name="SV3" hidden="false" book="BRB" page="31">
       <modifiers/>
     </rule>
     <rule id="8d80-a4ff-fb59-92e9" name="Transport 10" hidden="false" book="BRB" page="95">
