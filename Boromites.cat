@@ -1405,15 +1405,22 @@
               </characteristics>
               <modifiers/>
             </profile>
+            <profile id="e8c1-9468-2102-d230" profileTypeId="ecae-8ac8-2c13-0dd3" name="Matronite Brood Mother" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="H2H Only"/>
+                <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="H2H Only"/>
+                <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="H2H Only"/>
+                <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="4"/>
+                <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
           </profiles>
           <links>
             <link id="7f11-5f90-9467-7bf0" targetId="4a4d-04f6-0073-5c53" linkType="rule">
               <modifiers/>
             </link>
             <link id="9bf6-a343-52ed-a144" targetId="7d25-d2b6-7130-a3c0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="bce7-793e-ef9e-5c74" targetId="202e-cddd-8cec-db85" linkType="rule">
               <modifiers/>
             </link>
             <link id="f4d3-96e2-e278-582f" targetId="418e-35d2-e555-d54f" linkType="rule">
@@ -3158,9 +3165,6 @@
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="202e-cddd-8cec-db85" name="1 Attack SV4" hidden="false" book="brb" page="131">
-      <modifiers/>
-    </rule>
     <rule id="ff3a-5fc0-452b-22d7" name="Command" hidden="false" book="BRB" page="133">
       <modifiers/>
     </rule>
