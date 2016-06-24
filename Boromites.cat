@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" revision="6" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" revision="7" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
       <entries>
@@ -1040,13 +1040,7 @@
             </profile>
           </profiles>
           <links>
-            <link id="599d-2648-131e-b70b" targetId="e2e1-0f88-6c01-809a" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8f76-a4ea-f29c-c0fc" targetId="b05d-c5da-2826-2a66" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4b65-7afd-f5fd-dec3" targetId="c97c-6b9f-75b5-f382" linkType="rule">
+            <link id="ab16-10de-c8f9-aba7" targetId="2a5d-364c-c495-0b53" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1343,13 +1337,7 @@
             </profile>
           </profiles>
           <links>
-            <link id="13d4-af52-207c-be07" targetId="b05d-c5da-2826-2a66" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="7a69-e931-452f-7245" targetId="c97c-6b9f-75b5-f382" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="47bf-65ee-564b-eecf" targetId="e2e1-0f88-6c01-809a" linkType="rule">
+            <link id="8a46-d452-441a-ecc6" targetId="2a5d-364c-c495-0b53" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2579,6 +2567,25 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="2a5d-364c-c495-0b53" name="Lavamite Hatchling Attacks" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c41b-2eff-4050-981b" profileTypeId="ecae-8ac8-2c13-0dd3" name="Lavamite Hatchling Attacks" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="H2H Only"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="H2H Only"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="H2H Only"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Lava Spit, 3 Attacks"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="c27e-d5ec-5ea4-9e3d" name="Lectro Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="66">
       <entries/>
       <entryGroups/>
@@ -3155,12 +3162,6 @@
     <rule id="202e-cddd-8cec-db85" name="1 Attack SV4" hidden="false" book="brb" page="131">
       <modifiers/>
     </rule>
-    <rule id="e2e1-0f88-6c01-809a" name="3 Attacks" hidden="false" book="BRB" page="133">
-      <modifiers/>
-    </rule>
-    <rule id="5662-be87-5235-d8cd" name="4 Attacks" hidden="false" book="BRB" page="133">
-      <modifiers/>
-    </rule>
     <rule id="ff3a-5fc0-452b-22d7" name="Command" hidden="false" book="BRB" page="133">
       <modifiers/>
     </rule>
@@ -3180,9 +3181,6 @@
       <modifiers/>
     </rule>
     <rule id="418e-35d2-e555-d54f" name="Large" hidden="false" book="BRB" page="134">
-      <modifiers/>
-    </rule>
-    <rule id="c97c-6b9f-75b5-f382" name="Lava Spit" hidden="false" book="BRB" page="135">
       <modifiers/>
     </rule>
     <rule id="1ebf-4e01-6d59-3d0f" name="Leader" hidden="false" book="BRB" page="135">
@@ -3225,9 +3223,6 @@
       <modifiers/>
     </rule>
     <rule id="4107-3248-4948-5e1f" name="Spotter Drone" hidden="false" book="brb" page="114">
-      <modifiers/>
-    </rule>
-    <rule id="b05d-c5da-2826-2a66" name="SV1" hidden="false" book="BRB" page="31">
       <modifiers/>
     </rule>
     <rule id="1f30-6aae-d989-4ea2" name="SV2" hidden="false" book="BRB" page="31">
