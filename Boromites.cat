@@ -1549,7 +1549,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d5ef-06cb-43ef-3095" name="Boromite Rock Rider Squad" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="184">
+    <entry id="d5ef-06cb-43ef-3095" name="Boromite Rock Rider Squad" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="184">
       <entries>
         <entry id="9c10-a215-a579-9c5e" name="Rock Rider Leader" points="35.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1638,7 +1638,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="-1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="e17f-ad05-cc5e-229c" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="-1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="0b2d-9790-62ec-8c53" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="-1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="2c0d-5521-071d-1952" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -2062,6 +2075,322 @@
           <modifiers/>
         </link>
         <link id="927a-c426-6efa-958b" targetId="1840-59e5-dd80-f4bb" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e17f-ad05-cc5e-229c" name="Boromite Guildess Arran Gestalin (support)" points="0.0" categoryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="112">
+      <entries>
+        <entry id="2b05-68f7-4a1d-55cd" name="Arran Gestalin" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="85a4-a256-973e-7773" profileTypeId="f9a2-eeae-3284-75fd" name="Arran Gestalin" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="4"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="6"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="8"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="7(8)"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="8"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="10"/>
+                <characteristic characteristicId="ab43-4d1c-4651-b424" name="Special"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="63b2-ee33-1047-01f9" targetId="ff3a-5fc0-452b-22d7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0c3c-d9ba-efef-dbaf" targetId="5958-48e4-8481-41ed" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="99fc-6ab1-f581-9e92" targetId="903c-c5cd-53d4-52cc" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0132-0557-5220-fc6b" targetId="6a72-9858-7f5e-22be" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f273-73c6-ac4b-554d" targetId="418e-35d2-e555-d54f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="879a-21ac-bc5b-4e89" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="610e-1961-922b-b5c0" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="42bc-ca42-b1ef-1e2e" targetId="a916-0caf-6b2e-f2eb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f76e-78d4-9f33-15aa" targetId="ddf6-21b8-6d01-7ac5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c0ec-0c24-7d46-8c58" targetId="803d-52a0-55ff-cdc4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="47a5-20ee-01cb-a5c2" targetId="d6df-ce6c-51e8-40ea" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1d8c-9949-1e7c-8f73" name="Rock Rider" points="31.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bd0d-3a1b-9f7c-a3ad" profileTypeId="1650-77b3-10d1-6406" name="Rock Rider" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="4"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="8"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="7(8)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="6"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
+                <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="40a0-0f71-a451-6003" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7286-5ca3-f4fe-0d77" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ec72-5498-8c63-c976" targetId="ddf6-21b8-6d01-7ac5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a548-7615-4266-92ae" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b2c8-c59c-bd4d-fde9" targetId="803d-52a0-55ff-cdc4" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="71b9-c297-793d-06ad" name="Weapon Drone" points="14.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="112">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="76f4-753c-b444-e489" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="dc9d-9972-e215-7b93" name="Weapon Drone" points="14.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="112">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7a86-fad0-3887-b027" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="2c0d-5521-071d-1952" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="bc24-5e02-89a6-3a6e" targetId="c27e-d5ec-5ea4-9e3d" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="1d8c-9949-1e7c-8f73" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="5e28-59d7-f0ff-157e" targetId="19aa-7fc5-12e2-97a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9c1c-4218-a533-4a49" targetId="19aa-7fc5-12e2-97a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="336d-16ee-3817-f2ce" targetId="cd51-1764-7fd7-e8c1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7a29-11fb-0101-0b17" targetId="916d-c962-0de5-5b5d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4410-9f0d-2c1c-c623" targetId="68cd-a10e-45f7-2482" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2c0d-5521-071d-1952" name="Boromite Guildess Arran Gestalin (tactical)" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="112">
+      <entries>
+        <entry id="ba0d-a02f-d9c1-4d76" name="Arran Gestalin" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9b1a-d526-c68e-a680" profileTypeId="f9a2-eeae-3284-75fd" name="Arran Gestalin" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="4"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="6"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="8"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="7(8)"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="8"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="10"/>
+                <characteristic characteristicId="ab43-4d1c-4651-b424" name="Special"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0d38-940a-7447-94e9" targetId="ff3a-5fc0-452b-22d7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="38ed-145f-dc31-69a7" targetId="5958-48e4-8481-41ed" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5d7b-9651-ea89-8f00" targetId="903c-c5cd-53d4-52cc" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="14fa-d567-f169-4c37" targetId="6a72-9858-7f5e-22be" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ab1e-7cb7-9a87-44a1" targetId="418e-35d2-e555-d54f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="69f6-541a-c712-6f8f" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3624-7104-03ed-6a8b" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6185-141a-ae9e-cc82" targetId="a916-0caf-6b2e-f2eb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1cc0-bac5-dbd2-f4dd" targetId="ddf6-21b8-6d01-7ac5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d7aa-0286-7698-c7c8" targetId="803d-52a0-55ff-cdc4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7251-4617-ceba-d6da" targetId="d6df-ce6c-51e8-40ea" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b6ce-dbaf-fff8-b580" name="Rock Rider" points="31.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="db63-d36f-d2ce-2923" profileTypeId="1650-77b3-10d1-6406" name="Rock Rider" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="cf30-f234-691c-47bd" name="Ag" value="4"/>
+                <characteristic characteristicId="017a-9b43-b7b3-030d" name="Acc" value="5"/>
+                <characteristic characteristicId="8294-36f1-6431-2145" name="Str" value="8"/>
+                <characteristic characteristicId="f214-abe8-c922-c51b" name="Res" value="7(8)"/>
+                <characteristic characteristicId="08b9-e038-7ba6-488e" name="Init" value="6"/>
+                <characteristic characteristicId="3993-27b0-c3d9-de20" name="Co" value="9"/>
+                <characteristic characteristicId="3baa-9cfd-f273-822d" name="Special"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0686-4de1-34fe-a824" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1064-8898-63a9-36ed" targetId="ec07-8982-914d-8377" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3058-a290-c56c-518d" targetId="ddf6-21b8-6d01-7ac5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6613-af57-2032-c0ed" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4f3c-cf7e-df52-2ef3" targetId="803d-52a0-55ff-cdc4" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9fd5-ca63-0a55-1b0f" name="Weapon Drone" points="14.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="112">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9794-b1ab-16e0-b2fc" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="dd80-cdb0-17af-a820" name="Weapon Drone" points="14.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="112">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="06c2-dc1c-d2d0-a350" targetId="de1a-0dd2-8671-8dae" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="e17f-ad05-cc5e-229c" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6b36-332c-d95d-9d05" targetId="c27e-d5ec-5ea4-9e3d" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="1d8c-9949-1e7c-8f73" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="92bd-d4d1-de6a-693c" targetId="19aa-7fc5-12e2-97a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9771-d970-c095-e331" targetId="19aa-7fc5-12e2-97a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="032e-d27d-353c-a759" targetId="cd51-1764-7fd7-e8c1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7853-1611-ecc0-6863" targetId="916d-c962-0de5-5b5d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7700-0dcb-b7fb-0058" targetId="68cd-a10e-45f7-2482" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2705,6 +3034,60 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="a916-0caf-6b2e-f2eb" name="Extasor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="112">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="425e-48fe-ae60-2a65" profileTypeId="ecae-8ac8-2c13-0dd3" name="Extasor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="None"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="3 Attacks, Human Sync"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d6df-ce6c-51e8-40ea" name="Xilos Stasis Key" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="57">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a4c9-6fa1-10a8-b6cf" profileTypeId="ecae-8ac8-2c13-0dd3" name="Xilos Stasis Key" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="30"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Requires Fire Order, Time Twisting"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="916d-c962-0de5-5b5d" name="Synchronizer Drone" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="79">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="68cd-a10e-45f7-2482" name="HL Booster Drone" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="??">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
