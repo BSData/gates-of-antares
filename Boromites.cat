@@ -418,6 +418,9 @@
             <link id="47a5-20ee-01cb-a5c2" targetId="d6df-ce6c-51e8-40ea" linkType="entry">
               <modifiers/>
             </link>
+            <link id="5e71-488f-ea32-9e03" targetId="587b-7c27-52f5-56a7" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="1d8c-9949-1e7c-8f73" name="Rock Rider" points="31.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -574,6 +577,9 @@
               <modifiers/>
             </link>
             <link id="7251-4617-ceba-d6da" targetId="d6df-ce6c-51e8-40ea" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4df5-3363-28fc-3557" targetId="587b-7c27-52f5-56a7" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -3232,6 +3238,9 @@
       <modifiers/>
     </rule>
     <rule id="eb7b-7605-9eca-cb60" name="Weapon Team Unit" hidden="false" book="BRB" page="9">
+      <modifiers/>
+    </rule>
+    <rule id="587b-7c27-52f5-56a7" name="Wound" hidden="false" book="BRB" page="230">
       <modifiers/>
     </rule>
   </sharedRules>
