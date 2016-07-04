@@ -4580,7 +4580,7 @@ OH shots are affected if the target is within 3&quot; of the marker. </descripti
     <rule id="6305-72fa-da02-235b" name="Disruptor" hidden="false" book="BtGoA" page="79">
       <description>A target hit by a disruptor weapon gets no cover bonus to its Res roll against the hit.
 
-A non-Ghar target hit by a disruptor weapon takes 2 pins rather than the usual 1 pin. If the target has Res &gt; 10, it takes these pins even if the hit is successfully resisted. Ghar do not suffer these pins. 
+A non-Ghar target hit by a disruptor weapon takes 2 pins rather than the usual 1 pin. If the target has Res 10, it takes these pins even if the hit is successfully resisted. Ghar do not suffer these pins. 
 
 Buddy drones can be allocated hits from this weapon by the shooter from any hits, not just lucky hits.
 
