@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" revision="2" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Algoryn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" revision="3" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" battleScribeVersion="1.15" name="Algoryn" authorName="Michael Ovsenik" authorContact="FB" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b73b-6140-e2ca-f0c1" name="AI Assault Command Squad" points="69.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -718,6 +718,115 @@
           <modifiers/>
         </link>
         <link id="9ee7-2ebf-4786-f817" targetId="3af1-7df9-4f90-c12c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2c84-d60c-787a-53bf" name="AI Command Squad - General Tar Es Janar" points="105.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="172">
+      <entries>
+        <entry id="9ba6-ad89-b106-ccdf" name="General Tar Es Janar" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="3e7b-f325-9d1c-8a70" name="Ranged Weapon" defaultEntryId="d809-f3a9-13a3-d6e8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="d809-f3a9-13a3-d6e8" targetId="e6db-6ed3-1a26-ea56" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e684-e721-4d5b-8160" profileTypeId="f9a2-eeae-3284-75fd" name="General Tar Es Janar" hidden="false" book="BtGoA" page="221">
+              <characteristics>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="5"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="5"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="6 (7)"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="8"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="10"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a8b9-0454-3df1-671f" targetId="67fa-a913-bd09-5b13" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5754-6af9-f502-5a10" targetId="9cab-babb-fd75-a302" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f3ea-9f2c-c96a-7aa5" name="AI Trooper" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5484-f1a2-ada9-fb48" profileTypeId="f9a2-eeae-3284-75fd" name="AI Trooper" hidden="false" book="BtGoA" page="172">
+              <characteristics>
+                <characteristic characteristicId="18c1-4764-7d08-708d" name="Ag" value="5"/>
+                <characteristic characteristicId="e39c-d7a4-86a8-d23d" name="Acc" value="5"/>
+                <characteristic characteristicId="0790-bfd5-1273-fe12" name="Str" value="5"/>
+                <characteristic characteristicId="5b77-3595-2819-675c" name="Res" value="6 (7)"/>
+                <characteristic characteristicId="c0d8-f6fd-a474-1385" name="Init" value="7"/>
+                <characteristic characteristicId="135d-efc3-5039-b6e6" name="Co" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="a5ce-7f12-9d34-2772" name="Ranged Weapon" defaultEntryId="8d72-d6d9-9cc7-15ef" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8d72-d6d9-9cc7-15ef" targetId="b018-6101-d2e3-b4ea" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="6eaf-e8a3-9c82-8a79" name="Limited Choice" hidden="false" book="">
+          <modifiers/>
+        </rule>
+        <rule id="e3b0-fd02-8fe9-9236" name="Infantry Command Unit" hidden="false" book="">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="e392-c338-4e8f-b800" targetId="7ac3-5fd7-f7a8-3a01" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="f3ea-9f2c-c96a-7aa5" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="9ba6-ad89-b106-ccdf" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="e8cc-b606-0691-7064" targetId="f3aa-148a-0460-c7e5" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="e0a0-b333-4df7-b100" targetId="9cdf-f068-bbde-2d0c" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1854,9 +1963,9 @@
         </link>
       </links>
     </entry>
-    <entry id="7ad1-0ccb-ea7e-405e" name="AI Medic Team" points="30.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="178">
+    <entry id="7ad1-0ccb-ea7e-405e" name="AI Medic Team" points="0.0" categoryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="178">
       <entries>
-        <entry id="bc34-41d2-bb66-d916" name="Algoryn Medic" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="bc34-41d2-bb66-d916" name="Algoryn Medic" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="48dd-78d2-9329-d56a" name="Weapon" defaultEntryId="7d3f-fe8e-3299-77b5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1866,7 +1975,7 @@
               <links>
                 <link id="9d2b-b5d7-170a-1dcf" targetId="84ac-0f31-c388-d0bd" linkType="entry">
                   <modifiers>
-                    <modifier type="increment" field="points" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1877,7 +1986,7 @@
                 </link>
                 <link id="c6a1-68fd-f47c-0fe6" targetId="790a-6841-6372-870b" linkType="entry">
                   <modifiers>
-                    <modifier type="increment" field="points" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1909,13 +2018,18 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="a112-61a7-be5e-8620" name="Spotter Drone" defaultEntryId="ac15-6ba2-59ae-15c0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="a112-61a7-be5e-8620" name="Spotter Drone" defaultEntryId="ac15-6ba2-59ae-15c0" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
             <link id="ac15-6ba2-59ae-15c0" targetId="f3aa-148a-0460-c7e5" linkType="entry">
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </link>
           </links>
         </entryGroup>
@@ -1925,7 +2039,12 @@
       <profiles/>
       <links>
         <link id="035c-588d-4b1e-482e" targetId="502c-9855-7269-eaa2" linkType="entry">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -4318,6 +4437,19 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="9cab-babb-fd75-a302" name="Strategic Genius" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="GOA" page="221">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d728-35a5-0ebb-1929" name="Strategic Genius" hidden="false" book="GOA" page="221">
+          <description>Strategic Genius.As a General of one of the Prosperate’s most famous armies, Tar Es Janar is expert at placing his forces where they are needed as quickly as possible. To represent this, in games where units must test their Command to deploy onto or move on to the table, they test as if they had the same stat value as Tar Es Janar – i.e. 10. Remember that rolls of a 10 will fail anyway, so even Ta Es Janar is not infallible.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="6bfe-ff47-b61c-afd2" name="Sub-mounted X-Sling" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="BtGoA">
       <entries/>
       <entryGroups/>
@@ -4449,6 +4581,19 @@
       </entryGroups>
       <modifiers/>
       <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="67fa-a913-bd09-5b13" name="Vertex Mace" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="GOA" page="221">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0313-f279-525f-da8c" name="Vertex Mace" hidden="false" book="GOA" page="221">
+          <description>The vertex mace is both a symbol of oﬃce and a tool that gives its wielder the ability to intercept and direct nano‐coms and interface directly with the combat shards of units under his command. This enables the commander to extend his Command rule to any unit on the table that has a spotter drone regardless of range.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
