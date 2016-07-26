@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2165-1159-f3ed-3ea5" revision="1" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Rebel" books="BFX" authorName="Maye Gelt" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2165-1159-f3ed-3ea5" revision="2" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Rebel" books="BFX" authorName="Maye Gelt" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="4ddf-247a-fd1d-2264" name="Army Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+      <entries>
+        <entry id="f7ce-75c3-2997-6921" name="Block!" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="915e-f2eb-da32-24f6" name="Get Up!" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="3534-7fce-4a95-7c1e" name="Extra Shot" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="1f63-b2ca-1245-db01" name="Pull Yourself Together" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="c18c-a602-3036-dd57" name="Superior Shard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="9d50-659a-cb95-a5f3" name="Marksman" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="63bf-d255-762d-7445" name="Well Prepared" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="3d57-162c-00ab-4c84" name="Fartok, Leader Of The Outcast Revolt" points="179.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BFX" page="107">
       <entries>
         <entry id="0392-cdb8-e66c-08f6" name="Fartok" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -152,7 +217,11 @@
       </entries>
       <entryGroups/>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="cc41-d1a4-756b-8db5" name="Infantry Command Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links>
         <link id="0457-88a3-946a-21eb" targetId="931b-a54d-a846-cb74" linkType="rule">
@@ -446,7 +515,7 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="ca5c-7445-3e1f-4676" name="Infantry Unit" hidden="false">
+        <rule id="ca5c-7445-3e1f-4676" name="Infantry Unit/Mixed Infantry+Mount" hidden="false">
           <modifiers/>
         </rule>
       </rules>
@@ -670,7 +739,11 @@
       </entries>
       <entryGroups/>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="eed6-747d-2cbd-1d32" name="Vehicle Unit" hidden="false" book="">
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links>
         <link id="6771-8b8b-1adc-e06b" targetId="931b-a54d-a846-cb74" linkType="rule">
