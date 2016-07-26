@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" revision="7" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" revision="8" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" battleScribeVersion="1.15" name="Boromites" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6e08-00fe-a929-223e" name="Army Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="brb" page="159">
       <entries>
@@ -1320,6 +1320,9 @@
         <link id="c1fc-097f-fd78-ede5" targetId="cd51-1764-7fd7-e8c1" linkType="entry">
           <modifiers/>
         </link>
+        <link id="e99b-e0a2-c99b-dd47" targetId="916d-c962-0de5-5b5d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="64cb-08b1-a276-909e" name="Boromite Matronite Brood Mother" points="258.0" categoryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BRB" page="188">
@@ -1583,6 +1586,9 @@
         <link id="ea6e-5198-274e-c4e7" targetId="d1fe-dbdc-fdd9-94c8" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4ed7-d047-208f-f1d2" targetId="916d-c962-0de5-5b5d" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="cc6a-97b9-b9d6-b3c6" name="Boromite Rock Father" points="0.0" categoryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="185">
@@ -1706,6 +1712,9 @@
           <modifiers/>
         </link>
         <link id="7019-6d54-a708-e7c4" targetId="19aa-7fc5-12e2-97a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c54d-3ec9-714f-58fe" targetId="916d-c962-0de5-5b5d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3000,7 +3009,17 @@
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="fba2-3a5d-04e8-00ef" name="Synchoniser Drone" hidden="false" book="BfX" page="79">
+          <description>If a unit with a Synchoroniser Drone is given an order, and if it passes any order test required, then after the unit has carried out its acton the player can use the drone to try to synchonise the unit with another unit within 10&quot; of it. If sucessful draw one of his order dice from the dice bag and give this second unit an order in the usual way
+10&quot; synchonisation distance is measured AFTER the synchoronising unit resolving anything resulting from the action itself (including enemy reactions.
+If the drone dies then you may no longer sync.
+May NOT &apos;Chain&apos; syncronisers to make unit 1 sync to unit 2, who syncs to unit 3.
+May NOT be used in combination with the Command rule.
+The unit may perform any action that it normally would be able to pick.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
