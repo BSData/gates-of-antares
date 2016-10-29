@@ -4781,7 +4781,7 @@
               <characteristics>
                 <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-20"/>
                 <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
-                <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="5"/>
+                <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
                 <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
                 <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="OH, Blast D4, No Cover, Standard Weapon"/>
               </characteristics>
@@ -4809,7 +4809,7 @@
             <profile id="c0c1-ee5f-5c1f-77a0" profileTypeId="ecae-8ac8-2c13-0dd3" name="Micro X-Launcher - Direct Fire" hidden="false" book="BtGoA" page="71">
               <characteristics>
                 <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
-                <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="3"/>
+                <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
                 <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
                 <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
                 <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Standard Weapon"/>
@@ -5293,7 +5293,7 @@
         <profile id="d429-b8cc-aca0-aac9" profileTypeId="ecae-8ac8-2c13-0dd3" name="Plasma Light Support" hidden="false" book="BtGoA" page="76">
           <characteristics>
             <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
-            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="4"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
             <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
             <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
             <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF3, Light Support Weapon"/>
