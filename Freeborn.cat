@@ -765,6 +765,34 @@
         </selectionEntry>
         <selectionEntry id="d441-f08b-6ae0-3ce1" name="Household Trooper" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
+          <links>
+            <link id="c976-a3c2-48e7-a65d" targetId="ed77-e875-0302-9bf4" linkType="profile">
+              <modifiers>
+                <modifier type="set" field="3baa-9cfd-f273-822d" value="Leader 2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="c61f-6de1-069d-821f" childId="5b49-8a4d-07d2-fb89" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+        <entry id="d441-f08b-6ae0-3ce1" name="Household Trooper" points="15.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="7" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="BtGoA" page="192">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="9c0c-e485-c447-84fb" name="Ranged Weapon" defaultEntryId="20d8-1c96-d87e-6005" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="20d8-1c96-d87e-6005" targetId="84ac-0f31-c388-d0bd" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
           <rules/>
           <infoLinks>
             <infoLink id="f4de-742c-31aa-3973" hidden="false" targetId="45dd-c1c8-46d5-0107" type="profile">
@@ -8513,11 +8541,11 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10-20"/>
-                <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="30"/>
-                <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="5"/>
-                <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="0"/>
-                <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="OH, Blast D4, No Cover, Standard Weapon"/>
+                <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="10-20"/>
+                <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
+                <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="50"/>
+                <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="0"/>
+                <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="OH, Blast D4, No Cover, Standard Weapon"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8562,11 +8590,11 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="20"/>
-                <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="3"/>
-                <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="None"/>
-                <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="1"/>
-                <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Standard Weapon"/>
+                <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="20"/>
+                <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="30"/>
+                <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="None"/>
+                <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="1"/>
+                <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="Standard Weapon"/>
               </characteristics>
             </profile>
           </profiles>
@@ -9397,11 +9425,11 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="30"/>
-            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="4"/>
-            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="80"/>
-            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="3"/>
-            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="RF3, Light Support Weapon"/>
+            <characteristic characteristicId="c2de-17f1-10e2-2c0a" name="Effective" value="30"/>
+            <characteristic characteristicId="995e-b5e6-4c63-0baa" name="Long" value="40"/>
+            <characteristic characteristicId="bf58-0ad5-c7ee-3fd9" name="Extreme" value="80"/>
+            <characteristic characteristicId="897c-d3c4-3983-896a" name="Strike Value" value="3"/>
+            <characteristic characteristicId="7e87-2586-653f-d6ec" name="Special Rules" value="RF3, Light Support Weapon"/>
           </characteristics>
         </profile>
       </profiles>
