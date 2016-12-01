@@ -278,7 +278,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="56c2-caa3-3666-bf3e" hidden="false" targetId="a8d9-6fae-a541-9f4f" type="selectionEntry">
@@ -886,7 +892,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="c421-df4b-ccea-aa78" hidden="false" targetId="a8d9-6fae-a541-9f4f" type="selectionEntry">
@@ -1017,7 +1029,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="7587-847d-9f8d-31dd" hidden="false" targetId="a8d9-6fae-a541-9f4f" type="selectionEntry">
@@ -2122,7 +2140,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="45.0">
+                <modifier type="set" field="points" value="35">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -2252,7 +2270,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="e50e-ac32-0154-fc96" hidden="false" targetId="a8d9-6fae-a541-9f4f" type="selectionEntry">
@@ -3456,7 +3480,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ed8-6bd4-d0f7-d7f0" name="Shield Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
@@ -4254,7 +4280,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
