@@ -1814,15 +1814,17 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxSelections" value="2.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="d626-a99a-6470-71ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37d5-656f-d5c1-4397" type="greaterThan"/>
-                  </conditions>
+                <modifier type="increment" field="points" value="10">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                  </repeats>
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d754-f78e-4c46-1d7d" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1899,8 +1901,18 @@
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
+                  <modifiers>
+                    <modifier type="increment" field="points" value="10">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2434-066a-e59a-00ca" type="max"/>
+                  </constraints>
                 </entryLink>
                 <entryLink id="92b5-4abb-5821-b649" hidden="false" targetId="76e8-05d6-ff37-7205" type="selectionEntry">
                   <profiles/>
@@ -1990,7 +2002,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -2120,7 +2138,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -2225,7 +2249,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -2366,7 +2396,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -2474,22 +2510,17 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="c909-6003-f9c2-386e" name="&lt; Transporter Drone Options &gt;" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="daf1-967b-4024-7ec8" hidden="false" targetId="8c55-0529-22ab-3fa6" type="selectionEntry">
+            <entryLink id="8efc-e74f-ba4e-938e" hidden="false" targetId="8c55-0529-22ab-3fa6" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -3712,9 +3743,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="de46-fbd5-d8f5-7454" name="Shield Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
