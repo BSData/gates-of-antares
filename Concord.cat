@@ -3743,7 +3743,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de46-fbd5-d8f5-7454" name="Shield Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
