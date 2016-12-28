@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" name="Boromites" revision="9" battleScribeVersion="2.00" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" name="Boromites" revision="10" battleScribeVersion="2.00" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2482,7 +2482,7 @@
             <cost name="pts" costTypeId="points" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3616-f891-324f-74c1" name="Matronite Brood Mother" book="brb" page="188" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="3616-f891-324f-74c1" name="Matronite Brood Mother" book="" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles>
             <profile id="2469-385b-7def-2466" name="Matronite Brood Mother" book="brb" page="188" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -2539,85 +2539,68 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="ece0-9647-e89d-ac89" name="Mag Light Support" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="64cb-08b1-a276-909e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e9a-2386-e809-ac20" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="maxSelections" value="1.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="64cb-08b1-a276-909e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e9a-2386-e809-ac20" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0e9a-2386-e809-ac20" name="Replace One Mag Light Support with" hidden="false" collective="false">
+            <selectionEntryGroup id="0e9a-2386-e809-ac20" name="Select One Of" hidden="false" collective="false" defaultSelectionEntryId="a789-befd-2a47-f6df">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="6a29-e7c5-c7cf-5170" name="Heavey Mag Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="45.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3f76-1ca4-7b5e-8ce0" name="Mag Heavy Support" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="a789-befd-2a47-f6df" name="New EntryLink" hidden="false" targetId="90e0-4818-78ac-de67" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="690c-8002-2a6c-3257" name="New EntryLink" hidden="false" targetId="8934-d01f-ea71-ff3c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="35">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="cab9-32b8-6205-764e" name="New EntryLink" hidden="false" targetId="b1ac-43b1-d521-2c58" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="45">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="9aa1-d15d-4322-8d43" name="New EntryLink" hidden="true" targetId="90e0-4818-78ac-de67" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9b5c-dcd8-6c55-eed7" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e229-fb07-3db7-e6c3" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
