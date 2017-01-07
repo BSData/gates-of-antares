@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="9" battleScribeVersion="2.00" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="10" battleScribeVersion="2.00" authorName="Muggins" authorContact="mugginns@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
