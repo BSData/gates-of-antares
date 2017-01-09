@@ -7,14 +7,12 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="f2dd-4a37-dae9-7560" name="Amano Harran and Bodyguards" book="Battle for Xilos" page="115" hidden="true" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="f2dd-4a37-dae9-7560" name="Amano Harran and Bodyguards" book="Battle for Xilos" page="115" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
@@ -244,7 +242,10 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8023-6c64-8a78-1262" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d5f-83f6-dce8-2539" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <costs>
@@ -3650,7 +3651,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="573b-88bc-97d7-d890" name="HL Booster Drone" book="BtGoA" page="121" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles/>
@@ -5203,7 +5206,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1631-5857-2139-960a" name="Plasma Carbine " book="BtGoA" page="70" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="1631-5857-2139-960a" name="Plasma Carbine " book="BtGoA" page="70" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
