@@ -1764,6 +1764,13 @@
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="08d1-077e-9fb6-ae9e" name="New EntryLink" hidden="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3130,6 +3137,13 @@
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="ae0d-a5cd-8064-125a" name="New EntryLink" hidden="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4450,6 +4464,13 @@
           </modifiers>
           <constraints/>
         </entryLink>
+        <entryLink id="f780-d437-080a-47c1" name="New EntryLink" hidden="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="42.0"/>
@@ -4664,6 +4685,13 @@
               <constraints/>
             </entryLink>
             <entryLink id="6106-f50f-fc72-2dfa" name="New EntryLink" hidden="false" targetId="d571-d584-85fc-9110" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="31dc-50a9-bd77-2abb" name="New EntryLink" hidden="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>

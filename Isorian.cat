@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="6" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="7" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -116,7 +116,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="10">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -133,7 +133,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="10">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -214,6 +214,13 @@
               <constraints/>
             </entryLink>
             <entryLink id="f787-39f9-566b-e5ff" hidden="false" targetId="5ed8-6bd4-d0f7-d7f0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e4de-9a06-22cb-6fd2" name="New EntryLink" hidden="false" targetId="651f-9469-74a5-505a" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -302,7 +309,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak NC Light Support Drone" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak SC Light Support Drone" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -372,6 +379,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="6c79-fd92-24f0-e11d" name="New EntryLink" hidden="false" targetId="651f-9469-74a5-505a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4da3-5d4c-1262-53ab" name="&lt; Weapon Drone Options &gt;" hidden="false" collective="false">
@@ -390,7 +404,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="10">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -407,7 +421,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="10">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -1112,7 +1126,7 @@
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a3e3-761c-74f3-d2f2" repeats="1"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a3e3-761c-74f3-d2f2" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a3e3-761c-74f3-d2f2" type="equalTo"/>
@@ -1182,7 +1196,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="bb6a-48bd-2cf1-f430" hidden="false" targetId="057e-2e8a-1952-9de0" type="selectionEntry">
@@ -1821,6 +1841,13 @@
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="564f-776c-af3e-92fd" name="New EntryLink" hidden="false" targetId="651f-9469-74a5-505a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1922,7 +1949,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="2">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
