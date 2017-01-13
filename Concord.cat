@@ -1927,10 +1927,7 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1bf0-4229-a700-ce67" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a36-d97f-0d0c-3c4a" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="97c5-cc1d-c9c0-ffae" name="&lt; Options &gt;" hidden="false" collective="false">
