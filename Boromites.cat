@@ -384,26 +384,13 @@
                 <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="6"/>
                 <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="6(7)"/>
                 <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="6"/>
-                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="10"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
                 <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks>
-            <infoLink id="43b3-8ad9-06e1-05d2" hidden="false" targetId="5958-48e4-8481-41ed" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e995-1aad-c59a-180c" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
