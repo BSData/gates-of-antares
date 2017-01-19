@@ -2993,7 +2993,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="58.0"/>
+            <cost name="pts" costTypeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="63ac-5ef9-119c-c221" name="Gangers" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
