@@ -1878,7 +1878,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40ad-08b6-fa6a-0171" name="AI Infiltration Squad" book="BtGoA" page="174" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
@@ -3852,7 +3852,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d12-fb12-c8a4-6e92" name="AI Specialist Support Team" book="BtGoA" page="175" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
@@ -7670,7 +7670,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
