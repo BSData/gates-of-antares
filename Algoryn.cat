@@ -262,14 +262,14 @@
           <modifiers>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="b73b-6140-e2ca-f0c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4581-2e23-0a04-b8cc" repeats="1"/>
+                <repeat field="selections" scope="b73b-6140-e2ca-f0c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4581-2e23-0a04-b8cc" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="b73b-6140-e2ca-f0c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b36d-f9f6-80eb-6f8a" repeats="1"/>
+                <repeat field="selections" scope="b73b-6140-e2ca-f0c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b36d-f9f6-80eb-6f8a" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -355,20 +355,7 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks>
-            <infoLink id="1b94-84e5-38b3-52e1" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="1ef4-89e2-2882-8cf9" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -412,7 +399,7 @@
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="8222-a0b4-a917-311b" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule">
+                    <infoLink id="8222-a0b4-a917-311b" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -446,7 +433,28 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="f607-640a-427e-f60b" hidden="false" targetId="b08e-548a-fda7-0a4e" type="selectionEntry">
+                <entryLink id="f607-640a-427e-f60b" book="" hidden="false" targetId="790a-6841-6372-870b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e06e-a516-32a9-510b" name="Close Combat Weapon" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f6-1033-78de-aecf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a0a-c7f5-c53a-e93a" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="22b8-01a1-ff95-ff38" name="" hidden="false" targetId="72ba-15e7-dbf7-816c" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -620,7 +628,7 @@
               <modifiers>
                 <modifier type="increment" field="f214-abe8-c922-c51b" value="1">
                   <repeats>
-                    <repeat field="selections" scope="04d7-b8fa-d20d-5a98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d788-9457-e43f-3692" repeats="1"/>
+                    <repeat field="selections" scope="04d7-b8fa-d20d-5a98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d788-9457-e43f-3692" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -1220,7 +1228,7 @@
           <modifiers>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="1405-a43b-534b-ab05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f86-347f-273f-84ca" repeats="1"/>
+                <repeat field="selections" scope="1405-a43b-534b-ab05" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f86-347f-273f-84ca" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -1430,7 +1438,7 @@
           <modifiers>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f3ea-9f2c-c96a-7aa5" repeats="1"/>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f3ea-9f2c-c96a-7aa5" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -1870,7 +1878,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40ad-08b6-fa6a-0171" name="AI Infiltration Squad" book="BtGoA" page="174" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
@@ -2145,14 +2153,14 @@
           <modifiers>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97e8-d8ef-1bec-906d" repeats="1"/>
+                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97e8-d8ef-1bec-906d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c3fa-7787-a4d1-50f8" repeats="1"/>
+                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c3fa-7787-a4d1-50f8" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -2213,14 +2221,14 @@
           <modifiers>
             <modifier type="increment" field="points" value="3.0">
               <repeats>
-                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c3fa-7787-a4d1-50f8" repeats="1"/>
+                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c3fa-7787-a4d1-50f8" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="3.0">
               <repeats>
-                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97e8-d8ef-1bec-906d" repeats="1"/>
+                <repeat field="selections" scope="40ad-08b6-fa6a-0171" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97e8-d8ef-1bec-906d" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -3844,7 +3852,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d12-fb12-c8a4-6e92" name="AI Specialist Support Team" book="BtGoA" page="175" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
@@ -4287,21 +4295,21 @@
           <modifiers>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c077-8ef3-73f4-f156" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c077-8ef3-73f4-f156" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bac-8174-3f34-cc91" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bac-8174-3f34-cc91" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f39-d122-493b-a05f" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f39-d122-493b-a05f" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4324,21 +4332,21 @@
           <modifiers>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bac-8174-3f34-cc91" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bac-8174-3f34-cc91" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c077-8ef3-73f4-f156" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c077-8ef3-73f4-f156" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="5.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f39-d122-493b-a05f" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f39-d122-493b-a05f" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -4441,14 +4449,14 @@
           <modifiers>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d441-f08b-6ae0-3ce1" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d441-f08b-6ae0-3ce1" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="points" value="2.0">
               <repeats>
-                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c61f-6de1-069d-821f" repeats="1"/>
+                <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c61f-6de1-069d-821f" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -6402,16 +6410,242 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3203-24a2-4083-bc0d" hidden="false" targetId="7849-7fc2-0006-8fbd" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="515f-16b8-bc76-bce7" name="Munitions" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77ab-48ff-9cab-2776" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8c7d-55d6-e1e5-cb56" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c476-720e-e3e2-20eb" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="b638-47b2-b5ea-2e59" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6494-bc1d-b5df-e211" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5da1-c5f0-21a6-692b" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cd8d-3886-23a0-8726" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="18ac-e5fe-48da-edbc" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82e7-f40e-6d30-7566" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f7a8-81ed-30d1-1b4e" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0cb7-c1e2-7a61-5cb2" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="80d0-ded8-3ea2-0bb6" name="" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63d9-90c5-4551-036b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b724-38ff-5041-39a9" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="182d-0d66-7058-f279" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="2405-fd31-6224-3bae" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed5c-07f7-1344-1cb5" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="973e-1e56-6981-e880" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="eb04-ee7a-a60a-0a35" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5574-450e-4962-3b13" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e54f-b071-d13d-e536" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b921-8ec2-8f15-357e" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="535b-8bd3-d709-0395" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de9d-30a6-f0b7-d375" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e0ec-966c-3971-2d18" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cfde-9a7e-5ee3-d61f" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="8951-5224-3d14-ec02" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="c8de-a428-d8b7-d472" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="317f-3dc5-e9c2-aaa5" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="99df-e83c-17c7-845f" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="a7ba-1f33-3492-3df2" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e103-ad44-97ad-a274" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a75e-b73b-1154-c242" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -6628,303 +6862,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7849-7fc2-0006-8fbd" name="Munitions" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cf32-46fd-cdce-80dd" name="Munitions" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2f9e-d8b5-f1a8-6e4c" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="c2fb-c9db-5e9c-dcfe" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="9622-01bf-0303-e5f7" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="47c5-9ed0-b50a-45b7" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="1838-cbe5-7c85-395d" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="6568-0044-8497-b002" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="876b-029d-8c49-cf28" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="8a68-f508-7c9e-1ee4" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="1fe7-d90c-fd8b-2777" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2f18-3173-0eea-f19f" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="a787-c45e-8df6-7cdb" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="4acd-4d6e-c5ce-c202" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="99d6-3f14-a1e9-779b" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="c8d2-16b3-5523-a9b1" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e014-fd16-bd43-6ead" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="6ffa-8857-9b93-35b5" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="3eba-9eb4-bf44-4b04" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats>
-                    <repeat field="selections" scope="cf32-46fd-cdce-80dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="057c-a217-e792-8ef7" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="057c-a217-e792-8ef7" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="7fae-ff88-b94e-934e" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="49a1-2fba-ff8f-c1b0" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="7acb-0144-9a6a-9840" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="878e-a6f2-d2ce-4e02" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="ed06-0ab3-bc83-05de" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="03ee-325f-d6f1-fd20" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="8d63-0835-da60-a624" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
@@ -7662,7 +7599,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8022,16 +7959,242 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="92e5-9a8f-2921-8280" hidden="false" targetId="7849-7fc2-0006-8fbd" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9c84-aa8a-fdae-0eee" name="Munitions" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c65-4cad-f184-8ca0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e70-35f6-1241-66b5" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="921f-8605-5f61-353a" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="582b-39bc-2540-df6f" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="777e-35b0-9f0f-1975" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f98-e7a4-5fa7-529a" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="335a-fd94-96c4-a6d1" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="a51c-e113-d923-5b25" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6020-7091-3979-de1b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9fd9-4cde-846e-9b3a" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="bb3b-ab31-bd60-e979" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="a617-128b-5a82-4871" name="" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d40d-913f-a768-252a" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3c99-94b7-7b92-b661" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9e3c-9ca7-90e4-b686" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0bcc-f3bd-1b1c-f89b" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f36f-8d4f-4ebd-01ec" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="15fe-38d6-b27f-fe6b" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c0c1-d4cb-ebce-eda1" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e1a-c951-23f9-bbfe" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="148b-4c21-ba52-e4cd" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ca8e-2899-2dec-0dc1" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="8145-9cfc-9a7c-fb22" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9454-5f20-ccc0-0412" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="52a6-cafc-76a5-66da" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="de55-5375-efe7-2eaa" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e241-7517-dfab-c400" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6588-020e-34af-5042" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f13a-ba1b-a665-395b" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1692-c78c-3002-9c6c" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4ce6-26de-4951-a44a" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f9c9-e095-2e3b-4299" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c67-b7a9-0fdb-6679" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -8078,16 +8241,242 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="7bb9-56de-ae51-c52b" hidden="false" targetId="7849-7fc2-0006-8fbd" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="52dd-d96e-36a2-92c3" name="Munitions" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a591-c1d3-b6de-4d3f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a582-e707-8e50-7942" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="4fb0-8dbd-a444-4fff" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4ce3-0a17-ec73-68ad" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab03-8487-b1e3-8ff4" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="97c5-6c81-103c-09e0" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2bf3-1840-c201-1929" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e790-a01c-6efe-3385" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d964-f85f-7a17-6192" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="24a7-4594-3f31-bbb2" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="45ac-b7cc-b2b9-688b" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f6d2-290c-3b69-af7b" name="" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a02-c4c9-65c9-a624" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9499-11a0-167a-5d95" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5479-767a-2652-af0a" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="a8d2-5809-c054-6a59" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="48d9-fee7-77ad-8ef9" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1c8-d7e8-494b-d4d1" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ece4-43ab-abd8-60ee" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9b6-f691-67e0-6d9a" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="98de-fab3-4b15-99a2" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0c81-4950-6337-c1bf" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6d6c-ebc0-6944-cdfc" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dae8-dc7c-6ad3-e4df" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a00d-e28d-b787-7c76" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6f98-3bdc-3247-d742" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="87d9-b0c7-9324-85b2" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f6dd-242f-fde8-7dad" hidden="false" targetId="1045-95cb-5504-9050" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f43b-9a44-ccb9-8db8" hidden="false" targetId="ac33-af99-2d76-c981" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="bdd5-34d8-2bbe-4214" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ffd1-a91c-652c-7491" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3a65-1001-aa3c-7d87" hidden="false" targetId="b996-131f-b84a-4724" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01ae-b293-07f6-7248" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>

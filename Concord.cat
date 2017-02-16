@@ -2791,7 +2791,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="116.0"/>
+        <cost name="pts" costTypeId="points" value="138.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
@@ -4778,7 +4778,7 @@ D10 Result:
         <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5(7)"/>
         <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="9"/>
         <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
-        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Hero, Unstoppable, Wound 3, Leader3"/>
+        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Hero, Wound 3, Leader3"/>
       </characteristics>
     </profile>
     <profile id="a854-0768-aa9e-8d94" name="Compression Bombard" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
