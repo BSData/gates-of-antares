@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="7" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="8" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -733,13 +733,7 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="minSelections" value="1.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
             </entryLink>
             <entryLink id="651e-28ab-855b-7c6a" hidden="false" targetId="3ac2-e4a6-9011-4985" type="selectionEntry">
@@ -1256,7 +1250,7 @@
         <cost name="pts" costTypeId="points" value="174.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1433,7 +1427,7 @@
         <cost name="pts" costTypeId="points" value="168.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
