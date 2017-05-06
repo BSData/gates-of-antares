@@ -2204,7 +2204,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="34.0"/>
+            <cost name="pts" costTypeId="points" value="24.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ad19-7b3d-627f-3f1b" name="Guildless" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2982,7 +2982,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="80.0"/>
+            <cost name="pts" costTypeId="points" value="78.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="63ac-5ef9-119c-c221" name="Gangers" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3029,7 +3029,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="22.0"/>
+            <cost name="pts" costTypeId="points" value="23.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a776-eab0-252d-b7e0" name="Shield Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
