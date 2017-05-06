@@ -546,7 +546,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="pts" costTypeId="points" value="29.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aef4-66ad-c485-f280" name="Gangers" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -586,7 +586,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="18.0"/>
+            <cost name="pts" costTypeId="points" value="17.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
