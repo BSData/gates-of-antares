@@ -2198,7 +2198,9 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e8f-cd67-800b-672d" type="min"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <costs>
@@ -2357,14 +2359,14 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="08ad-c5c7-9035-f939" name="Spotter Drones" book="BRB" page="114" hidden="false" collective="false" type="model">
+        <selectionEntry id="08ad-c5c7-9035-f939" name="Spotter Drone" book="BRB" page="114" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc0-4a04-1f0a-e747" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c2-7ae9-9fa6-3c06" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c2-7ae9-9fa6-3c06" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
