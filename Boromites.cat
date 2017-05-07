@@ -1271,8 +1271,18 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="5673-365b-bc6e-9ebd" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="383b-6550-ee5b-d6cf" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5673-365b-bc6e-9ebd" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="0d95-2827-d57f-b8f0" name="Shield Drones" book="CRB" page="114" hidden="false" collective="false" type="model">
           <profiles/>
