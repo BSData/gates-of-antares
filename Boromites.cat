@@ -1443,7 +1443,40 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="851a-5ac8-3504-4586" name="Spotter Drones" book="CRB" page="114" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44cf-e8bc-72b4-5c19" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927c-f5dc-36c7-ba4d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8c5-3bbe-c00c-e26f" name="Shield Drones" book="CRB" page="114" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f8-3829-99d3-4849" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd19-b56f-40e9-626c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2bf4-346f-0523-fdc5" name="Weapon Options" hidden="false" collective="false" defaultSelectionEntryId="e9be-5158-1204-fdaa">
           <profiles/>
@@ -1517,30 +1550,19 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e1c5-3c7c-b05e-fb67" hidden="false" targetId="cd51-1764-7fd7-e8c1" type="selectionEntry">
+        <entryLink id="eecc-a798-72b4-30ae" name="Mag Light Supports" hidden="false" targetId="90e0-4818-78ac-de67" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="92c5-b6b2-3016-339f" hidden="false" targetId="19aa-7fc5-12e2-97a3" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="ac32-8387-4155-9c3f" hidden="false" targetId="19aa-7fc5-12e2-97a3" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d7-d355-fbe8-af3e" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-7475-ece0-c69b" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="332.0"/>
+        <cost name="pts" costTypeId="points" value="382.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfb5-737a-e7e0-f42f" name="Boromite Heavy Support Team" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
