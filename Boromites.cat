@@ -3938,7 +3938,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f214-abe8-c922-c51b" value="6 (7)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="383b-6550-ee5b-d6cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51cf-af3a-87d3-c669" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
                 <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
@@ -3985,7 +3993,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f214-abe8-c922-c51b" value="6 (7)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="383b-6550-ee5b-d6cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51cf-af3a-87d3-c669" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
                 <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
