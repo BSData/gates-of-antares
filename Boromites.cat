@@ -1613,7 +1613,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f214-abe8-c922-c51b" value="6 (7)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="cfb5-737a-e7e0-f42f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c3f-9d78-6227-330a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
                 <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
@@ -3608,7 +3616,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f214-abe8-c922-c51b" value="6 (7)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="82d5-be12-098b-3661" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a541-3439-90a3-c5ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
                 <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
@@ -3766,7 +3782,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f214-abe8-c922-c51b" value="6 (7)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="9c54-7e9b-3a46-2bc2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8fa2-4460-9d3d-c858" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
                 <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
