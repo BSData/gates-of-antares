@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="162d-cc8a-d6e7-6973" name="Concord" revision="17" battleScribeVersion="2.00" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="162d-cc8a-d6e7-6973" name="Concord" revision="18" battleScribeVersion="2.00" authorName="Glasvandrare / Vescarea" authorContact="tkjellberg@gmail.com" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -31,42 +31,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="4cfa-2333-4c35-356e" name="&lt; Drop Commander Options &gt;" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries>
-                <selectionEntry id="c5d4-0296-5bcb-6a57" name="Sling net ammo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a457-9075-5210-be6c" hidden="false" targetId="a90a-fea5-107f-a019" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="6f56-916b-f1fe-7c9b" hidden="false" targetId="bf65-f7cb-1b50-d144" type="selectionEntry">
               <profiles/>
@@ -89,7 +54,21 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="18b8-5fc7-c03f-bd11" hidden="false" targetId="af36-fa25-9ae1-e8a1" type="selectionEntry">
+            <entryLink id="18b8-5fc7-c03f-bd11" hidden="false" targetId="6c13-252f-55b8-4de9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e507-6497-b477-6c5b" hidden="false" targetId="a90a-fea5-107f-a019" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="693d-3eec-3830-f627" name="New EntryLink" hidden="false" targetId="4cc6-d659-dbc1-3403" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -134,7 +113,7 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="5b51-0381-71d1-051e" hidden="false" targetId="af36-fa25-9ae1-e8a1" type="selectionEntry">
+            <entryLink id="5b51-0381-71d1-051e" hidden="false" targetId="6c13-252f-55b8-4de9" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -255,59 +234,32 @@
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="627f-e775-551d-a76b" name="&lt; Strike Leader Options &gt;" hidden="false" collective="false">
+            <selectionEntryGroup id="26c5-191e-a634-3fd8" name="&lt; Leader &gt;" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <selectionEntries>
-                <selectionEntry id="79ce-0083-beba-1df0" name="Sling net ammo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0a8-4aca-a5ef-219c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="4dd0-a74a-be47-f9cf" hidden="false" targetId="cd4f-0ce9-a6a4-b34a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="2650-32fc-460e-4bd6" name="&lt; Leader &gt;" hidden="false" collective="false">
+                  <constraints/>
+                </entryLink>
+                <entryLink id="9886-8000-84f8-2b78" hidden="false" targetId="9e56-0965-ea32-7ff4" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="4ceb-1f08-2fa3-949f" hidden="false" targetId="cd4f-0ce9-a6a4-b34a" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                    </entryLink>
-                    <entryLink id="2d54-de93-7ec5-3c73" hidden="false" targetId="9e56-0965-ea32-7ff4" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -326,6 +278,20 @@
               <constraints/>
             </entryLink>
             <entryLink id="b815-3cfe-158d-b90e" hidden="false" targetId="6c13-252f-55b8-4de9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="c9ec-f4c6-e17d-7d2e" hidden="false" targetId="e745-6ace-c0d4-6e35" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0e61-b8e0-5e1d-35d3" name="New EntryLink" hidden="false" targetId="4cc6-d659-dbc1-3403" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -364,6 +330,13 @@
               <constraints/>
             </entryLink>
             <entryLink id="b2c6-6d61-9ac9-0a04" hidden="false" targetId="eafe-a83e-6cfd-0559" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="09c0-2ab9-cb8e-ce96" hidden="false" targetId="e745-6ace-c0d4-6e35" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -417,6 +390,13 @@
               <constraints/>
             </entryLink>
             <entryLink id="71f3-851a-f8d6-9a30" hidden="false" targetId="21a7-132d-6703-9ff6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="45c9-d54d-e7b4-8337" hidden="false" targetId="e745-6ace-c0d4-6e35" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1647,7 +1627,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="75.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d626-a99a-6470-71ad" name="Concord C3D1 Light Support Drone " hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
@@ -1957,11 +1937,17 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="43e9-96e3-54d6-7746" hidden="false" targetId="6ded-5798-dd23-8e6f" type="selectionEntry">
+            <entryLink id="43e9-96e3-54d6-7746" hidden="false" targetId="80bf-613e-52b4-f160" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="a126-9625-8b33-3d85" hidden="false" targetId="5a7d-3845-90ba-32eb" type="selectionEntry">
@@ -2212,7 +2198,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
             <entryLink id="d67c-d9cf-6b61-1878" hidden="false" targetId="3dfc-49e9-adcb-ae48" type="selectionEntry">
@@ -2742,9 +2734,23 @@
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="f96b-f08d-6633-ca45" name="New EntryLink" hidden="false" targetId="2f22-37fa-4076-d255" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="aa11-6cf9-dbfd-1db9" name="New EntryLink" hidden="false" targetId="c7a8-840b-096e-e2b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="164.0"/>
+        <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7780-9268-8805-991a" name="Scout Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
@@ -2796,6 +2802,12 @@
           <rules/>
           <infoLinks>
             <infoLink id="ec43-8043-3ccc-fe21" hidden="false" targetId="9ce3-1277-65a2-7ab0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5db6-68db-e938-2825" name="New InfoLink" hidden="false" targetId="2cc6-bd15-7a1c-602d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2990,11 +3002,18 @@
     <selectionEntry id="e745-6ace-c0d4-6e35" name="AG Chute (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="15b5-c59d-1faa-c57d" name="New InfoLink" hidden="false" targetId="7680-b7ff-1ca0-9855" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7591-2678-9f80-b4c7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef5-60ac-21e6-e376" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3006,7 +3025,14 @@
     <selectionEntry id="3ac2-e4a6-9011-4985" name="Batter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="dd1c-70b2-fdb4-f17b" name="New InfoLink" hidden="false" targetId="178b-d746-0f1a-74ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3021,7 +3047,14 @@
     <selectionEntry id="2750-e65f-4c66-8235" name="Batter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="8f0e-541d-462e-1ed9" name="New InfoLink" hidden="false" targetId="178b-d746-0f1a-74ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3036,7 +3069,14 @@
     <selectionEntry id="c87f-f5b0-1134-8ad9" name="Compactor Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="b42a-dcfc-05c4-6e11" name="New InfoLink" hidden="false" targetId="5ea5-7feb-caa1-9c83" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3053,6 +3093,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="b2e8-9d64-9d68-23e5" hidden="false" targetId="ffe9-0b4e-fc35-d442" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b5ce-ddf2-5e77-ce9e" name="New InfoLink" hidden="false" targetId="5ea5-7feb-caa1-9c83" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3092,25 +3138,17 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ded-5798-dd23-8e6f" name="Compression Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="80bf-613e-52b4-f160" name="Compression Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d1d1-e3bd-e025-87c6" name="New InfoLink" hidden="false" targetId="fb4a-7317-0e7a-7278" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3118,9 +3156,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="f482-b1f7-5e3a-1960" name="Fractal Bombard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
@@ -3238,7 +3274,32 @@
     <selectionEntry id="c7a8-840b-096e-e2b8" name="IMTeL Stave (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="807f-6cc8-5d42-4a43" name="New InfoLink" hidden="false" targetId="2ad2-5bc9-0916-9717" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2768-723d-fabb-e340" name="New InfoLink" hidden="false" targetId="b3f8-2d95-65ab-e2ef" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="78ae-1c8e-9414-44b3" name="New InfoLink" hidden="false" targetId="9640-7a75-5c24-9cee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="289c-6f08-035a-dee9" name="New InfoLink" hidden="false" targetId="7722-371b-7b8f-57ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -3477,7 +3538,14 @@
     <selectionEntry id="057e-2e8a-1952-9de0" name="Medi-Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="4934-520f-af2d-a522" name="New InfoLink" hidden="false" targetId="2ff2-534c-34fe-b56b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3492,7 +3560,14 @@
     <selectionEntry id="a2e9-2b00-2191-a410" name="Nano Drone (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c195-c40e-9022-d655" name="New InfoLink" hidden="false" targetId="4abc-52df-bbed-7b28" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -3833,7 +3908,14 @@
     <selectionEntry id="de46-fbd5-d8f5-7454" name="Shield Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="ba8c-a727-26cc-2998" name="New InfoLink" hidden="false" targetId="ceb8-c520-5d71-02cc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3848,7 +3930,14 @@
     <selectionEntry id="5ed8-6bd4-d0f7-d7f0" name="Shield Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="30f8-e04c-44b9-9ad8" name="New InfoLink" hidden="false" targetId="ceb8-c520-5d71-02cc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3863,7 +3952,14 @@
     <selectionEntry id="001a-9f15-b25b-b784" name="Spotter Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6c15-21cf-1676-f352" name="New InfoLink" hidden="false" targetId="19d8-5c9a-2e1f-4d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3878,7 +3974,14 @@
     <selectionEntry id="f095-7ba3-b868-32de" name="Spotter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="5272-0f8a-13ca-85f5" name="New InfoLink" hidden="false" targetId="19d8-5c9a-2e1f-4d8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3906,26 +4009,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af36-fa25-9ae1-e8a1" name="Sub-M. X-Sling (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="76e8-05d6-ff37-7205" name="Subverter Matrix" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="866a-0edf-4673-dd85" name="New InfoLink" hidden="false" targetId="fb88-5cec-3af7-dff6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4373,7 +4467,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c13-252f-55b8-4de9" name="X-Sling (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6c13-252f-55b8-4de9" name="X-Sling (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4399,7 +4493,14 @@
     <selectionEntry id="0ac6-5bdb-3d61-e6ce" name="Synchronizer Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="35f7-4baf-8a1e-bba0" name="New InfoLink" hidden="false" targetId="1f5f-adad-fde7-b98e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e479-7b6c-1873-d2c0" type="max"/>
@@ -4440,6 +4541,29 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4cc6-d659-dbc1-3403" name="Slingnet Ammo" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="964a-03bc-7f60-8952" name="New InfoLink" hidden="false" targetId="1b89-5e18-0f71-7dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c48-ef14-3366-48b4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4e-8158-bc4b-e0c0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -4448,27 +4572,21 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
+      <description>2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
     </rule>
-    <rule id="4052-0eb4-88d7-cab0" name="Arc" book="BtGoA" page="88" hidden="false">
+    <rule id="4052-0eb4-88d7-cab0" name="Special Munitions - Arc" book="BtGoA" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
-
-OH shots are affected if the target is within 3&quot; of the marker. </description>
+      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. OH shots are affected if the target is within 3&quot; of the marker. At end of turn on a 1-5 on a D10 remove the marker.</description>
     </rule>
-    <rule id="178b-d746-0f1a-74ec" name="Batter Drone" book="BtGoA" page="110" hidden="false">
+    <rule id="178b-d746-0f1a-74ec" name="Drone - Batter" book="BtGoA" page="110" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5&quot; from drone base. Template may be repositioned any time unit receives an order die.
-
-Enemy units shooting through shield suffer -2 ACC. Models positioned inside the shield do not receive the -2 ACC protection. Troops shooting from the inside convex side of the shield do not suffer the ACC penalty. 
-
-No protection is offered for OH shots.</description>
+      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5&quot; from drone base. Template may be repositioned any time unit receives an order die. Enemy units shooting through shield suffer -2 ACC. Models positioned inside the shield do not receive the -2 ACC protection. Troops shooting from the inside convex side of the shield do not suffer the ACC penalty. No protection is offered for OH shots. Not cumulative.</description>
     </rule>
     <rule id="1cb7-4402-2f6c-b3cf" name="Blast D10" book="BtGoA" hidden="false">
       <profiles/>
@@ -4498,12 +4616,12 @@ No protection is offered for OH shots.</description>
       <modifiers/>
       <description>Inflicts D5 hits on a successful shooting attack.</description>
     </rule>
-    <rule id="1373-7755-bef3-50d6" name="Blur" book="BtGoA" page="89" hidden="false">
+    <rule id="1373-7755-bef3-50d6" name="Special Munitions - Blur" book="BtGoA" page="89" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
+      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest. At end of turn on a 1-5 on a D10 remove the marker.</description>
     </rule>
     <rule id="5c9b-1bde-ee01-04a4" name="Command" hidden="false">
       <profiles/>
@@ -4523,14 +4641,12 @@ No protection is offered for OH shots.</description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="053b-a389-59c4-0e00" name="Grip" book="BtGoA" page="87" hidden="false">
+    <rule id="053b-a389-59c4-0e00" name="Special Munitions - Grip" book="BtGoA" page="87" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
-
-If a unit moves within 3&quot; it must take the Ag test as above. </description>
+      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move. If a unit moves within 3&quot; it must take the Ag test as above. At end of turn on a 1-5 on a D10 remove the marker.</description>
     </rule>
     <rule id="3c64-6022-a5f1-9c04" name="Hero" hidden="false">
       <profiles/>
@@ -4582,7 +4698,7 @@ If a unit moves within 3&quot; it must take the Ag test as above. </description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="2ff2-534c-34fe-b56b" name="Medi-Drone" book="BtGoA" page="113" hidden="false">
+    <rule id="2ff2-534c-34fe-b56b" name="Drone - Medi" book="BtGoA" page="113" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4601,7 +4717,7 @@ If a unit moves within 3&quot; it must take the Ag test as above. </description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="b81d-9f77-4c39-3887" name="Net" book="BtGoA" page="88" hidden="false">
+    <rule id="b81d-9f77-4c39-3887" name="Special Munitions - Net" book="BtGoA" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4614,11 +4730,12 @@ Mag Mortar: D10+1 pin
 
 Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
     </rule>
-    <rule id="4abc-52df-bbed-7b28" name="New Rule" hidden="false">
+    <rule id="4abc-52df-bbed-7b28" name="Drone - Nano" book="BtGoA" page="113" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Shots against the unit suffer –2 Acc. Does not combine with batter shield. Gives the NuHu unit the protection as with hyperlight armour and hyperlight booster. IMTel stave can be boosted.</description>
     </rule>
     <rule id="fbb8-f81a-2985-1273" name="Plasma Fade" book="BtGoA" page="76" hidden="false">
       <profiles/>
@@ -4627,21 +4744,19 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <modifiers/>
       <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
     </rule>
-    <rule id="f2cb-33fd-610a-eda3" name="Scoot" book="BtGoA" page="88" hidden="false">
+    <rule id="f2cb-33fd-610a-eda3" name="Special Munitions - Scoot" book="BtGoA" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
+      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down. At end of turn on a 1-5 on a D10 remove the marker.</description>
     </rule>
-    <rule id="0a09-eb21-a6c6-ad31" name="Scrambler" book="BtGoA" page="88" hidden="false">
+    <rule id="0a09-eb21-a6c6-ad31" name="Special Munitions - Scrambler" book="BtGoA" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
-
-Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
+      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down. Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative. At end of turn on a 1-5 on a D10 remove the marker.</description>
     </rule>
     <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false">
       <profiles/>
@@ -4669,14 +4784,12 @@ Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cea
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="19d8-5c9a-2e1f-4d8e" name="Spotter Drone" book="BtGoA" page="114" hidden="false">
+    <rule id="19d8-5c9a-2e1f-4d8e" name="Drone - Spotter" book="BtGoA" page="114" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
-
-Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
+      <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
     </rule>
     <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false">
       <profiles/>
@@ -4699,6 +4812,55 @@ D10 Result:
 5: Take D6 additional pins and take a break test - destroyed if failed, go down if passed.
 6-10: Destroyed</description>
     </rule>
+    <rule id="9640-7a75-5c24-9cee" name="Exhausted" book="BtGoA" page="67" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When fighting using the nano drone boost, any Str or Acc roll of a 10 to hit means that not only can the shot/blow not be re‐rolled, but the stave has become temporarily exhausted. Make a test at the turn end phase. Roll a D10, on a 1‐5 the stave is still exhausted and on a 6‐10 it is replenished and can be used as normal.</description>
+    </rule>
+    <rule id="7722-371b-7b8f-57ae" name="3 Attacks" book="BtGoA" page="67" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A NuHu equipped with an IMTel Stave has 3 attacks in hand‐to‐hand fighting.</description>
+    </rule>
+    <rule id="ceb8-c520-5d71-02cc" name="Drone - Shield" book="BtGoA" page="114" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can intercept one hit. Once hits have been allocated, each shield drone can nullify one hit. Nullified hits have no effect and are treated as if they were never scored. Decide which hits are to be removed and roll a D10 for each. 1: The hit is nullified but the drone survives. 2‐9: The hit is removed and the drone is destroyed. 10: The hit is not removed but the drone survives. Can choose to intercept lucky hits allocated to any model in the unit, including to other drones or equipment. A lucky hit can be allocated to a shield drone and is removed without a dice roll.</description>
+    </rule>
+    <rule id="fb88-5cec-3af7-dff6" name="Subverter Matrix" book="BtGoA" page="122" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Targets every enemy: vehicle unit, mounted units riding machines, weapon drone units, probes and buddy drones within 15”. For buddy drones, targets if their parent unit is within 15”. Does not need LOS. Automatically targets units when the unit carrying it makes any action or reaction. Make the unit’s action first. Cannot target Scramble Proof. Each target makes a Co check. Targeted player decides the order to test. Units that are targets more than once only test once. If the test is passed, no effect. If a 1 the subverter matrix does not affect any further units that action. If the test is failed the opposing player must take one of his dice from the bag. If a 10 take two dice. If there are not enough dice in the bag then dice that are already in play are removed instead, and the player whose units are affected  decides which to take. If a probe is targeted then the probe is destroyed. At each Turn End Phase make a test for every contested dice. For each dice, both players roll a D10 – the highest score wins. If the owning player wins the dice goes back into the bag. If the other player wins the dice stays out for this turn. On ties, roll again. </description>
+    </rule>
+    <rule id="1f5f-adad-fde7-b98e" name="Drone - Synchronizer" book="BfX" page="79" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If given an order, after finishing action, use with unit within 10”. Make a Co test, if successful, draw one dice, give second unit order. Can synchronise with a different unit each turn. Cannot synchronise to a third unit in one turn. Can&apos;t use at same time as Follow. Follow extends to 10”. Synchronised dice treated as if it had been drawn at random from the bag.</description>
+    </rule>
+    <rule id="2cc6-bd15-7a1c-602d" name="Probe - Targeter" book="BtGoA" page="120" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Mark single unit by moving into touch. Any number of targeters can mark a unit. Shooting at marked target +1 Acc for each mark to a maximum of +3.  OH reduces the distance scattered by 1” for every probe instead of Acc bonus. Can be shot at by that unit or other units in LOS to either a probe or to a model it is marking, hits allocated against all the targeters. </description>
+    </rule>
+    <rule id="5ea5-7feb-caa1-9c83" name="Drone - Compactor" book="BtGoA" page="112" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Carry one: mounted unit’s bikes, support weapon, weapon drone unit and non-compactor drones, probe shard. Models carried are off table, order dice are not included. After unloading, dice are put in bag at the start of next turn. Indicate which compactor is carrying each unit. Can load/unload or mount/dismount at the end of any action/reaction. Anything carried invulnerable while loaded. If destroyed, unload and must decide which equipment to use, the other is lost. If mounts are unloaded riders must remount conventionally, i.e. must give up a fire order.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="18f2-0352-9cf8-66a5" name="C3D1 Light Support Drone" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
@@ -4707,13 +4869,13 @@ D10 Result:
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd"/>
-        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d"/>
-        <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145"/>
-        <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b"/>
-        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e"/>
-        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20"/>
-        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+        <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
+        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+        <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+        <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="8"/>
+        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value=""/>
       </characteristics>
     </profile>
     <profile id="f9ce-3eb5-0335-1b53" name="C3D1/GP Light General Purpose Drone" hidden="false" profileTypeId="1650-77b3-10d1-6406">
@@ -5415,6 +5577,32 @@ D10 Result:
         <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="9"/>
         <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
         <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Hero, Wound 3, Leader3, Steady There, Soldier! Very Well Prepared"/>
+      </characteristics>
+    </profile>
+    <profile id="2ad2-5bc9-0916-9717" name="IMTel Stave - Standard" book="BtGoA" page="67" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10"/>
+        <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="-"/>
+        <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="3 Attacks"/>
+      </characteristics>
+    </profile>
+    <profile id="b3f8-2d95-65ab-e2ef" name="IMTel Stave - Nano Drone Boost" book="BtGoA" page="67" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="20"/>
+        <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="-"/>
+        <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="6"/>
+        <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="3 Attacks, Blast D3, Exhausted"/>
       </characteristics>
     </profile>
   </sharedProfiles>
