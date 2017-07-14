@@ -376,7 +376,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="c8a4-a4aa-b20c-88bb" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule">
+        <infoLink id="c8a4-a4aa-b20c-88bb" name="Infantry Unit" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -496,7 +496,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="4a3a-54bc-878a-08bc" hidden="false" targetId="b2de-b74b-feb6-e489" type="selectionEntry">
+                <entryLink id="4a3a-54bc-878a-08bc" name="Lectro Lash" hidden="false" targetId="b2de-b74b-feb6-e489" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1001,15 +1001,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="0.0">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e17f-ad05-cc5e-229c" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -1309,7 +1301,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7853-1611-ecc0-6863" hidden="false" targetId="916d-c962-0de5-5b5d" type="selectionEntry">
+        <entryLink id="7853-1611-ecc0-6863" name="" hidden="false" targetId="916d-c962-0de5-5b5d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2080,12 +2072,25 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="f7c8-cbe9-4242-6236" hidden="false" targetId="2c85-ce08-21a5-6461" type="selectionEntry">
+            <entryLink id="f7c8-cbe9-4242-6236" name="Lectro Lash" hidden="false" targetId="2c85-ce08-21a5-6461" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ce2-3036-c9dd-1ead" type="min"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
             <entryLink id="e0aa-e20a-0b8a-58e8" hidden="false" targetId="33d6-6c92-2948-c9ca" type="selectionEntry">
@@ -4299,7 +4304,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="1d38-6bba-39a5-149d" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule">
+        <infoLink id="1d38-6bba-39a5-149d" name="Infantry Unit" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4546,15 +4551,26 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e4cb-daeb-8943-bb3f" name="" hidden="false" targetId="5660-b448-a09d-5338" type="rule">
+        <infoLink id="e4cb-daeb-8943-bb3f" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="158d-f776-607e-45b0" value="0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="289f-cbee-b82d-ef85" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a4-7492-23dc-39bf" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158d-f776-607e-45b0" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="9acf-c00a-365e-0d2c-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
           <profiles/>
@@ -4680,6 +4696,376 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e21-2665-5c57-812b" name="Boromite Miner Tas Geren&apos;do" book="CS" page="111" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="db8f-f671-b54f-2d8f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2ac4-cea2-f168-fcd7" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="18d1-1a30-78c1-f61a" name="Tas Geren&apos;do" book="CS" page="111" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="5740-4e5e-f9c9-1b95" name="Tas Geren&apos;do" book="CS" page="111" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="18c1-4764-7d08-708d" value="4"/>
+                <characteristic name="Acc" characteristicTypeId="e39c-d7a4-86a8-d23d" value="6"/>
+                <characteristic name="Str" characteristicTypeId="0790-bfd5-1273-fe12" value="6"/>
+                <characteristic name="Res" characteristicTypeId="5b77-3595-2819-675c" value="10"/>
+                <characteristic name="Init" characteristicTypeId="c0d8-f6fd-a474-1385" value="8"/>
+                <characteristic name="Co" characteristicTypeId="135d-efc3-5039-b6e6" value="10"/>
+                <characteristic name="Special" characteristicTypeId="ab43-4d1c-4651-b424"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="640b-b075-a5bb-13f9" name="Integral Borer" book="CS" page="111" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </rule>
+            <rule id="6f55-7e6d-f90f-416c" name="Unitary-suspensor platform" book="CS" page="111" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f3ff-de2f-d127-80c4" name="Command" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="714a-3980-273d-6809" hidden="false" targetId="5958-48e4-8481-41ed" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5ee8-a1c1-b75f-e7bc" hidden="false" targetId="6a72-9858-7f5e-22be" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9d6a-ecbc-58f7-1d85" name="Wound" hidden="false" targetId="587b-7c27-52f5-56a7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f5ae-7e21-5585-f4b6" name="Leader 2" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="cba0-61a1-e4fe-6011" name="Rapid Sprint" hidden="false" targetId="ec07-8982-914d-8377" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eff3-7a48-1194-37a3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15f6-9b12-9fa3-dcc4" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2eb9-4347-69b6-0fc3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9fc2-7175-7c40-6521" name="Mass compactor" hidden="false" targetId="4f01-44bb-2188-fc1a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2674-314c-8c34-f04e" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ee15-d059-24fc-bd26" name="Lectro Lash" hidden="false" targetId="2c85-ce08-21a5-6461" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be6e-f3e4-cce1-8cc0" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="122.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88de-8fc1-5f0e-2165" name="Work Gangers" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="54f2-8fc8-e128-51d7" name="Work Ganger" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="4"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="6"/>
+                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="6 (7)"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="6"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad97-932a-88dc-abb2" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24e0-c8c9-a6d4-bb92" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1005-b013-9cc1-206d" name="Reflex Armour" hidden="false" targetId="ddf6-21b8-6d01-7ac5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="95dd-8cd8-df0f-0155" name="Mass compactor" hidden="false" targetId="4f01-44bb-2188-fc1a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ec-dc46-8437-a0ff" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ce20-a595-a780-5762" name="Lectro Lash" hidden="false" targetId="2c85-ce08-21a5-6461" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="21.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5afe-9eee-7c2a-5274" name="Spotter Drone" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcc-81ed-e490-7cf9" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c5a-2d0a-c8ee-5fe9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4c54-e8d0-98ab-2330" name="Rover Drone Surveyor" book="CS" page="75" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="bb4d-ed49-935f-10de" name="Scramble Proof" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="bdbb-4ca4-c5dd-5d79" name="Micromite Relay" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fe6e-9bb6-b205-255c" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5bdd-88da-aa52-fdb7" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c696-a431-f122-70d2" name="Micromite Probes" book="brb" page="119" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="5949-d0a7-850f-922d" name="Micromite Probes" book="brb" page="189" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="-"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="-"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="-"/>
+                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="-"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="-"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="11e4-6dd8-9841-0176" name="Shard" hidden="false" targetId="6dc1-69d0-6655-5615" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3152-f47a-604d-617e" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e0d-b099-0350-08cc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fa18-187a-67dc-2467" name="Rover Drone Surveyor" book="CS" page="75" hidden="false" targetId="289f-cbee-b82d-ef85" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743f-9e2f-0cfd-e28c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973e-a143-55bb-fb02" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1192-bb85-1c55-df72" name="Iso-drone (Concord Pattern)" book="CS" page="75" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c784-fdf7-8500-b752" name="Iso-drone (Concord Pattern)" book="CS" page="75" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="0"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="10"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b6c7-f155-2347-bb97" name="Slow" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="04f6-7d9a-ec6d-023b" name="Iso-shield" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="61e8-9f85-7a02-5cf5" name="Scramble Proof" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="092a-e71a-8654-271a" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="84b1-d2bd-bd32-167e" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5138,7 +5524,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -5146,7 +5532,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e621-959c-b626-9ee0" name="Mag Cannon" book="BRB" page="75" hidden="false" collective="false" type="upgrade">
@@ -5912,6 +6298,47 @@ The unit may perform any action that it normally would be able to pick.</descrip
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="289f-cbee-b82d-ef85" name="Rover Drone Surveyor" book="CS" page="75" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="254f-9434-021f-0274" name="Rover Drone Surveyor" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="0"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="12"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="eaed-04e3-c0d1-4b95" name="Scramble Proof" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="a19e-569a-d415-34bb" name="Micromite Relay" book="" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
