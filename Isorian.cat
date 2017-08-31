@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="8" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="10" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -185,7 +185,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="93.0"/>
+            <cost name="pts" costTypeId="points" value="83.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -565,7 +565,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="21e2-1fe1-5fdf-818a" hidden="false" targetId="6688-b331-6578-fb30" type="profile">
+            <infoLink id="21e2-1fe1-5fdf-818a" hidden="false" targetId="01b3-4a09-3a38-9c8c" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -615,7 +615,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="minSelections" value="1.0">
+                <modifier type="increment" field="minSelections" value="1">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -878,14 +878,28 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="a48c-1f8a-649a-6c31" hidden="false" targetId="c521-ffae-2a9d-88f9" type="selectionEntry">
+                <entryLink id="1f48-758b-70a2-1b46" hidden="false" targetId="1bc9-ce44-fdbe-ef90" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="1f48-758b-70a2-1b46" hidden="false" targetId="1bc9-ce44-fdbe-ef90" type="selectionEntry">
+                <entryLink id="a40d-ad44-0834-d4bf" name="New EntryLink" hidden="false" targetId="f482-b1f7-5e3a-1960" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="1f2e-eeb6-6c2d-e925" name="New EntryLink" hidden="false" targetId="eb71-6245-efd5-67c9" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="81db-faca-b484-f3a8" name="New EntryLink" hidden="false" targetId="e2b4-a034-c8ce-e376" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1073,7 +1087,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="229.0"/>
+        <cost name="pts" costTypeId="points" value="249.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
@@ -1247,7 +1261,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="174.0"/>
+        <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
@@ -1749,7 +1763,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="4d3d-b808-7a51-2ddb" hidden="false" targetId="6688-b331-6578-fb30" type="profile">
+            <infoLink id="4d3d-b808-7a51-2ddb" hidden="false" targetId="2966-969b-3981-06ed" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2070,7 +2084,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="41f9-49bf-1fb6-3278" hidden="false" targetId="6688-b331-6578-fb30" type="profile">
+            <infoLink id="41f9-49bf-1fb6-3278" name="" hidden="false" targetId="6688-b331-6578-fb30" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2093,6 +2107,20 @@
               <constraints/>
             </entryLink>
             <entryLink id="51a8-2e2a-8c37-d728" hidden="false" targetId="2f22-37fa-4076-d255" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="712f-091e-2c01-aaad" name="New EntryLink" hidden="false" targetId="41bd-5499-889a-ab16" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0474-801c-0241-22f8" name="New EntryLink" hidden="false" targetId="cd4f-0ce9-a6a4-b34a" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4794,7 +4822,7 @@ D10 Result:
       <modifiers/>
       <characteristics>
         <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="5"/>
-        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
         <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="5"/>
         <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5(7)"/>
         <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
@@ -5167,6 +5195,42 @@ D10 Result:
         <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="None"/>
         <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="0"/>
         <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Blast D3"/>
+      </characteristics>
+    </profile>
+    <profile id="2966-969b-3981-06ed" name="Phase Trooper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+        <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="5"/>
+        <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5(7)"/>
+        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
+        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="01b3-4a09-3a38-9c8c" name="Phase Trooper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="3baa-9cfd-f273-822d" value="Large, Slow">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
+        <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="5"/>
+        <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5(7)"/>
+        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
+        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+        <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>
