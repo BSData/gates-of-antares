@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="10" battleScribeVersion="2.00" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="eaf6-3f46-6191-754c" name="Isorian" revision="10" authorName="Lee Long" authorContact="beasturr@live.co.uk" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,14 +7,17 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="a3e3-761c-74f3-d2f2" name="Drone Commander Xan Tu" book="Xilos" page="117" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="a3e3-761c-74f3-d2f2" name="Drone Commander Xan Tu" book="Xilos" page="117" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a3e3-761c-74f3-d2f2-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="f02d-da46-f322-5933" name="Weapon Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="f02d-da46-f322-5933" name="Weapon Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -36,7 +39,7 @@
             <cost name="pts" costTypeId="points" value="59.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f53a-1444-1c40-5103" name="Drone Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="f53a-1444-1c40-5103" name="Drone Commander" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -158,14 +161,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3601-a65d-7f14-cf86" name="Isorian Andhak SC2 Medium Support Drone" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="3601-a65d-7f14-cf86" name="Isorian Andhak SC2 Medium Support Drone" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3601-a65d-7f14-cf86-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="156e-1f5a-b7e7-1783" name="&lt; Weapon Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="156e-1f5a-b7e7-1783" name="&lt; Weapon Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -309,14 +315,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak SC Light Support Drone" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak SC Light Support Drone" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="d626-a99a-6470-71ad-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="37d5-656f-d5c1-4397" name="&lt; Weapon Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="37d5-656f-d5c1-4397" name="&lt; Weapon Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -439,14 +448,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c93d-d42c-8771-aa98" name="Isorian Phase Sniper" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="c93d-d42c-8771-aa98" name="Isorian Phase Sniper" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="c93d-d42c-8771-aa98-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="1518-7b74-035c-3c4e" name="Phase Sniper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="1518-7b74-035c-3c4e" name="Phase Sniper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="dc3a-0672-55ef-4cd8" name="Phase Sniper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -554,14 +566,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="406a-8de7-7dd6-ffbf" name="Isorian Support Team with Plasma Bombard" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="406a-8de7-7dd6-ffbf" name="Isorian Support Team with Plasma Bombard" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="406a-8de7-7dd6-ffbf-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="1664-f248-f1ed-7de3" name="Phase Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="1664-f248-f1ed-7de3" name="Phase Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -673,14 +688,17 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5265-231f-43ab-5d20" name="Isorian Support Team with X-Howitzer" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="5265-231f-43ab-5d20" name="Isorian Support Team with X-Howitzer" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="5265-231f-43ab-5d20-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="7750-57ad-7e30-28c5" name="Phase Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="7750-57ad-7e30-28c5" name="Phase Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -786,14 +804,17 @@
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a829-1685-c4b5-55b6" name="Kahloc KV Heavy Battle Drone" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="a829-1685-c4b5-55b6" name="Kahloc KV Heavy Battle Drone" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a829-1685-c4b5-55b6-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="9432-f296-0817-a41e" name="&lt; Heavy Combat Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="9432-f296-0817-a41e" name="&lt; Heavy Combat Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -938,14 +959,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3440-9714-d7d3-3653" name="Mahran Vesh MV5 Combat Drone" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="model">
+    <selectionEntry id="3440-9714-d7d3-3653" name="Mahran Vesh MV5 Combat Drone" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="3440-9714-d7d3-3653-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="c49a-cae5-0917-dff0" name="&lt; Weapon Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="c49a-cae5-0917-dff0" name="&lt; Weapon Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1090,14 +1114,17 @@
         <cost name="pts" costTypeId="points" value="249.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="fcb7-7abc-470a-26fe-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="c7bd-920e-b6e5-ef99" name="&lt; Medi-probe" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="c7bd-920e-b6e5-ef99" name="&lt; Medi-probe" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1127,7 +1154,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d09-f1bc-5547-135f" name="Nano Probe Net Shard" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="0d09-f1bc-5547-135f" name="Nano Probe Net Shard" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1146,7 +1173,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="34f8-26e7-c193-56eb" name="Nano Probe" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="34f8-26e7-c193-56eb" name="Nano Probe" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1176,7 +1203,10 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6429-1b89-b557-736b" name="NuHu Senatexis" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="model">
+    <selectionEntry id="6429-1b89-b557-736b" name="NuHu Senatexis" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="6429-1b89-b557-736b-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1264,14 +1294,17 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="0244-6cd5-9260-c12e-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="fa12-b792-1fff-89e3" name="&lt; Pulse Bike Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="fa12-b792-1fff-89e3" name="&lt; Pulse Bike Commander" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1335,7 +1368,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8b1d-c9da-076d-d08e" name="Pulse Bike Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="8b1d-c9da-076d-d08e" name="Pulse Bike Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1441,7 +1474,10 @@
         <cost name="pts" costTypeId="points" value="168.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="2f44-92da-46f8-619d-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1458,7 +1494,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="de4c-b135-70a3-c87b" name="&lt; Pulse Bike Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="de4c-b135-70a3-c87b" name="&lt; Pulse Bike Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1522,7 +1558,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8783-ed89-1004-1495" name="Pulse Bike Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="8783-ed89-1004-1495" name="Pulse Bike Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1635,14 +1671,17 @@
         <cost name="pts" costTypeId="points" value="136.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7780-9268-8805-991a" name="Scout Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="7780-9268-8805-991a" name="Scout Probe Shard" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="7780-9268-8805-991a-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="275e-c158-8f26-53c9" name="&lt; Scout Probe" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="275e-c158-8f26-53c9" name="&lt; Scout Probe" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1672,14 +1711,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f53b-8cb2-f46e-ec68" name="Senatex Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="f53b-8cb2-f46e-ec68" name="Senatex Command Squad" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="f53b-8cb2-f46e-ec68-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="9217-51b5-1490-c20f" name="&lt; Senatex Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="9217-51b5-1490-c20f" name="&lt; Senatex Commander" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1704,7 +1746,7 @@
               <modifiers/>
               <constraints/>
               <selectionEntries>
-                <selectionEntry id="2d9d-8454-98ba-682e" name="Sling net ammo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="2d9d-8454-98ba-682e" name="Sling net ammo" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1759,7 +1801,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="25b4-7c4e-e579-4fee" name="Strike Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="25b4-7c4e-e579-4fee" name="Strike Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1864,14 +1906,17 @@
         <cost name="pts" costTypeId="points" value="66.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2f5-7c0a-21e5-7b0b" name="Senatex Phase Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="a2f5-7c0a-21e5-7b0b" name="Senatex Phase Squad" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a2f5-7c0a-21e5-7b0b-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="3dd7-c3aa-50ca-26b2" name="Phase Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="3dd7-c3aa-50ca-26b2" name="Phase Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1909,7 +1954,7 @@
             <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da65-0727-324a-34da" name="Plasma Lance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="da65-0727-324a-34da" name="Plasma Lance" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1984,7 +2029,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f0c2-69ee-8b90-7528" name="&lt; Strike Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="f0c2-69ee-8b90-7528" name="&lt; Strike Leader" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -2008,7 +2053,7 @@
                   <modifiers/>
                   <constraints/>
                   <selectionEntries>
-                    <selectionEntry id="80e9-9314-55b5-7258" name="Sling net ammo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                    <selectionEntry id="80e9-9314-55b5-7258" name="Sling net ammo" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -2073,14 +2118,17 @@
         <cost name="pts" costTypeId="points" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8a7-06c0-e922-02c2" name="Senatex Support Team" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="b8a7-06c0-e922-02c2" name="Senatex Support Team" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="b8a7-06c0-e922-02c2-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="00bb-ced5-3641-b54c" name="Phase Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="00bb-ced5-3641-b54c" name="Phase Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2205,14 +2253,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="2fa1-035d-c0c1-e653-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="70f6-51e9-f4f6-761f" name="&lt; Target Probe" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="70f6-51e9-f4f6-761f" name="&lt; Target Probe" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2242,14 +2293,17 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c4d4-9418-6246-d85d" name="Tograh MV2 Transporter Drone " hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="model">
+    <selectionEntry id="c4d4-9418-6246-d85d" name="Tograh MV2 Transporter Drone " hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c4d4-9418-6246-d85d-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="288e-be87-ca44-03e8" name="&lt; Transporter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="288e-be87-ca44-03e8" name="&lt; Transporter Drone" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2351,14 +2405,17 @@
         <cost name="pts" costTypeId="points" value="194.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a82b-95e0-b4e1-14fc" name="Tsan Ra Phase Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="a82b-95e0-b4e1-14fc" name="Tsan Ra Phase Squad" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a82b-95e0-b4e1-14fc-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="a70a-f477-4d54-af31" name="Tsan Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="a70a-f477-4d54-af31" name="Tsan Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2476,7 +2533,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="abe0-9a11-c0cf-025a" name="Tsan Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="abe0-9a11-c0cf-025a" name="Tsan Leader" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -2501,7 +2558,7 @@
                   <modifiers/>
                   <constraints/>
                   <selectionEntries>
-                    <selectionEntry id="3c98-0948-998b-1f76" name="Sling net ammo" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                    <selectionEntry id="3c98-0948-998b-1f76" name="Sling net ammo" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -2568,7 +2625,10 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="c042-2f1c-a169-12cb" name="New EntryLink" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry" categoryEntryId="50ba-cf77-3941-189c">
+    <entryLink id="c042-2f1c-a169-12cb" name="New EntryLink" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="c042-2f1c-a169-12cb-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2577,7 +2637,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e745-6ace-c0d4-6e35" name="AG Chute (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e745-6ace-c0d4-6e35" name="AG Chute (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2593,7 +2653,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ac2-e4a6-9011-4985" name="Batter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3ac2-e4a6-9011-4985" name="Batter Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2608,7 +2668,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2750-e65f-4c66-8235" name="Batter Drone (2)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="2750-e65f-4c66-8235" name="Batter Drone (2)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2623,7 +2683,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b63d-0e1c-d14a-c3e4" name="Camo Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="b63d-0e1c-d14a-c3e4" name="Camo Drone " hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2638,7 +2698,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c87f-f5b0-1134-8ad9" name="Compactor Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c87f-f5b0-1134-8ad9" name="Compactor Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2653,7 +2713,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d776-f344-44a4-c41b" name="Compactor Drone with Compacted Plasma Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="d776-f344-44a4-c41b" name="Compactor Drone with Compacted Plasma Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2675,7 +2735,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c521-ffae-2a9d-88f9" name="Compression Bombard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c521-ffae-2a9d-88f9" name="Compression Bombard" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2697,7 +2757,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ded-5798-dd23-8e6f" name="Compression Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6ded-5798-dd23-8e6f" name="Compression Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2712,7 +2772,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80bf-613e-52b4-f160" name="Compression Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="80bf-613e-52b4-f160" name="Compression Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2727,7 +2787,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f482-b1f7-5e3a-1960" name="Fractal Bombard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f482-b1f7-5e3a-1960" name="Fractal Bombard" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2749,7 +2809,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90ca-6c03-a803-a140" name="Fractal Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="90ca-6c03-a803-a140" name="Fractal Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2771,7 +2831,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69d9-b84f-3c40-15fb" name="Fractal Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="69d9-b84f-3c40-15fb" name="Fractal Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2793,7 +2853,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5343-3c10-ccc3-0233" name="Gun Drone (2)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5343-3c10-ccc3-0233" name="Gun Drone (2)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2808,7 +2868,7 @@
         <cost name="pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7a8-840b-096e-e2b8" name="IMTeL Stave (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c7a8-840b-096e-e2b8" name="IMTeL Stave (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2824,7 +2884,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41bd-5499-889a-ab16" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="41bd-5499-889a-ab16" name="Leader" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2839,7 +2899,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd4f-0ce9-a6a4-b34a" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="cd4f-0ce9-a6a4-b34a" name="Leader 2" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2854,7 +2914,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a90a-fea5-107f-a019" name="Leader 3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a90a-fea5-107f-a019" name="Leader 3" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2869,7 +2929,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e56-0965-ea32-7ff4" name="Leader 3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9e56-0965-ea32-7ff4" name="Leader 3" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2884,7 +2944,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb71-6245-efd5-67c9" name="Mag Mortar" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="eb71-6245-efd5-67c9" name="Mag Mortar" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2908,7 +2968,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="a356-4661-a11e-41b8" name="Scrambler" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="a356-4661-a11e-41b8" name="Scrambler" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2923,7 +2983,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a24b-a381-fb00-eb9f" name="Arc" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="a24b-a381-fb00-eb9f" name="Arc" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2938,7 +2998,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3925-0866-3aea-e356" name="Blur" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="3925-0866-3aea-e356" name="Blur" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2953,7 +3013,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0afe-04ff-398b-3496" name="Scoot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="0afe-04ff-398b-3496" name="Scoot" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2968,7 +3028,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5271-6bc1-1ad7-e9ba" name="Net " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="5271-6bc1-1ad7-e9ba" name="Net " hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2983,7 +3043,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1cd3-e444-8b62-dc9b" name="All" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="1cd3-e444-8b62-dc9b" name="All" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2998,7 +3058,7 @@
                 <cost name="pts" costTypeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4d2c-7d84-fe17-0c8f" name="Grip" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="4d2c-7d84-fe17-0c8f" name="Grip" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3023,7 +3083,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="057e-2e8a-1952-9de0" name="Medi-Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="057e-2e8a-1952-9de0" name="Medi-Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3038,7 +3098,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2e9-2b00-2191-a410" name="Nano Drone (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a2e9-2b00-2191-a410" name="Nano Drone (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3054,7 +3114,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf65-f7cb-1b50-d144" name="Phase Armour (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="bf65-f7cb-1b50-d144" name="Phase Armour (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3070,7 +3130,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12f1-610b-0dc9-4732" name="Phase Armour Boost (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="12f1-610b-0dc9-4732" name="Phase Armour Boost (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3086,7 +3146,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9443-effe-72e1-2f51" name="Phase Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9443-effe-72e1-2f51" name="Phase Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a32c-5b2d-c145-c471" name="Phase Rifle (E)" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3116,7 +3176,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4813-1c77-dd1e-605e" name="Phase Sniper" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="4813-1c77-dd1e-605e" name="Phase Sniper" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="bd27-bc1d-7b09-21f8" name="Phase Sniper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
           <profiles/>
@@ -3148,7 +3208,7 @@
         <cost name="pts" costTypeId="points" value="52.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8d9-6fae-a541-9f4f" name="Phaseshift Shield" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a8d9-6fae-a541-9f4f" name="Phaseshift Shield" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3163,7 +3223,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bc9-ce44-fdbe-ef90" name="Plasma Bombard (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1bc9-ce44-fdbe-ef90" name="Plasma Bombard (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3185,7 +3245,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10e6-b49c-4401-a1cd" name="Plasma Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="10e6-b49c-4401-a1cd" name="Plasma Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3207,7 +3267,7 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a7d-3845-90ba-32eb" name="Plasma Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5a7d-3845-90ba-32eb" name="Plasma Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3229,7 +3289,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dfc-49e9-adcb-ae48" name="Plasma Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3dfc-49e9-adcb-ae48" name="Plasma Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3251,7 +3311,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eafe-a83e-6cfd-0559" name="Plasma Carbine (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="eafe-a83e-6cfd-0559" name="Plasma Carbine (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3280,7 +3340,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="86a3-8659-018c-f8a1" name="Plasma Duocarb" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="86a3-8659-018c-f8a1" name="Plasma Duocarb" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3309,7 +3369,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f16-5a27-44b5-7471" name="Plasma Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9f16-5a27-44b5-7471" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3331,7 +3391,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dd4-3b5c-6873-e8f2" name="Plasma Lance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3dd4-3b5c-6873-e8f2" name="Plasma Lance" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3365,7 +3425,7 @@
         <cost name="pts" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dac-aa85-fc80-51d5" name="Plasma Lance (Bike)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="7dac-aa85-fc80-51d5" name="Plasma Lance (Bike)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3399,7 +3459,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21a7-132d-6703-9ff6" name="Plasma Lance (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="21a7-132d-6703-9ff6" name="Plasma Lance (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3434,7 +3494,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62c2-106a-28aa-6cf5" name="Plasma Light Support Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="62c2-106a-28aa-6cf5" name="Plasma Light Support Gun" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3456,7 +3516,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c74e-2993-3474-7869" name="Plasma Light Support Gun (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c74e-2993-3474-7869" name="Plasma Light Support Gun (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3479,7 +3539,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f22-37fa-4076-d255" name="Plasma Pistol (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="2f22-37fa-4076-d255" name="Plasma Pistol (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3502,7 +3562,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="658c-b2dd-98f4-dafb" name="Pulse Bike with Twin Plasma Carbines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="658c-b2dd-98f4-dafb" name="Pulse Bike with Twin Plasma Carbines" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3518,7 +3578,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c55-0529-22ab-3fa6" name="Self Repair" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8c55-0529-22ab-3fa6" name="Self Repair" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3533,7 +3593,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ed8-6bd4-d0f7-d7f0" name="Shield Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5ed8-6bd4-d0f7-d7f0" name="Shield Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3548,7 +3608,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de46-fbd5-d8f5-7454" name="Shield Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="de46-fbd5-d8f5-7454" name="Shield Drone " hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3563,7 +3623,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f095-7ba3-b868-32de" name="Spotter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f095-7ba3-b868-32de" name="Spotter Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3579,7 +3639,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="001a-9f15-b25b-b784" name="Spotter Drone " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="001a-9f15-b25b-b784" name="Spotter Drone " hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3594,7 +3654,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e16f-acd1-265c-07f9" name="Spotter Drone (E)" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e16f-acd1-265c-07f9" name="Spotter Drone (E)" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3610,7 +3670,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76e8-05d6-ff37-7205" name="Subverter Matrix" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="76e8-05d6-ff37-7205" name="Subverter Matrix" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3625,7 +3685,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="651f-9469-74a5-505a" name="Synchroniser Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="651f-9469-74a5-505a" name="Synchroniser Drone" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3640,7 +3700,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e2b4-a034-c8ce-e376" name="X-Howitzer (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e2b4-a034-c8ce-e376" name="X-Howitzer (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3665,7 +3725,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="c518-dc83-0b3b-d5d0" name="Scrambler" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="c518-dc83-0b3b-d5d0" name="Scrambler" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3687,7 +3747,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="16ea-fdb9-4f62-644a" name="Arc" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="16ea-fdb9-4f62-644a" name="Arc" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3709,7 +3769,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d695-e1d4-70ad-ab44" name="Blur" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="d695-e1d4-70ad-ab44" name="Blur" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3731,7 +3791,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8a3f-6c9d-84ab-7ff7" name="Scoot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="8a3f-6c9d-84ab-7ff7" name="Scoot" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3753,7 +3813,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f919-51c2-e1f0-fa33" name="Net" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="f919-51c2-e1f0-fa33" name="Net" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3775,7 +3835,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6967-929f-0dac-4c2e" name="Grip" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="6967-929f-0dac-4c2e" name="Grip" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3797,7 +3857,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f58f-7571-0bda-13b5" name="All" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="f58f-7571-0bda-13b5" name="All" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3859,7 +3919,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85bd-3565-8ecd-a94f" name="X-Howitzer (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="85bd-3565-8ecd-a94f" name="X-Howitzer (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3883,7 +3943,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="869a-d024-f01b-902a" name="Scrambler" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="869a-d024-f01b-902a" name="Scrambler" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3905,7 +3965,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="09ad-e164-6041-3e77" name="Arc" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="09ad-e164-6041-3e77" name="Arc" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3927,7 +3987,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aa49-b3f4-5d76-5b99" name="Blur" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="aa49-b3f4-5d76-5b99" name="Blur" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3949,7 +4009,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b9f0-d72f-1cf6-a855" name="Scoot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="b9f0-d72f-1cf6-a855" name="Scoot" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3971,7 +4031,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a1b1-9170-9e10-fa54" name="Net" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="a1b1-9170-9e10-fa54" name="Net" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3993,7 +4053,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b4ec-d02c-b3b1-e937" name="Grip" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="b4ec-d02c-b3b1-e937" name="Grip" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4015,7 +4075,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6fb5-f33d-8fcc-5d00" name="All" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="6fb5-f33d-8fcc-5d00" name="All" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4077,7 +4137,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afc8-4f62-e1e2-1e4c" name="X-Launcher (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="afc8-4f62-e1e2-1e4c" name="X-Launcher (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4101,7 +4161,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="855b-3877-638b-99e8" name="Scrambler" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="855b-3877-638b-99e8" name="Scrambler" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4123,7 +4183,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cf1c-5cab-dced-a300" name="Arc" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="cf1c-5cab-dced-a300" name="Arc" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4145,7 +4205,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bed3-8a4c-71e0-9a86" name="Blur" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="bed3-8a4c-71e0-9a86" name="Blur" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4167,7 +4227,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7207-1027-8e26-6930" name="Scoot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="7207-1027-8e26-6930" name="Scoot" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4189,7 +4249,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9b37-d7f7-9bb7-6061" name="Net" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="9b37-d7f7-9bb7-6061" name="Net" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4211,7 +4271,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f569-f291-bc3a-fa3a" name="Grip" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="f569-f291-bc3a-fa3a" name="Grip" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4233,7 +4293,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a6d2-1391-22e8-008b" name="All" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="a6d2-1391-22e8-008b" name="All" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4295,7 +4355,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c13-252f-55b8-4de9" name="X-Sling (E)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6c13-252f-55b8-4de9" name="X-Sling (E)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4348,16 +4408,16 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
+      <description>Creates 3" sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
 
-OH shots are affected if the target is within 3&quot; of the marker. </description>
+OH shots are affected if the target is within 3" of the marker. </description>
     </rule>
     <rule id="178b-d746-0f1a-74ec" name="Batter Drone" book="BtGoA" page="110" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5&quot; from drone base. Template may be repositioned any time unit receives an order die.
+      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5" from drone base. Template may be repositioned any time unit receives an order die.
 
 Enemy units shooting through shield suffer -2 ACC. Models positioned inside the shield do not receive the -2 ACC protection. Troops shooting from the inside convex side of the shield do not suffer the ACC penalty. 
 
@@ -4396,7 +4456,7 @@ No protection is offered for OH shots.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
+      <description>Any unit within 3" reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
     </rule>
     <rule id="5c9b-1bde-ee01-04a4" name="Command" hidden="false">
       <profiles/>
@@ -4421,9 +4481,9 @@ No protection is offered for OH shots.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
+      <description>Unit beginning its move within 3" must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
 
-If a unit moves within 3&quot; it must take the Ag test as above. </description>
+If a unit moves within 3" it must take the Ag test as above. </description>
     </rule>
     <rule id="3c64-6022-a5f1-9c04" name="Hero" hidden="false">
       <profiles/>
@@ -4436,7 +4496,7 @@ If a unit moves within 3&quot; it must take the Ag test as above. </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
+      <description>Ranges of 10" or less, +1 to Res. Ranges of greater than 10" +2 Res. Against any Blast hits, +3 Res. </description>
     </rule>
     <rule id="f62d-5e99-81f7-07dd" name="Inaccurate" book="BtGoA" page="70" hidden="false">
       <profiles/>
@@ -4480,7 +4540,7 @@ If a unit moves within 3&quot; it must take the Ag test as above. </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
+      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5" may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5" of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
     </rule>
     <rule id="5565-ce10-1c78-1ee7" name="MOD2" hidden="false">
       <profiles/>
@@ -4525,16 +4585,16 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
+      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3" canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
     </rule>
     <rule id="0a09-eb21-a6c6-ad31" name="Scrambler" book="BtGoA" page="88" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
+      <description>Enemy units within 3" that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
 
-Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
+Weapon Drone and vehicles have Res reduced by 2 within 3". Buddy drones cease to function if the unit is within 3". Probes can do nothing at all while marker is within 3". Penalties are not cumulative.</description>
     </rule>
     <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false">
       <profiles/>
@@ -4569,7 +4629,7 @@ Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cea
       <modifiers/>
       <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
 
-Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
+Spotter drones may spot through another spotter drone (within 20") with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
     </rule>
     <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false">
       <profiles/>
