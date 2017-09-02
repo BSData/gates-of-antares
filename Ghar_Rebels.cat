@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2165-1159-f3ed-3ea5" name="Rebel" book="BFX" revision="5" battleScribeVersion="2.00" authorName="Maye Gelt" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2165-1159-f3ed-3ea5" name="Ghar Outcast Rebel" book="BFX" revision="7" battleScribeVersion="2.01" authorName="Maye Gelt" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="3d57-162c-00ab-4c84" name="Fartok, Leader Of The Outcast Revolt" book="BFX" page="107" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="3d57-162c-00ab-4c84" name="Fartok, Leader Of The Outcast Revolt" book="BFX" page="107" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="cc41-d1a4-756b-8db5" name="Infantry Command Unit" hidden="false">
@@ -35,8 +36,17 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="3d57-162c-00ab-4c84-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0392-cdb8-e66c-08f6" name="Fartok" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="0392-cdb8-e66c-08f6" name="Fartok" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="2503-767b-452a-9f0d" name="Fartok" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -104,6 +114,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -111,7 +122,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="036d-d495-7f37-864f" name="Ghar Trooper 1" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="036d-d495-7f37-864f" name="Ghar Trooper 1" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="456f-9eeb-4ec2-0879" name="Ghar Trooper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -135,8 +146,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="5149-8785-472f-ec8c" name="Plasma Claws" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="5149-8785-472f-ec8c" name="Plasma Claws" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -152,6 +164,7 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -161,6 +174,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -174,7 +188,7 @@
             <cost name="pts" costTypeId="points" value="85.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1c5f-6e05-0634-9598" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="1c5f-6e05-0634-9598" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -211,6 +225,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -218,7 +233,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5c66-1eb0-17c5-71e7" name="Ghar Trooper 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="5c66-1eb0-17c5-71e7" name="Ghar Trooper 2" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="0fe7-c74b-d600-df56" name="Ghar Trooper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -242,8 +257,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="e4c4-e2f4-1333-2473" name="Plasma Claws" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="e4c4-e2f4-1333-2473" name="Plasma Claws" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -259,6 +275,7 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -268,6 +285,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -290,20 +308,30 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="179.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba8c-4fea-3a3d-51af" name="Flitter Bombs" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="ba8c-4fea-3a3d-51af" name="Flitter Bombs" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="ba8c-4fea-3a3d-51af-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5de7-d08d-e15d-7ce9" name="Flitter Bombs" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="5de7-d08d-e15d-7ce9" name="Flitter Bombs" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="cd10-ac71-475b-4f57" name="Flitter Bomb" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -360,6 +388,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -374,14 +403,23 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0d2-a464-576a-d53f" name="Flitters" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="a0d2-a464-576a-d53f" name="Flitters" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="a0d2-a464-576a-d53f-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0d74-51f5-cdef-1da6" name="Flitter" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="0d74-51f5-cdef-1da6" name="Flitter" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="e0b7-4216-5e20-71c4" name="Flitter" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -438,6 +476,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -452,7 +491,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b5a-d5f0-e539-a0ee" name="Ghar Rebel Bomber Squad" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="8b5a-d5f0-e539-a0ee" name="Rebel Bomber Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="ca5c-7445-3e1f-4676" name="Infantry Unit/Mixed Infantry+Mount" hidden="false">
@@ -484,8 +523,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="8b5a-d5f0-e539-a0ee-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4a98-4c68-15aa-a072" name="Ghar Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="4a98-4c68-15aa-a072" name="Ghar Leader" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="c216-69a9-3e8a-0f02" name="Ghar Leader" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -517,6 +565,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="1801-be82-bad9-46b6" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="1133-61fa-0a8e-be9c">
@@ -528,8 +577,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="e148-d3dc-c579-ecba" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="e148-d3dc-c579-ecba" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -544,6 +594,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -551,7 +602,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="5d73-1f5e-0487-13e2" name="Leader 3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="5d73-1f5e-0487-13e2" name="Leader 3" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -566,6 +617,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -573,7 +625,7 @@
                     <cost name="pts" costTypeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1133-61fa-0a8e-be9c" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="1133-61fa-0a8e-be9c" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -588,6 +640,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -607,13 +660,14 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a18c-40ae-d918-8109" name="Ghar Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="a18c-40ae-d918-8109" name="Ghar Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -628,6 +682,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -637,13 +692,14 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3a43-be53-21c6-bb37" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="3a43-be53-21c6-bb37" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -680,6 +736,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -687,7 +744,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="28a7-4a00-8b9f-618b" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="28a7-4a00-8b9f-618b" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -724,6 +781,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -731,7 +789,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0d6e-d1da-4558-5a99" name="Ghar Bomb Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="0d6e-d1da-4558-5a99" name="Ghar Bomb Trooper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="952f-9f4c-cbc4-2ebc" name="Ghar Bomb Trooper" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -756,6 +814,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -765,13 +824,14 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="63.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="90ee-0a6f-9336-975d" name="Ghar Scutter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="90ee-0a6f-9336-975d" name="Ghar Scutter" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -786,6 +846,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -795,6 +856,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="e66e-6adf-a0cd-5f9c" hidden="false" targetId="3fde-b133-beb3-43d7" type="selectionEntry">
               <profiles/>
@@ -802,10 +864,11 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="47.0"/>
+            <cost name="pts" costTypeId="points" value="26.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -815,7 +878,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9030-9dea-f00b-e2ed" name="Outcast Rebel Assault Squad" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="9030-9dea-f00b-e2ed" name="Rebel Assault Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="fef7-39df-2b98-1c66" name="Infantry Unit" hidden="false">
@@ -853,8 +916,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="9030-9dea-f00b-e2ed-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c8dc-aa17-3f85-1a20" name="Ghar Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="c8dc-aa17-3f85-1a20" name="Ghar Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -870,6 +942,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="da1d-e454-1800-044b" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="0d25-cce8-cf4b-478d">
@@ -881,6 +954,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -890,6 +964,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="a28d-5daa-1acf-caa1" hidden="false" targetId="da65-5109-5f5f-0f9a" type="selectionEntry">
                   <profiles/>
@@ -897,6 +972,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="0d25-cce8-cf4b-478d" hidden="false" targetId="05af-fc97-7a19-cf8d" type="selectionEntry">
                   <profiles/>
@@ -904,6 +980,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -913,7 +990,7 @@
             <cost name="pts" costTypeId="points" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4850-1a32-f160-03dc" name="Ghar Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="4850-1a32-f160-03dc" name="Ghar Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -929,6 +1006,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -936,7 +1014,7 @@
             <cost name="pts" costTypeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7db0-3bc8-ba66-2437" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="7db0-3bc8-ba66-2437" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -966,6 +1044,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -973,7 +1052,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3b0a-3a3a-9ba0-4a01" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="3b0a-3a3a-9ba0-4a01" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1003,6 +1082,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1019,6 +1099,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0b52-400d-e2fa-6607" hidden="false" targetId="36a7-e564-c80c-2a7e" type="selectionEntry">
           <profiles/>
@@ -1026,6 +1107,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="46f3-8791-7cb4-e161" hidden="false" targetId="ff6d-c9e5-a6c4-f336" type="selectionEntry">
           <profiles/>
@@ -1033,13 +1115,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c632-a7b6-ae64-6a40" name="Outcast Rebel Attack Crawler" page="170" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="c632-a7b6-ae64-6a40" name="Rebel Attack Crawler" page="204" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="eed6-747d-2cbd-1d32" name="Vehicle Unit" book="" hidden="false">
@@ -1089,8 +1172,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="c632-a7b6-ae64-6a40-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9578-b417-1394-8a76" name="Ghar Attack Crawler" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="9578-b417-1394-8a76" name="Ghar Attack Crawler" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="e6b3-72aa-3e3d-7418" name="Ghar Attack Crawler" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -1115,6 +1207,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="abdf-c858-3e87-a1a9" name="&lt; 1st Weapon &gt;" hidden="false" collective="false" defaultSelectionEntryId="7142-8408-6ffb-cd9a">
@@ -1126,6 +1219,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -1135,8 +1229,9 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
-                <entryLink id="ce20-6678-6c82-c8ef" hidden="false" targetId="306c-a91f-3fc0-e059" type="selectionEntry">
+                <entryLink id="ce20-6678-6c82-c8ef" name="Mag Cannon" hidden="false" targetId="306c-a91f-3fc0-e059" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1148,6 +1243,7 @@
                     </modifier>
                   </modifiers>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1160,28 +1256,25 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="fb2e-3d15-419a-7a6d" hidden="false" targetId="6f9d-4f18-835f-deff" type="selectionEntry">
+                <entryLink id="fb2e-3d15-419a-7a6d" name="Mag Light Support" hidden="false" targetId="6f9d-4f18-835f-deff" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
-                <entryLink id="e08a-8330-714e-cd8a" hidden="false" targetId="306c-a91f-3fc0-e059" type="selectionEntry">
+                <entryLink id="b08d-4027-2236-0a2b" name="Quad Mag Repeater" hidden="false" targetId="3018-7ca0-b24e-e8c7" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers>
-                    <modifier type="increment" field="points" value="10.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1191,7 +1284,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6cf2-4af4-75a3-8f07" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6cf2-4af4-75a3-8f07" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1207,6 +1300,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1214,7 +1308,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0b27-b8e0-7533-1d10" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="0b27-b8e0-7533-1d10" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1230,6 +1324,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1241,10 +1336,10 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="186.0"/>
+        <cost name="pts" costTypeId="points" value="204.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c27a-aa4f-97c0-ebef" name="Outcast Rebel Attack Scutters" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="c27a-aa4f-97c0-ebef" name="Rebel Attack Scutters" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="0702-c8f1-8d5b-8900" name="Mounted Unit" book="Beyond the Gates of Antares" page="95" hidden="false">
@@ -1288,8 +1383,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="c27a-aa4f-97c0-ebef-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8974-5164-823a-fe6c" name="Ghar Attack Scutter Leader" book="Beyond the Gates of Antares" page="170" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="8974-5164-823a-fe6c" name="Ghar Attack Scutter Leader" book="Beyond the Gates of Antares" page="170" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="98cb-1e8a-385f-e77e" name="Ghar Attack Scutter Leader" book="Beyond the Gates of Antares" page="170" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -1321,6 +1425,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="e731-c0ab-0ba9-c676" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="c559-421a-a988-dbfc">
@@ -1332,8 +1437,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="c559-421a-a988-dbfc" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="c559-421a-a988-dbfc" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -1348,6 +1454,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -1365,7 +1472,7 @@
             <cost name="pts" costTypeId="points" value="36.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7fdb-3754-be08-c953" name="Ghar Attack Scutter" book="Beyond the Gates of Antares" page="170" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="7fdb-3754-be08-c953" name="Ghar Attack Scutter" book="Beyond the Gates of Antares" page="170" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1381,6 +1488,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1388,7 +1496,7 @@
             <cost name="pts" costTypeId="points" value="26.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1e0c-2244-a076-556e" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="1e0c-2244-a076-556e" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1411,6 +1519,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1418,7 +1527,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="af71-451e-6e05-d0c7" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="af71-451e-6e05-d0c7" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1441,6 +1550,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1457,13 +1567,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5670-d9f9-4779-7a23" name="Outcast Rebel Battle Squad" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="5670-d9f9-4779-7a23" name="Rebel Battle Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="54a7-9a44-ddc3-e465" name="Infantry Unit" hidden="false">
@@ -1495,8 +1606,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5670-d9f9-4779-7a23-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c899-96c3-90ae-a7a9" name="Ghar Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="c899-96c3-90ae-a7a9" name="Ghar Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1518,6 +1638,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="ed36-f6c6-fac2-472f" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="413a-de59-87e5-7423">
@@ -1529,6 +1650,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -1538,6 +1660,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="8dd1-7f91-54f6-3404" hidden="false" targetId="da65-5109-5f5f-0f9a" type="selectionEntry">
                   <profiles/>
@@ -1545,6 +1668,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="413a-de59-87e5-7423" hidden="false" targetId="05af-fc97-7a19-cf8d" type="selectionEntry">
                   <profiles/>
@@ -1552,6 +1676,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1561,7 +1686,7 @@
             <cost name="pts" costTypeId="points" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d842-422d-f043-b735" name="Ghar Trooper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="d842-422d-f043-b735" name="Ghar Trooper" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1577,6 +1702,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1584,7 +1710,7 @@
             <cost name="pts" costTypeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b8b4-04a9-1ee9-228b" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="b8b4-04a9-1ee9-228b" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1614,6 +1740,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1621,7 +1748,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef06-9064-c307-e665" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="ef06-9064-c307-e665" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1651,6 +1778,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1667,13 +1795,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6cfb-8ee0-4610-646d" name="Outcast Rebel Black Guard" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="6cfb-8ee0-4610-646d" name="Rebel Black Guard" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="e266-7204-4b62-9954" name="Infantry Unit" hidden="false">
@@ -1693,8 +1822,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="6cfb-8ee0-4610-646d-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0c5f-a39d-f318-124e" name="Outcast Rebel Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="0c5f-a39d-f318-124e" name="Outcast Rebel Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1710,6 +1848,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="f3c1-a4fd-77c7-1ad3" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="fb25-afca-e693-0a27">
@@ -1721,6 +1860,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -1730,6 +1870,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="fb25-afca-e693-0a27" hidden="false" targetId="05af-fc97-7a19-cf8d" type="selectionEntry">
                   <profiles/>
@@ -1737,6 +1878,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1769,13 +1911,14 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="21.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f22f-86cd-4a95-b370" name="Outcast Rebel" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="f22f-86cd-4a95-b370" name="Outcast Rebel" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1791,6 +1934,7 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="11.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1806,6 +1950,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1826,6 +1971,7 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="cde7-d404-1b45-716c" hidden="false" targetId="6fc0-fbd7-b4c3-f78b" type="selectionEntry">
               <profiles/>
@@ -1844,6 +1990,7 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1870,6 +2017,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="1ef9-102f-441e-cb1c" hidden="false" targetId="4003-9479-f9e0-a340" type="selectionEntry">
           <profiles/>
@@ -1877,6 +2025,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="0ef8-b292-6e83-2f20" hidden="false" targetId="7f23-4831-7f76-fd6f" type="selectionEntry">
           <profiles/>
@@ -1884,6 +2033,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="08ad-0896-7414-9670" hidden="false" targetId="dc72-b0e2-b8cb-2d5c" type="selectionEntry">
           <profiles/>
@@ -1906,13 +2056,14 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f21b-beb2-224e-5e3f" name="Outcast Rebel Bombardment Crawler" page="170" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="f21b-beb2-224e-5e3f" name="Rebel Bombardment Crawler" page="170" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="d6a3-4bb5-e5d9-3659" name="Vehicle Unit / Mixed Vehicle + Mounts" book="" hidden="false">
@@ -1950,8 +2101,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f21b-beb2-224e-5e3f-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1a33-1125-41be-a84c" name="Ghar Bombardment Crawler" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="1a33-1125-41be-a84c" name="Ghar Bombardment Crawler" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="9eb2-f76c-73b5-402f" name="Ghar Bombardment Crawler" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -1989,6 +2149,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -1998,6 +2159,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="e938-8434-70f7-d9c7" hidden="false" targetId="3fde-b133-beb3-43d7" type="selectionEntry">
               <profiles/>
@@ -2005,6 +2167,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="0019-d8b6-f4b8-fe36" hidden="false" targetId="3fde-b133-beb3-43d7" type="selectionEntry">
               <profiles/>
@@ -2012,13 +2175,14 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8a2-a078-6edf-978b" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="a8a2-a078-6edf-978b" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2048,6 +2212,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2055,7 +2220,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a4c-fdb7-ebdb-0a84" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6a4c-fdb7-ebdb-0a84" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2085,6 +2250,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2092,7 +2258,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef3d-dcd6-70ae-c6c6" name="Ghar Scutter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="ef3d-dcd6-70ae-c6c6" name="Ghar Scutter" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2107,6 +2273,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -2116,6 +2283,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="5805-0b73-8f17-f572" hidden="false" targetId="3fde-b133-beb3-43d7" type="selectionEntry">
               <profiles/>
@@ -2123,6 +2291,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
@@ -2133,10 +2302,10 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="256.0"/>
+        <cost name="pts" costTypeId="points" value="262.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a8c-71c0-d041-09a6" name="Outcast Rebel Command Crawler" page="170" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
+    <selectionEntry id="8a8c-71c0-d041-09a6" name="Rebel Command Crawler" page="170" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="0436-9fe8-9e6b-50a5" name="Vehicle Command Unit" hidden="false">
@@ -2192,8 +2361,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="8a8c-71c0-d041-09a6-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cc54-51ee-9a73-2c3f" name="Ghar Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="cc54-51ee-9a73-2c3f" name="Ghar Commander" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="e177-ef68-f56f-fd00" name="Ghar Commander" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -2225,6 +2403,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="a1eb-a7e9-0ba1-9166" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="4f80-8e2f-3425-932a">
@@ -2236,8 +2415,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="4f80-8e2f-3425-932a" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="4f80-8e2f-3425-932a" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -2252,6 +2432,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -2259,7 +2440,7 @@
                     <cost name="pts" costTypeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="bbd9-af80-b959-dbe0" name="Leader 3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="bbd9-af80-b959-dbe0" name="Leader 3" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -2274,6 +2455,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -2281,7 +2463,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4351-2a97-c5fa-68de" name="High Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="4351-2a97-c5fa-68de" name="High Commander" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -2296,6 +2478,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -2315,6 +2498,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="66d8-4c57-7b8f-aa81" hidden="false" targetId="3fde-b133-beb3-43d7" type="selectionEntry">
               <profiles/>
@@ -2322,18 +2506,19 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a403-8e75-3775-b0a9" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="a403-8e75-3775-b0a9" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="10.0">
+            <modifier type="increment" field="points" value="10">
               <repeats>
                 <repeat field="selections" scope="8a8c-71c0-d041-09a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc54-51ee-9a73-2c3f" repeats="1" roundUp="false"/>
               </repeats>
@@ -2344,6 +2529,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2351,12 +2537,12 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6675-7341-53d3-7e85" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6675-7341-53d3-7e85" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="5.0">
+            <modifier type="increment" field="points" value="5">
               <repeats>
                 <repeat field="selections" scope="8a8c-71c0-d041-09a6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6675-7341-53d3-7e85" repeats="1" roundUp="false"/>
               </repeats>
@@ -2367,6 +2553,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2378,10 +2565,10 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="243.0"/>
+        <cost name="pts" costTypeId="points" value="242.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bf3-341f-b125-6334" name="Outcast Rebel Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="8bf3-341f-b125-6334" name="Rebel Command Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="dcc1-0cf8-5b64-89eb" name="Infantry Command Unit" hidden="false">
@@ -2401,8 +2588,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="8bf3-341f-b125-6334-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b7fa-60d2-b829-a7be" name="Ghar Outcast Rebel Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="b7fa-60d2-b829-a7be" name="Ghar Outcast Rebel Commander" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2436,6 +2632,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="d3b2-1969-407b-c61f" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="86da-277a-ba37-4410">
@@ -2447,6 +2644,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -2456,6 +2654,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="8dae-6f58-6727-960d" hidden="false" targetId="da65-5109-5f5f-0f9a" type="selectionEntry">
                   <profiles/>
@@ -2463,6 +2662,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="86da-277a-ba37-4410" hidden="false" targetId="05af-fc97-7a19-cf8d" type="selectionEntry">
                   <profiles/>
@@ -2470,6 +2670,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -2479,7 +2680,7 @@
             <cost name="pts" costTypeId="points" value="51.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5bd1-2159-c56d-73c1" name="Outcast Rebel" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="5bd1-2159-c56d-73c1" name="Outcast Rebel" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2495,6 +2696,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2526,6 +2728,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3f95-7f8e-30d1-d868" hidden="false" targetId="4003-9479-f9e0-a340" type="selectionEntry">
           <profiles/>
@@ -2533,6 +2736,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="c8ce-474c-2a29-aa16" hidden="false" targetId="7f23-4831-7f76-fd6f" type="selectionEntry">
           <profiles/>
@@ -2540,6 +2744,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="be6d-09d2-5ae1-9a01" hidden="false" targetId="c429-23e1-056e-cfd3" type="selectionEntry">
           <profiles/>
@@ -2562,13 +2767,14 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ecf-63e6-ab1c-a4fe" name="Outcast Rebel Commander In Battle Armour" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="6ecf-63e6-ab1c-a4fe" name="Rebel Commander In Battle Armour" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="10a9-3714-7f79-92b2" name="Infantry Command Unit" hidden="false">
@@ -2602,8 +2808,17 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6ecf-63e6-ab1c-a4fe-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a447-3e39-8eeb-e605" name="Ghar Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="a447-3e39-8eeb-e605" name="Ghar Commander" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2620,9 +2835,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b90e-ea97-650c-1347" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="fe8e-e203-c9b3-ab58">
+            <selectionEntryGroup id="b90e-ea97-650c-1347" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="6a66-dacf-0734-700b">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2631,39 +2847,88 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
-              <selectionEntries/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="16aa-2449-9e76-0d2f" name="High Commander" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="8bb2-9c5d-ade7-cce3" hidden="false" targetId="48e7-7b6b-328c-29fe" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02a1-d7c8-4fdc-e2fe" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6a66-dacf-0734-700b" name="Leader 2" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="68a4-950a-e596-a4d0" hidden="false" targetId="9d03-08db-93a6-4f05" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e974-d5a4-5bff-cad1" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="08ac-2820-f509-5868" name="Leader 3" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="ba3e-b029-6aaf-c749" hidden="false" targetId="e048-25d9-af17-bdf0" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b7f-10c3-b2d6-177d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="fe8e-e203-c9b3-ab58" hidden="false" targetId="0e9b-9aae-bd16-d30f" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </entryLink>
-                <entryLink id="101b-983c-bd99-6752" hidden="false" targetId="da65-5109-5f5f-0f9a" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </entryLink>
-                <entryLink id="1295-3f98-9f4a-18b7" hidden="false" targetId="0435-82ed-58ff-4ea7" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </entryLink>
-              </entryLinks>
+              <entryLinks/>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="92.0"/>
+            <cost name="pts" costTypeId="points" value="102.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9183-d94d-d8a6-9c54" name="Ghar Troopers" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="9183-d94d-d8a6-9c54" name="Ghar Troopers" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2678,6 +2943,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2685,7 +2951,7 @@
             <cost name="pts" costTypeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6d2d-8d49-60eb-391e" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6d2d-8d49-60eb-391e" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2715,6 +2981,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2722,7 +2989,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5223-0081-7e79-67e2" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="5223-0081-7e79-67e2" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2752,6 +3019,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2759,7 +3027,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1218-94f3-d5cc-bbaa" name="Plasma Claw for Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="1218-94f3-d5cc-bbaa" name="Plasma Claw for Leader" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="09cf-f9d1-0fa7-49ba" name="Plasma Claw" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -2789,6 +3057,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9502-0267-4e94-2d4f" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2815,8 +3084,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d6-e195-86a7-fc4f" type="min"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf6-7ee5-4d65-4014" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="2dbe-f75a-204b-8ebe" name="Plasma Claw for Troopers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="2dbe-f75a-204b-8ebe" name="Plasma Claw for Troopers" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="f9a5-30af-b5c2-115b" name="Plasma Claw" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
                   <profiles/>
@@ -2846,6 +3116,7 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6763-3575-1bc3-7b36" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -2865,13 +3136,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c3d-26af-84e5-51c4" name="Outcast Rebel Creeper" book="BFX" page="90" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
+    <selectionEntry id="7c3d-26af-84e5-51c4" name="Rebel Creeper" book="BFX" page="90" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="0d6d-b9c2-cc1c-b94b" name="Vehicle Unit" book="" hidden="false">
@@ -2915,8 +3187,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="7c3d-26af-84e5-51c4-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7516-1d67-a0c0-9317" name="Outcast Rebel Creeper" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="7516-1d67-a0c0-9317" name="Outcast Rebel Creeper" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="4ae2-28b0-6ec5-53ea" name="Outcast Rebel Creeper" hidden="false" profileTypeId="f9a2-eeae-3284-75fd">
               <profiles/>
@@ -2948,14 +3229,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="88.0"/>
+            <cost name="pts" costTypeId="points" value="98.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="47b6-1595-864a-c002" name="Plasma Amplifiers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="47b6-1595-864a-c002" name="Plasma Amplifiers" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2978,6 +3260,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -2985,7 +3268,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e5e7-9b9e-2d25-6bde" name="Plasma Dumps" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="e5e7-9b9e-2d25-6bde" name="Plasma Dumps" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3008,6 +3291,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3041,6 +3325,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ca-1cee-2b4d-d8d2" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f789-c778-be5d-3c81" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="2f87-efbb-7c25-bf92" name="Mag Cannon" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3068,14 +3353,23 @@
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b61d-8d3d-4d43-3fc3" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ada7-7175-ea06-932d" name="Mag Light Support" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3107,10 +3401,13 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b5a-fb0f-322f-5b2c" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3122,7 +3419,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7cf7-a4ad-ce2d-eba8" name="Outcast Rebel Disruptor Cannon Team" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="7cf7-a4ad-ce2d-eba8" name="Rebel Disruptor Cannon Team" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="45cb-83a8-6ea1-a8b5" name="Weapon Team Unit" hidden="false">
@@ -3142,8 +3439,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="7cf7-a4ad-ce2d-eba8-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="de51-23ed-0173-ba47" name="Outcast Crew" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="de51-23ed-0173-ba47" name="Outcast Crew" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3159,6 +3465,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3166,7 +3473,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cc71-0ba4-2876-cc38" name="Outcast Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="cc71-0ba4-2876-cc38" name="Outcast Leader" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3181,6 +3488,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="d3c3-c5ff-1552-7d0b" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="d813-a45b-705e-5144">
@@ -3192,8 +3500,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="99a0-ce67-06df-5518" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="99a0-ce67-06df-5518" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3208,6 +3517,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3215,7 +3525,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d813-a45b-705e-5144" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="d813-a45b-705e-5144" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3230,6 +3540,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3271,20 +3582,22 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
-        <entryLink id="ef2d-7266-6da3-5cdf" hidden="false" targetId="a975-754b-83c3-802b" type="selectionEntry">
+        <entryLink id="ef2d-7266-6da3-5cdf" name="Disruptor Cannon" hidden="false" targetId="a975-754b-83c3-802b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa5d-9038-2bc4-b630" name="Outcast Rebel Mag Cannon Team" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="fa5d-9038-2bc4-b630" name="Rebel Mag Cannon Team" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="532b-e532-12c0-28ae" name="Weapon Team Unit" hidden="false">
@@ -3304,8 +3617,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="fa5d-9038-2bc4-b630-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="eeae-becc-d65d-5322" name="Outcast Crew" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="eeae-becc-d65d-5322" name="Outcast Crew" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3321,6 +3643,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3328,7 +3651,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c2e8-9d7e-6286-8c57" name="Outcast Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="c2e8-9d7e-6286-8c57" name="Outcast Leader" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3343,6 +3666,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="edb5-905b-9ff0-d3ff" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="9454-9085-286f-baa7">
@@ -3354,8 +3678,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="5920-b558-9db3-f291" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="5920-b558-9db3-f291" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3370,6 +3695,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3377,7 +3703,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9454-9085-286f-baa7" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="9454-9085-286f-baa7" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3392,6 +3718,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3433,6 +3760,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="2e16-54a0-a20e-2885" hidden="false" targetId="1df9-990c-8861-c567" type="selectionEntry">
           <profiles/>
@@ -3440,13 +3768,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e95f-bd48-575a-02f3" name="Outcast Rebel Mag Light Support Team" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="e95f-bd48-575a-02f3" name="Rebel Mag Light Support Team" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="6830-76e9-be7d-edbf" name="Weapon Team Unit" hidden="false">
@@ -3466,8 +3795,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e95f-bd48-575a-02f3-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5453-2c0b-0bab-f7d8" name="Outcast Crew" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="5453-2c0b-0bab-f7d8" name="Outcast Crew" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3483,6 +3821,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3490,7 +3829,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d306-97f4-a254-bf50" name="Outcast Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="d306-97f4-a254-bf50" name="Outcast Leader" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3505,6 +3844,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="e9b8-d26b-28cd-befb" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="d25e-230c-a96f-6d49">
@@ -3516,8 +3856,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="9dfa-84c7-626a-443d" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="9dfa-84c7-626a-443d" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3532,6 +3873,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3539,7 +3881,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d25e-230c-a96f-6d49" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="d25e-230c-a96f-6d49" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3554,6 +3896,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3595,6 +3938,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="8c2d-aa7c-43f5-0c16" hidden="false" targetId="f124-9b5b-1165-35e3" type="selectionEntry">
           <profiles/>
@@ -3602,13 +3946,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8903-dc57-d9d7-6392" name="Outcast Rebel Quad Mag Repeater Team" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="8903-dc57-d9d7-6392" name="Rebel Quad Mag Repeater Team" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="ce3e-4f08-fdd5-af16" name="Weapon Team Unit" hidden="false">
@@ -3628,8 +3973,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="8903-dc57-d9d7-6392-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e149-4b0d-69d9-2a39" name="Outcast Crew" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="e149-4b0d-69d9-2a39" name="Outcast Crew" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3645,6 +3999,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3652,7 +4007,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7d5e-02b8-d090-58de" name="Outcast Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="7d5e-02b8-d090-58de" name="Outcast Leader" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3667,6 +4022,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="5a30-0254-33ae-ff5d" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="4c69-d0c6-da08-f3f8">
@@ -3678,8 +4034,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="04a2-505e-732a-bb2a" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="04a2-505e-732a-bb2a" name="Leader 2" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3694,6 +4051,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3701,7 +4059,7 @@
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4c69-d0c6-da08-f3f8" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="4c69-d0c6-da08-f3f8" name="Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -3716,6 +4074,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -3757,6 +4116,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="5f37-0c38-4111-e414" hidden="false" targetId="3018-7ca0-b24e-e8c7" type="selectionEntry">
           <profiles/>
@@ -3764,13 +4124,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac0c-ffe3-ca36-d4c0" name="Outcast Rebel Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
+    <selectionEntry id="ac0c-ffe3-ca36-d4c0" name="Rebel Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="512f-b5be-36a9-2459" name="Infantry Unit" hidden="false">
@@ -3790,8 +4151,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="ac0c-ffe3-ca36-d4c0-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ebff-8528-f0d6-8bfd" name="Ghar Outcast Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="ebff-8528-f0d6-8bfd" name="Ghar Outcast Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3807,6 +4177,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="cd4c-2b67-0b74-96dd" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="d35e-b864-9304-3e84">
@@ -3818,6 +4189,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -3827,6 +4199,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d35e-b864-9304-3e84" hidden="false" targetId="05af-fc97-7a19-cf8d" type="selectionEntry">
                   <profiles/>
@@ -3834,16 +4207,17 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="19.0"/>
+            <cost name="pts" costTypeId="points" value="13.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f634-df4a-d8c4-fd3b" name="Ghar Outcast" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="f634-df4a-d8c4-fd3b" name="Ghar Outcast" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3859,6 +4233,7 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="11.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -3866,7 +4241,7 @@
             <cost name="pts" costTypeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b402-5948-a9cb-bda7" name="Outcast Weapon Team of Two" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="b402-5948-a9cb-bda7" name="Outcast Weapon Team of Two" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3874,6 +4249,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -3883,6 +4259,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
           <costs>
@@ -3900,6 +4277,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -3909,6 +4287,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="28ff-ecfd-1910-2b2f" hidden="false" targetId="afcd-8743-da8f-a190" type="selectionEntry">
               <profiles/>
@@ -3938,6 +4317,7 @@
                 </modifier>
               </modifiers>
               <constraints/>
+              <categoryLinks/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -3964,6 +4344,7 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3d26-b1d7-c495-4567" hidden="false" targetId="c70a-e0a0-0192-f2dc" type="selectionEntry">
           <profiles/>
@@ -3993,13 +4374,14 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd3a-9dc3-6585-6d3e" name="Tectorist Scouts" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="fd3a-9dc3-6585-6d3e" name="Tectorist Scouts" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="0361-c2bf-5185-8a0b" name="Special: Sharded Infantry Unit" hidden="false">
@@ -4019,8 +4401,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="fd3a-9dc3-6585-6d3e-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b572-c2ed-763c-a0a4" name="Tectorist Scout" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="b572-c2ed-763c-a0a4" name="Tectorist Scout" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="d0e9-50a7-5823-cc89" name="Tectorist Scouts" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -4028,12 +4419,12 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="6"/>
-                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
-                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="3"/>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="-"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="-"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="-"/>
                 <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="4"/>
-                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
-                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="7"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="-"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="-"/>
                 <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Leader, Rebel, Shard"/>
               </characteristics>
             </profile>
@@ -4058,6 +4449,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4074,13 +4466,14 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="105a-88d6-b03c-e681" name="Wrecking Squad" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
+    <selectionEntry id="105a-88d6-b03c-e681" name="Wrecking Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="f18d-d08c-1481-0f21" name="Infantry Unit" hidden="false">
@@ -4100,12 +4493,21 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="105a-88d6-b03c-e681-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2009-2564-ed64-e5d9" name="Outcast Rebel Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="2009-2564-ed64-e5d9" name="Outcast Rebel Leader" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="08ed-2551-b524-dd0f" hidden="false" targetId="9770-5f42-fa8c-247c" type="profile">
+            <infoLink id="08ed-2551-b524-dd0f" name="Outcast Rebel Leader" hidden="false" targetId="9770-5f42-fa8c-247c" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4117,6 +4519,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="f260-f310-aaac-0ffc" name="Leader Rank" hidden="false" collective="false" defaultSelectionEntryId="07a6-d6ee-7c54-e8fe">
@@ -4128,6 +4531,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -4137,6 +4541,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -4146,7 +4551,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8a76-6031-2e6b-1431" name="Outcast Rebel" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="8a76-6031-2e6b-1431" name="Outcast Rebel" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -4162,6 +4567,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -4178,6 +4584,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="3ae4-7f9d-0069-74d8" hidden="false" targetId="7f23-4831-7f76-fd6f" type="selectionEntry">
           <profiles/>
@@ -4185,6 +4592,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
         <entryLink id="a27d-e086-220b-cb6c" hidden="false" targetId="ac9f-9690-ac50-3e99" type="selectionEntry">
           <profiles/>
@@ -4192,6 +4600,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -4200,16 +4609,25 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="399d-d4c1-3e11-e7e1" name="Army Options" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry" categoryEntryId="50ba-cf77-3941-189c">
+    <entryLink id="399d-d4c1-3e11-e7e1" name="Army Options" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="399d-d4c1-3e11-e7e1-50ba-cf77-3941-189c" hidden="false" targetId="50ba-cf77-3941-189c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="562c-13be-8455-d77b" name="Bomb Feeder" book="Main Rulebook" page="124" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="562c-13be-8455-d77b" name="Bomb Feeder" book="Main Rulebook" page="124" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4225,6 +4643,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4232,7 +4651,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e376-d612-25ff-b855" name="Disruptor Bomber" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="e376-d612-25ff-b855" name="Disruptor Bomber" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="1acb-9789-cb8b-8ef9" name="Disruptor Bomber" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4268,6 +4687,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4275,7 +4695,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a975-754b-83c3-802b" name="Disruptor Cannon" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a975-754b-83c3-802b" name="Disruptor Cannon" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="3fc4-77d8-d391-3905" name="Disruptor Cannon" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4305,6 +4725,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4312,7 +4733,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff6d-c9e5-a6c4-f336" name="Disruptor Discharger" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ff6d-c9e5-a6c4-f336" name="Disruptor Discharger" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="72a8-99cd-7759-5303" name="Disruptor Discharger" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4366,6 +4787,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4373,7 +4795,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cfd-07d8-f685-fa34" name="Gouger" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3cfd-07d8-f685-fa34" name="Gouger" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="9983-0148-efd4-e87b" name="Gouger" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4409,6 +4831,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4416,7 +4839,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac9f-9690-ac50-3e99" name="Grabber" book="Main Rulebook" page="124" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ac9f-9690-ac50-3e99" name="Grabber" book="Main Rulebook" page="124" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4432,6 +4855,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4439,7 +4863,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a09-7c98-31f2-0b1b" name="Heavy Disruptor Bomber" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="5a09-7c98-31f2-0b1b" name="Heavy Disruptor Bomber" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="6829-9a72-421b-cfd5" name="Heavy Disruptor Bomber" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4475,6 +4899,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4482,7 +4907,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0435-82ed-58ff-4ea7" name="High Commander" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0435-82ed-58ff-4ea7" name="High Commander" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4495,6 +4920,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4502,7 +4928,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac57-b0c4-464e-9774" name="Hybrid Plasma Light Support" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ac57-b0c4-464e-9774" name="Hybrid Plasma Light Support" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4511,6 +4937,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4518,7 +4945,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8592-5404-f9d1-f93b" name="Hybrid Reactor" book="BFX" page="107" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="8592-5404-f9d1-f93b" name="Hybrid Reactor" book="BFX" page="107" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4527,6 +4954,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4534,7 +4962,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05af-fc97-7a19-cf8d" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="05af-fc97-7a19-cf8d" name="Leader" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4547,6 +4975,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4554,7 +4983,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e9b-9aae-bd16-d30f" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0e9b-9aae-bd16-d30f" name="Leader 2" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4567,6 +4996,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4574,7 +5004,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da65-5109-5f5f-0f9a" name="Leader 3" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="da65-5109-5f5f-0f9a" name="Leader 3" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4587,6 +5017,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4594,7 +5025,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4d36-a47c-487c-f893" name="Lugger Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="4d36-a47c-487c-f893" name="Lugger Gun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="98d1-3d6d-debb-e8f0" name="Lugger Gun" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4629,6 +5060,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4636,7 +5068,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7870-c71a-3038-1e22" name="Lugger Guns" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="7870-c71a-3038-1e22" name="Lugger Guns" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="a7ee-5d84-004e-b2c7" name="Lugger Gun" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4672,6 +5104,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4679,7 +5112,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="306c-a91f-3fc0-e059" name="Mag Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="306c-a91f-3fc0-e059" name="Mag Cannon" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7074-7af7-cb33-9842" name="Mag Cannon" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4701,6 +5134,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4708,7 +5142,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1df9-990c-8861-c567" name="Mag Cannon (Weapon Team)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1df9-990c-8861-c567" name="Mag Cannon (Weapon Team)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1cbe-4730-f08c-a6c0" name="Mag Cannon" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4731,6 +5165,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4738,7 +5173,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afcd-8743-da8f-a190" name="Mag Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="afcd-8743-da8f-a190" name="Mag Gun" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="5ac4-a65c-7ca5-f6a5" name="Mag Gun" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4760,6 +5195,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4767,7 +5203,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f23-4831-7f76-fd6f" name="Mag Guns" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="7f23-4831-7f76-fd6f" name="Mag Guns" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fc9f-0877-25cf-3e17" name="Mag Gun" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4790,6 +5226,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4797,7 +5234,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f9d-4f18-835f-deff" name="Mag Light Support" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6f9d-4f18-835f-deff" name="Mag Light Support" hidden="false" collective="true" type="upgrade">
       <profiles>
         <profile id="118c-ea89-1867-bb09" name="Mag Light Support" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4819,6 +5256,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4826,7 +5264,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f124-9b5b-1165-35e3" name="Mag Light Support (Weapon Team)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f124-9b5b-1165-35e3" name="Mag Light Support (Weapon Team)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="de21-7340-0cf9-2b91" name="Mag Light Support" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4849,6 +5287,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4856,7 +5295,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b8c-cb95-f75e-7790" name="Mag Multilash" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1b8c-cb95-f75e-7790" name="Mag Multilash" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4865,6 +5304,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4872,7 +5312,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc72-b0e2-b8cb-2d5c" name="Maglash" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="dc72-b0e2-b8cb-2d5c" name="Maglash" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="66ab-8aa6-0aad-7137" name="Maglash" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4901,6 +5341,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4908,7 +5349,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab08-23fc-b6b5-a20f" name="Maglashs" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ab08-23fc-b6b5-a20f" name="Maglashs" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1194-ad4d-b79b-4557" name="Maglash" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4938,6 +5379,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4945,7 +5387,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0c9-26de-c4d9-59cd" name="Micro-X Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="a0c9-26de-c4d9-59cd" name="Micro-X Launcher" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="29d5-220a-164f-9cce" name="Micro-X Launcher - Overhead" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4981,6 +5423,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -4988,7 +5431,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0924-6883-4fd0-7896" name="Plasma Amplifier" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0924-6883-4fd0-7896" name="Plasma Amplifier" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5001,6 +5444,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5008,7 +5452,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed1e-82da-96a2-9c3e" name="Plasma Carbine" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ed1e-82da-96a2-9c3e" name="Plasma Carbine" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2b75-1d5a-781f-c81f" name="Plasma Carbine - Single Shot" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5044,6 +5488,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5051,7 +5496,7 @@
         <cost name="pts" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36a7-e564-c80c-2a7e" name="Plasma Claw" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="36a7-e564-c80c-2a7e" name="Plasma Claw" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="7b7f-6710-a8ca-13a0" name="Plasma Claw" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5087,6 +5532,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5094,7 +5540,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a8d-432b-4cb0-6b78" name="Plasma Claw (Command)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0a8d-432b-4cb0-6b78" name="Plasma Claw (Command)" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="f2fe-66ff-fe52-5e87" name="Plasma Claw" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5130,6 +5576,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5137,7 +5584,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e7f-8fb9-1596-4ab8" name="Plasma Dump" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6e7f-8fb9-1596-4ab8" name="Plasma Dump" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5150,6 +5597,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5157,7 +5605,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c429-23e1-056e-cfd3" name="Plasma Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c429-23e1-056e-cfd3" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5165,6 +5613,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5172,7 +5621,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fc0-fbd7-b4c3-f78b" name="Plasma Lance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="6fc0-fbd7-b4c3-f78b" name="Plasma Lance" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="648c-d115-3e1d-4507" name="Plasma Lance - Single Shot" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5221,6 +5670,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5228,7 +5678,7 @@
         <cost name="pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3018-7ca0-b24e-e8c7" name="Quad Mag Repeater" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3018-7ca0-b24e-e8c7" name="Quad Mag Repeater" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e9b6-dc42-b707-9a5f" name="Quad Mag Repeater" book="BFX" page="75" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5258,6 +5708,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5265,7 +5716,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c70a-e0a0-0192-f2dc" name="Reflex Armour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c70a-e0a0-0192-f2dc" name="Reflex Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5280,6 +5731,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5287,7 +5739,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4003-9479-f9e0-a340" name="Reflex Armoured" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="4003-9479-f9e0-a340" name="Reflex Armoured" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5303,6 +5755,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5310,7 +5763,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3fde-b133-beb3-43d7" name="Scourer Cannon" book="" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="3fde-b133-beb3-43d7" name="Scourer Cannon" book="" hidden="false" collective="true" type="model">
       <profiles>
         <profile id="3a17-075b-0005-da30" name="Scourer Cannon - Dispersed" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5366,6 +5819,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5373,7 +5827,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b86-3198-ef3c-030e" name="Tector Rods" book="Main Rulebook" page="124" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3b86-3198-ef3c-030e" name="Tector Rods" book="Main Rulebook" page="124" hidden="false" collective="true" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5389,6 +5843,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -5730,8 +6185,8 @@
         <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
         <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="3"/>
         <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="4(5)"/>
-        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
-        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="7"/>
+        <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="6"/>
+        <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="6"/>
         <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Rebel"/>
       </characteristics>
     </profile>
