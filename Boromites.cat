@@ -4698,7 +4698,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e21-2665-5c57-812b" name="Boromite Miner Tas Geren&apos;do" book="CS" page="111" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3e21-2665-5c57-812b" name="Tas Geren&apos;do, Miner" book="CS" page="111" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4907,7 +4907,9 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4c54-e8d0-98ab-2330" name="Rover Drone Surveyor" book="CS" page="75" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -4945,9 +4947,9 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c696-a431-f122-70d2" name="Micromite Probes" book="brb" page="119" hidden="false" collective="false" type="model">
+        <selectionEntry id="9d8e-9be8-3d49-6032" name="Micromite Probes" book="BRB" page="p189" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="5949-d0a7-850f-922d" name="Micromite Probes" book="brb" page="189" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+            <profile id="58d4-8fea-1f6b-33a8" name="Micromite Probes" book="BRB" page="p189" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4964,18 +4966,11 @@
             </profile>
           </profiles>
           <rules/>
-          <infoLinks>
-            <infoLink id="11e4-6dd8-9841-0176" name="Shard" hidden="false" targetId="6dc1-69d0-6655-5615" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
+          <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3152-f47a-604d-617e" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e0d-b099-0350-08cc" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4da-316d-f300-6f7c" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d698-b8b3-3569-584d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -4985,24 +4980,43 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="fa18-187a-67dc-2467" name="Rover Drone Surveyor" book="CS" page="75" hidden="false" targetId="289f-cbee-b82d-ef85" type="selectionEntry">
-          <profiles/>
+        <selectionEntry id="e387-c637-31ac-2643" name="Rover Drone Surveyor" book="CS" page="69" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="cd6f-db4f-add6-45f1" name="Rover Drone Surveyor" book="CS" page="69" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="0"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="12"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743f-9e2f-0cfd-e28c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973e-a143-55bb-fb02" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50cc-542c-8dc1-d727" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c48f-709e-042f-1386" type="max"/>
           </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="41.0"/>
-      </costs>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="41.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="1192-bb85-1c55-df72" name="Iso-drone (Concord Pattern)" book="CS" page="75" hidden="false" collective="false" type="unit">
       <profiles>
@@ -6338,7 +6352,9 @@ The unit may perform any action that it normally would be able to pick.</descrip
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
