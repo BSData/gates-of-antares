@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="7" battleScribeVersion="2.01" authorName="Michael Ovsenik" authorContact="FB" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="8" battleScribeVersion="2.01" authorName="Michael Ovsenik" authorContact="FB" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1018,7 +1018,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eedc-e2bb-4f36-19ca" name="Shield Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1038,7 +1040,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6a05-cc97-fb38-b09a" name="Spotter Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1058,7 +1062,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1764,7 +1770,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3256,7 +3264,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9767-fefd-dc1e-47aa" name="Batter Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -3276,7 +3286,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="25a8-9c44-b5eb-73fa" name="Shield Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -3296,7 +3308,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3476,7 +3490,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="091a-95c6-def1-c445" name="Spotter Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -3496,7 +3512,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5f5a-c964-97af-6606" name="Shield Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -3516,7 +3534,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3690,7 +3710,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="04de-765c-210c-73ae" name="Shield Drone" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -3710,7 +3732,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4890,12 +4914,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4af6-1eac-39c6-7d91" hidden="false" targetId="7ac3-5fd7-f7a8-3a01" type="selectionEntry">
+        <entryLink id="4af6-1eac-39c6-7d91" name="Plasma Grenades" hidden="false" targetId="7ac3-5fd7-f7a8-3a01" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="2.0">
+            <modifier type="increment" field="points" value="2">
               <repeats>
                 <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d441-f08b-6ae0-3ce1" repeats="1" roundUp="false"/>
               </repeats>
@@ -4913,7 +4937,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0c7f-6883-5b9e-f555" hidden="false" targetId="9cdf-f068-bbde-2d0c" type="selectionEntry">
+        <entryLink id="0c7f-6883-5b9e-f555" name="Reflex Armor" hidden="false" targetId="9cdf-f068-bbde-2d0c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4921,7 +4945,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="13d3-407b-5520-a098" hidden="false" targetId="f3aa-148a-0460-c7e5" type="selectionEntry">
+        <entryLink id="13d3-407b-5520-a098" name="Spotter Drone" hidden="false" targetId="f3aa-148a-0460-c7e5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5403,6 +5427,144 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="555d-6536-8efa-f2d2" name="General Tar Es Janar" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5ee2-b40c-8e33-0639" name="General Tar Es Janar" hidden="false" profileTypeId="f9a2-eeae-3284-75fd" profileTypeName="Limited Choice">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="18c1-4764-7d08-708d" value="5"/>
+            <characteristic name="Acc" characteristicTypeId="e39c-d7a4-86a8-d23d" value="5"/>
+            <characteristic name="Str" characteristicTypeId="0790-bfd5-1273-fe12" value="5"/>
+            <characteristic name="Res" characteristicTypeId="5b77-3595-2819-675c" value="6(7)"/>
+            <characteristic name="Init" characteristicTypeId="c0d8-f6fd-a474-1385" value="8"/>
+            <characteristic name="Co" characteristicTypeId="135d-efc3-5039-b6e6" value="10"/>
+            <characteristic name="Special" characteristicTypeId="ab43-4d1c-4651-b424" value="Command, Follow, Leader 3, Strategic Genius, Wound, Vertex Mace"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="60a7-25b5-5545-2e3e" name="Vertex Mace" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="19e3-1d34-d08b-68ca" name="Strategic Genius" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="edc8-e9dd-78bf-b73c" name="Plasma Pistol" hidden="false" targetId="749a-029f-6b4b-c96d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4016-5a62-47ea-b1db" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1899-5883-af0d-b14d" name="AI Trooper" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="3822-a5ea-7971-76dd" name="AI Trooper" book="BtGoA" page="173" hidden="false" profileTypeId="1650-77b3-10d1-6406">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="5"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="5"/>
+                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="6 (7)"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="7"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd19-9e90-d0c4-ae9e" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="888b-5d56-aff5-2f30" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="376f-1de2-6ca6-2677" name="Spotter Drone" hidden="false" targetId="f3aa-148a-0460-c7e5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c991-d6a2-9a5c-c9a1" name="Reflex Armor" hidden="false" targetId="9cdf-f068-bbde-2d0c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e95-4dbc-afc2-4b3c" name="Plasma Grenades" hidden="false" targetId="7ac3-5fd7-f7a8-3a01" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="points" value="2">
+              <repeats>
+                <repeat field="selections" scope="555d-6536-8efa-f2d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="2">
+              <repeats>
+                <repeat field="selections" scope="555d-6536-8efa-f2d2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1899-5883-af0d-b14d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="105.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -9837,5 +9999,19 @@ Shard units never take pins. Always assumed to pass order tests. </description>
       <description>Use to boost Res +2 or give a SV +2 each round of fighting. If used as +2 SV, counts as Grenade. </description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="749a-029f-6b4b-c96d" name="Plasma Pistol" page="68" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10"/>
+        <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="20"/>
+        <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="30"/>
+        <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Hand Weapon"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
