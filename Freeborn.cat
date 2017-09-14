@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="10" battleScribeVersion="2.01" authorName="Michael Ovsenik / Vescarea" authorContact="FB" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="11" battleScribeVersion="2.01" authorName="Michael Ovsenik / Vescarea" authorContact="FB" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2354,7 +2354,7 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="0a70-8e28-15f1-adba" hidden="false" targetId="b357-a997-60e5-053e" type="selectionEntry">
+                <entryLink id="0a70-8e28-15f1-adba" name="IMTel Stave" hidden="false" targetId="b357-a997-60e5-053e" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2472,7 +2472,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8c9e-c5c0-4339-2c9e" hidden="false" targetId="1707-586b-01df-0f80" type="selectionEntry">
+        <entryLink id="8c9e-c5c0-4339-2c9e" name="Shield Drone (2)" hidden="false" targetId="1707-586b-01df-0f80" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2480,7 +2480,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b557-70e8-d27c-aa9d" hidden="false" targetId="cadc-e1ce-3615-ac4b" type="selectionEntry">
+        <entryLink id="b557-70e8-d27c-aa9d" name="Nano Drone" hidden="false" targetId="cadc-e1ce-3615-ac4b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3073,7 +3073,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="2711-9b03-d242-afb9" hidden="false" targetId="8690-3ab7-9fef-06ee" type="selectionEntry">
+            <entryLink id="2711-9b03-d242-afb9" name="Mag Pistol" hidden="false" targetId="8690-3ab7-9fef-06ee" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3084,7 +3084,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="b8c6-bbdd-917a-9ce8" name="" hidden="false" targetId="9cdf-f068-bbde-2d0c" type="selectionEntry">
+            <entryLink id="b8c6-bbdd-917a-9ce8" name="Reflex Armor (Eq)" hidden="false" targetId="9cdf-f068-bbde-2d0c" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3614,7 +3614,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5378,6 +5380,219 @@
         <cost name="pts" costTypeId="points" value="69.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4122-43e1-cba8-acd2" name="Hansa Nairoba, Adventurer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="78e9-bd54-67b3-188a" name="Hansa Nairoba, Adventurer" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="6"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="6"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5(7)"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="9"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Hero, Leader 3, Wound 2, Fast Shot, Dead Eye, You Can&apos;t Keep Me Down!"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="90c3-dbf5-3315-0864" name="Dead Eye" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="ebae-4325-8367-54d8" name="You Can&apos;t Keep Me Down!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="c7b4-b7ab-d52c-e775" name="HL Armor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="850c-b6b0-b7b9-1423" name="Command" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6452-e020-af9c-ea72" name="Follow" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="56b1-2a05-88d3-0b72" name="Leader" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ca17-6408-c133-49f3" name="Hero" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7988-ce5d-8cc0-ad94" name="Wound" hidden="false" targetId="c49e-33d6-1768-f013" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab66-374e-aff1-4e3d" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9f39-5f4a-36bc-6d0f" name="Plasma Grenades" hidden="false" targetId="96f9-325b-69f7-13b4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a866-74e7-2357-a18c" name="Plasma Pistol" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0356-cdbf-e897-43fa" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="144.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ced-03a0-08d0-d2f9" name="Bovan Tuk, Mhagris Chieftain" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ab8c-7ad5-e655-9c4a" name="Bovan Tuk" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="6"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="6"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="6(7)"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="9"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Hero, Leader, Wound 3, 3 Attacks, He&apos;s Gone Crazy!"/>
+          </characteristics>
+        </profile>
+        <profile id="4fcb-bb67-35c2-8f00" name="Custom Mag Pistol" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="20"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="30"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="2"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Big Jobs!"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="59d8-9d58-a692-7b47" name="He&apos;s Gone Crazy!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3767-6f42-1efa-293d" name="Command" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e1eb-6adf-3b92-36b9" name="Follow" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="563d-71ce-732f-365e" name="Leader" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="34d4-d935-f692-fced" name="Hero" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6fd8-ae6a-61dd-56dc" name="Wound" hidden="false" targetId="c49e-33d6-1768-f013" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5e8c-161f-d187-2177" name="Plasma Grenades" hidden="false" targetId="96f9-325b-69f7-13b4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="086b-04b8-7d21-5d6b" name="3 Attacks" hidden="false" targetId="61e2-3707-ade3-c9ad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3c47-1424-f559-98b3" name="Reflex Armour" hidden="false" targetId="18c0-c86d-0b2c-23af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6b54-501c-42d4-ba3c" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="118.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -5753,13 +5968,13 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e580-6389-7ec6-d445" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule">
+        <infoLink id="e580-6389-7ec6-d445" name="Compressor" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b230-6dc2-fc21-9332" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile">
+        <infoLink id="b230-6dc2-fc21-9332" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10293,6 +10508,12 @@ D10 Result:
       <infoLinks/>
       <modifiers/>
       <description>If you take any single re-roll, you can add plus one to the value tested against. For example instead of testing against a res of 7 you would test against a res of 8. Use once and discard. You can buy as many Well Prepared as you are allowed Auxiliary choices in your Army.</description>
+    </rule>
+    <rule id="c49e-33d6-1768-f013" name="Wound" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
