@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="15" battleScribeVersion="2.01" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="16" battleScribeVersion="2.01" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2437,6 +2437,150 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cbf7-1394-8f3d-bc11" name="Karg, High Commander" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6a9d-266e-8c36-bc06" name="Karg, High Commander" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="5"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="5"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="10"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="13"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="9"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="9"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, High Commander, Follow, Mastermind, Ruthless, Large, Crawler, MOD2, Scramble Proof, Plasma Reactor"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1679-1f0e-b2ff-3f17" name="Mastermind" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="654e-677c-5d23-5c19" name="Ruthless" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="bdc9-3073-c37c-f63f" name="Hand-Picked Crew" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a100-8370-3d7d-e00b" name="Command" hidden="false" targetId="1d76-267d-696a-2e8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2033-e02e-f964-0518" name="Large" hidden="false" targetId="931b-a54d-a846-cb74" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9be2-d742-5bdb-e509" name="High Commander" hidden="false" targetId="48e7-7b6b-328c-29fe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="47c9-11cc-fc93-a1c0" name="Follow" hidden="false" targetId="ae1d-2212-b0ef-48b6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4a05-171c-df5d-0826" name="Crawler" hidden="false" targetId="23c8-9405-75ca-7f03" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d70a-e332-caee-4200" name="MOD2" hidden="false" targetId="09d0-48ed-82d2-38b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="68d8-c8c0-383b-afdd" name="Scramble Proof" hidden="false" targetId="a985-d1e1-a15f-c261" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="16d5-f823-7f6a-6b23" name="Plasma Reactor" hidden="false" targetId="f5cb-d1fc-6b00-39f5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9063-b10a-3e6d-1353" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="663d-c1fa-0509-916c" name="Hand-Picked Crew" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c93-647e-0eff-58a5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2f8d-2ff1-fb69-77bd" name="Plasma Dump" hidden="false" targetId="6e7f-8fb9-1596-4ab8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a1-245f-977b-f7de" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="deac-0c4a-0b24-0833" name="Plasma Amplifier" hidden="false" targetId="0924-6883-4fd0-7896" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="411f-1163-7e6e-43b8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="267.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
