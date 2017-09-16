@@ -997,7 +997,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c0d-5521-071d-1952" name="Boromite Guildess Arran Gestalin (tactical)" book="BFX" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2c0d-5521-071d-1952" name="Guildess Arran Gestalin (tactical)" book="BFX" page="112" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1006,7 +1006,14 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="2c0d-5521-071d-1952-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
+        <categoryLink id="a686-d80e-acfa-1671" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a0f9-de41-1f9c-439c" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1133,7 +1140,7 @@
             <cost name="pts" costTypeId="points" value="120.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b6ce-dbaf-fff8-b580" name="Rock Rider" hidden="false" collective="false" type="model">
+        <selectionEntry id="b6ce-dbaf-fff8-b580" name="Extra Rock Rider" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="db63-d36f-d2ce-2923" name="Rock Rider" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -1209,7 +1216,8 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e7-76e8-7ce6-994d" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1228,29 +1236,21 @@
             <cost name="pts" costTypeId="points" value="14.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dd80-cdb0-17af-a820" name="Weapon Drone" book="BRB" page="112" hidden="false" collective="false" type="model">
+        <selectionEntry id="196c-d250-9acf-c757" name="Shield Drone" book="BRB" page="114" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3a-2016-0aea-9010" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1964-112c-8b84-5c72" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="06c2-dc1c-d2d0-a350" hidden="false" targetId="de1a-0dd2-8671-8dae" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="14.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1277,7 +1277,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="92bd-d4d1-de6a-693c" hidden="false" targetId="19aa-7fc5-12e2-97a3" type="selectionEntry">
+        <entryLink id="032e-d27d-353c-a759" name="Spotter Drone" hidden="false" targetId="cd51-1764-7fd7-e8c1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1285,7 +1285,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9771-d970-c095-e331" hidden="false" targetId="19aa-7fc5-12e2-97a3" type="selectionEntry">
+        <entryLink id="7853-1611-ecc0-6863" name="Synchronizer Drone" hidden="false" targetId="916d-c962-0de5-5b5d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1293,23 +1293,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="032e-d27d-353c-a759" hidden="false" targetId="cd51-1764-7fd7-e8c1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7853-1611-ecc0-6863" name="" hidden="false" targetId="916d-c962-0de5-5b5d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7700-0dcb-b7fb-0058" hidden="false" targetId="68cd-a10e-45f7-2482" type="selectionEntry">
+        <entryLink id="7700-0dcb-b7fb-0058" name="HL Booster Drone" hidden="false" targetId="68cd-a10e-45f7-2482" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5016,7 +5000,9 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1192-bb85-1c55-df72" name="Iso-drone (Concord Pattern)" book="CS" page="75" hidden="false" collective="false" type="unit">
       <profiles>
