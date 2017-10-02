@@ -922,11 +922,6 @@
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="points" value="4">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="points" value="4.0">
               <repeats>
                 <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b6ce-dbaf-fff8-b580" repeats="1" roundUp="false"/>
               </repeats>
@@ -4975,12 +4970,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="4.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="points" value="4.0">
+            <modifier type="increment" field="points" value="4">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0de3-3487-f6d7-22ff" repeats="1" roundUp="false"/>
               </repeats>
