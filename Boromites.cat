@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" name="Boromites" book="" revision="16" battleScribeVersion="2.01" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" name="Boromites" book="" revision="17" battleScribeVersion="2.01" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -121,7 +121,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92cb-926a-97be-23cb" name="Boromie Engineer Squad" book="brb" page="189" hidden="false" collective="false" type="unit">
+    <selectionEntry id="92cb-926a-97be-23cb" name="Engineer Squad" book="brb" page="189" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -232,7 +232,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="964b-1afe-6b15-803b" name="Lectro Lance" hidden="false" targetId="c27e-d5ec-5ea4-9e3d" type="selectionEntry">
+            <entryLink id="964b-1afe-6b15-803b" name="Lectro Lash" hidden="false" targetId="b2de-b74b-feb6-e489" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -244,7 +244,7 @@
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
-                <modifier type="increment" field="points" value="10">
+                <modifier type="increment" field="points" value="5">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1802,7 +1802,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="16.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8449-e194-444f-f4f9" name="Lavamites" hidden="false" collective="false" type="model">
@@ -1878,7 +1878,7 @@
             </infoLink>
           </infoLinks>
           <modifiers>
-            <modifier type="increment" field="points" value="4.0">
+            <modifier type="increment" field="points" value="12">
               <repeats>
                 <repeat field="selections" scope="5755-dc85-c2d9-a6bb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8449-e194-444f-f4f9" repeats="1" roundUp="false"/>
               </repeats>
@@ -2277,7 +2277,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64cb-08b1-a276-909e" name="Matronite Brood Mother" book="BRB" page="188" hidden="false" collective="false" type="unit">
@@ -2336,7 +2336,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="16.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3616-f891-324f-74c1" name="Matronite Brood Mother" book="" page="" hidden="false" collective="false" type="model">
@@ -3254,7 +3254,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8fab-e676-fef9-045c" hidden="false" targetId="c27e-d5ec-5ea4-9e3d" type="selectionEntry">
+        <entryLink id="8fab-e676-fef9-045c" name="Lectro Lance" hidden="false" targetId="c27e-d5ec-5ea4-9e3d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3280,7 +3280,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5ef-06cb-43ef-3095" name="Rock Rider Squad" page="184" hidden="false" collective="false" type="unit">
@@ -3545,7 +3545,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82d5-be12-098b-3661" name="Boromite Specialist Support Team" hidden="false" collective="false" type="unit">
@@ -4644,7 +4644,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="41.0"/>
+            <cost name="pts" costTypeId="points" value="55.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5423,7 +5423,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2de-b74b-feb6-e489" name="Lectro Lash" book="BRB" page="65" hidden="false" collective="false" type="upgrade">
