@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fda2-ab66-dd82-bc13" name="Algoryn Spearhead" revision="1" battleScribeVersion="2.01" authorName="Dom Hine" gameSystemId="c339-677a-60db-4060" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="c37b-f786-6d2b-71b6" name="Army Options" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="434a-b5d3-d66a-e467" name="Hazard Command Squad" hidden="false" targetId="2205-7ba4-9eda-b3a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5f80-c8e3-f378-5759" name="AI Medic Team" hidden="false" targetId="9a7a-ffee-ac9b-986f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3cec-845d-515f-5506" name="Targeter Probe Shard" hidden="false" targetId="1fea-1f1e-73d8-9a98" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2ab7-2467-6bb5-6b5e" name="Scout Probe Shard" hidden="false" targetId="0c5c-da8a-4405-a1ce" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2a36-74ef-ba5f-2ba5" name="Defiant Transport Skimmer (Strategic)" hidden="false" targetId="7bac-88c5-659f-8b76" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="caa1-854e-9ca1-1839" name="Avenger Attack Skimmer" hidden="false" targetId="4ee7-4a59-69c0-3fa3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="48d1-9f9e-fda0-00c8" name="AI Support Team" hidden="false" targetId="0e5d-41c7-4061-6a70" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b913-7412-7a82-c7b5" name="AI Specialist Support Team" hidden="false" targetId="0c51-2b67-3982-5c81" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d550-57da-b03c-2a89" name="AI Intruder Skimmer Command Squad" hidden="false" targetId="20d0-b1d4-4916-8e85" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d8cd-4a1b-f007-1a2a" name="AI Intruder Skimmer Squad" hidden="false" targetId="99d2-b3d9-d1d0-fe6e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2d5b-a026-3839-d8f2" name="AI Heavy Support Team" hidden="false" targetId="2b1a-5dc0-3317-de96" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f431-f390-af6f-3b44" name="Liberator Combat Skimmer - X01 Hi-Mag" hidden="false" targetId="5e09-b21a-554e-9f8d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5034-ebbd-f68c-2d32" name="Liberator Combat Skimmer - X06 Plasma Destroyer" hidden="false" targetId="bd95-ec93-fc21-a6bb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9682-ed29-6dfc-fae6" name="Liberator Combat Skimmer - X10 Special" hidden="false" targetId="34e3-44ad-f58c-4ed4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d138-9eed-bba6-e872" name="Hazard Squad" hidden="false" targetId="28be-c479-2900-63ff" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
