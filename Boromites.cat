@@ -4257,76 +4257,6 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f50-145e-4f5a-220f" name="Scout Probe Shard" book="brb" page="189" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="01e3-c7e8-5ec2-b4ce" hidden="false" targetId="5660-b448-a09d-5338" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="2f50-145e-4f5a-220f-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5752-7497-efd2-2786" name="Scout Probes" book="BRB" page="120" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="aec1-17f5-81d2-7812" name="Scout Probes" hidden="false" profileTypeId="1650-77b3-10d1-6406">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="-"/>
-                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="-"/>
-                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="-"/>
-                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="5"/>
-                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="-"/>
-                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="-"/>
-                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="cea7-7b6a-22c7-4643" hidden="false" targetId="6dc1-69d0-6655-5615" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3e21-2665-5c57-812b" name="Tas Geren&apos;do, Miner" book="CS" page="111" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
@@ -5027,6 +4957,14 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="df6b-5167-5614-7c78" name="Scout Probe Shard" hidden="false" targetId="0c5c-da8a-4405-a1ce" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
