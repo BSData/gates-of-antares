@@ -1292,14 +1292,7 @@
           <modifiers/>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="6af6-812f-fcc0-df0a" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1395,7 +1388,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fe-6ba3-41da-bbb1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e7b-f0bc-4663-1727" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="d2e9-dec1-25e0-15c6" name="Limited" hidden="false" targetId="c87d-5261-face-4643" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="f44e-a56e-0a84-d053" name="Fusion Cutters" hidden="false" collective="false">
@@ -1446,7 +1447,9 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
