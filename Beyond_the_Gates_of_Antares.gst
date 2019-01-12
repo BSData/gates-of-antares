@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="19" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="20" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2625,6 +2625,398 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9029-ddcc-c886-9624" name="Limited" hidden="false" targetId="c87d-5261-face-4643" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="0526-7a8b-d956-638a" name="Virai Dronescourge" book="DR" page="86" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="3aea-d6e5-cbd8-bd73" name="Army Options" hidden="false" targetId="50ba-cf77-3941-189c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="points" scope="roster" value="10.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="68ed-1cb7-7cff-3a08" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="83ee-f722-da9b-09ca" name="Tactical" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="9">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="7">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="749.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1249.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="805b-48c4-4528-84e1" value="1">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+              </repeats>
+              <conditions>
+                <condition field="limit::points" scope="roster" value="2249.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="11">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="12">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1749.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="805b-48c4-4528-84e1" value="13">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="e51c-81aa-af43-5ad1" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="e51c-81aa-af43-5ad1" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="e51c-81aa-af43-5ad1" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="805b-48c4-4528-84e1" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e51c-81aa-af43-5ad1" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="15b4-30cf-39a9-6100" name="Strategic" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6da2-2b97-6a42-0dc3" value="0">
+              <repeats/>
+              <conditions>
+                <condition field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6da2-2b97-6a42-0dc3" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1501.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="6da2-2b97-6a42-0dc3" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="2001.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="6da2-2b97-6a42-0dc3" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="2250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6da2-2b97-6a42-0dc3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a0da-1b11-d87d-3d63" name="Auxiliary" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="71d6-1cfe-9d13-aea3" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1251.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="71d6-1cfe-9d13-aea3" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1751.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="71d6-1cfe-9d13-aea3" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2001.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="1750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="71d6-1cfe-9d13-aea3" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2251.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="71d6-1cfe-9d13-aea3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7f8a-f41d-739e-3339" name="Support" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bbed-03c1-2b6b-b350" value="6">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1751.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="bbed-03c1-2b6b-b350" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1001.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="bbed-03c1-2b6b-b350" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="751.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan"/>
+                    <condition field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="bbed-03c1-2b6b-b350" value="7">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="2251.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="53be-fcbd-88b0-c2d5" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="1501.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="53be-fcbd-88b0-c2d5" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="2001.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="53be-fcbd-88b0-c2d5" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                    <condition field="limit::points" scope="roster" value="2251.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="bbed-03c1-2b6b-b350" value="1">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="limit::points" scope="roster" value="2250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbed-03c1-2b6b-b350" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53be-fcbd-88b0-c2d5" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="418c-e174-fa6a-e16e" name="Limited" book="" hidden="false" targetId="c87d-5261-face-4643" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14039,6 +14431,286 @@
         <cost name="pts" costTypeId="points" value="96.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d65c-bae7-7e2d-40ac" name="Fusion Cutter" book="DS" page="75" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0f6b-351c-26ac-b462" name="Fusion Cutter" book="DS" page="75" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="5"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="10"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="30"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="2/1/0"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Variable SV, Breaching"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c1b0-e755-4054-9f76" name="Breaching" hidden="false" targetId="4f5e-e8cd-28b4-9365" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc84-bad0-d375-ad36" name="Fusion Flamer" book="DS" page="75" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="80d3-33a8-2156-3af3" name="Fusion Flamer" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="20"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="50"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="3/2/1"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Vaeiable SV, Breaching"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ccae-44d6-d593-f3d5" name="Breaching" hidden="false" targetId="4f5e-e8cd-28b4-9365" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5960-f232-128a-a34e" name="Ripclaws" book="DS" page="76" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3e48-b868-9278-3272" name="Ripclaws" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="H2H"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="None"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="None"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="2"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="2 Attacks, Breaching, Compund SV"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c788-1470-33fc-00e5" name="Compund SV" book="DS" page="76" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>• If used in H2H then confer +1 Str
+• When used in H2H then accumulate SV for hits from ripclaws and take one Res test, this applies to grenades as well</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5a09-2e6b-006c-f9d3" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0bc7-cd05-b698-4807" name="Breaching" hidden="false" targetId="4f5e-e8cd-28b4-9365" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b23d-28be-ae20-dbb3" name="Tool Appendages" book="DS" page="76" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0106-aa84-4c6a-6879" name="Tool Appendages" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="5"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="None"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="None"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="0"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="2 Attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c8da-0959-f6b3-c1ac" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bce-cf34-41a6-5828" name="Fractal Charges" book="DS" page="77" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="13a0-4f35-d3df-a8de" name="Fractal Charges" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="5"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="None"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="None"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="3"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Breaching, Grenade, Hazardous H2H, Limit 3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2aca-66ea-bc1e-77d2" name="Limit 3" book="DS" page="77" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>• Maximum of 3 hits generated</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c8bc-63d2-552e-b257" name="Breaching" hidden="false" targetId="4f5e-e8cd-28b4-9365" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2521-b5b4-344b-7e65" name="Grenade" hidden="false" targetId="3ba7-d5fc-750a-c143" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2187-be43-45b8-68e3" name="Hazardous H2H" hidden="false" targetId="0f95-2ca6-3bd9-35b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de65-a8c0-6b56-bfbb" name="Architector" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="74a6-cc11-e73b-c02a" name="Architector" book="DS" page="83" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>• Virai Architector damage chart table
+    D10    Result
+    1        No effect
+    2-3    +1 pin
+    4        +1 pin, go Down
+    5        +D3 pins, go Down
+    6        +D3 pins, Functional Degradation
+    7        +D3 pins, go Down, Systems Overload
+    8        +D3 pins, Functional Degradation, Systems Overload
+    9        +D6 pins, Break Test, Functional Degradation
+    10      Destroyed
+
+• Functional Degradation - Choose one of: Repair Swarm destroyed, Immobalised, Weapon Malfunction on MOD loss
+• Systems Overload - Closest Virai unit without Order dice (excluding probes) takes a random Order. If none, closest Virai unit goes Down</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c72b-a1e2-ea9a-3b3f" name="Fractal DBC/Demolisher" book="DS" page="74" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8e64-3f7d-4d1b-a904" name="Fractal DBC/Demolisher" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Effective" characteristicTypeId="c2de-17f1-10e2-2c0a" value="10"/>
+            <characteristic name="Long" characteristicTypeId="995e-b5e6-4c63-0baa" value="20"/>
+            <characteristic name="Extreme" characteristicTypeId="bf58-0ad5-c7ee-3fd9" value="40"/>
+            <characteristic name="Strike Value" characteristicTypeId="897c-d3c4-3983-896a" value="3 (+3, max 10)"/>
+            <characteristic name="Special Rules" characteristicTypeId="7e87-2586-653f-d6ec" value="Breaching, Fractal Lock"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3712-3425-2dd2-553f" name="Fractal Lock" hidden="false" targetId="2af1-5c34-05ab-6369" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6dbe-a221-4d79-ff6a" name="Special Munitions" hidden="false" collective="false">
@@ -15591,6 +16263,62 @@
       <modifiers/>
       <description>• Can either fire single shot or 4 shots
 • -1 Acc if Rapid Fire</description>
+    </rule>
+    <rule id="9dbb-d186-34b5-197e" name="Reprogram" book="DR" page="86" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>• Can use Overclock or Reset on units within command range
+    • Overclock - Forgo Architects orderto return a units dice to the bag
+    • Reset - Forgo Architects order to rally one or more other units</description>
+    </rule>
+    <rule id="cc70-1124-5734-ca2d" name="Repair Swarm" book="DR" page="80" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>• Res re-roll or repair if Virai unit within 10&quot;
+    • Res re-roll - As per leader special rule
+    • Repair - As per self-repair special rule</description>
+    </rule>
+    <rule id="4f5e-e8cd-28b4-9365" name="Breaching" book="DS" page="72-73" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>• The Dronescourge Returns pg 72-73</description>
+    </rule>
+    <rule id="41a7-938e-3b77-fa28" name="Architector" book="DS" page="83" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a failed re-roll is made for an Architector, roll on the damage table
+
+D10    Effect
+1        No effect
+2-3    +1 pin
+4        +1 pin, go Down
+5        +D3 pins, go Down
+6        +D3 pins, Functional Degradation
+7        +D3 pins, go Down, Systems Overload
+8        +D3 pins, Functional Degradation, Systems Overload
+9        +D6 pins, Break Test, Functional Degradation
+10      Destroyed
+
+Functional Degradation: Owning player choose one of Repair Swarm destroyed, Immobolised, Weapon Malfunction or unit MOD loss
+
+Systems Overload: Take the closest Virai unit without an order dice excluding probes and roll for their order. If none, nearest Virai unit goes Down</description>
+    </rule>
+    <rule id="8a4f-1dc2-353a-d242" name="Breaching Kit" book="DS" page="80" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>• +1 SV to total SV when placing explosives
+• +1 to breaching or destruction tests
+• +1 SV within 5&quot; to any unit shooting at a building</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
