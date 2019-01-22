@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="9" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="10" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -121,7 +121,9 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15a-436a-6fae-7438" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
             <entryLink id="1c7d-3ba7-b033-2246" name="Overload Ammo" hidden="false" targetId="5de1-746b-be1f-93b1" type="selectionEntry">
@@ -135,7 +137,9 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fcf-3d62-a455-dfeb" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
             <entryLink id="7fea-bd77-d93c-a0ae" name="Leader Level (Up To 3)" hidden="false" targetId="6fc6-32a7-74b6-1b4b" type="selectionEntryGroup">
@@ -801,7 +805,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33c-2981-269c-2286" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="bdfd-c8a8-54c4-3269" name="Overload Ammo" hidden="false" targetId="5de1-746b-be1f-93b1" type="selectionEntry">
@@ -815,7 +821,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1dc-9a04-a2b7-c28f" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
@@ -1033,7 +1041,7 @@
                 <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="6 (7)"/>
                 <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
                 <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="10"/>
-                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Command, Follow, Leader 3, Strategic Genius, Wound"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1077,16 +1085,32 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="a8b9-0454-3df1-671f" name="Vertex Mace KEEP" hidden="false" targetId="67fa-a913-bd09-5b13" type="selectionEntry">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9028-057e-4437-405c" name="Vertex Mace" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1992-238e-5438-d40f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29f-eb2b-e90d-5d58" type="max"/>
+              </constraints>
               <categoryLinks/>
-            </entryLink>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="73c4-172a-4b7a-1a58" name="Vertex Mace" hidden="false" targetId="67fa-a913-bd09-5b13" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
             <entryLink id="db7a-7058-35f9-9f63" name="Plasma Pistol" hidden="false" targetId="9851-4076-e2e9-3df8" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -1596,7 +1620,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c181-09b6-690e-28b7" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="e21a-e169-1422-4e77" name="SlingNet Ammo" hidden="false" targetId="6849-c480-4332-7ffc" type="selectionEntry">
@@ -1610,7 +1636,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1746-2e25-24ca-85da" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
@@ -2251,52 +2279,14 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c077-8ef3-73f4-f156" name="Micro-X Launcher" hidden="false" targetId="02e7-5a6e-5888-dd34" type="selectionEntry">
+            <entryLink id="c077-8ef3-73f4-f156" name="Micro X-Launcher" hidden="false" targetId="02e7-5a6e-5888-dd34" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="a6b3-9cbc-f6e5-f6aa" value="1">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b3-9cbc-f6e5-f6aa" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd7f-da7b-d027-2cb4" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39fd-0c71-a554-df9b" type="max"/>
               </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="b598-1bdf-f0d9-376d" name="Special Weapon" hidden="false" collective="false" defaultSelectionEntryId="4633-a89f-ed54-c5a5">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9821-c2ed-8782-3412" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f650-eb66-20fa-7949" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="4633-a89f-ed54-c5a5" name="Micro-X Launcher" hidden="false" targetId="02e7-5a6e-5888-dd34" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="537b-6055-c96f-fc4b" name="Mag Gun" hidden="false" targetId="0f88-ab36-c5a8-7a97" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -2320,7 +2310,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="5">
                   <repeats>
-                    <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4633-a89f-ed54-c5a5" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e147-dc0e-fc12-c524" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c077-8ef3-73f4-f156" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="781b-bc6c-fc3f-1aa5" repeats="1" roundUp="false"/>
                   </repeats>
@@ -2342,7 +2332,7 @@
                   <repeats>
                     <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c077-8ef3-73f4-f156" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="781b-bc6c-fc3f-1aa5" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4633-a89f-ed54-c5a5" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="a44f-4447-aff2-0dcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e147-dc0e-fc12-c524" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -2421,6 +2411,17 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0145-9962-6664-ef99" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4275-9f67-462d-7297" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e147-dc0e-fc12-c524" name="Micro X-Launcher" hidden="false" targetId="02e7-5a6e-5888-dd34" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e11-8ed3-82ad-84bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab16-3257-b5ff-465a" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -2829,7 +2830,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="e40c-75f1-995e-098a" name="Defiant Transport Skimmer (Strategic)" hidden="false" targetId="7bac-88c5-659f-8b76" type="selectionEntry">
+    <entryLink id="e40c-75f1-995e-098a" name="Defiant Transport Skimmer" hidden="false" targetId="7bac-88c5-659f-8b76" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2908,6 +2909,22 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="2453-92eb-ab9e-4edb" name="Hazard Drone Lander" hidden="false" targetId="4c07-0126-bdee-62a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e4ed-ba11-1ddd-21b9" name="Support" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
