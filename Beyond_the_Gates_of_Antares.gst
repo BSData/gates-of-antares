@@ -691,7 +691,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="cdee-09bb-189f-d6d8" value="2">
+            <modifier type="set" field="cdee-09bb-189f-d6d8" value="3">
               <repeats/>
               <conditions/>
               <conditionGroups>
@@ -6909,48 +6909,36 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e205-13a7-9e0c-4338" name="Mag Light Support" hidden="false" collective="false">
+        <selectionEntryGroup id="a27e-de33-8305-1120" name="Mag Light Support" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2484-9769-f22f-54be" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe22-6d18-8ea1-5053" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="22f9-dddf-4144-0d87" name="Mag Light Support" hidden="false" targetId="8e77-f151-c27d-0eb0" type="selectionEntry">
+            <entryLink id="9d89-53f8-8e39-c90f" name="Mag Light Support" hidden="false" targetId="8e77-f151-c27d-0eb0" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5095-f109-bc5d-982a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cd9-12a3-cfb2-4897" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="1ae9-8afe-1a36-99e7" name="Mag Light Support" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a293-e699-26a2-b27b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b4e-bdd5-fd83-9a52" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="2201-6a59-5a35-5497" name="Mag Light Support" hidden="false" targetId="8e77-f151-c27d-0eb0" type="selectionEntry">
+            <entryLink id="1390-8113-6435-aa17" name="Mag Light Support" hidden="false" targetId="8e77-f151-c27d-0eb0" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2538-f253-af49-0744" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46b5-81f5-30f7-e194" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -7357,6 +7345,14 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ae99-bf5e-3001-0756" name="Hazard Strike Capsule" hidden="false" targetId="8c86-1581-32a4-ff47" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="74.0"/>
@@ -7464,7 +7460,7 @@
         </selectionEntry>
         <selectionEntry id="d625-ef23-1923-35b5" name="Hazard Trooper" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="4419-41d1-4a03-c25a" name="HazardTrooperUnit" book="" page="" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+            <profile id="4419-41d1-4a03-c25a" name="Hazard Trooper" book="" page="" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7549,6 +7545,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d5-78d9-ad5f-2956" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e77-ae90-19de-6776" type="min"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c00b-6799-0f7a-ce78" name="Hazard Strike Capsule" hidden="false" targetId="8c86-1581-32a4-ff47" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -7856,7 +7860,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7bac-88c5-659f-8b76" name="Defiant Transport Skimmer (Strategic)" book="Rulebook &amp; pdf force list v2" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7bac-88c5-659f-8b76" name="Defiant Transport Skimmer" book="Rulebook &amp; pdf force list v2" page="176" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="7884-cf21-e6bf-7e32" name="AI Defiant Transport Skimmer" book="" page="" hidden="false" profileTypeId="5f97-84dc-4c56-bbe5" profileTypeName="Transport">
           <profiles/>
@@ -7920,7 +7924,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3635-e4e8-9d41-403c" name="New CategoryLink" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
+        <categoryLink id="43dd-e3d3-a17a-f836" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10199,20 +10203,6 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="224.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d05d-1ad4-425f-7e1c" name="Hazard Strike Capsule" book="pdf" hidden="false" collective="true" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89ff-bd2a-e85a-e682" name="Homer Beacon" book="CS" page="90" hidden="false" collective="false" type="upgrade">
@@ -14709,6 +14699,163 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c86-1581-32a4-ff47" name="Hazard Strike Capsule" book="ADTL(pdf)" page="2" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9f91-15cc-73b8-d8ba" name="Individual Drop capsule" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="954e-94ce-a219-d56d" name="Transport 1 Hazard Trooper" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="e37f-fffa-c77d-a799" name="Hazard Strike Capsule" book="ADTL(pdf)" page="4" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Hazard Drone Lander is a compacted unit that can only be selected and deployed with a squad of Hazard troops who have deployed using Hazard strike capsules. The compactor is unusable once the Hazard Drone Lander is unloaded</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d02-45dc-7877-28de" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="3071-22cc-df8d-873d" name="Hazard Drone Lander" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d262-3e69-e403-48ae" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7812-cc6a-6a23-5e26" name="Homer Beacon" hidden="false" targetId="89ff-bd2a-e85a-e682" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0506-83a5-2acc-cf10" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c07-0126-bdee-62a8" name="Hazard Drone Lander" book="ADTL(pdf)" page="4" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="18de-7654-6070-176e" name="Hazard Drone Lander" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="-"/>
+            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="8"/>
+            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value="Transport 1 Hazard Trooper, Support Drone Lander (Weapon Drone)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ab4e-088c-f2f8-40bf" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8306-6a27-6f17-51e9" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d68b-bb7c-76e9-d143" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="a831-5aaf-ea58-89c1">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5f8-75be-219f-ec30" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf3-6a21-a00f-ada7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a831-5aaf-ea58-89c1" name="Mag Light Support" hidden="false" targetId="8e77-f151-c27d-0eb0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3e3-4f47-e404-c598" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="13ac-e1ed-d6cb-2520" name="Plasma Light Support" hidden="false" targetId="eaa4-a3c1-d269-d3cb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="points" value="30">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47c-18a7-862e-6042" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="28.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
