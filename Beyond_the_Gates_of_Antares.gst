@@ -6622,7 +6622,7 @@
     </selectionEntry>
     <selectionEntry id="e105-87cd-5813-0e1b" name="Tractor Maul" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="dcf7-2d9a-2103-5066" name="Lectro Lash" book="Rulebook" page="65" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
+        <profile id="dcf7-2d9a-2103-5066" name="Tractor Maul" book="Rulebook" page="65" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
           <rules/>
           <infoLinks/>

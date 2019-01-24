@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="5e8e-3fa7-98ab-9b96" name="Freeborn Adventurers" book="Battle for Xilos" revision="4" authorName="Christopher Wailes" authorContact="email" authorUrl="http://cwailes1987@gmail.com" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5e8e-3fa7-98ab-9b96" name="Freeborn Adventurers" book="Battle for Xilos" revision="4" battleScribeVersion="2.00" authorName="Christopher Wailes" authorContact="email" authorUrl="http://cwailes1987@gmail.com" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="f2dd-4a37-dae9-7560" name="Amano Harran and Bodyguards" book="Battle for Xilos" page="115" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="f2dd-4a37-dae9-7560-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f2dd-4a37-dae9-7560" name="Amano Harran and Bodyguards" book="Battle for Xilos" page="115" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -19,7 +16,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="cf2e-47f5-d441-4c5b" name="Amano Harran, Oszoni Freeborn Mercenary Captain" hidden="false" collective="false" type="model">
+        <selectionEntry id="cf2e-47f5-d441-4c5b" name="Amano Harran, Oszoni Freeborn Mercenary Captain" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles>
             <profile id="0eda-1ed2-bfd0-68a3" name="Amano Harran, Oszoni Freeborn Mercenary Captain" book="Battle for Xilos" page="115" hidden="false" profileTypeId="1650-77b3-10d1-6406">
               <profiles/>
@@ -64,7 +61,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>If any enemy unit is within 10" of the Amano Harran model then it cannot be given an order without taking an Order test against its Command, even if it has no pins, and both its Command and Initiative stat are reduced by -1 when making order and/or reaction tests.</description>
+              <description>If any enemy unit is within 10&quot; of the Amano Harran model then it cannot be given an order without taking an Order test against its Command, even if it has no pins, and both its Command and Initiative stat are reduced by -1 when making order and/or reaction tests.</description>
             </rule>
             <rule id="d457-7703-7346-887a" name="Wound" book="Battle for Xilos" page="115" hidden="false">
               <profiles/>
@@ -116,7 +113,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="153b-99ce-0100-4c2a" name="Zantu Plasma Duelling Pistol" book="Battle for Xilos" page="115" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="153b-99ce-0100-4c2a" name="Zantu Plasma Duelling Pistol" book="Battle for Xilos" page="115" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
                   <profiles>
                     <profile id="7069-1178-686a-c24b" name="Zantu Plasma Duelling Pistol" book="Battle for Xilos" page="115" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
                       <profiles/>
@@ -161,7 +158,7 @@
                     <cost name="pts" costTypeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4728-6094-f78e-8dab" name="Xilos Stasis Key" book="Battle for Xilos" page="57" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="4728-6094-f78e-8dab" name="Xilos Stasis Key" book="Battle for Xilos" page="57" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
                   <profiles>
                     <profile id="c619-651a-cd68-d3c3" name="Xilos Stasis Key" book="Battle for Xilos" page="57" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
                       <profiles/>
@@ -208,7 +205,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c172-9fe8-32cc-31d8" name="Bodyguard" hidden="false" collective="false" type="model">
+        <selectionEntry id="c172-9fe8-32cc-31d8" name="Bodyguard" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -410,10 +407,7 @@
         <cost name="pts" costTypeId="points" value="126.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1871-8acd-7ec8-8700" name="Block!" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="1871-8acd-7ec8-8700-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="1871-8acd-7ec8-8700" name="Block!" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -433,17 +427,14 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e721-0203-824e-8706" name="D1 Light Support Drone" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="e721-0203-824e-8706-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="e721-0203-824e-8706" name="D1 Light Support Drone" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="13d2-5f57-94d2-90e5" name="D1 Light Support Drone" hidden="false" collective="false" type="model">
+        <selectionEntry id="13d2-5f57-94d2-90e5" name="D1 Light Support Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -483,7 +474,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="00ed-fa82-cf24-e7bd" name="Spotter Drone" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="00ed-fa82-cf24-e7bd" name="Spotter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -506,7 +497,7 @@
                 <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="321b-f095-c38c-1214" name="Batter Drone" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="321b-f095-c38c-1214" name="Batter Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -529,7 +520,7 @@
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="97d0-e012-2c95-593e" name="Self Repair" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="97d0-e012-2c95-593e" name="Self Repair" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -551,7 +542,7 @@
                 <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f389-99b2-4ec1-2d24" name="Synchroniser Drone" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f389-99b2-4ec1-2d24" name="Synchroniser Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -591,17 +582,14 @@
         <cost name="pts" costTypeId="points" value="59.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a44f-4447-aff2-0dcd" name="Domari Squad (Household Troops)" book="BtGoA" page="192" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="a44f-4447-aff2-0dcd-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a44f-4447-aff2-0dcd" name="Domari Squad (Household Troops)" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="c61f-6de1-069d-821f" name="&lt; Household Leader" book="BtGoA" page="191" hidden="false" collective="false" type="model">
+        <selectionEntry id="c61f-6de1-069d-821f" name="&lt; Household Leader" book="BtGoA" page="191" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -721,7 +709,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d441-f08b-6ae0-3ce1" name="Household Trooper" book="BtGoA" page="192" hidden="false" collective="false" type="model">
+        <selectionEntry id="d441-f08b-6ae0-3ce1" name="Household Trooper" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -755,7 +743,7 @@
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a960-249c-ef1d-5e8c" name="Micro-X Launcher" hidden="false" collective="false" type="model">
+        <selectionEntry id="a960-249c-ef1d-5e8c" name="Micro-X Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -764,7 +752,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a9e5-f8a1-aadd-0667" name="SlingNet Ammo for Micro-X Launcher" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a9e5-f8a1-aadd-0667" name="SlingNet Ammo for Micro-X Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -868,10 +856,7 @@
         <cost name="pts" costTypeId="points" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="307c-9503-74f9-f4b3" name="Extra Shot" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="307c-9503-74f9-f4b3-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="307c-9503-74f9-f4b3" name="Extra Shot" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -891,10 +876,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d603-36ff-a2eb-312f" name="Freeborn Command Squad" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="d603-36ff-a2eb-312f-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d603-36ff-a2eb-312f" name="Freeborn Command Squad" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -904,7 +886,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c6a-8177-0350-a90c" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="3c30-80dd-c936-7ccf" name="&lt; Freeborn Captain" book="BtGoA" page="190" hidden="false" collective="false" type="model">
+        <selectionEntry id="3c30-80dd-c936-7ccf" name="&lt; Freeborn Captain" book="BtGoA" page="190" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -988,7 +970,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="70ef-17b0-4cc6-59d6" name="Bodyguard" book="BtGoA" page="190" hidden="false" collective="false" type="model">
+        <selectionEntry id="70ef-17b0-4cc6-59d6" name="Bodyguard" book="BtGoA" page="190" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1203,10 +1185,7 @@
         <cost name="pts" costTypeId="points" value="69.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a1d-c668-c7e8-ed9f" name="Freeborn Heavy Support Team" book="BtGoA" page="194" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="6a1d-c668-c7e8-ed9f-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="6a1d-c668-c7e8-ed9f" name="Freeborn Heavy Support Team" book="BtGoA" page="194" hidden="false" collective="false" categoryEntryId="a01f5f58-334c-8442-d861-15099ebdf5e5" type="unit">
       <profiles/>
       <rules>
         <rule id="99d8-ad33-bc0e-0a91" name="Weapon Team Unit" hidden="false">
@@ -1220,7 +1199,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="d45c-a6e2-b912-4bcd" name="Freeborn Crew" book="BtGoA" page="193" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d45c-a6e2-b912-4bcd" name="Freeborn Crew" book="BtGoA" page="193" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1473,10 +1452,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0223-7d39-0a7c-f8a9" name="Skyraider Squad" book="BtGoA" page="174" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="0223-7d39-0a7c-f8a9-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0223-7d39-0a7c-f8a9" name="Skyraider Squad" book="BtGoA" page="174" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
       <profiles/>
       <rules>
         <rule id="a61b-d8b1-c4a3-6102" name="Mounted Command Unit" hidden="false">
@@ -1509,7 +1485,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="cffa-15d6-0631-ed32" name="&lt; Skyraider Leader" book="BtGoA" page="192" hidden="false" collective="false" type="model">
+        <selectionEntry id="cffa-15d6-0631-ed32" name="&lt; Skyraider Leader" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1598,7 +1574,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b5b1-72ee-b28c-ed4a" name="Skyraider Trooper" book="BtGoA" page="192" hidden="false" collective="false" type="model">
+        <selectionEntry id="b5b1-72ee-b28c-ed4a" name="Skyraider Trooper" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1716,10 +1692,7 @@
         <cost name="pts" costTypeId="points" value="121.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f2b-5fd2-86c3-563b" name="Freeborn Support Team" book="BtGoA" page="193" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="0f2b-5fd2-86c3-563b-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0f2b-5fd2-86c3-563b" name="Freeborn Support Team" book="BtGoA" page="193" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
       <profiles/>
       <rules>
         <rule id="a6d0-fc64-ad5d-674a" name="Weapon Team Unit" hidden="false">
@@ -1733,7 +1706,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="3b68-a4c9-03bb-dd68" name="Freeborn Crew" book="BtGoA" page="193" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3b68-a4c9-03bb-dd68" name="Freeborn Crew" book="BtGoA" page="193" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1959,10 +1932,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cff3-e0da-411a-cbd9" name="Get Up!" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="cff3-e0da-411a-cbd9-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="cff3-e0da-411a-cbd9" name="Get Up!" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1982,10 +1952,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd58-a73b-e17b-89ae" name="Light General Purpose Drone" book="BtGoA" page="196" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="bd58-a73b-e17b-89ae-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="bd58-a73b-e17b-89ae" name="Light General Purpose Drone" book="BtGoA" page="196" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
       <profiles/>
       <rules>
         <rule id="ae83-e15b-aca4-e246" name="Weapon Drone Unit" book="BtGoA" hidden="false">
@@ -2006,7 +1973,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="136e-670b-fde8-eb08" name="GP Drone" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="136e-670b-fde8-eb08" name="GP Drone" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2038,7 +2005,7 @@
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="7189-205b-e43f-4b47" name="Self Repair" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="7189-205b-e43f-4b47" name="Self Repair" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -2118,10 +2085,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68e5-824d-8e72-1018" name="Marksman" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="68e5-824d-8e72-1018-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="68e5-824d-8e72-1018" name="Marksman" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2144,10 +2108,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1f2-aa77-1cf5-d89f" name="Pull Yourself Together!" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="e1f2-aa77-1cf5-d89f-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="e1f2-aa77-1cf5-d89f" name="Pull Yourself Together!" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2167,10 +2128,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="969a-8139-9654-9cdf" name="Skyraider Command Squad" book="BtGoA" page="174" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="969a-8139-9654-9cdf-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="969a-8139-9654-9cdf" name="Skyraider Command Squad" book="BtGoA" page="174" hidden="false" collective="false" categoryEntryId="5c47879b-41d0-1383-5fe5-a5989615db89" type="unit">
       <profiles/>
       <rules>
         <rule id="76be-d990-01b2-40b5" name="Mounted Command Unit" hidden="false">
@@ -2203,7 +2161,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="d40e-0a4d-13fa-863b" name="&lt; Skyraider Captain" book="BtGoA" page="192" hidden="false" collective="false" type="model">
+        <selectionEntry id="d40e-0a4d-13fa-863b" name="&lt; Skyraider Captain" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2284,7 +2242,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2c42-d94f-83c4-fb4f" name="Skyraider Trooper" book="BtGoA" page="192" hidden="false" collective="false" type="model">
+        <selectionEntry id="2c42-d94f-83c4-fb4f" name="Skyraider Trooper" book="BtGoA" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2402,10 +2360,7 @@
         <cost name="pts" costTypeId="points" value="164.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1fc7-db89-4652-3c98" name="Superior Shard" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="1fc7-db89-4652-3c98-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="1fc7-db89-4652-3c98" name="Superior Shard" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2428,10 +2383,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa6c-67b7-3d3b-2a61" name="Targeter Probe Shard" book="BtGoA" page="196" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="aa6c-67b7-3d3b-2a61-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="aa6c-67b7-3d3b-2a61" name="Targeter Probe Shard" book="BtGoA" page="196" hidden="false" collective="false" categoryEntryId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" type="unit">
       <profiles/>
       <rules>
         <rule id="8104-2eac-f495-21f9" name="Probe Unit" book="" hidden="false">
@@ -2445,7 +2397,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="31ff-3d6d-2a30-3b5a" name="&gt; Targeter Probe" hidden="false" collective="false" type="model">
+        <selectionEntry id="31ff-3d6d-2a30-3b5a" name="&gt; Targeter Probe" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2481,17 +2433,14 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40ad-08b6-fa6a-0171" name="Vardanari Squad (Guards)" book="BtGoA" page="191" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="40ad-08b6-fa6a-0171-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="40ad-08b6-fa6a-0171" name="Vardanari Squad (Guards)" book="BtGoA" page="191" hidden="false" collective="false" categoryEntryId="481abf13-c03e-0dd0-d520-9f9837253cbe" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="c3fa-7787-a4d1-50f8" name="&lt; Vardanari Leader" book="BtGoA" page="191" hidden="false" collective="false" type="model">
+        <selectionEntry id="c3fa-7787-a4d1-50f8" name="&lt; Vardanari Leader" book="BtGoA" page="191" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2525,7 +2474,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="6cd8-052e-b9da-e94e" name="Leader 2" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="6cd8-052e-b9da-e94e" name="Leader 2" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -2602,7 +2551,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="97e8-d8ef-1bec-906d" name="Vardanari Guard" book="BtGoA" page="191" hidden="false" collective="false" type="model">
+        <selectionEntry id="97e8-d8ef-1bec-906d" name="Vardanari Guard" book="BtGoA" page="191" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -2694,10 +2643,7 @@
         <cost name="pts" costTypeId="points" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e0f-95bb-f4f1-6030" name="Well Prepared" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="4e0f-95bb-f4f1-6030-50ba-cf77-3941-189c" targetId="50ba-cf77-3941-189c" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4e0f-95bb-f4f1-6030" name="Well Prepared" hidden="false" collective="false" categoryEntryId="50ba-cf77-3941-189c" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2720,7 +2666,7 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" book="BtGoA" page="120" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" book="BtGoA" page="120" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2743,7 +2689,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" book="BtGoA" page="120" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" book="BtGoA" page="120" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2763,7 +2709,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" book="BtGoA" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" book="BtGoA" page="11" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2785,7 +2731,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone" book="BtGoA" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone" book="BtGoA" page="11" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2807,7 +2753,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" book="BtGoA" page="111" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" book="BtGoA" page="111" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2822,7 +2768,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" book="BtGoA" page="111" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" book="BtGoA" page="111" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2842,7 +2788,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" book="BtGoA" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2864,7 +2810,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" book="BtGoA" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2886,7 +2832,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" book="BtGoA" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2916,7 +2862,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" book="BtGoA" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2946,7 +2892,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" book="BtGoA" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2976,7 +2922,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" book="BtGoA" page="84" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" book="BtGoA" page="84" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="f3f6-794b-82b3-a39a" name="Compression Bombard" book="BtGoA" page="84" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3025,7 +2971,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" book="BtGoA" page="78" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" book="BtGoA" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="b626-3a7f-ecf5-ea69" name="Compression Cannon" book="BtGoA" page="78" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3073,7 +3019,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" book="BtGoA" page="66" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" book="BtGoA" page="66" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="bc08-23ff-215d-d442" name="D-Spinner" book="BtGoA" page="66" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3121,7 +3067,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" book="BtGoA" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" book="BtGoA" page="77" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="c100-99b7-2ff6-24a0" name="Disruptor Bomber" book="BtGoA" page="77" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3187,7 +3133,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" book="BtGoA" page="79" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" book="BtGoA" page="79" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="17db-4b84-9d1b-122d" name="Disruptor Cannon" book="BtGoA" page="79" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3235,7 +3181,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" book="BtGoA" page="86" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" book="BtGoA" page="86" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="de01-ba7b-11ee-55ca" name="Disruptor Discharger" book="BtGoA" page="86" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3287,7 +3233,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" book="BtGoA" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" book="BtGoA" page="83" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="279b-22b3-c3ff-1320" name="Fractal Bombard" book="BtGoA" page="83" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3323,7 +3269,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" book="BtGoA" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" book="BtGoA" page="76" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="cb47-aad3-9a1b-1266" name="Fractal Cannon" book="BtGoA" page="76" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3359,7 +3305,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" book="BtGoA" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" book="BtGoA" page="77" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="5cb2-9abf-ed28-03ff" name="Frag Borer" book="BtGoA" page="77" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3395,7 +3341,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" book="BtGoA" page="66" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" book="BtGoA" page="66" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="57de-9415-94c2-a9cd" name="Ghar Plasma Claw" book="BtGoA" page="66" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3431,7 +3377,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" book="BtGoA" page="74" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" book="BtGoA" page="74" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="5caa-0eb3-a2c8-d79c" name="Gouger Gun" book="BtGoA" page="74" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3473,7 +3419,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" book="BtGoA" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3488,7 +3434,7 @@
         <cost name="pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone" book="BtGoA" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3503,7 +3449,7 @@
         <cost name="pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" book="BtGoA" page="80" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" book="BtGoA" page="80" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="a9a7-e90e-e54a-e37c" name="Heavy Disruptor Bomber" book="BtGoA" page="80" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3557,7 +3503,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" book="BtGoA" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" book="BtGoA" page="83" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="4001-9da2-86d1-6b80" name="Heavy Frag Borer" book="BtGoA" page="83" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3593,7 +3539,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" book="BtGoA" page="81" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" book="BtGoA" page="81" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="49f7-05c7-8536-e088" name="Heavy Mag Cannon" book="BtGoA" page="81" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3629,7 +3575,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fbe-feab-de05-5312" name="Heavy Tractor Maul" book="BtGoA" page="65" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4fbe-feab-de05-5312" name="Heavy Tractor Maul" book="BtGoA" page="65" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="05cc-6d3b-93d8-0b0e" name="Heavy Tractor Maul" book="BtGoA" page="65" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3665,7 +3611,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eff8-bb0e-1b1d-bbb2" name="HL armor" book="BtGoA" page="93" hidden="false" collective="true" type="model">
+    <selectionEntry id="eff8-bb0e-1b1d-bbb2" name="HL armor" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3687,7 +3633,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e3d-bbaa-3f5c-ac53" name="HL Booster" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2e3d-bbaa-3f5c-ac53" name="HL Booster" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3709,7 +3655,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="573b-88bc-97d7-d890" name="HL Booster Drone" book="BtGoA" page="121" hidden="false" collective="false" type="model">
+    <selectionEntry id="573b-88bc-97d7-d890" name="HL Booster Drone" book="BtGoA" page="121" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3731,7 +3677,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b16-412b-662a-5467" name="Homer Drone" book="BtGoA" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1b16-412b-662a-5467" name="Homer Drone" book="BtGoA" page="112" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3753,7 +3699,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4364-45ee-ee83-ca30" name="Impact Cloak " book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="4364-45ee-ee83-ca30" name="Impact Cloak " book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules>
         <rule id="5da7-d6db-a841-0ff0" name="Impact Cloak" book="BtGoA" page="93" hidden="false">
@@ -3776,7 +3722,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74e7-3e15-6b19-94e8" name="Impact Cloak (Eq)" book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="74e7-3e15-6b19-94e8" name="Impact Cloak (Eq)" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules>
         <rule id="a94d-f3ac-90df-d53a" name="Impact Cloak" book="BtGoA" page="93" hidden="false">
@@ -3799,7 +3745,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f99c-daab-b3d7-9c61" name="Implosion Grenades" book="BtGoA" page="85" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f99c-daab-b3d7-9c61" name="Implosion Grenades" book="BtGoA" page="85" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="50ac-e85f-6480-9e2e" name="Implosion Grenades" book="BtGoA" page="85" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -3833,7 +3779,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b357-a997-60e5-053e" name="IMTel Stave" book="BtGoA" page="67" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b357-a997-60e5-053e" name="IMTel Stave" book="BtGoA" page="67" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3842,7 +3788,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="d6be-b9a8-1ea3-d1ee" name="IMTel Stave - Standard" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d6be-b9a8-1ea3-d1ee" name="IMTel Stave - Standard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="9cc5-5341-3598-a655" name="IMTel Stave - Standard" book="BtGoA" page="67" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -3879,7 +3825,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da2f-6bd2-fb0e-5e5e" name="IMTel Stave - Nano Drone Boost" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="da2f-6bd2-fb0e-5e5e" name="IMTel Stave - Nano Drone Boost" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="cf0b-c836-c681-d9c0" name="IMTel Stave - Nano Drone Boost" book="BtGoA" page="67" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -3935,7 +3881,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5346-a420-8994-c5ed" name="Interceptor Bike" book="BtGoA" page="100" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5346-a420-8994-c5ed" name="Interceptor Bike" book="BtGoA" page="100" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3979,7 +3925,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3a3-d3e0-1480-e349" name="Intruder Skimmer" book="BtGoA" page="9" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="d3a3-d3e0-1480-e349" name="Intruder Skimmer" book="BtGoA" page="9" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4000,7 +3946,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ed95-b0bc-1c54-77ce" name="Twin Mag Repeaters" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ed95-b0bc-1c54-77ce" name="Twin Mag Repeaters" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4034,7 +3980,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc7e-7c0e-65e0-8c33" name="Leader" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fc7e-7c0e-65e0-8c33" name="Leader" book="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4056,7 +4002,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02f3-3134-ae39-afed" name="Leader 2" book="BtGoA" page="135" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="02f3-3134-ae39-afed" name="Leader 2" book="BtGoA" page="135" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4078,7 +4024,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a4c-2f5e-40a2-91d4" name="Leader 3" book="BtGoA" page="135" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5a4c-2f5e-40a2-91d4" name="Leader 3" book="BtGoA" page="135" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4100,7 +4046,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="222a-c399-636e-c285" name="Lectro Lance" book="BtGoA" page="66" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="222a-c399-636e-c285" name="Lectro Lance" book="BtGoA" page="66" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="1194-e016-79d8-8f37" name="Lectro Lance" book="BtGoA" page="66" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4129,7 +4075,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10e4-842d-bb66-6204" name="Lectro Lash" book="BtGoA" page="65" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="10e4-842d-bb66-6204" name="Lectro Lash" book="BtGoA" page="65" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="0e1a-a803-d9c9-9f0a" name="Lectro Lash" book="BtGoA" page="65" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4165,7 +4111,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad3-bfdd-6120-7c29" name="Lugger Gun" book="BtGoA" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3ad3-bfdd-6120-7c29" name="Lugger Gun" book="BtGoA" page="73" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="5c6f-c4ef-b4a1-32eb" name="Lugger Gun" book="BtGoA" page="73" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4207,7 +4153,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a2b-50c5-9a33-b756" name="Mag Cannon" book="BtGoA" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6a2b-50c5-9a33-b756" name="Mag Cannon" book="BtGoA" page="75" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="295a-d623-e2d2-c684" name="Mag Cannon" book="BtGoA" page="75" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4243,7 +4189,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f47-408e-cc6e-7a19" name="Mag Gun" book="BtGoA" page="69" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="8f47-408e-cc6e-7a19" name="Mag Gun" book="BtGoA" page="69" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="33ca-cc05-d33e-3d00" name="Mag Gun" book="BtGoA" page="69" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4270,7 +4216,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cea7-8511-2208-1b1f" name="Mag Heavy Support" book="BtGoA" page="81" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cea7-8511-2208-1b1f" name="Mag Heavy Support" book="BtGoA" page="81" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="c318-2375-d610-2950" name="Mag Heavy Support" book="BtGoA" page="81" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4306,7 +4252,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b5e9-5297-04d2-2bf8" name="Mag Lash" book="BtGoA" page="67" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="b5e9-5297-04d2-2bf8" name="Mag Lash" book="BtGoA" page="67" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="f404-2eda-272f-57cf" name="Mag Lash" book="BtGoA" page="67" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4342,7 +4288,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a00c-0542-f2a5-8124" name="Mag Light Support" book="BtGoA" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a00c-0542-f2a5-8124" name="Mag Light Support" book="BtGoA" page="75" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="df5b-35ce-669c-6aee" name="Mag Light Support" book="BtGoA" page="75" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4378,7 +4324,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9733-7039-e306-26b5" name="Mag Mortar" book="BtGoA" page="81" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9733-7039-e306-26b5" name="Mag Mortar" book="BtGoA" page="81" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d461-69b8-c506-322a" name="Mag Mortar" book="BtGoA" page="81" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4434,7 +4380,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8690-3ab7-9fef-06ee" name="Mag Pistol" book="BtGoA" page="68" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="8690-3ab7-9fef-06ee" name="Mag Pistol" book="BtGoA" page="68" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="57f9-ac99-e46c-2757" name="Mag Pistol" book="BtGoA" page="68" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4463,7 +4409,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="790a-6841-6372-870b" name="Mag Repeater" book="BtGoA" page="69" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="790a-6841-6372-870b" name="Mag Repeater" book="BtGoA" page="69" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="1c20-93a8-d402-9d61" name="Mag Repeater" book="BtGoA" page="69" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4499,7 +4445,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ecf-d559-4559-c1bb" name="Mass Compactor" book="BtGoA" page="71" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3ecf-d559-4559-c1bb" name="Mass Compactor" book="BtGoA" page="71" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="b468-06b2-1a5d-2ec0" name="Mass Compactor" book="BtGoA" page="71" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4541,7 +4487,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="502c-9855-7269-eaa2" name="Medi-Drone" book="BtGoA" page="113" hidden="false" collective="false" type="model">
+    <selectionEntry id="502c-9855-7269-eaa2" name="Medi-Drone" book="BtGoA" page="113" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4563,7 +4509,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eafe-29d5-1222-4155" name="Meld Skark" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eafe-29d5-1222-4155" name="Meld Skark" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules>
         <rule id="68b7-72bd-610b-2ae3" name="Meld Skark" book="BtGoA" page="194" hidden="false">
@@ -4584,7 +4530,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a9d-01a2-ee09-883c" name="Micro-X Launcher" book="BtGoA" page="71" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1a9d-01a2-ee09-883c" name="Micro-X Launcher" book="BtGoA" page="71" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4593,7 +4539,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="756b-b4d4-8824-056b" name="Micro X-Launcher - Overhead" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="756b-b4d4-8824-056b" name="Micro X-Launcher - Overhead" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="b067-87fe-65b4-6bd8" name="Micro X-Launcher Overhead" book="BtGoA" page="71" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -4642,7 +4588,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b484-5b5d-96fb-e628" name="Micro X-Launcher - Direct Fire" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b484-5b5d-96fb-e628" name="Micro X-Launcher - Direct Fire" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="c0c1-ee5f-5c1f-77a0" name="Micro X-Launcher - Direct Fire" book="BtGoA" page="71" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -4679,7 +4625,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7b0-651a-cc7c-f27e" name="Micro-X Launcher (Eq)" book="BtGoA" page="71" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e7b0-651a-cc7c-f27e" name="Micro-X Launcher (Eq)" book="BtGoA" page="71" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="3bdc-c653-a2ab-de1c" name="Micro X-Launcher - Direct Fire" book="BtGoA" page="71" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -4741,7 +4687,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7849-7fc2-0006-8fbd" name="Munitions" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7849-7fc2-0006-8fbd" name="Munitions" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4760,7 +4706,7 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2f9e-d8b5-f1a8-6e4c" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2f9e-d8b5-f1a8-6e4c" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4796,7 +4742,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="47c5-9ed0-b50a-45b7" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="47c5-9ed0-b50a-45b7" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4832,7 +4778,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="876b-029d-8c49-cf28" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="876b-029d-8c49-cf28" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4868,7 +4814,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2f18-3173-0eea-f19f" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2f18-3173-0eea-f19f" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4904,7 +4850,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="99d6-3f14-a1e9-779b" name="Net" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="99d6-3f14-a1e9-779b" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4934,7 +4880,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e014-fd16-bd43-6ead" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e014-fd16-bd43-6ead" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -4970,7 +4916,7 @@
                 <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="057c-a217-e792-8ef7" name="All" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="057c-a217-e792-8ef7" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -5038,7 +4984,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf0f-913b-e028-8891" name="Nano Drone" book="BtGoA" page="113" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bf0f-913b-e028-8891" name="Nano Drone" book="BtGoA" page="113" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5060,7 +5006,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cadc-e1ce-3615-ac4b" name="Nano Drones (2)" book="BtGoA" page="113" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cadc-e1ce-3615-ac4b" name="Nano Drones (2)" book="BtGoA" page="113" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5083,7 +5029,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b54-c223-3c4a-5de7" name="Overload Ammo" book="BtGoA" page="89" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="6b54-c223-3c4a-5de7" name="Overload Ammo" book="BtGoA" page="89" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5105,7 +5051,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb94-d1e8-1084-71b3" name="Phase Armor" book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="eb94-d1e8-1084-71b3" name="Phase Armor" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5127,7 +5073,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5725-5e4d-d4f2-1dd0" name="Phase Rifle" book="BtGoA" page="72" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5725-5e4d-d4f2-1dd0" name="Phase Rifle" book="BtGoA" page="72" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d2b1-2482-5f97-a4e4" name="Phase Rifle" book="BtGoA" page="72" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5175,7 +5121,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a18f-8d16-f879-e590" name="Phaseshift Shield" book="BtGoA" page="122" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a18f-8d16-f879-e590" name="Phaseshift Shield" book="BtGoA" page="122" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5188,7 +5134,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67b6-d6f5-5ba3-e50d" name="Plasma Bombard" book="BtGoA" page="82" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="67b6-d6f5-5ba3-e50d" name="Plasma Bombard" book="BtGoA" page="82" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="a5d1-11c5-eb13-f676" name="Plasma Bombard" book="BtGoA" page="82" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5224,7 +5170,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2bf-0272-30c6-dd20" name="Plasma Cannon" book="BtGoA" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c2bf-0272-30c6-dd20" name="Plasma Cannon" book="BtGoA" page="76" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="dce6-92d7-7812-820a" name="Plasma Cannon" book="BtGoA" page="76" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5260,7 +5206,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1631-5857-2139-960a" name="Plasma Carbine " book="BtGoA" page="70" hidden="false" collective="true" type="model">
+    <selectionEntry id="1631-5857-2139-960a" name="Plasma Carbine " book="BtGoA" page="70" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5292,7 +5238,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d118-8115-df5f-2402" name="Plasma Grenades" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d118-8115-df5f-2402" name="Plasma Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5314,7 +5260,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47d9-8149-9744-9849" name="Plasma Lance" book="BtGoA" page="70" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="47d9-8149-9744-9849" name="Plasma Lance" book="BtGoA" page="70" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5323,7 +5269,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b6e9-addd-c005-4547" name="Plasma Lance - Single Shot" book="BtGoA" page="70" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b6e9-addd-c005-4547" name="Plasma Lance - Single Shot" book="BtGoA" page="70" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="3799-96cf-d949-da4e" name="Plasma Lance - Single Shot" book="BtGoA" page="70" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5353,7 +5299,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="80ed-e766-57b1-3d2a" name="Plasma Lance - Scatter" book="BtGoA" page="70" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="80ed-e766-57b1-3d2a" name="Plasma Lance - Scatter" book="BtGoA" page="70" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="9ad5-3648-6628-2caa" name="Plasma Lance - Scatter" book="BtGoA" page="70" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5390,7 +5336,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4069-4420-c5b5-56af" name="Plasma Lance - Lance" book="BtGoA" page="70" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4069-4420-c5b5-56af" name="Plasma Lance - Lance" book="BtGoA" page="70" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="f44f-9fdb-7e3c-bf9e" name="Plasma Lance - Lance" book="BtGoA" page="70" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5440,7 +5386,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf3a-e6a9-bdc0-e0ae" name="Plasma Light Support" book="BtGoA" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cf3a-e6a9-bdc0-e0ae" name="Plasma Light Support" book="BtGoA" page="76" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d429-b8cc-aca0-aac9" name="Plasma Light Support" book="BtGoA" page="76" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5476,7 +5422,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f97-9dbe-566a-5ab0" name="Plasma Light Support (Eq)" book="BtGoA" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0f97-9dbe-566a-5ab0" name="Plasma Light Support (Eq)" book="BtGoA" page="76" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="4477-6aca-5fe1-2d03" name="Plasma Light Support" book="BtGoA" page="76" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5513,7 +5459,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cd6-dbb8-bdcb-0299" name="Plasma Pistol" book="BtGoA" page="68" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="9cd6-dbb8-bdcb-0299" name="Plasma Pistol" book="BtGoA" page="68" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5533,7 +5479,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2396-4159-e26c-6c42" name="Reflex Armor" book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="2396-4159-e26c-6c42" name="Reflex Armor" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5555,7 +5501,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cdf-f068-bbde-2d0c" name="Reflex Armor" book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="9cdf-f068-bbde-2d0c" name="Reflex Armor" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5578,7 +5524,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03c2-174e-8617-cf04" name="Reflex Armor/ Impact Cloak" book="BtGoA" page="93" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="03c2-174e-8617-cf04" name="Reflex Armor/ Impact Cloak" book="BtGoA" page="93" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5598,7 +5544,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abe2-ce1e-271f-5a85" name="Scourer Cannon" book="BtGoA" page="73" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="abe2-ce1e-271f-5a85" name="Scourer Cannon" book="BtGoA" page="73" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5607,7 +5553,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ccbf-d756-25d7-40f4" name="Scourer Cannon - Dispersed" book="BtGoA" page="73" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="ccbf-d756-25d7-40f4" name="Scourer Cannon - Dispersed" book="BtGoA" page="73" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="03b8-44da-840d-df59" name="Scourer Cannon - Dispersed" book="BtGoA" page="73" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5644,7 +5590,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="713c-944f-32ee-fe55" name="Scourer Cannon - Concentrated" book="BtGoA" page="73" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="713c-944f-32ee-fe55" name="Scourer Cannon - Concentrated" book="BtGoA" page="73" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="0f28-d6ef-0f10-6e8f" name="Scourer Cannon - Concentrated" book="BtGoA" page="73" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5671,7 +5617,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9a2e-529c-2e81-0d99" name="Scourer Cannon - Disruptor" book="BtGoA" page="73" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9a2e-529c-2e81-0d99" name="Scourer Cannon - Disruptor" book="BtGoA" page="73" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="1b2e-f75a-2b45-9cde" name="Scourer Cannon - Disruptor" book="BtGoA" page="73" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
               <profiles/>
@@ -5724,7 +5670,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b145-19b3-baae-ff39" name="Shield Drone" book="BtGoA" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b145-19b3-baae-ff39" name="Shield Drone" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5746,7 +5692,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1707-586b-01df-0f80" name="Shield Drone" book="BtGoA" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1707-586b-01df-0f80" name="Shield Drone" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5768,7 +5714,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e33-99fa-00fc-0a32" name="Skark" book="BtGoA" page="131" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="1e33-99fa-00fc-0a32" name="Skark" book="BtGoA" page="131" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules>
         <rule id="3983-4050-5e06-8fd3" name="Skark" book="BtGoA" page="131" hidden="false">
@@ -5792,7 +5738,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1a8-ba0b-2e45-8020" name="Skyraider" book="BtGoA" page="192" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="a1a8-ba0b-2e45-8020" name="Skyraider" book="BtGoA" page="192" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5816,7 +5762,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8de3-1e72-72ef-e7a3" name="SlingNet Ammo" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8de3-1e72-72ef-e7a3" name="SlingNet Ammo" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5838,7 +5784,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db03-7794-daeb-fef6" name="Solar Charges" book="BtGoA" page="85" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="db03-7794-daeb-fef6" name="Solar Charges" book="BtGoA" page="85" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="457b-abde-ffd5-bb14" name="Solar Charges" book="BtGoA" page="85" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -5880,7 +5826,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3878-9363-1705-9eda" name="Soma Graft" book="BtGoA" page="121" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3878-9363-1705-9eda" name="Soma Graft" book="BtGoA" page="121" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5902,7 +5848,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f3aa-148a-0460-c7e5" name="Spotter Drone" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5924,7 +5870,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1c9-551b-1532-ef5a" name="Spotter Drone (2)" book="BtGoA" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a1c9-551b-1532-ef5a" name="Spotter Drone (2)" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5946,7 +5892,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e329-9443-6cb2-bc53" name="Spotter Drone (Eq)" book="BtGoA" page="114" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e329-9443-6cb2-bc53" name="Spotter Drone (Eq)" book="BtGoA" page="114" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5969,7 +5915,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6bfe-ff47-b61c-afd2" name="Sub-mounted X-Sling" book="BtGoA" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="6bfe-ff47-b61c-afd2" name="Sub-mounted X-Sling" book="BtGoA" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5992,7 +5938,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb8b-7402-c5a9-8644" name="Subverter Matrix" book="BtGoA" page="122" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fb8b-7402-c5a9-8644" name="Subverter Matrix" book="BtGoA" page="122" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -6014,7 +5960,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eefe-f70d-db8e-9414" name="Synchroniser Drone" book="Battle for Xilos" page="79" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eefe-f70d-db8e-9414" name="Synchroniser Drone" book="Battle for Xilos" page="79" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -6036,7 +5982,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02f1-fd15-ca9d-ad79" name="Tractor Maul" book="BtGoA" page="65" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="02f1-fd15-ca9d-ad79" name="Tractor Maul" book="BtGoA" page="65" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="0f4d-9895-e878-29ea" name="Tractor Maul" book="BtGoA" page="65" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -6072,7 +6018,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac1e-a740-57b7-cc64" name="Twin Mag Light Support" book="BtGoA" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ac1e-a740-57b7-cc64" name="Twin Mag Light Support" book="BtGoA" page="75" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6130,7 +6076,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f31c-6e5c-19c0-ada7" name="Twin Mag Repeaters" book="BtGoA" page="69" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f31c-6e5c-19c0-ada7" name="Twin Mag Repeaters" book="BtGoA" page="69" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6166,7 +6112,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78dd-7840-1210-fb35" name="Twin Plasma Carbines" book="BtGoA" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="78dd-7840-1210-fb35" name="Twin Plasma Carbines" book="BtGoA" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6204,7 +6150,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9f1-a313-3e59-57ab" name="X-Howitzer" book="BtGoA" page="82" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b9f1-a313-3e59-57ab" name="X-Howitzer" book="BtGoA" page="82" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="acf4-2a5f-e9a1-6d3c" name="X-Howitzer" book="BtGoA" page="82" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -6260,7 +6206,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eed0-b68f-b5fb-92c7" name="X-Launcher" book="BtGoA" page="78" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eed0-b68f-b5fb-92c7" name="X-Launcher" book="BtGoA" page="78" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="2489-100b-d116-96c6" name="X-Launcher" book="BtGoA" page="78" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -6316,7 +6262,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b08e-548a-fda7-0a4e" name="X-Sling" book="BtGoA" page="68" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="b08e-548a-fda7-0a4e" name="X-Sling" book="BtGoA" page="68" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="3cec-d2e0-b0ed-7856" name="X-Sling" book="BtGoA" page="68" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -6352,7 +6298,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="179a-c0cc-49cc-c946" name="X-Sling" book="BtGoA" page="68" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="179a-c0cc-49cc-c946" name="X-Sling" book="BtGoA" page="68" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="8977-826a-5f65-6907" name="X-Sling" book="BtGoA" page="68" hidden="false" profileTypeId="ecae-8ac8-2c13-0dd3">
           <profiles/>
@@ -6432,7 +6378,7 @@
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c816-58ed-3726-86b5" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c816-58ed-3726-86b5" name="Scrambler" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6460,7 +6406,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e0bc-ff63-7ed9-9768" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e0bc-ff63-7ed9-9768" name="Arc" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6488,7 +6434,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d6cb-2428-f1b5-0f11" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d6cb-2428-f1b5-0f11" name="Blur" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6516,7 +6462,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bbac-d335-536a-e63d" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bbac-d335-536a-e63d" name="Scoot" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6544,7 +6490,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2a9e-c888-1e5a-ea11" name="Net" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2a9e-c888-1e5a-ea11" name="Net" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6566,7 +6512,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b932-f489-37e5-e6b4" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b932-f489-37e5-e6b4" name="Grip" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6594,7 +6540,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f766-367d-f5c0-fc59" name="All" book="BtGoA" page="87" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f766-367d-f5c0-fc59" name="All" book="BtGoA" page="87" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6684,23 +6630,23 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Creates 3" sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
+      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
 
-OH shots are affected if the target is within 3" of the marker. </description>
+OH shots are affected if the target is within 3&quot; of the marker. </description>
     </rule>
     <rule id="b7c6-fc7c-d48b-aae4" name="Auto-Workshop" book="BtGoA" page="121" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Activated from any order to the unit. Affects every vehicle, weapon drone, weapon team, and machine mounted unit within 5" of the unit, and itself. Roll D10 - on 1-5, nothing happens, 6-10 each unit removes a pin.</description>
+      <description>Activated from any order to the unit. Affects every vehicle, weapon drone, weapon team, and machine mounted unit within 5&quot; of the unit, and itself. Roll D10 - on 1-5, nothing happens, 6-10 each unit removes a pin.</description>
     </rule>
     <rule id="f0d9-1e5a-ec20-b27c" name="Batter Drone" book="BtGoA" page="110" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5" from drone base. Template may be repositioned any time unit receives an order die.
+      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5&quot; from drone base. Template may be repositioned any time unit receives an order die.
 
 Enemy units shooting through shield suffer -2 ACC. Models positioned inside the shield do not receive the -2 ACC protection. Troops shooting from the inside convex side of the shield do not suffer the ACC penalty. 
 
@@ -6746,7 +6692,7 @@ No protection is offered for OH shots.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any unit within 3" reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
+      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
     </rule>
     <rule id="c3e6-4e9b-858c-80d3" name="Booster Drone" book="BtGoA" page="92" hidden="false">
       <profiles/>
@@ -6769,7 +6715,7 @@ Unit may put up temporary cover by making any action without a move. May result 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If unit goes down it cannot be targeted at ranges of more than 10". If a unit with the drone goes down as reaction to enemy shooting from more than 10" away then the unit can no longer be targeted. OH shots will miss and have no effect. Scout probes can compromise this effect within 10".
+      <description>If unit goes down it cannot be targeted at ranges of more than 10&quot;. If a unit with the drone goes down as reaction to enemy shooting from more than 10&quot; away then the unit can no longer be targeted. OH shots will miss and have no effect. Scout probes can compromise this effect within 10&quot;.
 
 </description>
     </rule>
@@ -6785,14 +6731,14 @@ Unit may put up temporary cover by making any action without a move. May result 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Friendly units within 10" can use this model's Co value for any Co based test instead of their own. Pins still affect this Co value.</description>
+      <description>Friendly units within 10&quot; can use this model&apos;s Co value for any Co based test instead of their own. Pins still affect this Co value.</description>
     </rule>
     <rule id="3995-c066-c957-5ffe" name="Compactor Drone" book="BtGoA" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>May carry one of the following: all of a mounted unit's bikes, a unit's support weapon, an entire weapon drone unit complete with any associated buddy drones other than compactor drones, or an entire probe shard.
+      <description>May carry one of the following: all of a mounted unit&apos;s bikes, a unit&apos;s support weapon, an entire weapon drone unit complete with any associated buddy drones other than compactor drones, or an entire probe shard.
 
 May load or unload when their unit makes an action, even down order following failed order test. </description>
     </rule>
@@ -6863,7 +6809,7 @@ If the target is a probe it only passes Res tests on a 1.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Move at double pace - 10" per advance, 20" for run. Shots fired at fast targets with a run order must re-roll hits. 
+      <description>Move at double pace - 10&quot; per advance, 20&quot; for run. Shots fired at fast targets with a run order must re-roll hits. 
 Fast units may break off of assault after point blank shooting has been conducted. They may move through the enemy during this move.</description>
     </rule>
     <rule id="7bc9-5e98-2914-5abd" name="Follow" book="BtGoA" page="13" hidden="false">
@@ -6871,7 +6817,7 @@ Fast units may break off of assault after point blank shooting has been conducte
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a leader with follow gives his unit an order, any other friendly units within 5" may make the same action as long as they have no pins and are otherwise able to make the action.</description>
+      <description>When a leader with follow gives his unit an order, any other friendly units within 5&quot; may make the same action as long as they have no pins and are otherwise able to make the action.</description>
     </rule>
     <rule id="d50c-3bbe-c62d-34c3" name="Fractal Lock" book="BtGoA" page="83" hidden="false">
       <profiles/>
@@ -6899,9 +6845,9 @@ Fast units may break off of assault after point blank shooting has been conducte
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Unit beginning its move within 3" must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
+      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
 
-If a unit moves within 3" it must take the Ag test as above. </description>
+If a unit moves within 3&quot; it must take the Ag test as above. </description>
     </rule>
     <rule id="5f6c-7c20-3cbc-bcc8" name="Gun Drone" book="BtGoA" page="112" hidden="false">
       <profiles/>
@@ -6929,7 +6875,7 @@ If a unit moves within 3" it must take the Ag test as above. </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Friendly units within 10" may use this model's Init stat. </description>
+      <description>Friendly units within 10&quot; may use this model&apos;s Init stat. </description>
     </rule>
     <rule id="34e0-c5a3-3998-5d0b" name="High Commander" book="BtGoA" page="134" hidden="false">
       <profiles/>
@@ -6943,7 +6889,7 @@ If a unit moves within 3" it must take the Ag test as above. </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Ranges of 10" or less, +1 to Res. Ranges of greater than 10" +2 Res. Against any Blast hits, +3 Res. </description>
+      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
     </rule>
     <rule id="56ab-52fc-9557-2586" name="HL Booster" book="BtGoA" page="93" hidden="false">
       <profiles/>
@@ -6971,7 +6917,7 @@ If a unit moves within 3" it must take the Ag test as above. </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>May make a special pre-game run action. May sprint, test for exhaustion. May not move within 10" of enemy. May lay a minefield before game starts.</description>
+      <description>May make a special pre-game run action. May sprint, test for exhaustion. May not move within 10&quot; of enemy. May lay a minefield before game starts.</description>
     </rule>
     <rule id="a221-d53c-b4bd-b52c" name="Large" book="BtGoA" page="134" hidden="false">
       <profiles/>
@@ -7036,21 +6982,21 @@ Units may fire over regular sized units at no penalty. Large targets never gain 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the mag cannon's target rolls for damage on a damage table it suffers Massive Damage - page 37.</description>
+      <description>If the mag cannon&apos;s target rolls for damage on a damage table it suffers Massive Damage - page 37.</description>
     </rule>
     <rule id="4039-88e8-9f6d-bfb3" name="Medi-Drone" book="BtGoA" page="113" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5" may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5" of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
+      <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
     </rule>
     <rule id="137e-c2b6-65b7-ecc3" name="Medic" book="BtGoA" page="135" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Units within 5" of a medic unit may re-roll one failed Res test each time it is shot at. Medi-probes and drones may add their re-rolls to total number of re-rolls.
+      <description>Units within 5&quot; of a medic unit may re-roll one failed Res test each time it is shot at. Medi-probes and drones may add their re-rolls to total number of re-rolls.
 
 Cannot be used on non-humans. </description>
     </rule>
@@ -7086,10 +7032,10 @@ D10 Result:
 2 Gnarly Hide: +1 Resist
 3 Bulging Muscles: +1 Str
 4 Lightning Reflexes: +1 Init
-5 Piercing Scream: gains a shooting attack with 10" effective range and SV 0
+5 Piercing Scream: gains a shooting attack with 10&quot; effective range and SV 0
 6 Belches Acid: SV 1 in H2H
 7 Exudes Noxious Vapors: H2H enemies must re-roll successful hits
-8 Mesmerising: any enemy unit within 5" must pass command test at -1 to do anything, even with no pins.
+8 Mesmerising: any enemy unit within 5&quot; must pass command test at -1 to do anything, even with no pins.
 9 Cunning Leader: unit leader gains command and Init 8. If unit has no leader, it gains a leader with base Co and Init.
 10 Choose one of the above qualities.</description>
     </rule>
@@ -7173,7 +7119,7 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>10" or less, +1 Res. Greater than 10", +2 Res. May make a down reaction even if it already has order die - flip to down if so. </description>
+      <description>10&quot; or less, +1 Res. Greater than 10&quot;, +2 Res. May make a down reaction even if it already has order die - flip to down if so. </description>
     </rule>
     <rule id="6b03-2ad4-34c1-7f73" name="Plasma Fade" book="BtGoA" page="76" hidden="false">
       <profiles/>
@@ -7201,7 +7147,7 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the end of any turn you can expend a "Pull Yourself Together!" to remove one pin from one unit. Use once and discard. You can buy as many as you are allowed Auxiliary choices in your Army but can only use ONE per turn.</description>
+      <description>At the end of any turn you can expend a &quot;Pull Yourself Together!&quot; to remove one pin from one unit. Use once and discard. You can buy as many as you are allowed Auxiliary choices in your Army but can only use ONE per turn.</description>
     </rule>
     <rule id="b6e3-9cf0-1a9f-a941" name="Random SV" book="BtGoA" page="66" hidden="false">
       <profiles/>
@@ -7267,7 +7213,7 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3" canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
+      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
     </rule>
     <rule id="94f5-4a4c-92ad-94f9" name="Scramble Proof" book="BtGoA" page="137" hidden="false">
       <profiles/>
@@ -7281,9 +7227,9 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Enemy units within 3" that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
+      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
 
-Weapon Drone and vehicles have Res reduced by 2 within 3". Buddy drones cease to function if the unit is within 3". Probes can do nothing at all while marker is within 3". Penalties are not cumulative.</description>
+Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
     </rule>
     <rule id="3377-9408-33bb-6a02" name="Self Repair" book="BtGoA" page="137" hidden="false">
       <profiles/>
@@ -7340,7 +7286,7 @@ Shield drones may attempt to intercept lucky hits. Lucky hits can be allocated t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Deploy anywhere within player's half. Snipers may not be deployed within 20" of other snipers, enemy may not deploy within 10". </description>
+      <description>Deploy anywhere within player&apos;s half. Snipers may not be deployed within 20&quot; of other snipers, enemy may not deploy within 10&quot;. </description>
     </rule>
     <rule id="1253-ef5b-67d4-3e18" name="Soma Graft" book="BtGoA" page="121" hidden="false">
       <profiles/>
@@ -7363,7 +7309,7 @@ Shield drones may attempt to intercept lucky hits. Lucky hits can be allocated t
       <modifiers/>
       <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
 
-Spotter drones may spot through another spotter drone (within 20") with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
+Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
     </rule>
     <rule id="cd8d-624c-ed86-e310" name="Subverter Matrix" book="BtGoA" page="122" hidden="false">
       <profiles/>
@@ -7376,14 +7322,14 @@ Spotter drones may spot through another spotter drone (within 20") with LOS to t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the start of the turn you can remove 1 of your opponent's Order Dice from the bag. This die isn't used that turn, and is returned to the dice bag at the start of the following turn. This means your opponent will have to fight without one of his dice that turn. Use once and discard. You can only buy ONE Superior Shard regardless of the eize of your army.</description>
+      <description>At the start of the turn you can remove 1 of your opponent&apos;s Order Dice from the bag. This die isn&apos;t used that turn, and is returned to the dice bag at the start of the following turn. This means your opponent will have to fight without one of his dice that turn. Use once and discard. You can only buy ONE Superior Shard regardless of the eize of your army.</description>
     </rule>
     <rule id="d91f-8426-3ab2-f06c" name="Synchroniser Drone" book="Battle for Xilos" page="79" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a unit with a synchroniser drone is successfully issued an order, after it has completed all actions in that order it may attempt to synchronise with one other unit within 10". The unit nominated must take and pass a Command test made in the standard fashion. If successful, it may draw an Order Die and issue the same command as the Synchronising unit, treating the die as if it were drawn randomly for all game effects. If the Synchronising unit also has the Follow ability, the Drone extends the range of Follow to 10" rather than 5". CANNOT be chained from one unit to another.</description>
+      <description>If a unit with a synchroniser drone is successfully issued an order, after it has completed all actions in that order it may attempt to synchronise with one other unit within 10&quot;. The unit nominated must take and pass a Command test made in the standard fashion. If successful, it may draw an Order Die and issue the same command as the Synchronising unit, treating the die as if it were drawn randomly for all game effects. If the Synchronising unit also has the Follow ability, the Drone extends the range of Follow to 10&quot; rather than 5&quot;. CANNOT be chained from one unit to another.</description>
     </rule>
     <rule id="ab37-33d8-41f3-7532" name="Transport 10" book="BtGoA" page="137" hidden="false">
       <profiles/>
