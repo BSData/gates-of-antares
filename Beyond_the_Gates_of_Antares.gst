@@ -10720,7 +10720,7 @@
     </selectionEntry>
     <selectionEntry id="0ef5-0ee9-1d9c-5f7a" name="Concord C3D1 Light Support Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="2610-8cda-ae56-581f" name="C3D1 Light Support Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+        <profile id="2610-8cda-ae56-581f" name="Weapon Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
           <profiles/>
           <rules/>
           <infoLinks/>
