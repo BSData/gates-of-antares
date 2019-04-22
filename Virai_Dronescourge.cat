@@ -1903,7 +1903,16 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="8e87-c235-2a5f-9af0" name="Army Options" hidden="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1338-1627-1150-440b" name="Weapon Drone" book="DS" page="90" hidden="false" collective="false" type="model">
       <profiles>

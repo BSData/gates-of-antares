@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="20" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="21" battleScribeVersion="2.01" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -10719,23 +10719,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0ef5-0ee9-1d9c-5f7a" name="Concord C3D1 Light Support Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="2610-8cda-ae56-581f" name="Weapon Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
-            <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
-            <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
-            <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="8"/>
-            <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
-            <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
-            <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value=""/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="5568-ea16-2e0d-c58d" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule">
@@ -10756,7 +10740,41 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="ee9f-2254-0eb1-6cb6" name="Weapon Drone" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9bb5-8dee-4424-db9e" name="Weapon Drone" book="Rulebook &amp; pdf v2" page="163" hidden="false" profileTypeId="1650-77b3-10d1-6406" profileTypeName="Model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ag" characteristicTypeId="cf30-f234-691c-47bd" value="7"/>
+                <characteristic name="Acc" characteristicTypeId="017a-9b43-b7b3-030d" value="6"/>
+                <characteristic name="Str" characteristicTypeId="8294-36f1-6431-2145" value="1"/>
+                <characteristic name="Res" characteristicTypeId="f214-abe8-c922-c51b" value="8"/>
+                <characteristic name="Init" characteristicTypeId="08b9-e038-7ba6-488e" value="8"/>
+                <characteristic name="Co" characteristicTypeId="3993-27b0-c3d9-de20" value="8"/>
+                <characteristic name="Special" characteristicTypeId="3baa-9cfd-f273-822d" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7595-3c68-cbe6-9f68" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9b4-2ccb-dbbe-3935" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="59.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d89f-c83c-3aa4-3c1c" name="Upgrade" hidden="false" collective="false">
           <profiles/>
@@ -10840,9 +10858,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="59.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="e7ca-3a4b-4345-a0c6" name="Concord C3M407 (CS) Combat Drone" book="pdf v2" page="" hidden="false" collective="false" type="model">
       <profiles/>
