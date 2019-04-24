@@ -762,19 +762,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fe-6ba3-41da-bbb1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e7b-f0bc-4663-1727" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="375d-eacf-5ef4-2c5f" name="First Instance Architector" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
-              <characteristics>
-                <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
-                <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">6</characteristic>
-                <characteristic name="Str" typeId="8294-36f1-6431-2145">4</characteristic>
-                <characteristic name="Res" typeId="f214-abe8-c922-c51b">9</characteristic>
-                <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
-                <characteristic name="Co" typeId="3993-27b0-c3d9-de20">9</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Hive Command, Follow, Hero, Leader 2, Wound 2, Reprogram, Repair Swarm, Download, MOD2, Architector</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <rules>
             <rule id="9088-22f5-8a23-b7ca" name="Hive Command" publicationId="3913-de3b-pubN65594" page="105" hidden="false">
               <description>First Instance&apos;s Follow radius extended to 10&quot; and Command to 15&quot;</description>
@@ -787,7 +774,6 @@
             <infoLink id="fcb8-60c7-47f8-977d" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
             <infoLink id="3f2e-7ab1-2179-6319" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
             <infoLink id="9560-f5b2-c2dd-f1f3" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
-            <infoLink id="afed-dfa0-2729-7a23" name="Wound 2" hidden="false" targetId="536e-548a-6948-96cb" type="rule"/>
             <infoLink id="477b-c791-e42c-a352" name="Reprogram" hidden="false" targetId="9dbb-d186-34b5-197e" type="rule"/>
             <infoLink id="f743-552e-c72d-9d83" name="Repair Swarm" hidden="false" targetId="cc70-1124-5734-ca2d" type="rule"/>
             <infoLink id="aafe-2187-114f-c927" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
@@ -811,6 +797,53 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b22e-d566-23a8-1b43" name="Downgrade" hidden="false" collective="false" defaultSelectionEntryId="77a8-335b-c490-468b">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3f-d956-a8de-b131" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c02-95e1-e015-6a13" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="77a8-335b-c490-468b" name="First Instance Architector" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="c70b-2cd2-a297-d3cc" name="First Instance Architector" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
+                        <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">6</characteristic>
+                        <characteristic name="Str" typeId="8294-36f1-6431-2145">4</characteristic>
+                        <characteristic name="Res" typeId="f214-abe8-c922-c51b">9</characteristic>
+                        <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
+                        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">9</characteristic>
+                        <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Hive Command, Follow, Hero, Leader 2, Wound 2, Reprogram, Repair Swarm, Download, MOD2, Architector</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0c11-6883-0010-c534" name="Wound 2" hidden="false" targetId="536e-548a-6948-96cb" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="209.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="be42-6ac4-c57a-fe23" name="NuFirst" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="5b57-b250-d27d-fe98" name="NuFirst" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
+                        <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">6</characteristic>
+                        <characteristic name="Str" typeId="8294-36f1-6431-2145">4</characteristic>
+                        <characteristic name="Res" typeId="f214-abe8-c922-c51b">9</characteristic>
+                        <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
+                        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">9</characteristic>
+                        <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Hive Command, Follow, Hero, Leader 2, Reprogram, Repair Swarm, Download, MOD2, Architector</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="173.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -872,9 +905,6 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="209.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="50c7-c107-0bf9-3391" name="Assault Squad" hidden="false" collective="false" type="unit">
       <rules>
