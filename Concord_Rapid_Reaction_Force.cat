@@ -1,157 +1,312 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e77-8e4d-eb06-d0c2" name="Concord Rapid Reaction Force" revision="1" battleScribeVersion="2.01" gameSystemId="c339-677a-60db-4060" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
-  <entryLinks>
-    <entryLink id="9e24-ea61-cf2e-e029" name="Medi-Probe Shard" hidden="false" targetId="e36b-5fdf-7eed-4bd1" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="ed40-dc2d-00d0-2f84" name="Scout Probe Shard" hidden="false" targetId="0c5c-da8a-4405-a1ce" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="72aa-6b46-bd24-8155" name="Targeter Probe Shard" hidden="false" targetId="1fea-1f1e-73d8-9a98" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="83bd-e24b-8155-f2ed" name="Concord C3D1 Light Support Drone" hidden="false" targetId="0ef5-0ee9-1d9c-5f7a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="00f7-990e-b24b-aba4" name="Concord C3M407 (CS) Combat Drone" hidden="false" targetId="e7ca-3a4b-4345-a0c6" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="7eef-5a5a-35f1-d92d" name="Concord C3M4 Combat Drone" hidden="false" targetId="a496-fdcd-a5f6-d085" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8ffb-ade5-22e7-15ec" name="Concord C3D2 Medium Support Drone" hidden="false" targetId="af98-17af-2e7b-547a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="9a3f-f350-726f-f3b0" name="Concord C3D1/GP Light General Purpose Drone" hidden="false" targetId="90f1-9b81-29a0-1006" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="204d-137f-335c-2770" name="Concord Drone Commander" hidden="false" targetId="f98c-ad14-c9df-b46d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="c517-8867-1dd2-9ba9" name="Concord T7 Transporter Drone (Strategic)" hidden="false" targetId="809c-5e7f-8e29-4d0d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="d494-2fd8-a342-8e10" name="Concord T7 Transporter Drone (Support)" hidden="false" targetId="23ef-7122-b64d-e36a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2aac-5908-d8d3-a455" name="C3 Interceptor Command Squad" hidden="false" targetId="6455-e295-81f5-bbf7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="4ebc-8efd-5103-1a8c" value="-1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8486-8476-56fa-18d7" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebc-8efd-5103-1a8c" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="82c3-874a-b31e-ec8e" name="C3 Interceptor Squad" hidden="false" targetId="f300-e939-bad0-0f60" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="f1e0-c5ec-8ee0-51a9" value="-1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8486-8476-56fa-18d7" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e0-c5ec-8ee0-51a9" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="bc89-7019-a0f6-7a6c" name="C3 Drop Command Squad" hidden="false" targetId="3501-d057-3845-b85d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="88d2-5229-f13b-9d7b" name="C3 Drop Squad" hidden="false" targetId="1e94-c221-3417-75c9" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-  </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.02" id="3e77-8e4d-eb06-d0c2" name="Concord Rapid Reaction Force" revision="1" gameSystemId="c339-677a-60db-4060" gameSystemRevision="19">
+    <publications/>
+      
+    <profiles/>
+      
+    <rules/>
+      
+    <infoLinks/>
+      
+    <costTypes/>
+      
+    <profileTypes/>
+      
+    <categoryEntries/>
+      
+    <forceEntries/>
+      
+    <selectionEntries/>
+      
+    <entryLinks>
+            
+        <entryLink id="9e24-ea61-cf2e-e029" name="Medi-Probe Shard" hidden="false" targetId="e36b-5fdf-7eed-4bd1" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="ed40-dc2d-00d0-2f84" name="Scout Probe Shard" hidden="false" targetId="0c5c-da8a-4405-a1ce" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="72aa-6b46-bd24-8155" name="Targeter Probe Shard" hidden="false" targetId="1fea-1f1e-73d8-9a98" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="83bd-e24b-8155-f2ed" name="Concord C3D1 Light Support Drone" hidden="false" targetId="0ef5-0ee9-1d9c-5f7a" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="00f7-990e-b24b-aba4" name="Concord C3M407 (CS) Combat Drone" hidden="false" targetId="e7ca-3a4b-4345-a0c6" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="7eef-5a5a-35f1-d92d" name="Concord C3M4 Combat Drone" hidden="false" targetId="a496-fdcd-a5f6-d085" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="8ffb-ade5-22e7-15ec" name="Concord C3D2 Medium Support Drone" hidden="false" targetId="af98-17af-2e7b-547a" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="9a3f-f350-726f-f3b0" name="Concord C3D1/GP Light General Purpose Drone" hidden="false" targetId="90f1-9b81-29a0-1006" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="204d-137f-335c-2770" name="Concord Drone Commander" hidden="false" targetId="f98c-ad14-c9df-b46d" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="c517-8867-1dd2-9ba9" name="Concord T7 Transporter Drone (Strategic)" hidden="false" targetId="809c-5e7f-8e29-4d0d" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="d494-2fd8-a342-8e10" name="Concord T7 Transporter Drone (Support)" hidden="false" targetId="23ef-7122-b64d-e36a" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="2aac-5908-d8d3-a455" name="C3 Interceptor Command Squad" hidden="false" targetId="6455-e295-81f5-bbf7" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers>
+                        
+                <modifier type="set" field="4ebc-8efd-5103-1a8c" value="-1">
+                              
+                    <repeats/>
+                              
+                    <conditions>
+                                    
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8486-8476-56fa-18d7" type="equalTo"/>
+                                  
+                    </conditions>
+                              
+                    <conditionGroups/>
+                            
+                </modifier>
+                      
+            </modifiers>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebc-8efd-5103-1a8c" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="82c3-874a-b31e-ec8e" name="C3 Interceptor Squad" hidden="false" targetId="f300-e939-bad0-0f60" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers>
+                        
+                <modifier type="set" field="f1e0-c5ec-8ee0-51a9" value="-1">
+                              
+                    <repeats/>
+                              
+                    <conditions>
+                                    
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8486-8476-56fa-18d7" type="equalTo"/>
+                                  
+                    </conditions>
+                              
+                    <conditionGroups/>
+                            
+                </modifier>
+                      
+            </modifiers>
+                  
+            <constraints>
+                        
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e0-c5ec-8ee0-51a9" type="max"/>
+                      
+            </constraints>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="bc89-7019-a0f6-7a6c" name="C3 Drop Command Squad" hidden="false" targetId="3501-d057-3845-b85d" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+            
+        <entryLink id="88d2-5229-f13b-9d7b" name="C3 Drop Squad" hidden="false" targetId="1e94-c221-3417-75c9" type="selectionEntry">
+                  
+            <profiles/>
+                  
+            <rules/>
+                  
+            <infoLinks/>
+                  
+            <modifiers/>
+                  
+            <constraints/>
+                  
+            <categoryLinks/>
+                
+        </entryLink>
+          
+    </entryLinks>
+      
+    <sharedSelectionEntries/>
+      
+    <sharedSelectionEntryGroups/>
+      
+    <sharedRules/>
+      
+    <sharedProfiles/>
+    
 </catalogue>
