@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="16" battleScribeVersion="2.02" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="17" battleScribeVersion="2.02" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0f2e-f338-pubN66739" name="Beyond the Gates of Antares"/>
     <publication id="0f2e-f338-pubN72772" name="Main Rulebook"/>
@@ -1015,6 +1015,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a262-882a-f574-96fe" name="Disruptor Cannon" hidden="false" collective="false" targetId="a975-754b-83c3-802b" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -1297,6 +1300,22 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0939-16f9-5a42-dec5" name="Disruptor Cannon" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">20</characteristic>
+            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">30</characteristic>
+            <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">-</characteristic>
+            <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">1</characteristic>
+            <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">Blast D4, No Cover, Disruptor</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ad9-724e-9cbd-493f" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+        <infoLink id="e315-558d-d41c-68cf" name="No Cover" hidden="false" targetId="5344-3037-5451-66d9" type="rule"/>
+        <infoLink id="5f8f-cea0-5394-95c6" name="Disruptor" hidden="false" targetId="e140-2d88-ec8d-28a8" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
