@@ -5785,19 +5785,63 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e543-e990-4afa-1a47" name="Weapon Options" hidden="false" collective="false">
+        <selectionEntryGroup id="e543-e990-4afa-1a47" name="Weapon Options" hidden="false" collective="false" defaultSelectionEntryId="cee5-e011-50ba-8834">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00e0-3087-b9df-0e8f" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78bf-f972-8922-4db6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00e0-3087-b9df-0e8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78bf-f972-8922-4db6" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="bf41-a602-5dcb-f8bd" name="Plasma Light Support" hidden="false" collective="false" targetId="eaa4-a3c1-d269-d3cb" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="points" value="22"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="b3a2-8b4e-94fb-e8b4" name="Twin Plasma Carbines" hidden="false" collective="false" targetId="87b1-a87b-594d-257b" type="selectionEntry"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="366c-9f13-0f8b-ad6f" name="2 Plasma Light Supports" hidden="false" collective="false" type="upgrade">
+              <rules>
+                <rule id="dad0-213d-b499-3158" name="Critical Plasma Fade" hidden="false">
+                  <description>If any Acc test to hit from PLS’s rolls 10 the unit’s current order is changed to down once its action is complete plus the drone suffers 1 pin in addition.</description>
+                </rule>
+              </rules>
+              <entryLinks>
+                <entryLink id="7d29-8c43-75ce-7b94" name="Plasma Light Support" hidden="false" collective="false" targetId="eaa4-a3c1-d269-d3cb" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e3c-d8da-02c9-0197" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b353-d18d-4fec-a6f1" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="44.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adb2-26fc-78f6-ef42" name="Twin Plasma Carbine &amp; PLS" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="b75b-cfe6-6073-3ab9" name="Plasma Fade" hidden="false" targetId="72e3-4555-8f67-d0db" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="abf9-5d5a-60c3-78a6" name="Twin Plasma Carbines" hidden="false" collective="false" targetId="87b1-a87b-594d-257b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="740b-ba64-6fc4-0e6e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee15-1840-0a01-e8cf" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="e452-2290-d866-85b3" name="Plasma Light Support" hidden="false" collective="false" targetId="eaa4-a3c1-d269-d3cb" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625b-ecfe-8da8-cb34" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9219-b908-44dd-610b" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="22.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cee5-e011-50ba-8834" name="2 Twinned Plasma carbines" hidden="false" collective="false" type="upgrade">
+              <entryLinks>
+                <entryLink id="9e6d-9415-0539-36ef" name="Twin Plasma Carbines" hidden="false" collective="false" targetId="87b1-a87b-594d-257b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="509c-b24a-b773-63d0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d698-de64-cf82-11b0" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="cd77-ea68-712a-cc95" name="Drones" hidden="false" collective="false">
           <entryLinks>
@@ -5823,8 +5867,8 @@
       <entryLinks>
         <entryLink id="fb1b-df20-0df8-c4a6" name="Plasma Light Support" hidden="false" collective="false" targetId="eaa4-a3c1-d269-d3cb" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73c8-82ba-7c4b-c076" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7357-0537-415d-de37" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73c8-82ba-7c4b-c076" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7357-0537-415d-de37" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
