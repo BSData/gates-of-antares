@@ -5840,6 +5840,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -7787,6 +7790,33 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af6e-5445-df1f-6ad5" name="Iso-Drone" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0ce7-50e7-2093-937e" name="Iso-Drone" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+          <characteristics>
+            <characteristic name="Ag" typeId="cf30-f234-691c-47bd">7</characteristic>
+            <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">0</characteristic>
+            <characteristic name="Str" typeId="8294-36f1-6431-2145">1</characteristic>
+            <characteristic name="Res" typeId="f214-abe8-c922-c51b">10</characteristic>
+            <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
+            <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
+            <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Slow, Iso-Shield, Scramble Proof</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="94c9-c67f-7c59-a2c3" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule"/>
+        <infoLink id="a01c-9370-bc3f-2493" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
+        <infoLink id="0b7f-e97f-c068-4fda" name="Scramble Proof" hidden="false" targetId="377d-0cdc-6ba7-f1d2" type="rule"/>
+        <infoLink id="028c-c9e3-9e71-77d7" name="Iso-Shield" hidden="false" targetId="d584-98e1-53cc-4397" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="16b4-5651-0b1b-b9ae" name="Auxiliary" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
