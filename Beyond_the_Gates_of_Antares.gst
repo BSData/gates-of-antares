@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="21" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="c339-677a-pubN65850" name="Rulebook &amp; pdf v2"/>
-    <publication id="c339-677a-pubN70241" name="BX"/>
-    <publication id="c339-677a-pubN73307" name="CS &amp; pdf v2"/>
-    <publication id="c339-677a-pubN73895" name="pdf v2"/>
-    <publication id="c339-677a-pubN74522" name="DR"/>
+    <publication id="c339-677a-pubN65850" name="Army List PDF"/>
+    <publication id="c339-677a-pubN70241" name="Battle for Xilos"/>
+    <publication id="c339-677a-pubN73307" name="Army List PDF"/>
+    <publication id="c339-677a-pubN73895" name="Army List PDF"/>
+    <publication id="c339-677a-pubN74522" name="Dronescourge Returns"/>
     <publication id="c339-677a-pubN76607" name="Rulebook"/>
-    <publication id="c339-677a-pubN78024" name="CS"/>
+    <publication id="c339-677a-pubN78024" name="Chryseis Shard"/>
     <publication id="c339-677a-pubN78347" name="Download"/>
-    <publication id="c339-677a-pubN84075" name="BtGoA"/>
-    <publication id="c339-677a-pubN85577" name="GOA"/>
+    <publication id="c339-677a-pubN84075" name="Rulebook"/>
+    <publication id="c339-677a-pubN85577" name="Rulebook"/>
     <publication id="c339-677a-pubN86934" name="Rulebook, CS"/>
-    <publication id="c339-677a-pubN87238" name="CS &amp; pdf force list v2"/>
-    <publication id="c339-677a-pubN88653" name="Rulebook &amp; pdf force list v2"/>
-    <publication id="c339-677a-pubN97171" name="v2 pdf rules amendment"/>
-    <publication id="c339-677a-pubN108522" name="DS"/>
+    <publication id="c339-677a-pubN87238" name="Army List PDF"/>
+    <publication id="c339-677a-pubN88653" name="Army List PDF"/>
+    <publication id="c339-677a-pubN97171" name="Army List PDF"/>
+    <publication id="c339-677a-pubN108522" name="Dronescourge Returns"/>
     <publication id="c339-677a-pubN109254" name="ADTL(pdf)"/>
-    <publication id="c339-677a-pubN111317" name="v2 pdf"/>
-    <publication id="c339-677a-pubN111848" name="BX, CS"/>
+    <publication id="c339-677a-pubN111317" name="Army List PDF"/>
+    <publication id="c339-677a-pubN111848" name="Chryseis Shard"/>
     <publication id="dd50-7358-c6db-e22a" name="Battle for Xilos"/>
     <publication id="d375-02e1-9e2d-200e" name="Chryseis Shard"/>
     <publication id="725a-c43a-6b56-7af0" name="Dronescourge Returns"/>
@@ -8101,7 +8101,7 @@
       <description>• Can Point Blank shoot
 • Confer +1 Str in H2H</description>
     </rule>
-    <rule id="3c69-0775-51bd-bf1c" name="Hazard Armour" publicationId="c339-677a-pubN78024" page="67" hidden="false">
+    <rule id="3c69-0775-51bd-bf1c" name="Hazard Armour" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false">
       <description>• Affected by Scrambler
 • Cannot Sprint
 • If hit by SV5+ unit takes extra pin
@@ -8141,7 +8141,7 @@
     <rule id="7ffb-4ae6-61b1-9bac" name="HL Booster" publicationId="c339-677a-pubN76607" page="93, 111, 121" hidden="false">
       <description>• +1 Res to exisitng boosts</description>
     </rule>
-    <rule id="6096-a77e-b179-d6e2" name="HL Booster Armour Upgrade" publicationId="c339-677a-pubN111317" page="" hidden="false">
+    <rule id="6096-a77e-b179-d6e2" name="HL Booster Armour Upgrade" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false">
       <description>• +1 Res</description>
     </rule>
     <rule id="6add-f3a8-9fbf-8031" name="HL Booster Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false">
@@ -8193,22 +8193,22 @@
     <rule id="8cb3-4c3e-dc5f-b952" name="Limited Choice" publicationId="c339-677a-pubN76607" hidden="false">
       <description>May only be taken as 1 in 4 choices of entire force.</description>
     </rule>
-    <rule id="5e14-02ad-7216-29b2" name="Man of Destiny! (1)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="5e14-02ad-7216-29b2" name="Man of Destiny! (1)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD2 or MOD3)</description>
     </rule>
-    <rule id="1033-9d2c-bbad-b22b" name="Man of Destiny! (2)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="1033-9d2c-bbad-b22b" name="Man of Destiny! (2)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD3 or MOD4)</description>
     </rule>
-    <rule id="9184-7b76-3961-e6cf" name="Man of Destiny! (3)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="9184-7b76-3961-e6cf" name="Man of Destiny! (3)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD4 or MOD5)</description>
     </rule>
     <rule id="8622-ce63-c303-a2ed" name="Massive Damage" publicationId="c339-677a-pubN76607" page="75" hidden="false">
       <description>• Target rolls for Damage on Massive Damage table (p37)</description>
     </rule>
-    <rule id="0951-997c-361a-9f84" name="Mastermind" publicationId="c339-677a-pubN70241" page="108" hidden="false">
+    <rule id="0951-997c-361a-9f84" name="Mastermind" publicationId="dd50-7358-c6db-e22a" page="108" hidden="false">
       <description>• If given successful Rally order then in addition to removing D6 pins then every Ghar unit in 10&quot; removes 1 pin
 • If there are enemy within 10&quot; then Karg can only Run but not to assault</description>
     </rule>
@@ -8270,7 +8270,7 @@
     <rule id="02a5-5867-b0d9-bb0a" name="Nano Drone Boost" publicationId="c339-677a-pubN76607" page="67" hidden="false">
       <description>• May use enhanced stats if unit has Nano Drone</description>
     </rule>
-    <rule id="1b2f-b87d-729f-2ea4" name="Nano Probe Net" publicationId="c339-677a-pubN111848" page="117 BX, p73 CS" hidden="false">
+    <rule id="1b2f-b87d-729f-2ea4" name="Nano Probe Net" publicationId="d375-02e1-9e2d-200e" page="73" hidden="false">
       <description>• Must maintain formation within 5&quot;
 • Must have at least two functioning Probes to maintain the Net
 • If the Net is functioning then command range is extended 10&quot; from any probe in the Net</description>
@@ -8392,7 +8392,7 @@
     <rule id="537e-7615-a0a1-4f5f" name="Rapid Sprint" publicationId="c339-677a-pubN76607" page="136" hidden="false">
       <description>• Sprint at 4M</description>
     </rule>
-    <rule id="5f8a-3172-909d-a27e" name="Rebels" publicationId="c339-677a-pubN70241" page="84" hidden="false">
+    <rule id="5f8a-3172-909d-a27e" name="Rebels" publicationId="dd50-7358-c6db-e22a" page="84" hidden="false">
       <description>• If a friendly unit in 5&quot; has Rebel then may ignore one pin for all purposes
 • Effect is not accumulative</description>
     </rule>
@@ -8416,7 +8416,7 @@
       <description>• Can either fire single shot or 5 shots
 • -1 Acc if Rapid Fire</description>
     </rule>
-    <rule id="09f7-1ca4-b8c3-30a5" name="Ruthless" publicationId="c339-677a-pubN70241" page="108" hidden="false">
+    <rule id="09f7-1ca4-b8c3-30a5" name="Ruthless" publicationId="dd50-7358-c6db-e22a" page="108" hidden="false">
       <description>• If use Command rule to boost Ghar unit then add additional +1</description>
     </rule>
     <rule id="8844-c265-3bcf-2959" name="Savage Strike" publicationId="c339-677a-pubN76607" page="136, 137" hidden="false">
@@ -8441,7 +8441,7 @@
 • May attempt repair immobilisation or one malfunctioning weapon
 • Roll D10, successful on 6+</description>
     </rule>
-    <rule id="a39d-a506-6033-a3df" name="Sensor Module" publicationId="c339-677a-pubN111317" page="" hidden="false">
+    <rule id="a39d-a506-6033-a3df" name="Sensor Module" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false">
       <description>• Ef: 30&quot;, Lo: 50&quot;, Ex: 100&quot;, SV: -, -, Light Support
 • Can act as spotter drone for the equipped unit and for friendly units in 10&quot;
 • Hits from Sensor Module do not give pins
@@ -8453,7 +8453,7 @@
 • Sharded units never take pins, all deploy at same time</description>
     </rule>
     <rule id="4d11-0423-9b5b-8d3a" name="Shared SV" publicationId="c339-677a-pubN76607" hidden="false"/>
-    <rule id="8330-ddbe-10a8-d9ae" name="Shock Wave" publicationId="c339-677a-pubN78024" page="62" hidden="false">
+    <rule id="8330-ddbe-10a8-d9ae" name="Shock Wave" publicationId="d375-02e1-9e2d-200e" page="62" hidden="false">
       <description>• SV and attacks depend on range</description>
     </rule>
     <rule id="90a9-5b29-2686-846e" name="Shooting Mode" publicationId="c339-677a-pubN76607" page="70, 71, 73" hidden="false">
@@ -8499,7 +8499,7 @@
 • If a probe is targeted it is destroyed
 • At the end of the turn both players roll D10 for the removed die, highest score wins.  If owning player wins then return dice to bag, if loses then dice remains contested for the next turn</description>
     </rule>
-    <rule id="8bba-bf54-4439-2f32" name="Synchroniser Drone" publicationId="c339-677a-pubN70241" page="79" hidden="false">
+    <rule id="8bba-bf54-4439-2f32" name="Synchroniser Drone" publicationId="dd50-7358-c6db-e22a" page="79" hidden="false">
       <description>• Used if unit given an order (and passes order test if required) and has a friendly unit in 10&quot;
 • If unit passes a Command test then place an order dice and allocate it to second unit 
 • Second unit still requires an Order test if neccessary
@@ -8542,10 +8542,10 @@
     <rule id="6ea4-40e6-718c-0d2f" name="Wound 3" publicationId="c339-677a-pubN76607" page="237" hidden="false">
       <description>• When fails first Res test becomes wounded, this can happen thrice, if fails further Res test then removed as casualty</description>
     </rule>
-    <rule id="d584-98e1-53cc-4397" name="Iso-Shield" publicationId="c339-677a-pubN78024" page="68" hidden="false">
+    <rule id="d584-98e1-53cc-4397" name="Iso-Shield" publicationId="d375-02e1-9e2d-200e" page="68" hidden="false">
       <description>• Shield protects Drone and units within 5&quot; from Scramble and Hazardous Environments</description>
     </rule>
-    <rule id="64fc-4815-0b06-8b5a" name="Hazard Armour" publicationId="c339-677a-pubN78024" page="67" hidden="false">
+    <rule id="64fc-4815-0b06-8b5a" name="Hazard Armour" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false">
       <description>• Affected by Scrambler
 • Cannot Sprint
 • If hit by SV5+ unit takes extra pin
@@ -8558,20 +8558,20 @@
       <description>• Can either fire single shot or 4 shots
 • -1 Acc if Rapid Fire</description>
     </rule>
-    <rule id="9dbb-d186-34b5-197e" name="Reprogram" publicationId="c339-677a-pubN74522" page="86" hidden="false">
+    <rule id="9dbb-d186-34b5-197e" name="Reprogram" publicationId="725a-c43a-6b56-7af0" page="86" hidden="false">
       <description>• Can use Overclock or Reset on units within command range
     • Overclock - Forgo Architects orderto return a units dice to the bag
     • Reset - Forgo Architects order to rally one or more other units</description>
     </rule>
-    <rule id="cc70-1124-5734-ca2d" name="Repair Swarm" publicationId="c339-677a-pubN74522" page="80" hidden="false">
+    <rule id="cc70-1124-5734-ca2d" name="Repair Swarm" publicationId="725a-c43a-6b56-7af0" page="80" hidden="false">
       <description>• Res re-roll or repair if Virai unit within 10&quot;
     • Res re-roll - As per leader special rule
     • Repair - As per self-repair special rule</description>
     </rule>
-    <rule id="4f5e-e8cd-28b4-9365" name="Breaching" publicationId="c339-677a-pubN108522" page="72-73" hidden="false">
+    <rule id="4f5e-e8cd-28b4-9365" name="Breaching" publicationId="725a-c43a-6b56-7af0" page="72-73" hidden="false">
       <description>• The Dronescourge Returns pg 72-73</description>
     </rule>
-    <rule id="41a7-938e-3b77-fa28" name="Architector" publicationId="c339-677a-pubN108522" page="83" hidden="false">
+    <rule id="41a7-938e-3b77-fa28" name="Architector" publicationId="725a-c43a-6b56-7af0" page="83" hidden="false">
       <description>When a failed re-roll is made for an Architector, roll on the damage table
 
 D10    Effect
@@ -8589,14 +8589,14 @@ Functional Degradation: Owning player choose one of Repair Swarm destroyed, Immo
 
 Systems Overload: Take the closest Virai unit without an order dice excluding probes and roll for their order. If none, nearest Virai unit goes Down</description>
     </rule>
-    <rule id="8a4f-1dc2-353a-d242" name="Breaching Kit" publicationId="c339-677a-pubN108522" page="80" hidden="false">
+    <rule id="8a4f-1dc2-353a-d242" name="Breaching Kit" publicationId="725a-c43a-6b56-7af0" page="80" hidden="false">
       <description>• +1 SV to total SV when placing explosives
 • +1 to breaching or destruction tests
 • +1 SV within 5&quot; to any unit shooting at a building</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="af66-926c-667f-6fb2" name="Plasma Pistol" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
+    <profile id="af66-926c-667f-6fb2" name="Plasma Pistol" publicationId="c339-677a-pubN76607" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
       <characteristics>
         <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
         <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>

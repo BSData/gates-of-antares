@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="12" battleScribeVersion="2.02" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="13" battleScribeVersion="2.02" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="64d6-1cd3-pubN65565" name="Battle for Xilos"/>
-    <publication id="64d6-1cd3-pubN66836" name="BtGoA"/>
-    <publication id="64d6-1cd3-pubN69131" name="BTGOA"/>
+    <publication id="64d6-1cd3-pubN66836" name="Rulebook"/>
+    <publication id="64d6-1cd3-pubN69131" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="7a95-8632-0c25-d086" name="Amano Harran and Bodyguards" publicationId="64d6-1cd3-pubN65565" page="115" hidden="false" collective="false" type="unit">
@@ -2743,7 +2743,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" publicationId="64d6-1cd3-pubN66836" page="120" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" publicationId="c339-677a-pubN76607" page="120" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -2755,7 +2755,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" publicationId="64d6-1cd3-pubN66836" page="120" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" publicationId="c339-677a-pubN76607" page="120" hidden="false" collective="false" type="upgrade">
       <infoLinks>
         <infoLink id="2aa0-3909-ff3b-5bfe" hidden="false" targetId="b7c6-fc7c-d48b-aae4" type="rule"/>
       </infoLinks>
@@ -2763,7 +2763,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" publicationId="64d6-1cd3-pubN66836" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" publicationId="c339-677a-pubN76607" page="11" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2774,7 +2774,7 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone (2)" publicationId="64d6-1cd3-pubN66836" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone (2)" publicationId="c339-677a-pubN76607" page="11" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2785,7 +2785,7 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2793,7 +2793,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false" collective="false" type="upgrade">
       <infoLinks>
         <infoLink id="f67e-b103-c5e0-7d92" hidden="false" targetId="4e34-753f-b082-2e00" type="rule"/>
       </infoLinks>
@@ -2801,7 +2801,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2812,7 +2812,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2823,7 +2823,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2837,7 +2837,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2851,7 +2851,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2865,7 +2865,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" publicationId="64d6-1cd3-pubN66836" page="84" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" publicationId="c339-677a-pubN76607" page="84" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2889,7 +2889,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" publicationId="64d6-1cd3-pubN66836" page="78" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" publicationId="c339-677a-pubN76607" page="78" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2913,7 +2913,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="059b-38f7-0313-5ae4" name="Compression Carbine" publicationId="64d6-1cd3-pubN66836" page="72" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="059b-38f7-0313-5ae4" name="Compression Carbine" publicationId="c339-677a-pubN76607" page="72" hidden="false" collective="true" type="upgrade">
       <infoLinks>
         <infoLink id="e580-6389-7ec6-d445" name="Compressor" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule"/>
         <infoLink id="b230-6dc2-fc21-9332" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile"/>
@@ -2922,7 +2922,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" publicationId="c339-677a-pubN76607" page="66" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2946,7 +2946,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" publicationId="64d6-1cd3-pubN66836" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" publicationId="c339-677a-pubN76607" page="77" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2973,7 +2973,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" publicationId="64d6-1cd3-pubN66836" page="79" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" publicationId="c339-677a-pubN76607" page="79" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2997,7 +2997,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" publicationId="64d6-1cd3-pubN66836" page="86" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" publicationId="c339-677a-pubN76607" page="86" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="de01-ba7b-11ee-55ca" name="Disruptor Discharger" publicationId="64d6-1cd3-pubN66836" page="86" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
           <characteristics>
@@ -3019,7 +3019,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" publicationId="64d6-1cd3-pubN66836" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" publicationId="c339-677a-pubN76607" page="83" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3041,7 +3041,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" publicationId="64d6-1cd3-pubN66836" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" publicationId="c339-677a-pubN76607" page="76" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3063,7 +3063,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" publicationId="64d6-1cd3-pubN66836" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" publicationId="c339-677a-pubN76607" page="77" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3085,7 +3085,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" publicationId="c339-677a-pubN76607" page="66" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3107,7 +3107,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" publicationId="64d6-1cd3-pubN66836" page="74" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" publicationId="c339-677a-pubN76607" page="74" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3130,7 +3130,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3138,7 +3138,7 @@
         <cost name="pts" typeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone (2)" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone (2)" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3146,7 +3146,7 @@
         <cost name="pts" typeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" publicationId="64d6-1cd3-pubN66836" page="80" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" publicationId="c339-677a-pubN76607" page="80" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3171,7 +3171,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" publicationId="64d6-1cd3-pubN66836" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" publicationId="c339-677a-pubN76607" page="83" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3193,7 +3193,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="81" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" publicationId="c339-677a-pubN76607" page="81" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3201,7 +3201,7 @@
         <profile id="49f7-05c7-8536-e088" name="Heavy Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="81" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
           <characteristics>
             <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">50</characteristic>
-            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">10</characteristic>
+            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">100</characteristic>
             <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">250</characteristic>
             <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">6</characteristic>
             <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">Massive Damage, Heavy Weapon</characteristic>

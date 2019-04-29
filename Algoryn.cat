@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="12" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="13" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="4868-1e60-pubN65566" name="Rulebook &amp; pdf force list v2"/>
+    <publication id="4868-1e60-pubN65566" name="Army List PDF"/>
     <publication id="4868-1e60-pubN68627" name="Rulebook"/>
-    <publication id="4868-1e60-pubN72079" name="BtGoA"/>
-    <publication id="4868-1e60-pubN73080" name="CS &amp; pdf force list v2"/>
-    <publication id="4868-1e60-pubN73311" name="CS"/>
-    <publication id="4868-1e60-pubN74143" name="BtGoA &amp; pdf force list v2"/>
-    <publication id="4868-1e60-pubN74792" name="GOA"/>
+    <publication id="4868-1e60-pubN72079" name="Rulebook"/>
+    <publication id="4868-1e60-pubN73080" name="Army List PDF"/>
+    <publication id="4868-1e60-pubN73311" name="Chryseis Shard"/>
+    <publication id="4868-1e60-pubN74143" name="Army List PDF"/>
+    <publication id="4868-1e60-pubN74792" name="Rulebook"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="3eb9-1d22-aac0-cf42" name="AI Assault Command Squad" publicationId="4868-1e60-pubN65566" page="173" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3eb9-1d22-aac0-cf42" name="AI Assault Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="b67d-94f8-52d1-1bd8" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="d0c0-409d-63b1-4cef" name="Infantry Command" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -151,7 +151,7 @@
         <cost name="pts" typeId="points" value="69.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cda-2300-7dae-8090" name="AI Assault Squad" publicationId="4868-1e60-pubN65566" page="173" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5cda-2300-7dae-8090" name="AI Assault Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="increment" field="98ab-0ab2-2967-f90e" value="1">
           <repeats>
@@ -268,7 +268,7 @@
         <cost name="pts" typeId="points" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e96-907a-4420-b86b" name="Bastion Heavy Combat Skimmer" publicationId="4868-1e60-pubN65566" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8e96-907a-4420-b86b" name="Bastion Heavy Combat Skimmer" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="05b7-f3b4-9c1d-0870" name="Bastion Heavy Combat Skimmer" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -372,7 +372,7 @@
         <cost name="pts" typeId="points" value="388.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1405-a43b-534b-ab05" name="AI Command Squad" publicationId="4868-1e60-pubN65566" page="172" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1405-a43b-534b-ab05" name="AI Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="31b0-6447-8642-f0bf" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="42dd-6a65-f204-d60b" name="Infantry Command" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -659,7 +659,7 @@
         <cost name="pts" typeId="points" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cdfd-7d13-efd0-6540" name="Defiant Transport Skimmer (Strategic)" publicationId="4868-1e60-pubN65566" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="cdfd-7d13-efd0-6540" name="Defiant Transport Skimmer (Strategic)" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="increment" field="03e1-db47-7024-6b22" value="1">
           <repeats>
@@ -788,7 +788,7 @@
         <cost name="pts" typeId="points" value="106.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40ad-08b6-fa6a-0171" name="AI Infiltration Squad" publicationId="4868-1e60-pubN65566" page="174" hidden="false" collective="false" type="unit">
+    <selectionEntry id="40ad-08b6-fa6a-0171" name="AI Infiltration Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="478c-3cc9-275f-7eac" name="Infiltrator" hidden="false" targetId="1646-967d-a579-e0c9" type="rule"/>
         <infoLink id="c955-a792-ae98-66fd" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
@@ -976,7 +976,7 @@
         <cost name="pts" typeId="points" value="37.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="500b-c1c5-a0da-aecc" name="AI Specialist Heavy Support Team" publicationId="4868-1e60-pubN65566" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="500b-c1c5-a0da-aecc" name="AI Specialist Heavy Support Team" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="d6cc-47c5-c602-dd58" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
         <infoLink id="d7b2-c85c-0f0d-e5fb" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
@@ -1099,7 +1099,7 @@
         <cost name="pts" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a44f-4447-aff2-0dcd" name="AI Squad" publicationId="4868-1e60-pubN65566" page="173" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a44f-4447-aff2-0dcd" name="AI Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="b9ad-5e05-238f-d3eb" name="Infantry" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
@@ -1283,7 +1283,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfd9-5e29-5a73-ae18" name="Iso-Drone" publicationId="4868-1e60-pubN73080" page="68" hidden="false" collective="false" type="unit">
+    <selectionEntry id="bfd9-5e29-5a73-ae18" name="Iso-Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="6445-d779-d57d-b639" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
         <infoLink id="e809-1183-b1dd-0544" name="Iso-Shield" hidden="false" targetId="d584-98e1-53cc-4397" type="rule"/>
@@ -1321,7 +1321,7 @@
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b80-c0ed-2c5c-3adc" name="AI Command Squad - General Ess Ma Rahq" publicationId="4868-1e60-pubN73311" page="109" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5b80-c0ed-2c5c-3adc" name="AI Command Squad - General Ess Ma Rahq" publicationId="d375-02e1-9e2d-200e" page="109" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7252-913e-6d9c-cf12" type="max"/>
       </constraints>
@@ -1455,7 +1455,7 @@
         <cost name="pts" typeId="points" value="106.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb1d-1ad7-c495-d329" name="AI Field Engineer Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="eb1d-1ad7-c495-d329" name="AI Field Engineer Team" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="6"/>
       </modifiers>
@@ -1561,6 +1561,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1647,7 +1650,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65c0-6778-512b-de19" name="Fractal Sights" publicationId="4868-1e60-pubN73311" page="67" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="65c0-6778-512b-de19" name="Fractal Sights" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false" collective="true" type="upgrade">
       <infoLinks>
         <infoLink id="b3d0-1ab8-3f4f-33fb" name="Fractal Sights" hidden="false" targetId="a2f2-a438-5045-8ba1" type="rule"/>
       </infoLinks>
@@ -1660,18 +1663,18 @@
     <rule id="33cb-3828-44a5-e63f" name="Strategic Genius" publicationId="4868-1e60-pubN68627" page="221" hidden="false">
       <description>• If units have to test to move onto table then use Janar&apos;s stats</description>
     </rule>
-    <rule id="5da4-f1f8-09d7-a67a" name="Nerves of Steel" publicationId="4868-1e60-pubN73311" page="109" hidden="false">
+    <rule id="5da4-f1f8-09d7-a67a" name="Nerves of Steel" publicationId="d375-02e1-9e2d-200e" page="109" hidden="false">
       <description>• As long as Rahq is alive and the unit passes an Order test then remove an extra pin
 • On a 1 then remove three pins</description>
     </rule>
-    <rule id="a2f2-a438-5045-8ba1" name="Fractal Sights" hidden="false">
+    <rule id="a2f2-a438-5045-8ba1" name="Fractal Sights" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false">
       <description>• Pass Firefight Reaction test on any roll but 10
 • Fire first in Firefight
 • If both units equipped with Fractal Sights or a unit has Duellist then roll to decide who fires first</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="749a-029f-6b4b-c96d" name="Plasma Pistol" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
+    <profile id="749a-029f-6b4b-c96d" name="Plasma Pistol" publicationId="4868-1e60-pubN68627" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
       <characteristics>
         <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
         <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>

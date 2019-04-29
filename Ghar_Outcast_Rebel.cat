@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="2165-1159-f3ed-3ea5" name="Ghar Outcast Rebel" revision="9" battleScribeVersion="2.02" authorName="Maye Gelt" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="2165-1159-pubN65537" name="BFX"/>
-    <publication id="2165-1159-pubN69409" name="Beyond the Gates of Antares"/>
-    <publication id="2165-1159-pubN78974" name="Main Rulebook"/>
-    <publication id="2165-1159-pubN82822" name="Core"/>
-    <publication id="2165-1159-pubN83413" name="Core Book"/>
+    <publication id="2165-1159-pubN65537" name="Battle for Xilos"/>
+    <publication id="2165-1159-pubN69409" name="Rulebook"/>
+    <publication id="2165-1159-pubN78974" name="Rulebook"/>
+    <publication id="2165-1159-pubN82822" name="Rulebook"/>
+    <publication id="2165-1159-pubN83413" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="3d57-162c-00ab-4c84" name="Fartok, Leader Of The Outcast Revolt" publicationId="2165-1159-pubN65537" page="107" hidden="false" collective="false" type="unit">
