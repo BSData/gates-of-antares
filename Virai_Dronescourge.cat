@@ -762,11 +762,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8d90-a5fe-0f06-e645" name="Virai First Instance" publicationId="3913-de3b-pubN65594" page="105" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5554-1b7c-d3fe-abac" type="max"/>
+      </constraints>
       <rules>
         <rule id="3b7e-a016-c734-32fa" name="Only One" hidden="false"/>
       </rules>
+      <infoLinks>
+        <infoLink id="035a-f4cb-5b5a-2661" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6513-2537-8000-5181" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
+        <categoryLink id="735f-3c66-21d1-c76d" name="Limited" hidden="false" targetId="c87d-5261-face-4643" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="504d-85e2-0797-57a9" name="First Instance Architector" hidden="false" collective="false" type="model">
