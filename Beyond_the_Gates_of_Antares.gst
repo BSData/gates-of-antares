@@ -5809,7 +5809,7 @@
                 <cost name="pts" typeId="points" value="44.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="adb2-26fc-78f6-ef42" name="twin Plasma Carbine &amp; PLS" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="adb2-26fc-78f6-ef42" name="Twin Plasma Carbine &amp; PLS" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="b75b-cfe6-6073-3ab9" name="Plasma Fade" hidden="false" targetId="72e3-4555-8f67-d0db" type="rule"/>
               </infoLinks>
@@ -5831,7 +5831,7 @@
                 <cost name="pts" typeId="points" value="22.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cee5-e011-50ba-8834" name="2 twinned Plasma carbines" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="cee5-e011-50ba-8834" name="2 Twinned Plasma carbines" hidden="false" collective="false" type="upgrade">
               <entryLinks>
                 <entryLink id="9e6d-9415-0539-36ef" name="Twin Plasma Carbines" hidden="false" collective="false" targetId="87b1-a87b-594d-257b" type="selectionEntry">
                   <constraints>
