@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="11" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4868-1e60-4bba-a4b2" name="Algoryn" revision="12" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4868-1e60-pubN65566" name="Rulebook &amp; pdf force list v2"/>
     <publication id="4868-1e60-pubN68627" name="Rulebook"/>
