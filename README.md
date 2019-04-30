@@ -1,7 +1,7 @@
 Gates of Antares
 ================
 
-####Contents####
+#### Contents
 
 * [Overview][]
 * [Links][]
@@ -11,7 +11,7 @@ Gates of Antares
 [Links]: #links
 
 
-##Overview##
+## Overview 
 
 __What's this?__
 
@@ -24,7 +24,7 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 
-##Links##
+## Links
 
 * [BattleScribe homepage][]
 * [BattleScribe Data on Appspot][]
