@@ -1673,15 +1673,4 @@
 • If both units equipped with Fractal Sights or a unit has Duellist then roll to decide who fires first</description>
     </rule>
   </sharedRules>
-  <sharedProfiles>
-    <profile id="749a-029f-6b4b-c96d" name="Plasma Pistol" publicationId="4868-1e60-pubN68627" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
-      <characteristics>
-        <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
-        <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>
-        <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">30</characteristic>
-        <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">2</characteristic>
-        <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">Hand Weapon</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
 </catalogue>

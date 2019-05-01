@@ -2336,7 +2336,7 @@
         <infoLink id="7988-ce5d-8cc0-ad94" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
         <infoLink id="ab66-374e-aff1-4e3d" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile"/>
         <infoLink id="9f39-5f4a-36bc-6d0f" name="Plasma Grenades" hidden="false" targetId="96f9-325b-69f7-13b4" type="profile"/>
-        <infoLink id="a866-74e7-2357-a18c" name="Plasma Pistol" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="a866-74e7-2357-a18c" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
         <infoLink id="00dd-ed66-b999-c03e" name="HL Armour" hidden="false" targetId="2ddf-41de-2c4e-c779" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4262,7 +4262,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3d5e-ab8a-1859-49b2" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="3d5e-ab8a-1859-49b2" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4274,7 +4274,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d7c4-2e9d-b85d-2cda" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="d7c4-2e9d-b85d-2cda" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5305,15 +5305,6 @@ D10 Result:
         <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">80</characteristic>
         <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">3</characteristic>
         <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">RF3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2e7c-b5f9-e3e5-9125" name="Plasma Pistol" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
-      <characteristics>
-        <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
-        <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>
-        <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">30</characteristic>
-        <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">2</characteristic>
-        <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">-</characteristic>
       </characteristics>
     </profile>
     <profile id="04ae-2947-a8ea-2c08" name="Probe" hidden="false" typeId="1650-77b3-10d1-6406" typeName="">
