@@ -2,7 +2,7 @@
 <catalogue id="5e8e-3fa7-98ab-9b96" name="Freeborn Adventurers" revision="5" battleScribeVersion="2.02" authorName="Christopher Wailes" authorContact="email" authorUrl="http://cwailes1987@gmail.com" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5e8e-3fa7-pubN65537" name="Battle for Xilos"/>
-    <publication id="5e8e-3fa7-pubN67218" name="BtGoA"/>
+    <publication id="5e8e-3fa7-pubN67218" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="f2dd-4a37-dae9-7560" name="Amano Harran and Bodyguards" publicationId="5e8e-3fa7-pubN65537" page="115" hidden="false" collective="false" type="unit">

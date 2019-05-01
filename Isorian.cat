@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="eaf6-3f46-6191-754c" name="Isorian" revision="12" battleScribeVersion="2.02" authorName="Lee Long" authorContact="beasturr@live.co.uk" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="eaf6-3f46-pubN65565" name="Xilos"/>
+    <publication id="eaf6-3f46-pubN65565" name="Battle for Xilos"/>
     <publication id="eaf6-3f46-pubN79807" name="For Drones"/>
-    <publication id="eaf6-3f46-pubN79859" name="BtGoA"/>
+    <publication id="eaf6-3f46-pubN79859" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="a3e3-761c-74f3-d2f2" name="Drone Commander Xan Tu" publicationId="eaf6-3f46-pubN65565" page="117" hidden="false" collective="false" type="unit">
@@ -78,7 +78,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3601-a65d-7f14-cf86" name="Andhak SC2 Medium Support Drone" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3601-a65d-7f14-cf86" name="Andhak SC2 Medium Support Drone" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="3601-a65d-7f14-cf86-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -135,7 +135,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak SC Light Support Drone" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d626-a99a-6470-71ad" name="Isorian Nhamak SC Light Support Drone" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="d626-a99a-6470-71ad-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -198,7 +198,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c93d-d42c-8771-aa98" name="Senatex Phase Sniper" hidden="false" collective="false" type="unit">
+    <selectionEntry id="c93d-d42c-8771-aa98" name="Senatex Phase Sniper" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="c93d-d42c-8771-aa98-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -247,7 +247,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5265-231f-43ab-5d20" name="Heavy Support Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5265-231f-43ab-5d20" name="Heavy Support Team" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="5265-231f-43ab-5d20-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
@@ -315,7 +315,7 @@
         <cost name="pts" typeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a829-1685-c4b5-55b6" name="Kahloc KV Heavy Battle Drone" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a829-1685-c4b5-55b6" name="Kahloc KV Heavy Battle Drone" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="a829-1685-c4b5-55b6-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
@@ -382,7 +382,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3440-9714-d7d3-3653" name="Mahran Vesh MV5 Combat Drone" hidden="false" collective="false" type="model">
+    <selectionEntry id="3440-9714-d7d3-3653" name="Mahran Vesh MV5 Combat Drone" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="model">
       <categoryLinks>
         <categoryLink id="3440-9714-d7d3-3653-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
@@ -440,7 +440,7 @@
         <cost name="pts" typeId="points" value="249.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fcb7-7abc-470a-26fe" name="Medi-Probe Shard" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="fcb7-7abc-470a-26fe-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -462,7 +462,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d09-f1bc-5547-135f" name="Nano Probe Net Shard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0d09-f1bc-5547-135f" name="Nano Probe Net Shard" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1.0">
           <repeats>
@@ -494,7 +494,7 @@
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6429-1b89-b557-736b" name="NuHu Senatexis" hidden="false" collective="false" type="model">
+    <selectionEntry id="6429-1b89-b557-736b" name="NuHu Senatexis" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="model">
       <infoLinks>
         <infoLink id="6fd9-afd5-d70f-d751" name="NuHu Senatexis" hidden="false" targetId="41d1-a002-0258-c407" type="profile"/>
       </infoLinks>
@@ -524,7 +524,7 @@
         <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0244-6cd5-9260-c12e" name="Pulse Bike Command Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="0244-6cd5-9260-c12e-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -594,7 +594,7 @@
         <cost name="pts" typeId="points" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2f44-92da-46f8-619d" name="Pulse Bike Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="2b26-47e5-340b-a1a0" value="-1">
           <conditions>
@@ -674,7 +674,7 @@
         <cost name="pts" typeId="points" value="133.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7780-9268-8805-991a" name="Scout Probe Shard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7780-9268-8805-991a" name="Scout Probe Shard" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="7780-9268-8805-991a-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -696,7 +696,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f53b-8cb2-f46e-ec68" name="Senatex Command Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f53b-8cb2-f46e-ec68" name="Senatex Command Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="f53b-8cb2-f46e-ec68-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -780,7 +780,7 @@
         <cost name="pts" typeId="points" value="66.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2f5-7c0a-21e5-7b0b" name="Senatex Phase Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a2f5-7c0a-21e5-7b0b" name="Senatex Phase Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="a2f5-7c0a-21e5-7b0b-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -875,7 +875,7 @@
         <cost name="pts" typeId="points" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8a7-06c0-e922-02c2" name="Senatex Support Team" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b8a7-06c0-e922-02c2" name="Senatex Support Team" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="b8a7-06c0-e922-02c2-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -929,7 +929,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2fa1-035d-c0c1-e653" name="Target Probe Shard" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="2fa1-035d-c0c1-e653-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -951,7 +951,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c4d4-9418-6246-d85d" name="Tograh MV2 Transporter Drone " hidden="false" collective="false" type="model">
+    <selectionEntry id="c4d4-9418-6246-d85d" name="Tograh MV2 Transporter Drone " publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="model">
       <categoryLinks>
         <categoryLink id="765a-a804-2e3b-1c18" name="New CategoryLink" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -1037,7 +1037,7 @@
         <cost name="pts" typeId="points" value="96.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a82b-95e0-b4e1-14fc" name="Tsan Ra Phase Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a82b-95e0-b4e1-14fc" name="Tsan Ra Phase Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="fe50-9862-ecf1-e371" name="Compressor Torus" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -1153,7 +1153,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cad-67dd-7378-8d8d" name="Iso-Drone" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3cad-67dd-7378-8d8d" name="Iso-Drone" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3a04-72cb-d6c6-8971" name="Iso-Drone" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -1181,7 +1181,7 @@
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a915-b4eb-2c22-6df8" name="Tsan Ra Torus Squad" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a915-b4eb-2c22-6df8" name="Tsan Ra Torus Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="upgrade">
       <categoryLinks>
         <categoryLink id="f7db-fa1b-2b6a-5089" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -1278,7 +1278,7 @@
         <cost name="pts" typeId="points" value="-2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e9f-ea64-c891-9c37" name="Tsan Ra Command Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8e9f-ea64-c891-9c37" name="Tsan Ra Command Squad" publicationId="c339-677a-pubN73895" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="c969-c881-6247-992f" name="Compressor Torus" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -1394,7 +1394,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fba5-2f44-c843-7c00" name="Isorian Drone Commander" publicationId="c339-677a-pubN76607" page="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fba5-2f44-c843-7c00" name="Isorian Drone Commander" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="248b-fda4-5e10-87db" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -1476,7 +1476,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="c042-2f1c-a169-12cb" name="New EntryLink" hidden="false" collective="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
+    <entryLink id="c042-2f1c-a169-12cb" name="Army Options" hidden="false" collective="false" targetId="529a-3e2a-4bd5-5e5f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c042-2f1c-a169-12cb-50ba-cf77-3941-189c" hidden="false" targetId="50ba-cf77-3941-189c" primary="true"/>
       </categoryLinks>
@@ -2368,6 +2368,9 @@
       <infoLinks>
         <infoLink id="de13-9201-eb18-4a45" name="Phased Synchronisation" hidden="false" targetId="ab64-a840-fffc-9109" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -2425,7 +2428,7 @@ If a unit moves within 3&quot; it must take the Ag test as above. </description>
       <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
     </rule>
     <rule id="5565-ce10-1c78-1ee7" name="MOD2" hidden="false"/>
-    <rule id="8151-2e24-94ee-0477" name="MOD3" hidden="false"/>
+    <rule id="8151-2e24-94ee-0477" name="MOD3" publicationId="c339-677a-pubN84075" hidden="false"/>
     <rule id="b81d-9f77-4c39-3887" name="Net" publicationId="eaf6-3f46-pubN79859" page="88" hidden="false">
       <description>Roll to hit as normal for a blast weapon. Target does not suffer blast damage, rather suffers pins:
 
@@ -2446,20 +2449,19 @@ Targets that would normally force an Acc re-roll suffer half the number of pins 
 
 Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
     </rule>
-    <rule id="3377-9408-33bb-6a02" name="Self Repair" hidden="false"/>
     <rule id="1c4c-aaaf-0a08-e69e" name="Self Repair" publicationId="eaf6-3f46-pubN79859" page="137" hidden="false">
       <description>Give unit rally order. If no pins exist after order, may attempt one repair on  immobilisation or weapon. 1-5 = success, 6-10 failure. Success = that function is working again.</description>
     </rule>
     <rule id="1b89-5e18-0f71-7dc5" name="Slingnet Ammo" publicationId="eaf6-3f46-pubN79859" page="112" hidden="false">
       <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
     </rule>
-    <rule id="7c88-64d4-50ad-2313" name="Slow" hidden="false"/>
+    <rule id="7c88-64d4-50ad-2313" name="Slow" publicationId="c339-677a-pubN85577" page="137" hidden="false"/>
     <rule id="19d8-5c9a-2e1f-4d8e" name="Spotter Drone" publicationId="eaf6-3f46-pubN79859" page="114" hidden="false">
       <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
 
 Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
     </rule>
-    <rule id="ab37-33d8-41f3-7532" name="Transport 10" hidden="false"/>
+    <rule id="ab37-33d8-41f3-7532" name="Transport 10" publicationId="c339-677a-pubN76607" hidden="false"/>
     <rule id="3f71-546f-6b34-b449" name="Weapon Drone" publicationId="eaf6-3f46-pubN79859" page="115" hidden="false">
       <description>Always measure to model, not base. Not allowed to assault. Never take a break test, however auto-break if suffer pins equal to their Co stat. If drone fails a Res test, roll on Weapon Drone Damage Chart.
 

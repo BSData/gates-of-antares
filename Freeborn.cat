@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="12" battleScribeVersion="2.02" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="14" battleScribeVersion="2.02" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="64d6-1cd3-pubN65565" name="Battle for Xilos"/>
-    <publication id="64d6-1cd3-pubN66836" name="BtGoA"/>
-    <publication id="64d6-1cd3-pubN69131" name="BTGOA"/>
+    <publication id="64d6-1cd3-pubN66836" name="Rulebook"/>
+    <publication id="64d6-1cd3-pubN69131" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="7a95-8632-0c25-d086" name="Amano Harran and Bodyguards" publicationId="64d6-1cd3-pubN65565" page="115" hidden="false" collective="false" type="unit">
@@ -51,15 +51,13 @@
             <rule id="191b-64ea-3f8e-b6e2" name="Charismatic Aura" publicationId="64d6-1cd3-pubN65565" page="115" hidden="false">
               <description>If any enemy unit is within 10&quot; of the Amano Harran model then it cannot be given an order without taking an Order test against its Command, even if it has no pins, and both its Command and Initiative stat are reduced by -1 when making order and/or reaction tests.</description>
             </rule>
-            <rule id="1c55-16af-48d1-e10f" name="Wound" publicationId="64d6-1cd3-pubN65565" page="115" hidden="false">
-              <description>If Amano Harran fails a Res test then instead of falling casualty he is wounded. Once wounded, if any further Res test is failed he is removed as a casualty. If Amano Harran is wounded then the unit cannot lose its last 1 pin. It can lose other pins as normal, but will always retain at least one.</description>
-            </rule>
           </rules>
           <infoLinks>
-            <infoLink id="12e9-6e86-5af0-79e8" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
-            <infoLink id="5cce-7f58-827d-5129" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-            <infoLink id="eca5-0e3f-2e2f-371a" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule"/>
-            <infoLink id="f56e-220b-8d8d-e9c7" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule"/>
+            <infoLink id="12e9-6e86-5af0-79e8" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="5cce-7f58-827d-5129" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="eca5-0e3f-2e2f-371a" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+            <infoLink id="f56e-220b-8d8d-e9c7" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
+            <infoLink id="835b-34c7-9ab5-abc1" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="955c-f291-a035-8308" name="Weapons" hidden="false" collective="false">
@@ -361,9 +359,9 @@
     </selectionEntry>
     <selectionEntry id="d05f-990a-ae91-4196" name="Mhagris Meld Skark" publicationId="64d6-1cd3-pubN66836" page="193" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="bd78-00f6-6a00-c0c7" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="be9d-0689-3672-7135" hidden="false" targetId="b0ca-8e7d-d03f-f027" type="rule"/>
-        <infoLink id="ff01-5f28-c344-f670" hidden="false" targetId="f7af-59ec-acde-2f75" type="rule"/>
+        <infoLink id="bd78-00f6-6a00-c0c7" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="be9d-0689-3672-7135" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
+        <infoLink id="ff01-5f28-c344-f670" name="Savage Strike" hidden="false" targetId="8844-c265-3bcf-2959" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d05f-990a-ae91-4196-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -452,8 +450,8 @@
     </selectionEntry>
     <selectionEntry id="1044-b654-0ca0-e5ad" name="Mhagris Skark Squad" publicationId="64d6-1cd3-pubN66836" page="193" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="0d4c-9f77-f0bf-9e0c" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="fcbc-0bcd-8b26-fc45" hidden="false" targetId="b0ca-8e7d-d03f-f027" type="rule"/>
+        <infoLink id="0d4c-9f77-f0bf-9e0c" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="fcbc-0bcd-8b26-fc45" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1044-b654-0ca0-e5ad-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -491,7 +489,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="3c91-9185-0302-3739" hidden="false" targetId="7850-89e7-bab8-86e9" type="rule"/>
+                    <infoLink id="3c91-9185-0302-3739" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -502,7 +500,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="f1b2-17c3-5c01-f840" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule"/>
+                    <infoLink id="f1b2-17c3-5c01-f840" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
@@ -593,9 +591,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5cda-2300-7dae-8090" name="Feral Squad (Mhagris)" publicationId="64d6-1cd3-pubN69131" page="191" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="0587-e7a6-cccd-a152" name="Infantry Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="f278-b39e-4234-165b" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5cda-2300-7dae-8090-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -781,12 +779,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="04d7-b8fa-d20d-5a98" name="Freeborn Striker Attack Skimmer" publicationId="64d6-1cd3-pubN66836" page="193" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="3282-4fa8-4571-f511" name="Vehicle Unit" hidden="false"/>
-      </rules>
       <infoLinks>
-        <infoLink id="b3ea-1e90-ad90-ee02" hidden="false" targetId="5565-ce10-1c78-1ee7" type="rule"/>
-        <infoLink id="48a7-1194-3630-6d90" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
+        <infoLink id="b3ea-1e90-ad90-ee02" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+        <infoLink id="48a7-1194-3630-6d90" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="6e4d-924e-74df-7eb0" name="Vehicle Unit" hidden="false" targetId="29d8-590a-bc46-d27a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="04d7-b8fa-d20d-5a98-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -941,9 +937,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6a1d-c668-c7e8-ed9f" name="Freeborn Heavy Support Team" publicationId="64d6-1cd3-pubN66836" page="194" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="99d8-ad33-bc0e-0a91" name="Weapon Team Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="08db-6fea-634b-586e" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6a1d-c668-c7e8-ed9f-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
@@ -1062,10 +1058,10 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd0-5751-a7bd-e888" type="max"/>
       </constraints>
-      <rules>
-        <rule id="b2d5-107a-301c-db27" name="Limited Choice" hidden="false"/>
-        <rule id="05ad-d2b8-2f3f-67e1" name="Infantry Command Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="76f6-a575-04de-ece7" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
+        <infoLink id="6563-95e0-8933-8eef" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1405-a43b-534b-ab05-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
       </categoryLinks>
@@ -1081,10 +1077,10 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c045-a625-7025-1578" name="Command" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-                <infoLink id="4078-9939-a810-38ce" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
-                <infoLink id="0cec-0def-8aec-1297" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule"/>
-                <infoLink id="dfe4-8f70-63fd-fcb2" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule"/>
+                <infoLink id="c045-a625-7025-1578" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+                <infoLink id="4078-9939-a810-38ce" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+                <infoLink id="0cec-0def-8aec-1297" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
+                <infoLink id="dfe4-8f70-63fd-fcb2" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
                 <infoLink id="70d1-ee75-ecc4-1c5e" name="Freeborn NuHu Renegade" hidden="false" targetId="0c03-96a3-4833-bc67" type="profile"/>
               </infoLinks>
               <entryLinks>
@@ -1110,13 +1106,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a00c-80d5-2a22-dfbf" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-                <infoLink id="1773-4ee5-6db6-6430" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
-                <infoLink id="10a2-0000-14c0-e073" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule"/>
-                <infoLink id="79d1-47e4-312e-04d3" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule"/>
-                <infoLink id="b9b0-d17f-a96e-d0c3" hidden="false" targetId="5565-ce10-1c78-1ee7" type="rule"/>
-                <infoLink id="6355-4d83-0120-3b82" hidden="false" targetId="a97f-4540-de7b-5734" type="rule"/>
-                <infoLink id="6792-be66-d3a6-276b" hidden="false" targetId="5e3d-6905-2b14-8cd1" type="rule"/>
+                <infoLink id="a00c-80d5-2a22-dfbf" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+                <infoLink id="1773-4ee5-6db6-6430" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+                <infoLink id="10a2-0000-14c0-e073" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+                <infoLink id="79d1-47e4-312e-04d3" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
+                <infoLink id="b9b0-d17f-a96e-d0c3" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+                <infoLink id="6355-4d83-0120-3b82" name="Meld" hidden="false" targetId="4dab-b82f-36d2-b53b" type="rule"/>
+                <infoLink id="6792-be66-d3a6-276b" name="Meld Damage" hidden="false" targetId="4fb1-2032-237d-ef1b" type="rule"/>
                 <infoLink id="062e-3dd5-efd6-8a93" name="Freeborn NuHu Renegade Meld" hidden="false" targetId="68fe-17c2-2841-2cde" type="profile"/>
               </infoLinks>
               <entryLinks>
@@ -1150,13 +1146,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0223-7d39-0a7c-f8a9" name="Skyraider Squad" publicationId="64d6-1cd3-pubN66836" page="174" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="a61b-d8b1-c4a3-6102" name="Mounted Command Unit" hidden="false"/>
-        <rule id="572f-a685-c7aa-3d42" name="Limited Choice" hidden="false"/>
-      </rules>
       <infoLinks>
-        <infoLink id="c8b0-00c2-4509-d681" hidden="false" targetId="b0ca-8e7d-d03f-f027" type="rule"/>
-        <infoLink id="3fb0-934a-d1a8-ed1e" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
+        <infoLink id="c8b0-00c2-4509-d681" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
+        <infoLink id="3fb0-934a-d1a8-ed1e" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="10a8-47fc-1923-3d3f" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+        <infoLink id="683e-b3fb-ce78-b8a4" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0223-7d39-0a7c-f8a9-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1168,8 +1162,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7e77-cac2-feab-67d6" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-            <infoLink id="a17a-173b-6907-b7ee" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
+            <infoLink id="7e77-cac2-feab-67d6" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="a17a-173b-6907-b7ee" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
             <infoLink id="1491-1d08-a7c9-d0f4" hidden="false" targetId="e18f-34de-2624-4133" type="profile"/>
             <infoLink id="212a-5750-9cf2-9c7a" hidden="false" targetId="e18f-34de-2624-4133" type="profile">
               <modifiers>
@@ -1270,9 +1264,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5db6-c261-8463-2fde" name="Freeborn Specialist Heavy Support Team" publicationId="64d6-1cd3-pubN66836" page="194" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="cfca-4aa7-d6d4-b77e" name="Weapon Team Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="647f-48ae-8884-93e4" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5db6-c261-8463-2fde-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
@@ -1383,9 +1377,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0f2b-5fd2-86c3-563b" name="Freeborn Support Team" publicationId="64d6-1cd3-pubN66836" page="193" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="a6d0-fc64-ad5d-674a" name="Weapon Team Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="7e76-71f5-9f12-d672" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0f2b-5fd2-86c3-563b-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
@@ -1497,9 +1491,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4881-30cd-5020-cf21" name="Hound Probe Shard" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="a2c9-24be-fc58-b2ce" name="Probe Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="8139-78f8-a7ae-0c32" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4881-30cd-5020-cf21-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -1510,7 +1504,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="de6a-8e84-305b-6721" hidden="false" targetId="00b8-b49c-4c61-2943" type="rule"/>
+            <infoLink id="de6a-8e84-305b-6721" name="Shard" hidden="false" targetId="e1b9-e087-1984-fde7" type="rule"/>
             <infoLink id="8bc7-33a7-b05c-29d5" hidden="false" targetId="d0a1-129b-f8e5-b1ad" type="profile"/>
           </infoLinks>
           <costs>
@@ -1523,11 +1517,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bd58-a73b-e17b-89ae" name="Light General Purpose Drone" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="ae83-e15b-aca4-e246" name="Weapon Drone Unit" publicationId="64d6-1cd3-pubN66836" hidden="false"/>
-      </rules>
       <infoLinks>
-        <infoLink id="bd92-cca5-ea64-865d" hidden="false" targetId="e167-a8e4-c26a-cafd" type="rule"/>
+        <infoLink id="bd92-cca5-ea64-865d" name="Weapon Drone" hidden="false" targetId="7fc6-0ec5-7957-b530" type="rule"/>
+        <infoLink id="dddb-ac67-3b45-fb13" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd58-a73b-e17b-89ae-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
@@ -1539,7 +1531,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ee6d-c97a-5f05-6da2" hidden="false" targetId="2dbd-14c5-219e-d37d" type="profile"/>
+            <infoLink id="ee6d-c97a-5f05-6da2" name="GP Drone" hidden="false" targetId="2dbd-14c5-219e-d37d" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1557,7 +1549,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="4f3f-a904-dfd8-30e0" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="4f3f-a904-dfd8-30e0" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1573,7 +1565,7 @@
                 <modifier type="set" field="points" value="20"/>
               </modifiers>
             </entryLink>
-            <entryLink id="ae0d-a5cd-8064-125a" name="New EntryLink" hidden="false" collective="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry"/>
+            <entryLink id="ae0d-a5cd-8064-125a" name="Synchroniser Drone" hidden="false" collective="false" targetId="059e-3ead-10ef-9fd5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1583,9 +1575,9 @@
     </selectionEntry>
     <selectionEntry id="9cfb-19e0-05ac-1e47" name="M25 Type Heavy Combat Drone" publicationId="64d6-1cd3-pubN66836" page="195" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="27e0-0043-07dc-ece0" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="9d1c-1cca-ed53-b1b0" hidden="false" targetId="7c88-64d4-50ad-2313" type="rule"/>
-        <infoLink id="04b2-5695-d4ce-6256" hidden="false" targetId="8151-2e24-94ee-0477" type="rule"/>
+        <infoLink id="27e0-0043-07dc-ece0" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="9d1c-1cca-ed53-b1b0" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
+        <infoLink id="04b2-5695-d4ce-6256" name="MOD3" hidden="false" targetId="3297-97ec-8602-752c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9cfb-19e0-05ac-1e47-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -1600,7 +1592,7 @@
             <infoLink id="e61f-443e-a8a2-df65" name="Heavy Combat Drone" hidden="false" targetId="9e2a-f076-d4df-b60a" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5b6c-5a6d-1f3e-48f5" name="&lt; Weapon &gt;" hidden="false" collective="false" defaultSelectionEntryId="8a42-bea8-a40c-944e">
+            <selectionEntryGroup id="5b6c-5a6d-1f3e-48f5" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="8a42-bea8-a40c-944e">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9bc0-b10a-0a48-78c2" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efed-793c-12ca-9557" type="max"/>
@@ -1631,7 +1623,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="ee9f-3fa4-0af8-ce9e" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="ee9f-3fa4-0af8-ce9e" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1654,8 +1646,8 @@
     </selectionEntry>
     <selectionEntry id="530f-c210-1c10-4819" name="M4 Type Combat Drone" publicationId="64d6-1cd3-pubN66836" page="195" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="b25f-8a2f-5932-bb6a" hidden="false" targetId="5565-ce10-1c78-1ee7" type="rule"/>
-        <infoLink id="1334-f2ea-a5eb-674c" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
+        <infoLink id="b25f-8a2f-5932-bb6a" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+        <infoLink id="1334-f2ea-a5eb-674c" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="530f-c210-1c10-4819-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -1703,13 +1695,13 @@
           <selectionEntries>
             <selectionEntry id="3d7b-8b6c-0bc7-2176" name="Self Repair" hidden="false" collective="false" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="10"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="50db-2d5d-b0d3-7ab6" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="50db-2d5d-b0d3-7ab6" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1732,9 +1724,9 @@
     </selectionEntry>
     <selectionEntry id="3df6-b3d9-248f-350b" name="M50 Type Heavy Combat Drone" publicationId="64d6-1cd3-pubN66836" page="195" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="2e55-1966-d767-c4f5" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="b56d-83bb-8c53-a2ee" hidden="false" targetId="7c88-64d4-50ad-2313" type="rule"/>
-        <infoLink id="8342-2c8c-460a-7d1d" hidden="false" targetId="8151-2e24-94ee-0477" type="rule"/>
+        <infoLink id="2e55-1966-d767-c4f5" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="b56d-83bb-8c53-a2ee" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
+        <infoLink id="8342-2c8c-460a-7d1d" name="MOD3" hidden="false" targetId="3297-97ec-8602-752c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3df6-b3d9-248f-350b-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -1749,7 +1741,7 @@
             <infoLink id="250a-e588-2f82-7123" hidden="false" targetId="9e2a-f076-d4df-b60a" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5086-9f66-b442-f987" name="&lt; Weapon &gt;" hidden="false" collective="false" defaultSelectionEntryId="1e4a-57fb-e968-6982">
+            <selectionEntryGroup id="5086-9f66-b442-f987" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="1e4a-57fb-e968-6982">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -1784,7 +1776,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="dc4e-ba2d-8399-9b36" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="dc4e-ba2d-8399-9b36" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1807,7 +1799,7 @@
     </selectionEntry>
     <selectionEntry id="771e-7953-547e-2082" name="Misgenic Rejects" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="627d-95ce-0cb7-067d" hidden="false" targetId="db7a-5bd4-6400-f6d1" type="rule"/>
+        <infoLink id="627d-95ce-0cb7-067d" name="Misgenic Abilities" hidden="false" targetId="fb68-03a2-0b44-2a9a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="771e-7953-547e-2082-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
@@ -1845,7 +1837,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf35-4f58-d1db-38da" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6e77-edfe-926a-4297" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule"/>
+            <infoLink id="6e77-edfe-926a-4297" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -1857,13 +1849,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="969a-8139-9654-9cdf" name="Skyraider Command Squad" publicationId="64d6-1cd3-pubN66836" page="174" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="76be-d990-01b2-40b5" name="Mounted Command Unit" hidden="false"/>
-        <rule id="801f-37d3-aeef-35ef" name="Limited Choice" hidden="false"/>
-      </rules>
       <infoLinks>
-        <infoLink id="8ada-48df-990a-b1c6" hidden="false" targetId="b0ca-8e7d-d03f-f027" type="rule"/>
-        <infoLink id="0026-0fee-242b-f524" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
+        <infoLink id="8ada-48df-990a-b1c6" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
+        <infoLink id="0026-0fee-242b-f524" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="6ae3-bdee-5d91-47cb" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+        <infoLink id="f126-1b5d-e1d0-2742" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="969a-8139-9654-9cdf-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1875,8 +1865,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="0b4f-18e9-64d4-1bc8" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-            <infoLink id="7780-1ba7-1b1c-b4c2" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
+            <infoLink id="0b4f-18e9-64d4-1bc8" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="7780-1ba7-1b1c-b4c2" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
             <infoLink id="f186-3a30-6680-477f" hidden="false" targetId="e18f-34de-2624-4133" type="profile"/>
             <infoLink id="8ac3-35e0-d064-d5b0" hidden="false" targetId="74dc-b388-dc1d-fb61" type="profile">
               <modifiers>
@@ -1965,9 +1955,9 @@
     </selectionEntry>
     <selectionEntry id="859c-f6ff-bc8a-74cf" name="T7 Type Transporter Drone (Strategic)" publicationId="64d6-1cd3-pubN66836" page="195" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="c985-b014-70bf-635d" hidden="false" targetId="5565-ce10-1c78-1ee7" type="rule"/>
-        <infoLink id="40c3-e6f7-a42a-fd30" name="Large" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="8eaf-ef10-dfe5-8f3a" hidden="false" targetId="ab37-33d8-41f3-7532" type="rule"/>
+        <infoLink id="c985-b014-70bf-635d" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+        <infoLink id="40c3-e6f7-a42a-fd30" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="8eaf-ef10-dfe5-8f3a" name="Transport 10" hidden="false" targetId="8509-6fcc-0fc0-21ae" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="859c-f6ff-bc8a-74cf-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -1979,7 +1969,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a5f0-4afc-16c4-72f9" hidden="false" targetId="5425-1edf-f536-d5a1" type="profile"/>
+            <infoLink id="a5f0-4afc-16c4-72f9" name="Transport Drone" hidden="false" targetId="5425-1edf-f536-d5a1" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="8a07-2ee4-8417-4ab3" name="Weapon" hidden="false" collective="false">
@@ -2023,7 +2013,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="4565-ded9-505e-aced" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="4565-ded9-505e-aced" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2047,9 +2037,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="aa6c-67b7-3d3b-2a61" name="Targeter Probe Shard" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" type="unit">
-      <rules>
-        <rule id="8104-2eac-f495-21f9" name="Probe Unit" hidden="false"/>
-      </rules>
+      <infoLinks>
+        <infoLink id="e0fa-5cbd-ea36-ed52" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="aa6c-67b7-3d3b-2a61-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -2060,7 +2050,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="58b0-e470-5c3a-0e30" hidden="false" targetId="00b8-b49c-4c61-2943" type="rule"/>
+            <infoLink id="58b0-e470-5c3a-0e30" name="Shard" hidden="false" targetId="e1b9-e087-1984-fde7" type="rule"/>
             <infoLink id="6620-e65c-9afa-7ed9" hidden="false" targetId="4d5f-ccb4-75c2-cbf2" type="profile"/>
           </infoLinks>
           <costs>
@@ -2101,7 +2091,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="f2ac-6316-75a8-0504" hidden="false" targetId="7850-89e7-bab8-86e9" type="rule"/>
+                    <infoLink id="f2ac-6316-75a8-0504" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -2337,17 +2327,17 @@
       <rules>
         <rule id="90c3-dbf5-3315-0864" name="Dead Eye" hidden="false"/>
         <rule id="ebae-4325-8367-54d8" name="You Can&apos;t Keep Me Down!" hidden="false"/>
-        <rule id="c7b4-b7ab-d52c-e775" name="HL Armor" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="850c-b6b0-b7b9-1423" name="Command" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-        <infoLink id="6452-e020-af9c-ea72" name="Follow" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
-        <infoLink id="56b1-2a05-88d3-0b72" name="Leader" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule"/>
-        <infoLink id="ca17-6408-c133-49f3" name="Hero" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule"/>
-        <infoLink id="7988-ce5d-8cc0-ad94" name="Wound" hidden="false" targetId="c49e-33d6-1768-f013" type="rule"/>
+        <infoLink id="850c-b6b0-b7b9-1423" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+        <infoLink id="6452-e020-af9c-ea72" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+        <infoLink id="56b1-2a05-88d3-0b72" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
+        <infoLink id="ca17-6408-c133-49f3" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+        <infoLink id="7988-ce5d-8cc0-ad94" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
         <infoLink id="ab66-374e-aff1-4e3d" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile"/>
         <infoLink id="9f39-5f4a-36bc-6d0f" name="Plasma Grenades" hidden="false" targetId="96f9-325b-69f7-13b4" type="profile"/>
-        <infoLink id="a866-74e7-2357-a18c" name="Plasma Pistol" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="a866-74e7-2357-a18c" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
+        <infoLink id="00dd-ed66-b999-c03e" name="HL Armour" hidden="false" targetId="2ddf-41de-2c4e-c779" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0356-cdbf-e897-43fa" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -2383,14 +2373,14 @@
         <rule id="59d8-9d58-a692-7b47" name="He&apos;s Gone Crazy!" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="3767-6f42-1efa-293d" name="Command" hidden="false" targetId="5c9b-1bde-ee01-04a4" type="rule"/>
-        <infoLink id="e1eb-6adf-3b92-36b9" name="Follow" hidden="false" targetId="7bc9-5e98-2914-5abd" type="rule"/>
-        <infoLink id="563d-71ce-732f-365e" name="Leader" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule"/>
-        <infoLink id="34d4-d935-f692-fced" name="Hero" hidden="false" targetId="3c64-6022-a5f1-9c04" type="rule"/>
-        <infoLink id="6fd8-ae6a-61dd-56dc" name="Wound" hidden="false" targetId="c49e-33d6-1768-f013" type="rule"/>
+        <infoLink id="3767-6f42-1efa-293d" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+        <infoLink id="e1eb-6adf-3b92-36b9" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+        <infoLink id="563d-71ce-732f-365e" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
+        <infoLink id="34d4-d935-f692-fced" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+        <infoLink id="6fd8-ae6a-61dd-56dc" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
         <infoLink id="5e8c-161f-d187-2177" name="Plasma Grenades" hidden="false" targetId="96f9-325b-69f7-13b4" type="profile"/>
-        <infoLink id="086b-04b8-7d21-5d6b" name="3 Attacks" hidden="false" targetId="61e2-3707-ade3-c9ad" type="rule"/>
-        <infoLink id="3c47-1424-f559-98b3" name="Reflex Armour" hidden="false" targetId="18c0-c86d-0b2c-23af" type="rule"/>
+        <infoLink id="086b-04b8-7d21-5d6b" name="3 Attacks" hidden="false" targetId="c286-a2b9-610b-96f2" type="rule"/>
+        <infoLink id="3c47-1424-f559-98b3" name="Reflex Armour" hidden="false" targetId="a71a-33af-8fc2-33d2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6b54-501c-42d4-ba3c" name="New CategoryLink" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -2414,9 +2404,9 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ee6-7296-8d78-9926" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f576-7840-f9ad-a6c5" hidden="false" targetId="5565-ce10-1c78-1ee7" type="rule"/>
-        <infoLink id="2ced-7142-6fdd-496c" name="Large" hidden="false" targetId="a221-d53c-b4bd-b52c" type="rule"/>
-        <infoLink id="63a5-cb04-8abe-3dc9" name="Transport 10" hidden="false" targetId="ab37-33d8-41f3-7532" type="rule"/>
+        <infoLink id="f576-7840-f9ad-a6c5" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+        <infoLink id="2ced-7142-6fdd-496c" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="63a5-cb04-8abe-3dc9" name="Transport 10" hidden="false" targetId="8509-6fcc-0fc0-21ae" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2b2b-47ab-a0c2-fda8" name="Support" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -2472,7 +2462,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1bd-a7ee-ea09-45ef" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7963-5f21-23e5-c078" hidden="false" targetId="3377-9408-33bb-6a02" type="rule"/>
+                <infoLink id="7963-5f21-23e5-c078" name="Self Repair" hidden="false" targetId="7c54-5982-a5ef-b888" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2743,49 +2733,49 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" publicationId="64d6-1cd3-pubN66836" page="120" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="e9dd-1dc6-3c92-4305" name="AG Chute" publicationId="c339-677a-pubN76607" page="120" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="54c4-0df3-268c-9fe1" hidden="false" targetId="7daf-414b-c030-7626" type="rule"/>
+        <infoLink id="54c4-0df3-268c-9fe1" name="AG Chute" hidden="false" targetId="9b49-f2a1-9917-d571" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" publicationId="64d6-1cd3-pubN66836" page="120" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="828e-3aa2-3dbf-f2cb" name="Auto-Workshop" publicationId="c339-677a-pubN76607" page="120" hidden="false" collective="false" type="upgrade">
       <infoLinks>
-        <infoLink id="2aa0-3909-ff3b-5bfe" hidden="false" targetId="b7c6-fc7c-d48b-aae4" type="rule"/>
+        <infoLink id="2aa0-3909-ff3b-5bfe" name="Auto-Workshop" hidden="false" targetId="efa8-8f40-fcd9-4542" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" publicationId="64d6-1cd3-pubN66836" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d571-d584-85fc-9110" name="Batter Drone" publicationId="c339-677a-pubN76607" page="11" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="2686-6df4-4601-e99f" hidden="false" targetId="f0d9-1e5a-ec20-b27c" type="rule"/>
+        <infoLink id="2686-6df4-4601-e99f" name="Batter Drone" hidden="false" targetId="fc9f-1b48-4fc9-1044" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone (2)" publicationId="64d6-1cd3-pubN66836" page="11" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f68-d09d-6e26-c6ea" name="Batter Drone (2)" publicationId="c339-677a-pubN76607" page="11" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0a02-46cc-7e6f-28b0" hidden="false" targetId="f0d9-1e5a-ec20-b27c" type="rule"/>
+        <infoLink id="0a02-46cc-7e6f-28b0" name="Batter Drone" hidden="false" targetId="fc9f-1b48-4fc9-1044" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="af35-43cb-665c-f896" name="Booster Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2793,42 +2783,42 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="77b8-dc0d-36ff-0f1d" name="Borer Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false" collective="false" type="upgrade">
       <infoLinks>
-        <infoLink id="f67e-b103-c5e0-7d92" hidden="false" targetId="4e34-753f-b082-2e00" type="rule"/>
+        <infoLink id="f67e-b103-c5e0-7d92" name="Borer Drone" hidden="false" targetId="33f1-5484-34f6-c1f1" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4933-25f0-2896-ac60" name="Camo Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0235-7440-f324-d8e9" hidden="false" targetId="5f48-f41c-fd96-6a1a" type="rule"/>
+        <infoLink id="0235-7440-f324-d8e9" name="Camo Drone" hidden="false" targetId="3f65-c4d3-fdf3-5266" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="babd-f951-933b-1254" name="Compactor Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d5b5-2649-62fd-e305" hidden="false" targetId="3995-c066-c957-5ffe" type="rule"/>
+        <infoLink id="d5b5-2649-62fd-e305" name="Compactor Drone" hidden="false" targetId="2295-7312-b996-dc86" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="666e-aa69-6e72-f168" name="Compactor Drone with Mag Cannon" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="663f-33f4-57b5-7a11" hidden="false" targetId="3995-c066-c957-5ffe" type="rule"/>
+        <infoLink id="663f-33f4-57b5-7a11" name="Compactor Drone" hidden="false" targetId="2295-7312-b996-dc86" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="9c4f-f6de-c09c-eab2" hidden="false" collective="false" targetId="6a2b-50c5-9a33-b756" type="selectionEntry"/>
@@ -2837,12 +2827,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2144-e450-c8f2-af26" name="Compactor Drone with Mag Light Support" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="4e01-7b13-2e6c-0f97" hidden="false" targetId="3995-c066-c957-5ffe" type="rule"/>
+        <infoLink id="4e01-7b13-2e6c-0f97" name="Compactor Drone" hidden="false" targetId="2295-7312-b996-dc86" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="d525-3a93-38f1-7e4e" hidden="false" collective="false" targetId="a00c-0542-f2a5-8124" type="selectionEntry"/>
@@ -2851,12 +2841,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0299-39fc-32bd-8ac2" name="Compactor Drone with Plasma Cannon" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ae6e-0698-5ad9-8d26" hidden="false" targetId="3995-c066-c957-5ffe" type="rule"/>
+        <infoLink id="ae6e-0698-5ad9-8d26" name="Compactor Drone" hidden="false" targetId="2295-7312-b996-dc86" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="e506-bd0d-b513-7050" hidden="false" collective="false" targetId="c2bf-0272-30c6-dd20" type="selectionEntry"/>
@@ -2865,7 +2855,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" publicationId="64d6-1cd3-pubN66836" page="84" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af24-45f9-4669-bf98" name="Compression Bombard" publicationId="c339-677a-pubN76607" page="84" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2881,15 +2871,15 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d318-c320-5b7c-b089" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule"/>
-        <infoLink id="a2f7-528d-dd59-9d00" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="b53d-32d6-c4fc-cefc" hidden="false" targetId="cf7f-6f85-e64e-0363" type="rule"/>
+        <infoLink id="d318-c320-5b7c-b089" name="Compressor" hidden="false" targetId="d89d-cedd-bd84-ddb1" type="rule"/>
+        <infoLink id="a2f7-528d-dd59-9d00" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="b53d-32d6-c4fc-cefc" name="Cycle" hidden="false" targetId="3dda-5ab1-1343-fcf1" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" publicationId="64d6-1cd3-pubN66836" page="78" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71c9-4382-01cf-c737" name="Compression Cannon" publicationId="c339-677a-pubN76607" page="78" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2905,24 +2895,24 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a6f9-23ce-e99d-7c15" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule"/>
-        <infoLink id="3003-31fb-fb6c-3084" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="70d5-a230-ba57-ead0" hidden="false" targetId="cf7f-6f85-e64e-0363" type="rule"/>
+        <infoLink id="a6f9-23ce-e99d-7c15" name="Compressor" hidden="false" targetId="d89d-cedd-bd84-ddb1" type="rule"/>
+        <infoLink id="3003-31fb-fb6c-3084" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="70d5-a230-ba57-ead0" name="Cycle" hidden="false" targetId="3dda-5ab1-1343-fcf1" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="059b-38f7-0313-5ae4" name="Compression Carbine" publicationId="64d6-1cd3-pubN66836" page="72" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="059b-38f7-0313-5ae4" name="Compression Carbine" publicationId="c339-677a-pubN76607" page="72" hidden="false" collective="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e580-6389-7ec6-d445" name="Compressor" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule"/>
+        <infoLink id="e580-6389-7ec6-d445" name="Compressor" hidden="false" targetId="d89d-cedd-bd84-ddb1" type="rule"/>
         <infoLink id="b230-6dc2-fc21-9332" name="Compression Carbine" hidden="false" targetId="75cb-cf9b-dd3d-9177" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="72ba-15e7-dbf7-816c" name="D-Spinner" publicationId="c339-677a-pubN76607" page="66" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2938,15 +2928,15 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bf1e-fb77-9e71-f9fe" hidden="false" targetId="2cbd-47c9-de87-ec2a" type="rule"/>
-        <infoLink id="363c-73f0-41ad-dfb8" hidden="false" targetId="99fd-f354-1703-5941" type="rule"/>
-        <infoLink id="91a4-fa2b-910b-b8f8" hidden="false" targetId="b466-7990-db34-55b1" type="rule"/>
+        <infoLink id="bf1e-fb77-9e71-f9fe" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule"/>
+        <infoLink id="363c-73f0-41ad-dfb8" name="Variable Res/Strike" hidden="false" targetId="8272-f4ac-feec-d11c" type="rule"/>
+        <infoLink id="91a4-fa2b-910b-b8f8" name="Grenade" hidden="false" targetId="3ba7-d5fc-750a-c143" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" publicationId="64d6-1cd3-pubN66836" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ff6c-f8d8-94e6-57bc" name="Disruptor Bomber" publicationId="c339-677a-pubN76607" page="77" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2962,18 +2952,18 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5bfd-e568-cff9-ff1b" hidden="false" targetId="c3bc-87fd-fa5d-5055" type="rule"/>
-        <infoLink id="ada8-a0a5-d314-27a6" hidden="false" targetId="b050-496a-ed16-2b2a" type="rule"/>
-        <infoLink id="c9a5-e124-997c-44ea" hidden="false" targetId="f502-611e-9704-97bb" type="rule"/>
-        <infoLink id="b3e6-5aa3-ef1f-f7b1" hidden="false" targetId="5efa-64a9-bbc9-3dba" type="rule"/>
-        <infoLink id="df53-3436-c62e-c73e" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="7fb2-1ffe-610d-7f33" hidden="false" targetId="6305-72fa-da02-235b" type="rule"/>
+        <infoLink id="5bfd-e568-cff9-ff1b" name="OH" hidden="false" targetId="aa94-3f78-41b9-89cc" type="rule"/>
+        <infoLink id="ada8-a0a5-d314-27a6" name="Blast D5" hidden="false" targetId="0ee6-cf0c-7083-dde0" type="rule"/>
+        <infoLink id="c9a5-e124-997c-44ea" name="No Crew" hidden="false" targetId="f0d7-3685-db32-141e" type="rule"/>
+        <infoLink id="b3e6-5aa3-ef1f-f7b1" name="Limited Ammo" hidden="false" targetId="4db2-5125-a18d-f743" type="rule"/>
+        <infoLink id="df53-3436-c62e-c73e" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="7fb2-1ffe-610d-7f33" name="Disruptor" hidden="false" targetId="185f-7889-5373-782a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" publicationId="64d6-1cd3-pubN66836" page="79" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f771-f4b5-0047-de53" name="Disruptor Cannon" publicationId="c339-677a-pubN76607" page="79" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -2989,15 +2979,15 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="48bb-4c87-e0f2-08b4" hidden="false" targetId="ca96-58c9-9551-d4fe" type="rule"/>
-        <infoLink id="3b06-bc9e-4002-8aeb" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="8e03-d6b4-1fab-5cd2" hidden="false" targetId="6305-72fa-da02-235b" type="rule"/>
+        <infoLink id="48bb-4c87-e0f2-08b4" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+        <infoLink id="3b06-bc9e-4002-8aeb" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="8e03-d6b4-1fab-5cd2" name="Disruptor" hidden="false" targetId="185f-7889-5373-782a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" publicationId="64d6-1cd3-pubN66836" page="86" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="396e-b157-b3bb-a5e7" name="Disruptor Discharger" publicationId="c339-677a-pubN76607" page="86" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="de01-ba7b-11ee-55ca" name="Disruptor Discharger" publicationId="64d6-1cd3-pubN66836" page="86" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
           <characteristics>
@@ -3010,16 +3000,16 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e755-a7a2-1343-d27a" hidden="false" targetId="5d64-4bf5-e947-95d1" type="rule"/>
-        <infoLink id="b2cb-0542-2c44-9f1b" hidden="false" targetId="ca96-58c9-9551-d4fe" type="rule"/>
-        <infoLink id="049f-1e26-3f5d-a4f9" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="adad-ebe2-3953-6510" hidden="false" targetId="6305-72fa-da02-235b" type="rule"/>
+        <infoLink id="e755-a7a2-1343-d27a" name="Point Blank Shooting Only" hidden="false" targetId="4450-f5d1-5c73-2302" type="rule"/>
+        <infoLink id="b2cb-0542-2c44-9f1b" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+        <infoLink id="049f-1e26-3f5d-a4f9" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="adad-ebe2-3953-6510" name="Disruptor" hidden="false" targetId="185f-7889-5373-782a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" publicationId="64d6-1cd3-pubN66836" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2cec-e1d7-c680-7ca0" name="Fractal Bombard" publicationId="c339-677a-pubN76607" page="83" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3035,13 +3025,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fe6a-32a9-1211-b766" hidden="false" targetId="d50c-3bbe-c62d-34c3" type="rule"/>
+        <infoLink id="fe6a-32a9-1211-b766" name="Fractal Lock" hidden="false" targetId="2af1-5c34-05ab-6369" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" publicationId="64d6-1cd3-pubN66836" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="93db-3751-fdd4-08f9" name="Fractal Cannon" publicationId="c339-677a-pubN76607" page="76" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3057,13 +3047,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b7b4-01fa-5f1f-ebee" hidden="false" targetId="d50c-3bbe-c62d-34c3" type="rule"/>
+        <infoLink id="b7b4-01fa-5f1f-ebee" name="Fractal Lock" hidden="false" targetId="2af1-5c34-05ab-6369" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" publicationId="64d6-1cd3-pubN66836" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="aac7-43b0-4a5c-05bb" name="Frag Borer" publicationId="c339-677a-pubN76607" page="77" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3079,13 +3069,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="eac9-8b04-b66c-5db6" hidden="false" targetId="d50c-3bbe-c62d-34c3" type="rule"/>
+        <infoLink id="eac9-8b04-b66c-5db6" name="Fractal Lock" hidden="false" targetId="2af1-5c34-05ab-6369" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3975-3892-22f2-0c8e" name="Ghar Plasma Claw" publicationId="c339-677a-pubN76607" page="66" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3101,13 +3091,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7eb4-a0e1-1e61-3d82" hidden="false" targetId="b6e3-9cf0-1a9f-a941" type="rule"/>
+        <infoLink id="7eb4-a0e1-1e61-3d82" name="Random SV" hidden="false" targetId="a652-6fac-03ef-4783" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" publicationId="64d6-1cd3-pubN66836" page="74" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f319-5d36-f853-9d45" name="Gouger Gun" publicationId="c339-677a-pubN76607" page="74" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3123,14 +3113,14 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6c43-9149-1b89-35e5" hidden="false" targetId="9444-e2a0-8048-5ce9" type="rule"/>
-        <infoLink id="aa66-a1ad-73f1-8bd2" hidden="false" targetId="3b84-9d0e-a3c1-6c1f" type="rule"/>
+        <infoLink id="6c43-9149-1b89-35e5" name="Down" hidden="false" targetId="5464-7e74-3df1-f384" type="rule"/>
+        <infoLink id="aa66-a1ad-73f1-8bd2" name="Inaccurate" hidden="false" targetId="557e-16fd-7531-c26d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b8d1-46be-c623-ad68" name="Gun Drone" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3138,7 +3128,7 @@
         <cost name="pts" typeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone (2)" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="4b9d-a0bf-396e-384b" name="Gun Drone (2)" publicationId="c339-677a-pubN76607" page="112" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3146,7 +3136,7 @@
         <cost name="pts" typeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" publicationId="64d6-1cd3-pubN66836" page="80" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f9cf-568d-998b-c3ca" name="Heavy Disruptor Bomber" publicationId="c339-677a-pubN76607" page="80" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3162,16 +3152,16 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="baaa-0b37-7581-545a" hidden="false" targetId="aef6-6934-1dee-6fa0" type="rule"/>
-        <infoLink id="ad5f-454c-b4ec-0b29" hidden="false" targetId="04d9-a48d-7b25-4dd3" type="rule"/>
-        <infoLink id="3dc5-ce4c-aaf4-7bc4" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="1d69-8270-126c-b660" hidden="false" targetId="6305-72fa-da02-235b" type="rule"/>
+        <infoLink id="baaa-0b37-7581-545a" name="OHx2" hidden="false" targetId="8889-ca43-13d0-1afc" type="rule"/>
+        <infoLink id="ad5f-454c-b4ec-0b29" name="Blast D10" hidden="false" targetId="d5f3-3586-02bd-c293" type="rule"/>
+        <infoLink id="3dc5-ce4c-aaf4-7bc4" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="1d69-8270-126c-b660" name="Disruptor" hidden="false" targetId="185f-7889-5373-782a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" publicationId="64d6-1cd3-pubN66836" page="83" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="564d-3561-f5e4-783d" name="Heavy Frag Borer" publicationId="c339-677a-pubN76607" page="83" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3187,13 +3177,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="174d-fb91-0ee1-de89" hidden="false" targetId="d50c-3bbe-c62d-34c3" type="rule"/>
+        <infoLink id="174d-fb91-0ee1-de89" name="Fractal Lock" hidden="false" targetId="2af1-5c34-05ab-6369" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="81" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5149-5183-64d5-feaf" name="Heavy Mag Cannon" publicationId="c339-677a-pubN76607" page="81" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3201,7 +3191,7 @@
         <profile id="49f7-05c7-8536-e088" name="Heavy Mag Cannon" publicationId="64d6-1cd3-pubN66836" page="81" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
           <characteristics>
             <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">50</characteristic>
-            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">10</characteristic>
+            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">100</characteristic>
             <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">250</characteristic>
             <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">6</characteristic>
             <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">Massive Damage, Heavy Weapon</characteristic>
@@ -3209,7 +3199,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2226-327b-9cef-5629" hidden="false" targetId="c863-510b-e239-be92" type="rule"/>
+        <infoLink id="2226-327b-9cef-5629" name="Massive Damage" hidden="false" targetId="8622-ce63-c303-a2ed" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3231,7 +3221,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c401-a6db-93c9-69e0" hidden="false" targetId="2cbd-47c9-de87-ec2a" type="rule"/>
+        <infoLink id="c401-a6db-93c9-69e0" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3242,7 +3232,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="2a6f-a102-e7b6-54c7" hidden="false" targetId="b436-1f8a-5d3a-2d7d" type="rule"/>
+        <infoLink id="2a6f-a102-e7b6-54c7" name="HL Armour" hidden="false" targetId="2ddf-41de-2c4e-c779" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3253,7 +3243,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b458-ac53-f980-4960" hidden="false" targetId="56ab-52fc-9557-2586" type="rule"/>
+        <infoLink id="b458-ac53-f980-4960" name="HL Booster" hidden="false" targetId="7ffb-4ae6-61b1-9bac" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -3264,7 +3254,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="68d9-bb11-1862-acca" hidden="false" targetId="56ab-52fc-9557-2586" type="rule"/>
+        <infoLink id="68d9-bb11-1862-acca" name="HL Booster" hidden="false" targetId="7ffb-4ae6-61b1-9bac" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -3275,7 +3265,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e015-e1a0-3cd3-a350" hidden="false" targetId="ca2b-9550-eb1e-77c8" type="rule"/>
+        <infoLink id="e015-e1a0-3cd3-a350" name="Homer Drone" hidden="false" targetId="cad2-a1be-d4c5-48ff" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3285,11 +3275,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
-      <rules>
-        <rule id="5da7-d6db-a841-0ff0" name="Impact Cloak" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
-          <description>Add +2 to Res in hand to hand combat.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="af80-3420-7518-fc4f" name="Impact Cloak" hidden="false" targetId="3ab2-763e-e2eb-30f6" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3298,11 +3286,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
-      <rules>
-        <rule id="a94d-f3ac-90df-d53a" name="Impact Cloak" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
-          <description>Add +2 to Res in hand to hand combat.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="d508-a4f8-5c1a-43bf" name="Impact Cloak" hidden="false" targetId="3ab2-763e-e2eb-30f6" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3320,7 +3306,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9868-0703-9743-d4b5" hidden="false" targetId="1c2c-6574-0a17-f90c" type="rule"/>
+        <infoLink id="9868-0703-9743-d4b5" name="Hazardous H2H" hidden="false" targetId="0f95-2ca6-3bd9-35b4" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3348,7 +3334,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="051e-0412-fe0f-16d2" hidden="false" targetId="61e2-3707-ade3-c9ad" type="rule"/>
+            <infoLink id="051e-0412-fe0f-16d2" name="3 Attacks" hidden="false" targetId="c286-a2b9-610b-96f2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3371,9 +3357,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8918-00b1-258e-5005" hidden="false" targetId="61e2-3707-ade3-c9ad" type="rule"/>
-            <infoLink id="a14f-0f5e-7b8f-63f5" hidden="false" targetId="1acd-39d3-94e7-48e1" type="rule"/>
-            <infoLink id="e461-67a4-a88e-a136" hidden="false" targetId="4232-2801-36cf-704c" type="rule"/>
+            <infoLink id="8918-00b1-258e-5005" name="3 Attacks" hidden="false" targetId="c286-a2b9-610b-96f2" type="rule"/>
+            <infoLink id="a14f-0f5e-7b8f-63f5" name="Blast D3" hidden="false" targetId="177e-8b60-cc2a-557d" type="rule"/>
+            <infoLink id="e461-67a4-a88e-a136" name="Exhausted" hidden="false" targetId="a32b-8b04-bccb-c4ea" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3395,8 +3381,8 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fa7c-b456-730f-167f" hidden="false" collective="false" targetId="47d9-8149-9744-9849" type="selectionEntry"/>
-            <entryLink id="ec8f-9506-26e0-53ec" hidden="false" collective="false" targetId="78dd-7840-1210-fb35" type="selectionEntry"/>
+            <entryLink id="fa7c-b456-730f-167f" name="Plasma Lance" hidden="false" collective="false" targetId="3017-11d8-80c9-ba77" type="selectionEntry"/>
+            <entryLink id="ec8f-9506-26e0-53ec" name="Twin Plasma Carbines" hidden="false" collective="false" targetId="78dd-7840-1210-fb35" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3440,7 +3426,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b121-6dcc-8053-c5a2" hidden="false" targetId="e441-c3a6-7d61-2c63" type="rule"/>
+        <infoLink id="b121-6dcc-8053-c5a2" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3451,7 +3437,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0240-940c-2896-fe6d" hidden="false" targetId="7850-89e7-bab8-86e9" type="rule"/>
+        <infoLink id="0240-940c-2896-fe6d" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -3462,7 +3448,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0722-f7c8-1f58-524e" hidden="false" targetId="05bb-4d34-70cd-25d2" type="rule"/>
+        <infoLink id="0722-f7c8-1f58-524e" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -3503,7 +3489,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="485e-5cd5-458a-5b01" hidden="false" targetId="61e2-3707-ade3-c9ad" type="rule"/>
+        <infoLink id="485e-5cd5-458a-5b01" name="AG Chute" hidden="false" targetId="9b49-f2a1-9917-d571" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3525,8 +3511,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a5ed-7915-9221-076b" hidden="false" targetId="0cb1-ea91-e5bc-4f75" type="rule"/>
-        <infoLink id="cc2c-1225-57ca-f1ed" hidden="false" targetId="5efa-64a9-bbc9-3dba" type="rule"/>
+        <infoLink id="a5ed-7915-9221-076b" name="RF2" hidden="false" targetId="f0d7-e63b-bd7e-b9c8" type="rule"/>
+        <infoLink id="cc2c-1225-57ca-f1ed" name="Limited Ammo" hidden="false" targetId="4db2-5125-a18d-f743" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3548,7 +3534,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ba14-c26b-33c6-8283" hidden="false" targetId="c863-510b-e239-be92" type="rule"/>
+        <infoLink id="ba14-c26b-33c6-8283" name="Massive Damage" hidden="false" targetId="8622-ce63-c303-a2ed" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3609,7 +3595,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d752-3c59-1096-f66d" hidden="false" targetId="b0cb-c022-0531-4852" type="rule"/>
+        <infoLink id="d752-3c59-1096-f66d" name="RF5" hidden="false" targetId="527d-a6b6-cf23-2c8d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3631,7 +3617,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a97e-ddef-2a97-6023" hidden="false" targetId="2cbd-47c9-de87-ec2a" type="rule"/>
+        <infoLink id="a97e-ddef-2a97-6023" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3653,7 +3639,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1edc-0547-c0b3-df09" hidden="false" targetId="97d4-67cb-2671-ca29" type="rule"/>
+        <infoLink id="1edc-0547-c0b3-df09" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3675,9 +3661,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f42c-7e9e-5b27-6658" hidden="false" targetId="aef6-6934-1dee-6fa0" type="rule"/>
-        <infoLink id="bfd1-e214-1717-c121" hidden="false" targetId="04d9-a48d-7b25-4dd3" type="rule"/>
-        <infoLink id="f78e-6fd2-fff5-58e2" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
+        <infoLink id="f42c-7e9e-5b27-6658" name="OHx2" hidden="false" targetId="8889-ca43-13d0-1afc" type="rule"/>
+        <infoLink id="bfd1-e214-1717-c121" name="Blast D10" hidden="false" targetId="d5f3-3586-02bd-c293" type="rule"/>
+        <infoLink id="f78e-6fd2-fff5-58e2" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3203-24a2-4083-bc0d" hidden="false" collective="false" targetId="bc4e-7cd8-4017-d911" type="selectionEntryGroup"/>
@@ -3721,7 +3707,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="af4a-bed9-243c-993e" hidden="false" targetId="0cb1-ea91-e5bc-4f75" type="rule"/>
+        <infoLink id="af4a-bed9-243c-993e" name="RF2" hidden="false" targetId="f0d7-e63b-bd7e-b9c8" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3743,8 +3729,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="068c-0048-aa5f-9906" hidden="false" targetId="7db4-2d14-3984-37d9" type="rule"/>
-        <infoLink id="af50-5808-cb3e-2ec9" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
+        <infoLink id="068c-0048-aa5f-9906" name="Compressor" hidden="false" targetId="d89d-cedd-bd84-ddb1" type="rule"/>
+        <infoLink id="af50-5808-cb3e-2ec9" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3755,7 +3741,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a034-e97d-eddd-d272" hidden="false" targetId="4039-88e8-9f6d-bfb3" type="rule"/>
+        <infoLink id="a034-e97d-eddd-d272" name="Medi-Probe" hidden="false" targetId="676d-baca-7681-270a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -3793,9 +3779,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="29b1-77a8-eac1-dcb8" hidden="false" targetId="c3bc-87fd-fa5d-5055" type="rule"/>
-            <infoLink id="5888-4d4d-b427-d1f3" hidden="false" targetId="ca96-58c9-9551-d4fe" type="rule"/>
-            <infoLink id="de68-1314-0e93-bc44" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
+            <infoLink id="29b1-77a8-eac1-dcb8" name="OH" hidden="false" targetId="aa94-3f78-41b9-89cc" type="rule"/>
+            <infoLink id="5888-4d4d-b427-d1f3" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+            <infoLink id="de68-1314-0e93-bc44" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3852,9 +3838,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ede2-e3e5-c94d-4378" hidden="false" targetId="ca96-58c9-9551-d4fe" type="rule"/>
-        <infoLink id="c25b-badb-e157-f945" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="83cb-eec9-94c0-8fc1" hidden="false" targetId="c3bc-87fd-fa5d-5055" type="rule"/>
+        <infoLink id="ede2-e3e5-c94d-4378" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+        <infoLink id="c25b-badb-e157-f945" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="83cb-eec9-94c0-8fc1" name="OH" hidden="false" targetId="aa94-3f78-41b9-89cc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3882,8 +3868,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c2fb-c9db-5e9c-dcfe" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule"/>
-                <infoLink id="9622-01bf-0303-e5f7" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="c2fb-c9db-5e9c-dcfe" name="Scrambler" hidden="false" targetId="e627-a8fe-3b4b-f1f9" type="rule"/>
+                <infoLink id="9622-01bf-0303-e5f7" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3901,8 +3887,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1838-cbe5-7c85-395d" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule"/>
-                <infoLink id="6568-0044-8497-b002" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="1838-cbe5-7c85-395d" name="Arc" hidden="false" targetId="41e8-a0f3-ed44-f9d4" type="rule"/>
+                <infoLink id="6568-0044-8497-b002" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3920,8 +3906,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8a68-f508-7c9e-1ee4" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule"/>
-                <infoLink id="1fe7-d90c-fd8b-2777" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="8a68-f508-7c9e-1ee4" name="Blur" hidden="false" targetId="bc98-2e6b-c063-fe98" type="rule"/>
+                <infoLink id="1fe7-d90c-fd8b-2777" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3939,8 +3925,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a787-c45e-8df6-7cdb" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule"/>
-                <infoLink id="4acd-4d6e-c5ce-c202" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="a787-c45e-8df6-7cdb" name="Scoot" hidden="false" targetId="c858-b4e8-5b6b-4159" type="rule"/>
+                <infoLink id="4acd-4d6e-c5ce-c202" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3958,7 +3944,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c8d2-16b3-5523-a9b1" hidden="false" targetId="ac33-af99-2d76-c981" type="rule"/>
+                <infoLink id="c8d2-16b3-5523-a9b1" name="Net" hidden="false" targetId="0ad1-fb02-de9e-6e2a" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3976,8 +3962,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6ffa-8857-9b93-35b5" hidden="false" targetId="1045-95cb-5504-9050" type="rule"/>
-                <infoLink id="3eba-9eb4-bf44-4b04" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="6ffa-8857-9b93-35b5" name="Grip" hidden="false" targetId="dc90-d00c-0484-16ea" type="rule"/>
+                <infoLink id="3eba-9eb4-bf44-4b04" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -3988,13 +3974,13 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7fae-ff88-b94e-934e" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule"/>
-                <infoLink id="49a1-2fba-ff8f-c1b0" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule"/>
-                <infoLink id="7acb-0144-9a6a-9840" hidden="false" targetId="1045-95cb-5504-9050" type="rule"/>
-                <infoLink id="878e-a6f2-d2ce-4e02" hidden="false" targetId="ac33-af99-2d76-c981" type="rule"/>
-                <infoLink id="ed06-0ab3-bc83-05de" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule"/>
-                <infoLink id="03ee-325f-d6f1-fd20" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule"/>
-                <infoLink id="8d63-0835-da60-a624" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+                <infoLink id="7fae-ff88-b94e-934e" name="Arc" hidden="false" targetId="41e8-a0f3-ed44-f9d4" type="rule"/>
+                <infoLink id="49a1-2fba-ff8f-c1b0" name="Blur" hidden="false" targetId="bc98-2e6b-c063-fe98" type="rule"/>
+                <infoLink id="7acb-0144-9a6a-9840" name="Grip" hidden="false" targetId="dc90-d00c-0484-16ea" type="rule"/>
+                <infoLink id="878e-a6f2-d2ce-4e02" name="Net" hidden="false" targetId="0ad1-fb02-de9e-6e2a" type="rule"/>
+                <infoLink id="ed06-0ab3-bc83-05de" name="Scoot" hidden="false" targetId="c858-b4e8-5b6b-4159" type="rule"/>
+                <infoLink id="03ee-325f-d6f1-fd20" name="Scrambler" hidden="false" targetId="e627-a8fe-3b4b-f1f9" type="rule"/>
+                <infoLink id="8d63-0835-da60-a624" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
@@ -4012,7 +3998,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="4173-19e8-aa99-3e22" hidden="false" targetId="c1c6-f9c7-c84f-d57d" type="rule"/>
+        <infoLink id="4173-19e8-aa99-3e22" name="Nano Drone" hidden="false" targetId="c1c6-f9c7-c84f-d57d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -4024,7 +4010,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="ce7f-8e3d-c50c-b636" hidden="false" targetId="c1c6-f9c7-c84f-d57d" type="rule"/>
+        <infoLink id="ce7f-8e3d-c50c-b636" name="Nano Drone" hidden="false" targetId="c1c6-f9c7-c84f-d57d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -4035,7 +4021,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="6edf-03c1-417f-13e8" hidden="false" targetId="3559-4b87-980d-f90d" type="rule"/>
+        <infoLink id="6edf-03c1-417f-13e8" name="Overload Ammo" hidden="false" targetId="4141-4945-7178-0640" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4046,7 +4032,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3da3-80ac-dc11-6809" hidden="false" targetId="b28d-571e-af69-4582" type="rule"/>
+        <infoLink id="3da3-80ac-dc11-6809" name="Phase Armour" hidden="false" targetId="29e8-5172-36b9-2b93" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4068,9 +4054,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0d4d-4f3f-c86d-9dbe" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-        <infoLink id="b46e-26ca-aad6-e64b" hidden="false" targetId="1863-c041-6dc4-c62d" type="rule"/>
-        <infoLink id="6fea-ec6b-df33-2abe" hidden="false" targetId="5fb8-4f09-d496-4ea9" type="rule"/>
+        <infoLink id="0d4d-4f3f-c86d-9dbe" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+        <infoLink id="b46e-26ca-aad6-e64b" name="RF D6 Fire Only" hidden="false" targetId="3f22-81fe-dd03-eda6" type="rule"/>
+        <infoLink id="6fea-ec6b-df33-2abe" name="Concentrated Fire" hidden="false" targetId="0762-a86b-97dd-39f2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4097,7 +4083,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7388-9f57-6e2a-eadb" hidden="false" targetId="6b03-2ad4-34c1-7f73" type="rule"/>
+        <infoLink id="7388-9f57-6e2a-eadb" name="Plasma Fade" hidden="false" targetId="72e3-4555-8f67-d0db" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4119,7 +4105,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3c39-3d6d-7a5a-f2f5" hidden="false" targetId="6b03-2ad4-34c1-7f73" type="rule"/>
+        <infoLink id="3c39-3d6d-7a5a-f2f5" name="Plasma Fade" hidden="false" targetId="72e3-4555-8f67-d0db" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4132,7 +4118,7 @@
       <infoLinks>
         <infoLink id="0212-5213-7d18-d37f" hidden="false" targetId="ee9c-ada6-953a-b774" type="profile"/>
         <infoLink id="d572-ea69-f6bd-9b8f" hidden="false" targetId="b56d-0f1d-de00-62c4" type="profile"/>
-        <infoLink id="b55d-3878-89ca-fb86" hidden="false" targetId="0cb1-ea91-e5bc-4f75" type="rule"/>
+        <infoLink id="b55d-3878-89ca-fb86" name="RF2" hidden="false" targetId="f0d7-e63b-bd7e-b9c8" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4191,7 +4177,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="3f8e-ffa3-e1eb-fde7" hidden="false" targetId="0cb1-ea91-e5bc-4f75" type="rule"/>
+            <infoLink id="3f8e-ffa3-e1eb-fde7" name="RF2" hidden="false" targetId="f0d7-e63b-bd7e-b9c8" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4214,8 +4200,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7213-775a-deac-dce8" hidden="false" targetId="fd72-d48c-e8af-4883" type="rule"/>
-            <infoLink id="9752-310b-98a1-37af" hidden="false" targetId="3b84-9d0e-a3c1-6c1f" type="rule"/>
+            <infoLink id="7213-775a-deac-dce8" name="Choose Target" hidden="false" targetId="7b4c-a6f4-dc1f-0989" type="rule"/>
+            <infoLink id="9752-310b-98a1-37af" name="Inaccurate" hidden="false" targetId="557e-16fd-7531-c26d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4242,7 +4228,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9e8b-6ee9-56f0-aedf" hidden="false" targetId="97d4-67cb-2671-ca29" type="rule"/>
+        <infoLink id="9e8b-6ee9-56f0-aedf" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4265,7 +4251,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="61c1-b16a-8335-9497" hidden="false" targetId="97d4-67cb-2671-ca29" type="rule"/>
+        <infoLink id="61c1-b16a-8335-9497" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4276,7 +4262,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3d5e-ab8a-1859-49b2" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="3d5e-ab8a-1859-49b2" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4288,7 +4274,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d7c4-2e9d-b85d-2cda" hidden="false" targetId="2e7c-b5f9-e3e5-9125" type="profile"/>
+        <infoLink id="d7c4-2e9d-b85d-2cda" name="Plasma Pistol" hidden="false" targetId="af66-926c-667f-6fb2" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4299,7 +4285,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="6826-c718-8070-65a3" hidden="false" targetId="18c0-c86d-0b2c-23af" type="rule"/>
+        <infoLink id="6826-c718-8070-65a3" name="Reflex Armour" hidden="false" targetId="a71a-33af-8fc2-33d2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4311,7 +4297,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="fead-bc73-7559-09fc" hidden="false" targetId="18c0-c86d-0b2c-23af" type="rule"/>
+        <infoLink id="fead-bc73-7559-09fc" name="Reflex Armour" hidden="false" targetId="a71a-33af-8fc2-33d2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4323,7 +4309,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a445-3a2a-b5dc-dff6" hidden="false" targetId="18c0-c86d-0b2c-23af" type="rule"/>
+        <infoLink id="a445-3a2a-b5dc-dff6" name="Reflex Armour" hidden="false" targetId="a71a-33af-8fc2-33d2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4351,7 +4337,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="6631-7298-fd9d-ce64" hidden="false" targetId="97d4-67cb-2671-ca29" type="rule"/>
+            <infoLink id="6631-7298-fd9d-ce64" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4386,9 +4372,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="393a-a871-9061-745a" hidden="false" targetId="ca96-58c9-9551-d4fe" type="rule"/>
-            <infoLink id="dee2-529a-c466-8b1e" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
-            <infoLink id="1a7e-03a3-9055-86c1" hidden="false" targetId="6305-72fa-da02-235b" type="rule"/>
+            <infoLink id="393a-a871-9061-745a" name="Blast D4" hidden="false" targetId="805e-60a2-1b4a-46e9" type="rule"/>
+            <infoLink id="dee2-529a-c466-8b1e" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
+            <infoLink id="1a7e-03a3-9055-86c1" name="Disruptor" hidden="false" targetId="185f-7889-5373-782a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4404,7 +4390,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="65a3-4c38-417c-cc9f" hidden="false" targetId="b08d-74dd-1a32-8bdc" type="rule"/>
+        <infoLink id="65a3-4c38-417c-cc9f" name="Shield Drone" hidden="false" targetId="0f88-1555-b001-b47e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -4415,7 +4401,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b2fa-ba86-d0d2-1a30" hidden="false" targetId="b08d-74dd-1a32-8bdc" type="rule"/>
+        <infoLink id="b2fa-ba86-d0d2-1a30" name="Shield Drone" hidden="false" targetId="0f88-1555-b001-b47e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -4456,7 +4442,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="27d6-5dd8-337d-1005" hidden="false" targetId="5bd0-9ab2-0523-cbc8" type="rule"/>
+        <infoLink id="27d6-5dd8-337d-1005" name="Slingnet Ammo" hidden="false" targetId="f562-930d-c5d5-4ca3" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4478,8 +4464,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7a23-290e-0678-0165" hidden="false" targetId="1acd-39d3-94e7-48e1" type="rule"/>
-        <infoLink id="7cdc-f9ef-85bc-947a" hidden="false" targetId="1c2c-6574-0a17-f90c" type="rule"/>
+        <infoLink id="7a23-290e-0678-0165" name="Blast D3" hidden="false" targetId="177e-8b60-cc2a-557d" type="rule"/>
+        <infoLink id="7cdc-f9ef-85bc-947a" name="Hazardous H2H" hidden="false" targetId="0f95-2ca6-3bd9-35b4" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4490,7 +4476,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3d50-6009-476b-2dd3" hidden="false" targetId="1253-ef5b-67d4-3e18" type="rule"/>
+        <infoLink id="3d50-6009-476b-2dd3" name="Soma Graft" hidden="false" targetId="cc0f-f1a5-19a0-0ed5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4501,7 +4487,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b096-0158-02cc-ad91" hidden="false" targetId="fdbd-254f-8dd7-b658" type="rule"/>
+        <infoLink id="b096-0158-02cc-ad91" name="Spotter Drone" hidden="false" targetId="c7ec-607b-07f1-fc01" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -4512,7 +4498,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="af19-89d3-df23-32fc" hidden="false" targetId="fdbd-254f-8dd7-b658" type="rule"/>
+        <infoLink id="af19-89d3-df23-32fc" name="Spotter Drone" hidden="false" targetId="c7ec-607b-07f1-fc01" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -4524,7 +4510,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="65b9-8262-6f60-281e" hidden="false" targetId="fdbd-254f-8dd7-b658" type="rule"/>
+        <infoLink id="65b9-8262-6f60-281e" name="Spotter Drone" hidden="false" targetId="c7ec-607b-07f1-fc01" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4546,7 +4532,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="24bd-bd70-2f6b-0434" hidden="false" targetId="cd8d-624c-ed86-e310" type="rule"/>
+        <infoLink id="24bd-bd70-2f6b-0434" name="Subverter Matrix" hidden="false" targetId="795b-3127-4b6d-91f7" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4557,7 +4543,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f848-9ddf-c5b7-7291" hidden="false" targetId="c526-9fd9-f1c5-6893" type="rule"/>
+        <infoLink id="f848-9ddf-c5b7-7291" name="Synchroniser Drone" hidden="false" targetId="8bba-bf54-4439-2f32" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -4579,7 +4565,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="311e-56e1-d1bc-36a1" hidden="false" targetId="2cbd-47c9-de87-ec2a" type="rule"/>
+        <infoLink id="311e-56e1-d1bc-36a1" name="2 Attacks" hidden="false" targetId="6949-9f5f-f9fa-ba1c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4671,9 +4657,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6f40-42de-4957-1df4" hidden="false" targetId="c3bc-87fd-fa5d-5055" type="rule"/>
-        <infoLink id="b631-2638-986b-4611" hidden="false" targetId="04d9-a48d-7b25-4dd3" type="rule"/>
-        <infoLink id="7c8b-6880-8593-4b52" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
+        <infoLink id="6f40-42de-4957-1df4" name="OH" hidden="false" targetId="aa94-3f78-41b9-89cc" type="rule"/>
+        <infoLink id="b631-2638-986b-4611" name="Blast D10" hidden="false" targetId="d5f3-3586-02bd-c293" type="rule"/>
+        <infoLink id="7c8b-6880-8593-4b52" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="92e5-9a8f-2921-8280" hidden="false" collective="false" targetId="bc4e-7cd8-4017-d911" type="selectionEntryGroup"/>
@@ -4698,9 +4684,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cbba-ff32-112c-3173" hidden="false" targetId="c3bc-87fd-fa5d-5055" type="rule"/>
-        <infoLink id="57ac-1f50-9d13-b33b" hidden="false" targetId="b050-496a-ed16-2b2a" type="rule"/>
-        <infoLink id="613e-43c3-a036-e997" hidden="false" targetId="a41d-d55e-6d97-049d" type="rule"/>
+        <infoLink id="cbba-ff32-112c-3173" name="OH" hidden="false" targetId="aa94-3f78-41b9-89cc" type="rule"/>
+        <infoLink id="57ac-1f50-9d13-b33b" name="Blast D5" hidden="false" targetId="0ee6-cf0c-7083-dde0" type="rule"/>
+        <infoLink id="613e-43c3-a036-e997" name="No Cover" hidden="false" targetId="1ca0-252b-ab29-afe5" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="7bb9-56de-ae51-c52b" hidden="false" collective="false" targetId="bc4e-7cd8-4017-d911" type="selectionEntryGroup"/>
@@ -4725,7 +4711,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ff22-4293-45d6-b483" hidden="false" targetId="1acd-39d3-94e7-48e1" type="rule"/>
+        <infoLink id="ff22-4293-45d6-b483" name="Blast D3" hidden="false" targetId="177e-8b60-cc2a-557d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4748,7 +4734,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f51f-aab5-2da1-d5d0" hidden="false" targetId="1acd-39d3-94e7-48e1" type="rule"/>
+        <infoLink id="f51f-aab5-2da1-d5d0" name="Blast D3" hidden="false" targetId="177e-8b60-cc2a-557d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4794,8 +4780,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="55f1-0e9f-4b69-56c1" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule"/>
-            <infoLink id="69e5-ef01-7a5e-3f24" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="55f1-0e9f-4b69-56c1" name="Scrambler" hidden="false" targetId="e627-a8fe-3b4b-f1f9" type="rule"/>
+            <infoLink id="69e5-ef01-7a5e-3f24" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4806,8 +4792,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6614-fd6d-aecf-1070" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule"/>
-            <infoLink id="6979-177c-42e8-27bf" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="6614-fd6d-aecf-1070" name="Arc" hidden="false" targetId="41e8-a0f3-ed44-f9d4" type="rule"/>
+            <infoLink id="6979-177c-42e8-27bf" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4818,8 +4804,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="a019-91dd-3b84-e72e" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule"/>
-            <infoLink id="b4a9-0df0-5149-5785" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="a019-91dd-3b84-e72e" name="Blur" hidden="false" targetId="bc98-2e6b-c063-fe98" type="rule"/>
+            <infoLink id="b4a9-0df0-5149-5785" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4830,8 +4816,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="0e1e-3e34-5c36-4bbf" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule"/>
-            <infoLink id="cc03-4929-b882-43a6" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="0e1e-3e34-5c36-4bbf" name="Scoot" hidden="false" targetId="c858-b4e8-5b6b-4159" type="rule"/>
+            <infoLink id="cc03-4929-b882-43a6" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4842,7 +4828,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f4bd-099a-19ab-8138" hidden="false" targetId="ac33-af99-2d76-c981" type="rule"/>
+            <infoLink id="f4bd-099a-19ab-8138" name="Net" hidden="false" targetId="0ad1-fb02-de9e-6e2a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4853,8 +4839,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="eee1-31e1-599c-0bd8" hidden="false" targetId="1045-95cb-5504-9050" type="rule"/>
-            <infoLink id="df1a-7d7c-9316-5794" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="eee1-31e1-599c-0bd8" name="Grip" hidden="false" targetId="dc90-d00c-0484-16ea" type="rule"/>
+            <infoLink id="df1a-7d7c-9316-5794" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -4865,13 +4851,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1874-10fd-bc26-7005" hidden="false" targetId="c1ba-c745-22a8-e2d7" type="rule"/>
-            <infoLink id="0234-4b9e-9342-68f7" hidden="false" targetId="117a-a2aa-4be7-dffe" type="rule"/>
-            <infoLink id="6234-ec86-062c-0073" hidden="false" targetId="1045-95cb-5504-9050" type="rule"/>
-            <infoLink id="a285-cf7f-7fac-f9ab" hidden="false" targetId="ac33-af99-2d76-c981" type="rule"/>
-            <infoLink id="11d8-fdb9-76ff-2c4c" hidden="false" targetId="28a0-7151-a0c5-9495" type="rule"/>
-            <infoLink id="9abb-2789-75c0-d3a8" hidden="false" targetId="7a3b-74a5-3ced-dd88" type="rule"/>
-            <infoLink id="1492-b598-eb64-0ea0" hidden="false" targetId="b996-131f-b84a-4724" type="rule"/>
+            <infoLink id="1874-10fd-bc26-7005" name="Arc" hidden="false" targetId="41e8-a0f3-ed44-f9d4" type="rule"/>
+            <infoLink id="0234-4b9e-9342-68f7" name="Blur" hidden="false" targetId="bc98-2e6b-c063-fe98" type="rule"/>
+            <infoLink id="6234-ec86-062c-0073" name="Grip" hidden="false" targetId="dc90-d00c-0484-16ea" type="rule"/>
+            <infoLink id="a285-cf7f-7fac-f9ab" name="Net" hidden="false" targetId="0ad1-fb02-de9e-6e2a" type="rule"/>
+            <infoLink id="11d8-fdb9-76ff-2c4c" name="Scoot" hidden="false" targetId="c858-b4e8-5b6b-4159" type="rule"/>
+            <infoLink id="9abb-2789-75c0-d3a8" name="Scrambler" hidden="false" targetId="e627-a8fe-3b4b-f1f9" type="rule"/>
+            <infoLink id="1492-b598-eb64-0ea0" name="Special Munition" hidden="false" targetId="8b32-dbb7-da83-4fb7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
@@ -4881,355 +4867,35 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2cbd-47c9-de87-ec2a" name="2 Attacks" publicationId="64d6-1cd3-pubN66836" page="133" hidden="false">
-      <description>Two attacks in close combat.</description>
-    </rule>
-    <rule id="61e2-3707-ade3-c9ad" name="3 Attacks" publicationId="64d6-1cd3-pubN66836" page="133" hidden="false">
-      <description>Three attacks in close combat.</description>
-    </rule>
-    <rule id="7daf-414b-c030-7626" name="AG Chute" publicationId="64d6-1cd3-pubN66836" page="120" hidden="false">
-      <description>May make 2M move and shoot when given advance order. +1 Ag. Treat difficult ground as suspensored vehicle. </description>
-    </rule>
-    <rule id="c1ba-c745-22a8-e2d7" name="Arc" publicationId="64d6-1cd3-pubN66836" page="88" hidden="false">
-      <description>Creates 3&quot; sink area. Affects any shooter attemping to draw LOS and shoot through the arc. Roll a D10 if LOS goes through - 1-5 the shot is normal, 6-10 the shot automatically misses. Make test before rolling Acc to hit. 
-
-OH shots are affected if the target is within 3&quot; of the marker. </description>
-    </rule>
-    <rule id="b7c6-fc7c-d48b-aae4" name="Auto-Workshop" publicationId="64d6-1cd3-pubN66836" page="121" hidden="false">
-      <description>Activated from any order to the unit. Affects every vehicle, weapon drone, weapon team, and machine mounted unit within 5&quot; of the unit, and itself. Roll D10 - on 1-5, nothing happens, 6-10 each unit removes a pin.</description>
-    </rule>
-    <rule id="f0d9-1e5a-ec20-b27c" name="Batter Drone" publicationId="64d6-1cd3-pubN66836" page="110" hidden="false">
-      <description>Projects curved shield as template - must be positioned with outer side facing away from drone, no part of template more than 5&quot; from drone base. Template may be repositioned any time unit receives an order die.
-
-Enemy units shooting through shield suffer -2 ACC. Models positioned inside the shield do not receive the -2 ACC protection. Troops shooting from the inside convex side of the shield do not suffer the ACC penalty. 
-
-No protection is offered for OH shots.</description>
-    </rule>
-    <rule id="04d9-a48d-7b25-4dd3" name="Blast D10" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>Inflicts D10 hits on a successful shooting attack.</description>
-    </rule>
-    <rule id="1acd-39d3-94e7-48e1" name="Blast D3" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>Inflicts D3 hits on a successful shooting attack.</description>
-    </rule>
-    <rule id="ca96-58c9-9551-d4fe" name="Blast D4" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>Inflicts D4 hits on a successful shooting attack.</description>
-    </rule>
-    <rule id="b050-496a-ed16-2b2a" name="Blast D5" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>Inflicts D5 hits on a successful shooting attack.</description>
-    </rule>
     <rule id="5d2e-45d2-1707-87db" name="Block!" page="159" hidden="false">
       <description>The Order Die drawn from the bag is returned and another random die is drawn. This dice stands and cannot be blocked. Use once and discard. You can buy as many Blocks as you are allowed Auxiliary choices in your Army</description>
-    </rule>
-    <rule id="117a-a2aa-4be7-dffe" name="Blur" publicationId="64d6-1cd3-pubN66836" page="89" hidden="false">
-      <description>Any unit within 3&quot; reduces Acc by D3 each time it shoots. If within two or more blur markers, roll a D3 for each and take highest.</description>
-    </rule>
-    <rule id="c3e6-4e9b-858c-80d3" name="Booster Drone" publicationId="64d6-1cd3-pubN66836" page="92" hidden="false">
-      <description>Infantry, Weapon Team, or Command unit gains +1 armor bonus from reflex, hyperlight, and phase armor. Cannot benefit units with HL boosters.</description>
-    </rule>
-    <rule id="4e34-753f-b082-2e00" name="Borer Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false">
-      <description>Every model in the owning unit gains +1 Str for all Strength tests and H2H. 
-
-Unit may put up temporary cover by making any action without a move. May result from order or reaction and can include a down action from failed order check. Unit benefits from 2+ Res as long as it does not move. Is not cumulative with other cover bonuses.</description>
-    </rule>
-    <rule id="5f48-f41c-fd96-6a1a" name="Camo Drone" publicationId="64d6-1cd3-pubN66836" page="111" hidden="false">
-      <description>If unit goes down it cannot be targeted at ranges of more than 10&quot;. If a unit with the drone goes down as reaction to enemy shooting from more than 10&quot; away then the unit can no longer be targeted. OH shots will miss and have no effect. Scout probes can compromise this effect within 10&quot;.
-
-</description>
-    </rule>
-    <rule id="fd72-d48c-e8af-4883" name="Choose Target" publicationId="64d6-1cd3-pubN66836" page="70" hidden="false">
-      <description>May fire at a different target from the test of the unit. If more than one model has a weapon with Choose Target, all weapons with Choose Target must shoot at same target.</description>
-    </rule>
-    <rule id="5c9b-1bde-ee01-04a4" name="Command" publicationId="64d6-1cd3-pubN66836" page="133" hidden="false">
-      <description>Friendly units within 10&quot; can use this model&apos;s Co value for any Co based test instead of their own. Pins still affect this Co value.</description>
-    </rule>
-    <rule id="3995-c066-c957-5ffe" name="Compactor Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false">
-      <description>May carry one of the following: all of a mounted unit&apos;s bikes, a unit&apos;s support weapon, an entire weapon drone unit complete with any associated buddy drones other than compactor drones, or an entire probe shard.
-
-May load or unload when their unit makes an action, even down order following failed order test. </description>
-    </rule>
-    <rule id="7db4-2d14-3984-37d9" name="Compressor" publicationId="64d6-1cd3-pubN66836" page="71" hidden="false">
-      <description>SV value varies with range band.</description>
-    </rule>
-    <rule id="5fb8-4f09-d496-4ea9" name="Concentrated Fire" publicationId="64d6-1cd3-pubN66836" page="72" hidden="false">
-      <description>Any lucky hits can be allocated to the same model, do not have to be distributed evenly.</description>
-    </rule>
-    <rule id="c34f-bbca-9bfc-6874" name="Crawler" publicationId="64d6-1cd3-pubN66836" page="133" hidden="false">
-      <description>Crawlers are restricted when moving over certain terrain types as described in the terrain section. They cross obstacles in the same manner as a heavy weapon team. They cannot cross at a run and must test to cross at advance rate. Crossing obstacles, p22</description>
-    </rule>
-    <rule id="cf7f-6f85-e64e-0363" name="Cycle" publicationId="64d6-1cd3-pubN66836" page="78" hidden="false">
-      <description>On the Acc roll of a 10 shot misses and weapon team goes down.</description>
-    </rule>
-    <rule id="6305-72fa-da02-235b" name="Disruptor" publicationId="64d6-1cd3-pubN66836" page="79" hidden="false">
-      <description>A target hit by a disruptor weapon gets no cover bonus to its Res roll against the hit.
-
-A non-Ghar target hit by a disruptor weapon takes 2 pins rather than the usual 1 pin. If the target has Res &gt; 10, it takes these pins even if the hit is successfully resisted. Ghar do not suffer these pins. 
-
-Buddy drones can be allocated hits from this weapon by the shooter from any hits, not just lucky hits.
-
-If the target is a probe it only passes Res tests on a 1.</description>
-    </rule>
-    <rule id="9444-e2a0-8048-5ce9" name="Down" publicationId="64d6-1cd3-pubN66836" page="74" hidden="false">
-      <description>Unit hit automatically goes down after shooting has been worked out whether casualties are caused or not. </description>
-    </rule>
-    <rule id="4232-2801-36cf-704c" name="Exhausted" publicationId="64d6-1cd3-pubN66836" page="67" hidden="false">
-      <description>Rolls of 10 on Str or Acc to-hit rolls cannot be re-rolled and stave has become exhausted. Make a test at the turn end phase - 1-5 it is still exhausted, 6-10 it is replenished.</description>
     </rule>
     <rule id="e77b-02da-5143-229e" name="Extra Shot" page="159" hidden="false">
       <description>If you score a Lucky Hit with any shot you can make one more shot with that model using the same weapon with exactly the same score required to hit the same target. Roll one more shot to score a hit. Use once and discard. You can buy as many Extra Shots as you are allowed Auxiliary choices in your Army.</description>
     </rule>
-    <rule id="b0ca-8e7d-d03f-f027" name="Fast" publicationId="64d6-1cd3-pubN66836" page="133" hidden="false">
-      <description>Move at double pace - 10&quot; per advance, 20&quot; for run. Shots fired at fast targets with a run order must re-roll hits. 
-Fast units may break off of assault after point blank shooting has been conducted. They may move through the enemy during this move.</description>
-    </rule>
-    <rule id="7bc9-5e98-2914-5abd" name="Follow" publicationId="64d6-1cd3-pubN66836" page="13" hidden="false">
-      <description>When a leader with follow gives his unit an order, any other friendly units within 5&quot; may make the same action as long as they have no pins and are otherwise able to make the action.</description>
-    </rule>
-    <rule id="d50c-3bbe-c62d-34c3" name="Fractal Lock" publicationId="64d6-1cd3-pubN66836" page="83" hidden="false">
-      <description>If the weapon hits, it locks on. If the target does not move and the unit receives a fire order it automatically hits. Each time it auto-hits the SV value goes up by 2.</description>
-    </rule>
     <rule id="2afe-05bf-268b-84c2" name="Get Up!" page="159" hidden="false">
       <description>When making a Recovery Test (to recover a Down order die) you will succeed on a roll of anything but a 10 regardless of the value you would normally test against. A roll of a 10 is still a failure, and no pin markers are removed, as standard. Use once and discard. You can buy as many Get Up!(s) as you are allowed Auxiliary choices in your Army.</description>
-    </rule>
-    <rule id="b466-7990-db34-55b1" name="Grenade" publicationId="64d6-1cd3-pubN66836" page="85" hidden="false">
-      <description>In H2H counts as hand weapon +1 Str bonus. Grenade hits compound in H2H - if a model takes suffers two or more hits from grenades, add all SVs together and take one Res test.</description>
-    </rule>
-    <rule id="1045-95cb-5504-9050" name="Grip" publicationId="64d6-1cd3-pubN66836" page="87" hidden="false">
-      <description>Unit beginning its move within 3&quot; must take and pass an Ag test. If failed it may not move, if passed it can move half rate, failed on a 10 it takes a pin and cannot move.
-
-If a unit moves within 3&quot; it must take the Ag test as above. </description>
-    </rule>
-    <rule id="5f6c-7c20-3cbc-bcc8" name="Gun Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false">
-      <description>Shoots as if it were an ordinary member of its unit with the same Acc value. Draw LOS in the same way as other models in the unit.</description>
-    </rule>
-    <rule id="1c2c-6574-0a17-f90c" name="Hazardous H2H" publicationId="64d6-1cd3-pubN66836" page="85" hidden="false">
-      <description>Any H2H Str roll of 10 hits the user, not enemy.</description>
-    </rule>
-    <rule id="a846-6829-3398-bac1" name="Heavy" publicationId="64d6-1cd3-pubN66836" page="134" hidden="false">
-      <description>Movement restricted across obstacles per p22. Cannot cross obstacles at a run. Agility test required to cross at advance. When rolling resistance checks only fail on a 10, roll on damage chart p37.</description>
-    </rule>
-    <rule id="3c64-6022-a5f1-9c04" name="Hero" publicationId="64d6-1cd3-pubN66836" page="134" hidden="false">
-      <description>Friendly units within 10&quot; may use this model&apos;s Init stat. </description>
-    </rule>
-    <rule id="34e0-c5a3-3998-5d0b" name="High Commander" publicationId="64d6-1cd3-pubN66836" page="134" hidden="false">
-      <description>May re-roll every failed resist test once. May use command, hero, and follow special rules on any units.</description>
-    </rule>
-    <rule id="b436-1f8a-5d3a-2d7d" name="HL Armor" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
-      <description>Ranges of 10&quot; or less, +1 to Res. Ranges of greater than 10&quot; +2 Res. Against any Blast hits, +3 Res. </description>
-    </rule>
-    <rule id="56ab-52fc-9557-2586" name="HL Booster" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
-      <description>+1 Res on top of all other bonuses.</description>
-    </rule>
-    <rule id="ca2b-9550-eb1e-77c8" name="Homer Drone" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false">
-      <description>Unit may be transported off the table by using a Run order. If taking an order test and failed on a 10, homer drone is destroyed. Once removed from the battlefield unit cannot return. Only the unit and equipment may be transported - not objectives.</description>
-    </rule>
-    <rule id="3b84-9d0e-a3c1-6c1f" name="Inaccurate" publicationId="64d6-1cd3-pubN66836" page="70" hidden="false">
-      <description>Additional -1 Acc penalty.</description>
-    </rule>
-    <rule id="96c4-7a43-2a4c-d7d3" name="Infiltrator" publicationId="64d6-1cd3-pubN66836" page="134" hidden="false">
-      <description>May make a special pre-game run action. May sprint, test for exhaustion. May not move within 10&quot; of enemy. May lay a minefield before game starts.</description>
-    </rule>
-    <rule id="a221-d53c-b4bd-b52c" name="Large" publicationId="64d6-1cd3-pubN66836" page="134" hidden="false">
-      <description>Cannot sprint unless also fast. Passes when testing Ag to move through dense terrain reduce movement to half. Passes on a one mean unit can move at full rate. Failure means unit cannot move, failure on a 10 gains one pin. 
-
-Units may fire over regular sized units at no penalty. Large targets never gain cover bonuses to their Res stat. May not enter buildings. </description>
-    </rule>
-    <rule id="7cfb-9874-dfe0-b136" name="Lava Spit" publicationId="64d6-1cd3-pubN66836" page="135" hidden="false">
-      <description>Lavamites may shoot during point blank shooting at SV 2.</description>
-    </rule>
-    <rule id="e441-c3a6-7d61-2c63" name="Leader" publicationId="64d6-1cd3-pubN66836" page="135" hidden="false">
-      <description>May re-roll one failed res test per leader level. </description>
-    </rule>
-    <rule id="7850-89e7-bab8-86e9" name="Leader 2" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May re-roll one failed res test per leader level.</description>
-    </rule>
-    <rule id="05bb-4d34-70cd-25d2" name="Leader 3" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May re-roll one failed res test per leader level.</description>
-    </rule>
-    <rule id="5efa-64a9-bbc9-3dba" name="Limited Ammo" publicationId="64d6-1cd3-pubN66836" page="73,77" hidden="false">
-      <description>Risks running out of ammunition.</description>
-    </rule>
-    <rule id="d8dc-cf25-ef95-c94b" name="Limited Choice" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May only be taken as 1 in 4 choices of entire force.</description>
     </rule>
     <rule id="5741-af68-9dc0-519f" name="Marksman" page="159" hidden="false">
       <description>When rolling to-hit against a unit with a shooting attack, you may re-roll all of the shots. If you choose to do this you must take ALL of the shots again regardless of whether they hit or miss, and whatever result you roll the second time stands, with no further re-rolls allowed. You can only buy ONE Marksman regardless of Army size.</description>
     </rule>
-    <rule id="c863-510b-e239-be92" name="Massive Damage" publicationId="64d6-1cd3-pubN66836" page="75" hidden="false">
-      <description>If the mag cannon&apos;s target rolls for damage on a damage table it suffers Massive Damage - page 37.</description>
-    </rule>
     <rule id="4039-88e8-9f6d-bfb3" name="Medi-Drone" publicationId="64d6-1cd3-pubN66836" page="113" hidden="false">
       <description>Can only attend humans - not machines or Skarks. Any friendly unit within 5&quot; may re-roll one failed Res test each time it is shot at, fights H2H, or otherwise suffers damage. Units within 5&quot; of more than one medi-drone may re-roll one failed Res test for each medi-drone. </description>
-    </rule>
-    <rule id="137e-c2b6-65b7-ecc3" name="Medic" publicationId="64d6-1cd3-pubN66836" page="135" hidden="false">
-      <description>Units within 5&quot; of a medic unit may re-roll one failed Res test each time it is shot at. Medi-probes and drones may add their re-rolls to total number of re-rolls.
-
-Cannot be used on non-humans. </description>
-    </rule>
-    <rule id="a97f-4540-de7b-5734" name="Meld" publicationId="64d6-1cd3-pubN66836" page="128" hidden="false">
-      <description>Single unit of two NuHu but only has one Res value. If a Res test is failed, roll on Meld Damage Chart. </description>
-    </rule>
-    <rule id="5e3d-6905-2b14-8cd1" name="Meld Damage" publicationId="64d6-1cd3-pubN66836" page="128" hidden="false">
-      <description>D10 Result
-1	No effect
-2-3 	Take one additional pin and Go Down
-4-5	Take one additional pin and Go Down, MOD units lose one order die
-6-8 	Take D3 additional pins and Go Down, MOD units lose one order die
-9 	One of the NuHu falls casualty, breaking the meld. Remaining model reverts to normal NuHu stats. MOD 	is lost. Surviving NuHu takes D3 additional pins and goes down.
-10 	Destroyed. The unit is destroyed, and both NuHu are removed as casualties.</description>
-    </rule>
-    <rule id="db7a-5bd4-6400-f6d1" name="Misgenic Abilities" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false">
-      <description>Set after deployment. May choose one of the following before the game and pay 10 points to gain any further qualities on a D10 roll. Duplicates may be added together or treated as a 10 roll.
-
-D10 Result:
-1 Inexplicably Violent: +1 Attack in H2H
-2 Gnarly Hide: +1 Resist
-3 Bulging Muscles: +1 Str
-4 Lightning Reflexes: +1 Init
-5 Piercing Scream: gains a shooting attack with 10&quot; effective range and SV 0
-6 Belches Acid: SV 1 in H2H
-7 Exudes Noxious Vapors: H2H enemies must re-roll successful hits
-8 Mesmerising: any enemy unit within 5&quot; must pass command test at -1 to do anything, even with no pins.
-9 Cunning Leader: unit leader gains command and Init 8. If unit has no leader, it gains a leader with base Co and Init.
-10 Choose one of the above qualities.</description>
-    </rule>
-    <rule id="5565-ce10-1c78-1ee7" name="MOD2" publicationId="64d6-1cd3-pubN66836" page="136" hidden="false">
-      <description>Unit contributes two die to the dice pool and may act twice per turn. Always treated as having used the most recent action.</description>
-    </rule>
-    <rule id="8151-2e24-94ee-0477" name="MOD3" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>Unit contributes three die to the dice pool and may act thrice per turn. Always treated as having used the most recent action.</description>
     </rule>
     <rule id="c1c6-f9c7-c84f-d57d" name="Nano Drone" publicationId="64d6-1cd3-pubN66836" page="113" hidden="false">
       <description>Shots against the unit suffer -2 Acc. Cannot be combined with a Batter drone. Unit counts as having HL armor. IMtel stave may be boosted by Nano Drone.</description>
     </rule>
-    <rule id="ac33-af99-2d76-c981" name="Net" publicationId="64d6-1cd3-pubN66836" page="88" hidden="false">
-      <description>Roll to hit as normal for a blast weapon. Target does not suffer blast damage, rather suffers pins:
-
-X-Launcher: D3+1 pin
-X-Howitzer: D5+1 pin
-Mag Mortar: D10+1 pin
-
-Targets that would normally force an Acc re-roll suffer half the number of pins rounded down. Divide pins equally between two or more units as normal.</description>
-    </rule>
-    <rule id="a41d-d55e-6d97-049d" name="No Cover" publicationId="64d6-1cd3-pubN66836" page="71" hidden="false">
-      <description>No cover bonus to Res roll.</description>
-    </rule>
-    <rule id="f502-611e-9704-97bb" name="No Crew" publicationId="64d6-1cd3-pubN66836" page="7" hidden="false">
-      <description>When carried by a model in battle armor it counts as having full crew.</description>
-    </rule>
-    <rule id="c3bc-87fd-fa5d-5055" name="OH" publicationId="64d6-1cd3-pubN66836" page="34" hidden="false">
-      <description>Fires as an Overhead weapon.</description>
-    </rule>
-    <rule id="aef6-6934-1dee-6fa0" name="OHx2" publicationId="64d6-1cd3-pubN66836" hidden="false"/>
-    <rule id="7db4-6bd3-fb59-706d" name="Outcast" publicationId="64d6-1cd3-pubN66836" page="136" hidden="false">
-      <description>Command, hero, and follow rules only work on Outcast units. Cannot benefit from command, hero, or follow from non-Outcast unless it is a High Commander.</description>
-    </rule>
-    <rule id="3559-4b87-980d-f90d" name="Overload Ammo" publicationId="64d6-1cd3-pubN66836" page="89" hidden="false">
-      <description>Can only be used with direct fire. SV = 3, single hit. If a 10 is rolled on Acc roll, shot misses, cannot be re-rolled, and overload ammo cannot be used again.</description>
-    </rule>
     <rule id="b28d-571e-af69-4582" name="Phase Armor" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
       <description>10&quot; or less, +1 Res. Greater than 10&quot;, +2 Res. May make a down reaction even if it already has order die - flip to down if so. </description>
-    </rule>
-    <rule id="6b03-2ad4-34c1-7f73" name="Plasma Fade" publicationId="64d6-1cd3-pubN66836" page="76" hidden="false">
-      <description>On the Acc roll of a 10 to hit the shot is a miss and the unit goes down.</description>
-    </rule>
-    <rule id="0f12-545e-1c86-f482" name="Plasma Reactor" publicationId="64d6-1cd3-pubN66836" page="1367" hidden="false">
-      <description>Lucky hits are allocated by shooter and hit plasma reactor. On a Res failure of 10, roll for every other model in unit and on a 10 they are removed as well.</description>
-    </rule>
-    <rule id="5d64-4bf5-e947-95d1" name="Point Blank Shooting Only" publicationId="64d6-1cd3-pubN66836" page="86" hidden="false">
-      <description>May only be used for point blank shooting. Cannot be used for H2H.</description>
     </rule>
     <rule id="8056-104a-5a5d-2089" name="Pull Yourself Together!" page="159" hidden="false">
       <description>At the end of any turn you can expend a &quot;Pull Yourself Together!&quot; to remove one pin from one unit. Use once and discard. You can buy as many as you are allowed Auxiliary choices in your Army but can only use ONE per turn.</description>
     </rule>
-    <rule id="b6e3-9cf0-1a9f-a941" name="Random SV" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false">
-      <description>Roll every round for entire unit to determine SV. </description>
-    </rule>
-    <rule id="9ad5-9fc3-726e-852a" name="Rapid Sprint" publicationId="64d6-1cd3-pubN66836" page="136" hidden="false">
-      <description>May sprint at 4M. </description>
-    </rule>
-    <rule id="18c0-c86d-0b2c-23af" name="Reflex Armour" publicationId="64d6-1cd3-pubN66836" page="93" hidden="false">
-      <description>-Troops with Reflex Armour Shield add +1 to their Res value.
--Troops with Reflex Armour and Impact Cloaks add +2 to their Res value, in hand to hand fighting.
--Troops mounted on bikes with Reflex Armour and HL Boosters add +2 to their Res value.
-</description>
-    </rule>
-    <rule id="1863-c041-6dc4-c62d" name="RF D6 Fire Only" publicationId="64d6-1cd3-pubN66836" page="72" hidden="false">
-      <description>Rapid Fire D6 when making a fire action. When shooting with advance action weapon has one shot. If issued in multiples, roll D6 for all weapons in unit.</description>
-    </rule>
-    <rule id="0cb1-ea91-e5bc-4f75" name="RF2" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May fire two shots at rapid fire. Suffers additional -1 ACC at Long or Extreme Ranges.</description>
-    </rule>
-    <rule id="97d4-67cb-2671-ca29" name="RF3" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May fire three shots at rapid fire. Suffers additional -1 ACC at Long or Extreme Ranges.</description>
-    </rule>
-    <rule id="b0cb-c022-0531-4852" name="RF5" publicationId="64d6-1cd3-pubN66836" hidden="false">
-      <description>May fire five shots at rapid fire. Suffers additional -1 ACC at Long or Extreme Ranges.</description>
-    </rule>
-    <rule id="f7af-59ec-acde-2f75" name="Savage Strike" publicationId="64d6-1cd3-pubN66836" page="136" hidden="false">
-      <description>Passes order check to assault on any roll except a 10, regardless of modifiers.</description>
-    </rule>
-    <rule id="28a0-7151-a0c5-9495" name="Scoot" publicationId="64d6-1cd3-pubN66836" page="88" hidden="false">
-      <description>Only affects infantry, mounted, weapon team, beast, and humongous beast, command, and bike mounted units with living crew. Affects scramble proof units. Any affected unit within 3&quot; canno tbe given any order except run or down. Cannot make any reaction apart from go down.</description>
-    </rule>
     <rule id="94f5-4a4c-92ad-94f9" name="Scramble Proof" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
       <description>Not affected by scrambler munitions. Vehicles may be affected by scoot. Subverter matrixes cannot affect model.</description>
     </rule>
-    <rule id="7a3b-74a5-3ced-dd88" name="Scrambler" publicationId="64d6-1cd3-pubN66836" page="88" hidden="false">
-      <description>Enemy units within 3&quot; that are not scramble proof it loses Reflex Armor, Hyperlight Armor, and Phase Armor along with any bonuses. Units in Phase Armor cannot use their armor to go down.
-
-Weapon Drone and vehicles have Res reduced by 2 within 3&quot;. Buddy drones cease to function if the unit is within 3&quot;. Probes can do nothing at all while marker is within 3&quot;. Penalties are not cumulative.</description>
-    </rule>
-    <rule id="3377-9408-33bb-6a02" name="Self Repair" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
-      <description>Give unit rally order. If no pins exist after order, may attempt one repair on  immobilisation or weapon. 1-5 = success, 6-10 failure. Success = that function is working again.</description>
-    </rule>
-    <rule id="00b8-b49c-4c61-2943" name="Shard" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
-      <description>Every individual unit in the shard makes same action from order. Probes always run.
-
-Shard units never take pins. Always assumed to pass order tests. </description>
-    </rule>
-    <rule id="0c20-4983-db8a-0d56" name="Shared SV" publicationId="64d6-1cd3-pubN66836" hidden="false"/>
-    <rule id="b08d-74dd-1a32-8bdc" name="Shield Drone" publicationId="64d6-1cd3-pubN66836" page="114" hidden="false">
-      <description>When unit is hit, shield drones may nullify one hit. Roll D10 on drone chart - 
-
-D10 Roll:
-1: Drone nullifies hit and survives.
-2-9: Drone nullifies hit and is removed.
-10: Drone does not nullify the hit but is not removed.
-
-Shield drones may attempt to intercept lucky hits. Lucky hits can be allocated to them just like other drones - in that case the drone is removed with no roll. </description>
-    </rule>
-    <rule id="5bd0-9ab2-0523-cbc8" name="Slingnet Ammo" publicationId="64d6-1cd3-pubN66836" page="112" hidden="false">
-      <description>Fired direct unless from Micro X Launcher. Targets hit suffer no damage but take +1 additional pin. Cannot affect units that cannot be pinned when hit.</description>
-    </rule>
-    <rule id="7c88-64d4-50ad-2313" name="Slow" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
-      <description>Move at half pace.</description>
-    </rule>
-    <rule id="6f47-5038-573a-b225" name="Sniper" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
-      <description>Deploy anywhere within player&apos;s half. Snipers may not be deployed within 20&quot; of other snipers, enemy may not deploy within 10&quot;. </description>
-    </rule>
-    <rule id="1253-ef5b-67d4-3e18" name="Soma Graft" publicationId="64d6-1cd3-pubN66836" page="121" hidden="false">
-      <description>May activate when a unit takes a Co test. Will past any Co test on any score other than 10. If a 10 is rolled, unit goes out of control and must roll the order die to generate an order. The unit does not have to comply, but if it does an order that is the only one it can do.</description>
-    </rule>
-    <rule id="b996-131f-b84a-4724" name="Special Munition" publicationId="64d6-1cd3-pubN66836" page="87" hidden="false">
-      <description>Stays on the battlefield until it ceases to work p87. Use a marker to locate where shot lands.</description>
-    </rule>
-    <rule id="fdbd-254f-8dd7-b658" name="Spotter Drone" publicationId="64d6-1cd3-pubN66836" page="114" hidden="false">
-      <description>Unit may re-roll one miss each time it shoots as long as drone has LOS to target. Units may fire OH using drone as spotter as long as it has LOS to target. 
-
-Spotter drones may spot through another spotter drone (within 20&quot;) with LOS to the target. Unit does not receive spotter re-roll as their spotter does not have LOS to target.</description>
-    </rule>
-    <rule id="cd8d-624c-ed86-e310" name="Subverter Matrix" publicationId="64d6-1cd3-pubN66836" page="122" hidden="false"/>
     <rule id="d4f5-697e-dbf0-ced2" name="Superior Shard" page="159" hidden="false">
       <description>At the start of the turn you can remove 1 of your opponent&apos;s Order Dice from the bag. This die isn&apos;t used that turn, and is returned to the dice bag at the start of the following turn. This means your opponent will have to fight without one of his dice that turn. Use once and discard. You can only buy ONE Superior Shard regardless of the eize of your army.</description>
-    </rule>
-    <rule id="c526-9fd9-f1c5-6893" name="Synchroniser Drone" publicationId="64d6-1cd3-pubN65565" page="79" hidden="false">
-      <description>If a unit with a synchroniser drone is successfully issued an order, after it has completed all actions in that order it may attempt to synchronise with one other unit within 10&quot;. The unit nominated must take and pass a Command test made in the standard fashion. If successful, it may draw an Order Die and issue the same command as the Synchronising unit, treating the die as if it were drawn randomly for all game effects. If the Synchronising unit also has the Follow ability, the Drone extends the range of Follow to 10&quot; rather than 5&quot;. CANNOT be chained from one unit to another.</description>
-    </rule>
-    <rule id="ab37-33d8-41f3-7532" name="Transport 10" publicationId="64d6-1cd3-pubN66836" page="137" hidden="false">
-      <description>May transport 10 human sized models.</description>
-    </rule>
-    <rule id="99fd-f354-1703-5941" name="Variable Res/Strike" publicationId="64d6-1cd3-pubN66836" page="66" hidden="false">
-      <description>Use to boost Res +2 or give a SV +2 each round of fighting. If used as +2 SV, counts as Grenade. </description>
     </rule>
     <rule id="e167-a8e4-c26a-cafd" name="Weapon Drone" publicationId="64d6-1cd3-pubN66836" page="115" hidden="false">
       <description>Always measure to model, not base. Not allowed to assault. Never take a break test, however auto-break if suffer pins equal to their Co stat. If drone fails a Res test, roll on Weapon Drone Damage Chart.
@@ -5245,7 +4911,6 @@ D10 Result:
     <rule id="75d2-6efa-9640-61df" name="Well Prepared" page="159" hidden="false">
       <description>If you take any single re-roll, you can add plus one to the value tested against. For example instead of testing against a res of 7 you would test against a res of 8. Use once and discard. You can buy as many Well Prepared as you are allowed Auxiliary choices in your Army.</description>
     </rule>
-    <rule id="c49e-33d6-1768-f013" name="Wound" hidden="false"/>
     <rule id="798f-584f-4727-efa8" name="Blast D8" hidden="false">
       <description>Inflicts D8 hits on a successful shooting attack.</description>
     </rule>
@@ -5640,15 +5305,6 @@ D10 Result:
         <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">80</characteristic>
         <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">3</characteristic>
         <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">RF3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2e7c-b5f9-e3e5-9125" name="Plasma Pistol" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
-      <characteristics>
-        <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
-        <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>
-        <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">30</characteristic>
-        <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">2</characteristic>
-        <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">-</characteristic>
       </characteristics>
     </profile>
     <profile id="04ae-2947-a8ea-2c08" name="Probe" hidden="false" typeId="1650-77b3-10d1-6406" typeName="">

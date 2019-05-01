@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="3913-de3b-00f5-81e4" name="Virai Dronescourge" revision="5" battleScribeVersion="2.02" authorName="Tim Oliver" authorContact="t.oliver@windowslive.com" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="3913-de3b-pubN65594" name="DS"/>
-    <publication id="3913-de3b-pubN69333" name="Ds"/>
+    <publication id="3913-de3b-pubN65594" name="Dronescourge Returns"/>
+    <publication id="3913-de3b-pubN69333" name="Dronescourge Returns"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="87a1-2501-c9a5-28cc" name="Secondary Instance Command" publicationId="3913-de3b-pubN65594" page="88" hidden="false" collective="false" type="unit">

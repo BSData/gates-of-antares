@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="c339-677a-60db-4060" name="Beyond the Gates of Antares" revision="21" battleScribeVersion="2.02" authorName="Dom Hine" authorContact="boltactionAB@gmail.com" authorUrl="https://www.facebook.com/groups/547335118761237/?hc_location=ufi" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="c339-677a-pubN65850" name="Rulebook &amp; pdf v2"/>
-    <publication id="c339-677a-pubN70241" name="BX"/>
-    <publication id="c339-677a-pubN73307" name="CS &amp; pdf v2"/>
-    <publication id="c339-677a-pubN73895" name="pdf v2"/>
-    <publication id="c339-677a-pubN74522" name="DR"/>
+    <publication id="c339-677a-pubN65850" name="Army List PDF"/>
+    <publication id="c339-677a-pubN70241" name="Battle for Xilos"/>
+    <publication id="c339-677a-pubN73307" name="Army List PDF"/>
+    <publication id="c339-677a-pubN73895" name="Army List PDF"/>
+    <publication id="c339-677a-pubN74522" name="Dronescourge Returns"/>
     <publication id="c339-677a-pubN76607" name="Rulebook"/>
-    <publication id="c339-677a-pubN78024" name="CS"/>
+    <publication id="c339-677a-pubN78024" name="Chryseis Shard"/>
     <publication id="c339-677a-pubN78347" name="Download"/>
-    <publication id="c339-677a-pubN84075" name="BtGoA"/>
-    <publication id="c339-677a-pubN85577" name="GOA"/>
+    <publication id="c339-677a-pubN84075" name="Rulebook"/>
+    <publication id="c339-677a-pubN85577" name="Rulebook"/>
     <publication id="c339-677a-pubN86934" name="Rulebook, CS"/>
-    <publication id="c339-677a-pubN87238" name="CS &amp; pdf force list v2"/>
-    <publication id="c339-677a-pubN88653" name="Rulebook &amp; pdf force list v2"/>
-    <publication id="c339-677a-pubN97171" name="v2 pdf rules amendment"/>
-    <publication id="c339-677a-pubN108522" name="DS"/>
+    <publication id="c339-677a-pubN87238" name="Army List PDF"/>
+    <publication id="c339-677a-pubN88653" name="Army List PDF"/>
+    <publication id="c339-677a-pubN97171" name="Army List PDF"/>
+    <publication id="c339-677a-pubN108522" name="Dronescourge Returns"/>
     <publication id="c339-677a-pubN109254" name="ADTL(pdf)"/>
-    <publication id="c339-677a-pubN111317" name="v2 pdf"/>
-    <publication id="c339-677a-pubN111848" name="BX, CS"/>
+    <publication id="c339-677a-pubN111317" name="Army List PDF"/>
+    <publication id="c339-677a-pubN111848" name="Chryseis Shard"/>
+    <publication id="dd50-7358-c6db-e22a" name="Battle for Xilos"/>
+    <publication id="d375-02e1-9e2d-200e" name="Chryseis Shard"/>
+    <publication id="725a-c43a-6b56-7af0" name="Dronescourge Returns"/>
+    <publication id="f35d-2f51-66f2-ac58" name="Army List PDF"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
@@ -2537,7 +2541,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7184-0f74-b738-fc54" name="Compressor Torus" publicationId="c339-677a-pubN78024" page="62" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7184-0f74-b738-fc54" name="Compressor Torus" publicationId="d375-02e1-9e2d-200e" page="62" hidden="false" collective="false" type="upgrade">
       <selectionEntries>
         <selectionEntry id="d861-fcea-07e5-f154" name="Ranged" hidden="false" collective="false" type="upgrade">
           <constraints>
@@ -2972,7 +2976,7 @@
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87b1-a87b-594d-257b" name="Twin Plasma Carbines" publicationId="c339-677a-pubN76607" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="87b1-a87b-594d-257b" name="Twin Plasma Carbines" publicationId="c339-677a-pubN76607" page="70" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="ed34-6e36-a7c5-5822" name="Plasma Carbine - Scatter" publicationId="c339-677a-pubN76607" page="70" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
           <characteristics>
@@ -3085,7 +3089,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="337d-13d3-81bd-c8c9" name="Interceptor Bike" publicationId="c339-677a-pubN76607" page="100" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="337d-13d3-81bd-c8c9" name="Interceptor Bike" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="1b43-8f77-3ea1-a204" name="Ranged Weapon" hidden="false" collective="false">
           <constraints>
@@ -3647,7 +3651,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4696-72ef-e971-f0b3" name="All" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4696-72ef-e971-f0b3" name="All" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6127-1d92-7372-f755" type="max"/>
       </constraints>
@@ -3664,7 +3668,7 @@
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21b6-41b2-7add-6f1d" name="Arc" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="21b6-41b2-7add-6f1d" name="Arc" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a50-7482-d0f3-d099" type="max"/>
       </constraints>
@@ -3676,7 +3680,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f833-725e-65cf-ee13" name="Blur" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f833-725e-65cf-ee13" name="Blur" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91c4-da8f-8729-b0ee" type="max"/>
       </constraints>
@@ -3688,7 +3692,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b009-d7e0-e177-e9f4" name="Grip" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b009-d7e0-e177-e9f4" name="Grip" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de6c-2733-0d2e-02b0" type="max"/>
       </constraints>
@@ -3700,7 +3704,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba2f-b979-7229-0cb2" name="Net" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ba2f-b979-7229-0cb2" name="Net" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3911-bb00-11e5-0726" type="max"/>
       </constraints>
@@ -3712,7 +3716,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21a9-1a1a-7793-3301" name="Scoot" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="21a9-1a1a-7793-3301" name="Scoot" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="152a-3201-5aa9-6571" type="max"/>
       </constraints>
@@ -3724,7 +3728,7 @@
         <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d46-b571-8bcc-1a71" name="Scrambler" publicationId="c339-677a-pubN84075" page="87" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0d46-b571-8bcc-1a71" name="Scrambler" publicationId="c339-677a-pubN76607" page="87" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b4f1-7ade-b05d-07b1" type="max"/>
       </constraints>
@@ -3762,7 +3766,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b29-0c16-4aa3-aca3" name="Synchronizer Drone" publicationId="c339-677a-pubN70241" page="79" hidden="false" collective="false" type="model">
+    <selectionEntry id="3b29-0c16-4aa3-aca3" name="Synchronizer Drone" publicationId="dd50-7358-c6db-e22a" page="79" hidden="false" collective="false" type="model">
       <infoLinks>
         <infoLink id="2a46-4cd2-2810-99d2" name="Buddy Drone" hidden="false" targetId="097c-000b-3674-ebba" type="rule"/>
         <infoLink id="fdd8-53c3-7689-fea3" name="Synchroniser Drone" hidden="false" targetId="8bba-bf54-4439-2f32" type="rule"/>
@@ -3937,7 +3941,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="91a4-6868-b8a8-4051" name="Hazard Armor" publicationId="c339-677a-pubN78024" page="67" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="91a4-6868-b8a8-4051" name="Hazard Armor" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83c2-5b86-3558-8d1b" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="36ec-17ff-51ed-b4bb" type="max"/>
@@ -3949,7 +3953,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f4b-988a-c3c2-8819" name="Plasma Carbine (Hazard)" publicationId="c339-677a-pubN86934" page="70, 67 CS" hidden="false" collective="true" type="model">
+    <selectionEntry id="3f4b-988a-c3c2-8819" name="Plasma Carbine (Hazard)" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false" collective="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="451a-0e4a-4831-4c59" type="max"/>
       </constraints>
@@ -3984,7 +3988,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d31a-9eb4-ccc8-59d6" name="Intruder Skimmer" publicationId="c339-677a-pubN76607" page="9" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="d31a-9eb4-ccc8-59d6" name="Intruder Skimmer" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9270-3f68-a4eb-5c93" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cdd-bee0-021c-a455" type="max"/>
@@ -4004,7 +4008,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2205-7ba4-9eda-b3a8" name="Hazard Command Squad" publicationId="c339-677a-pubN87238" page="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2205-7ba4-9eda-b3a8" name="Hazard Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="4912-d86c-957c-55f5" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
         <infoLink id="04c5-7967-b42f-5a37" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
@@ -4124,7 +4128,7 @@
         <cost name="pts" typeId="points" value="74.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28be-c479-2900-63ff" name="Hazard Squad" publicationId="c339-677a-pubN87238" page="" hidden="false" collective="false" type="unit">
+    <selectionEntry id="28be-c479-2900-63ff" name="Hazard Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="9f43-ce0b-499b-0365" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
@@ -4231,7 +4235,7 @@
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1fea-1f1e-73d8-9a98" name="Targeter Probe Shard" publicationId="c339-677a-pubN88653" page="178" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1fea-1f1e-73d8-9a98" name="Targeter Probe Shard" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="efc5-0a60-b00d-e172" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
       </infoLinks>
@@ -4269,7 +4273,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c5c-da8a-4405-a1ce" name="Scout Probe Shard" publicationId="c339-677a-pubN88653" page="178" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0c5c-da8a-4405-a1ce" name="Scout Probe Shard" publicationId="f35d-2f51-66f2-ac58" page="178" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="96b9-53fe-89c7-29a2" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
       </infoLinks>
@@ -4307,7 +4311,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a7a-ffee-ac9b-986f" name="AI Medic Team" publicationId="c339-677a-pubN88653" page="178" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9a7a-ffee-ac9b-986f" name="AI Medic Team" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="3c9b-4182-df4d-bcf2" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
       </categoryLinks>
@@ -4388,7 +4392,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7bac-88c5-659f-8b76" name="Defiant Transport Skimmer" publicationId="c339-677a-pubN88653" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7bac-88c5-659f-8b76" name="Defiant Transport Skimmer" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="7884-cf21-e6bf-7e32" name="AI Defiant Transport Skimmer" page="" hidden="false" typeId="5f97-84dc-4c56-bbe5" typeName="Transport">
           <modifiers>
@@ -4505,7 +4509,7 @@
         <cost name="pts" typeId="points" value="106.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ee7-4a59-69c0-3fa3" name="Avenger Attack Skimmer" publicationId="c339-677a-pubN88653" page="175" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4ee7-4a59-69c0-3fa3" name="Avenger Attack Skimmer" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a43d-745f-eaeb-a643" name="AI Avenger Skimmer" publicationId="c339-677a-pubN88653" page="175" hidden="false" typeId="1650-77b3-10d1-6406" typeName="">
           <modifiers>
@@ -4585,7 +4589,7 @@
         <cost name="pts" typeId="points" value="128.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e5d-41c7-4061-6a70" name="AI Support Team" publicationId="c339-677a-pubN88653" page="175" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0e5d-41c7-4061-6a70" name="AI Support Team" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="81b9-59e2-9b99-da0c" name="Weapon Team" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
       </infoLinks>
@@ -4689,7 +4693,7 @@
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c51-2b67-3982-5c81" name="AI Specialist Support Team" publicationId="c339-677a-pubN88653" page="175" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0c51-2b67-3982-5c81" name="AI Specialist Support Team" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="6f5c-fb0f-47a8-5521" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
         <infoLink id="ff1a-c163-000a-c289" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
@@ -4792,7 +4796,7 @@
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99d2-b3d9-d1d0-fe6e" name="AI Intruder Skimmer Squad" publicationId="c339-677a-pubN88653" page="174" hidden="false" collective="false" type="unit">
+    <selectionEntry id="99d2-b3d9-d1d0-fe6e" name="AI Intruder Skimmer Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="d5e0-c569-66ec-1a12" value="-1">
           <repeats>
@@ -4908,7 +4912,7 @@
         <cost name="pts" typeId="points" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="20d0-b1d4-4916-8e85" name="AI Intruder Skimmer Command Squad" publicationId="c339-677a-pubN88653" page="174" hidden="false" collective="false" type="unit">
+    <selectionEntry id="20d0-b1d4-4916-8e85" name="AI Intruder Skimmer Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="2991-7b5b-3507-b594" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
         <infoLink id="677d-a272-64c3-07d3" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
@@ -5026,7 +5030,7 @@
         <cost name="pts" typeId="points" value="147.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b1a-5dc0-3317-de96" name="AI Heavy Support Team" publicationId="c339-677a-pubN88653" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2b1a-5dc0-3317-de96" name="AI Heavy Support Team" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="a37e-b2ab-aa64-cb9d" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
         <infoLink id="fcfb-38cc-0efe-771e" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
@@ -5145,7 +5149,7 @@
         <cost name="pts" typeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e09-b21a-554e-9f8d" name="Liberator Combat Skimmer - X01 Hi-Mag" publicationId="c339-677a-pubN88653" page="177" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5e09-b21a-554e-9f8d" name="Liberator Combat Skimmer - X01 Hi-Mag" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="dbc5-74af-0c78-8a6e" name="Liberator Combat Skimmer - X01 Hi-Mag" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -5243,7 +5247,7 @@
         <cost name="pts" typeId="points" value="194.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd95-ec93-fc21-a6bb" name="Liberator Combat Skimmer - X06 Plasma Destroyer" publicationId="c339-677a-pubN88653" page="177" hidden="false" collective="false" type="unit">
+    <selectionEntry id="bd95-ec93-fc21-a6bb" name="Liberator Combat Skimmer - X06 Plasma Destroyer" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="564c-5510-01a0-4949" name="Liberator Combat Skimmer - X06 Plasma Destroyer" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -5336,7 +5340,7 @@
         <cost name="pts" typeId="points" value="234.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34e3-44ad-f58c-4ed4" name="Liberator Combat Skimmer - X10 Special" publicationId="c339-677a-pubN88653" page="177" hidden="false" collective="false" type="unit">
+    <selectionEntry id="34e3-44ad-f58c-4ed4" name="Liberator Combat Skimmer - X10 Special" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="90ec-81ea-8d52-f617" name="Liberator Combat Skimmer - X10 Special" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -5426,7 +5430,7 @@
         <cost name="pts" typeId="points" value="224.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="89ff-bd2a-e85a-e682" name="Homer Beacon" publicationId="c339-677a-pubN78024" page="90" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="89ff-bd2a-e85a-e682" name="Homer Beacon" publicationId="d375-02e1-9e2d-200e" page="90" hidden="false" collective="false" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -5553,7 +5557,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a5bb-0a8a-361a-a052" name="Concord Pattern Iso-Drone" publicationId="c339-677a-pubN87238" page="68" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a5bb-0a8a-361a-a052" name="Concord Pattern Iso-Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="4b2d-2799-654d-96f2" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
         <infoLink id="0081-3dc9-325d-4163" name="Iso-Shield" hidden="false" targetId="d584-98e1-53cc-4397" type="rule"/>
@@ -5628,7 +5632,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e36b-5fdf-7eed-4bd1" name="Medi-Probe Shard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="e36b-5fdf-7eed-4bd1" name="Medi-Probe Shard" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="9d83-790e-1c36-ae9c" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
       </infoLinks>
@@ -5666,7 +5670,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ef5-0ee9-1d9c-5f7a" name="Concord C3D1 Light Support Drone" publicationId="c339-677a-pubN65850" page="163" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0ef5-0ee9-1d9c-5f7a" name="Concord C3D1 Light Support Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="5568-ea16-2e0d-c58d" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule"/>
       </infoLinks>
@@ -5739,7 +5743,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7ca-3a4b-4345-a0c6" name="Concord C3M407 (CS) Combat Drone" publicationId="c339-677a-pubN73895" page="" hidden="false" collective="false" type="model">
+    <selectionEntry id="e7ca-3a4b-4345-a0c6" name="Concord C3M407 (CS) Combat Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <infoLinks>
         <infoLink id="3e76-d3e3-1a1c-988c" name="Vehicle Unit" hidden="false" targetId="29d8-590a-bc46-d27a" type="rule"/>
         <infoLink id="4c2e-6c6b-fd8b-832c" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
@@ -5879,7 +5883,7 @@
         <cost name="pts" typeId="points" value="230.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a496-fdcd-a5f6-d085" name="Concord C3M4 Combat Drone" publicationId="c339-677a-pubN65850" page="164" hidden="false" collective="false" type="model">
+    <selectionEntry id="a496-fdcd-a5f6-d085" name="Concord C3M4 Combat Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <infoLinks>
         <infoLink id="d89b-1088-1bf1-2f9d" name="Vehicle Unit" hidden="false" targetId="29d8-590a-bc46-d27a" type="rule"/>
         <infoLink id="005b-fe51-0033-fd1c" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
@@ -5969,7 +5973,7 @@
         <cost name="pts" typeId="points" value="239.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af98-17af-2e7b-547a" name="Concord C3D2 Medium Support Drone" publicationId="c339-677a-pubN65850" page="163" hidden="false" collective="false" type="unit">
+    <selectionEntry id="af98-17af-2e7b-547a" name="Concord C3D2 Medium Support Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="0e5b-1cab-1bcd-9ee5" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule"/>
       </infoLinks>
@@ -6066,7 +6070,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90f1-9b81-29a0-1006" name="Concord C3D1/GP Light General Purpose Drone" publicationId="c339-677a-pubN65850" page="167" hidden="false" collective="false" type="model">
+    <selectionEntry id="90f1-9b81-29a0-1006" name="Concord C3D1/GP Light General Purpose Drone" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="899a-09ac-2e75-6425" name="C3D1/GP Light General Purpose Drone" publicationId="c339-677a-pubN65850" page="167" hidden="false" typeId="1650-77b3-10d1-6406" typeName="">
           <characteristics>
@@ -6133,7 +6137,7 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8486-8476-56fa-18d7" name="NuHu Mandarin" publicationId="c339-677a-pubN65850" page="161" hidden="false" collective="false" type="model">
+    <selectionEntry id="8486-8476-56fa-18d7" name="NuHu Mandarin" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f041-e3a8-108c-2784" name="NuHu Mandarin" publicationId="c339-677a-pubN65850" page="161" hidden="false" typeId="1650-77b3-10d1-6406" typeName="">
           <characteristics>
@@ -6209,7 +6213,7 @@
         <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6455-e295-81f5-bbf7" name="C3 Interceptor Command Squad" publicationId="c339-677a-pubN65850" page="162" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6455-e295-81f5-bbf7" name="C3 Interceptor Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="e45a-86d2-5b16-7404" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="f3e2-fc58-6c87-80ef" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
@@ -6332,7 +6336,7 @@
         <cost name="pts" typeId="points" value="168.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed78-9c54-6da3-0914" name="HL Armour Boost" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="ed78-9c54-6da3-0914" name="HL Armour Boost" publicationId="c339-677a-pubN76607" page="121" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b9e6-14e1-f275-b72f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5d42-822d-7c2e-c5f7" type="max"/>
@@ -6341,7 +6345,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7cc-5675-b0e5-e23f" name="Interceptor Bike" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="f7cc-5675-b0e5-e23f" name="Interceptor Bike" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfb2-ee83-0600-d335" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d31-13d7-2385-2b4e" type="max"/>
@@ -6350,7 +6354,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f300-e939-bad0-0f60" name="C3 Interceptor Squad" publicationId="c339-677a-pubN65850" page="162" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f300-e939-bad0-0f60" name="C3 Interceptor Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="b21f-5e52-4f0c-2f80" value="-1">
           <conditions>
@@ -6481,7 +6485,7 @@
         <cost name="pts" typeId="points" value="136.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f98c-ad14-c9df-b46d" name="Concord Drone Commander" publicationId="c339-677a-pubN73307" page="68" hidden="false" collective="false" type="model">
+    <selectionEntry id="f98c-ad14-c9df-b46d" name="Concord Drone Commander" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <infoLinks>
         <infoLink id="9288-f9d7-9446-2d96" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="ee34-6da2-1fcd-2a4d" name="Weapon Drone Command" hidden="false" targetId="d6f2-8874-5225-1b13" type="rule"/>
@@ -6610,7 +6614,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b8b-10f2-fca8-036f" name="C3 Strike Command Squad" publicationId="c339-677a-pubN65850" page="160" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3b8b-10f2-fca8-036f" name="C3 Strike Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="2e7e-393e-f274-5050" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="3c75-6627-7cd9-ec94" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -6755,7 +6759,7 @@
         <cost name="pts" typeId="points" value="66.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3501-d057-3845-b85d" name="C3 Drop Command Squad" publicationId="c339-677a-pubN65850" page="161" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3501-d057-3845-b85d" name="C3 Drop Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="0b0d-a653-0e77-f305" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="bf7a-be17-842f-70d8" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -6914,7 +6918,7 @@
         <cost name="pts" typeId="points" value="87.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e94-c221-3417-75c9" name="C3 Drop Squad" publicationId="c339-677a-pubN65850" page="162" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1e94-c221-3417-75c9" name="C3 Drop Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <modifiers>
         <modifier type="set" field="16a9-17b0-6db6-6f50" value="-1">
           <conditions>
@@ -7088,7 +7092,7 @@
         <cost name="pts" typeId="points" value="42.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57c6-ba82-53f7-68af" name="C3 Strike Squad" publicationId="c339-677a-pubN65850" page="161" hidden="false" collective="false" type="unit">
+    <selectionEntry id="57c6-ba82-53f7-68af" name="C3 Strike Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="4330-af70-dd6f-4584" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
@@ -7289,7 +7293,7 @@
         <cost name="pts" typeId="points" value="32.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23ef-7122-b64d-e36a" name="Concord T7 Transporter Drone (Support)" publicationId="c339-677a-pubN65850" page="164" hidden="false" collective="false" type="model">
+    <selectionEntry id="23ef-7122-b64d-e36a" name="Concord T7 Transporter Drone (Support)" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <modifiers>
         <modifier type="increment" field="5d5b-8bc7-cdf9-d259" value="1">
           <repeats>
@@ -7429,7 +7433,7 @@
         <cost name="pts" typeId="points" value="96.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="809c-5e7f-8e29-4d0d" name="Concord T7 Transporter Drone (Strategic)" publicationId="c339-677a-pubN65850" page="164" hidden="false" collective="false" type="model">
+    <selectionEntry id="809c-5e7f-8e29-4d0d" name="Concord T7 Transporter Drone (Strategic)" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d77-5f68-4e2f-e596" type="max"/>
       </constraints>
@@ -7559,7 +7563,7 @@
         <cost name="pts" typeId="points" value="96.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d65c-bae7-7e2d-40ac" name="Fusion Cutter" publicationId="c339-677a-pubN108522" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d65c-bae7-7e2d-40ac" name="Fusion Cutter" publicationId="725a-c43a-6b56-7af0" page="75" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0f6b-351c-26ac-b462" name="Fusion Cutter" publicationId="c339-677a-pubN108522" page="75" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7578,7 +7582,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc84-bad0-d375-ad36" name="Fusion Flamer" publicationId="c339-677a-pubN108522" page="75" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="dc84-bad0-d375-ad36" name="Fusion Flamer" publicationId="725a-c43a-6b56-7af0" page="75" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="80d3-33a8-2156-3af3" name="Fusion Flamer" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7597,7 +7601,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5960-f232-128a-a34e" name="Ripclaws" publicationId="c339-677a-pubN108522" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5960-f232-128a-a34e" name="Ripclaws" publicationId="725a-c43a-6b56-7af0" page="76" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3e48-b868-9278-3272" name="Ripclaws" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7623,7 +7627,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b23d-28be-ae20-dbb3" name="Tool Appendages" publicationId="c339-677a-pubN108522" page="76" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b23d-28be-ae20-dbb3" name="Tool Appendages" publicationId="725a-c43a-6b56-7af0" page="76" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0106-aa84-4c6a-6879" name="Tool Appendages" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7642,7 +7646,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bce-cf34-41a6-5828" name="Fractal Charges" publicationId="c339-677a-pubN108522" page="77" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9bce-cf34-41a6-5828" name="Fractal Charges" publicationId="725a-c43a-6b56-7af0" page="77" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="13a0-4f35-d3df-a8de" name="Fractal Charges" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7668,7 +7672,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de65-a8c0-6b56-bfbb" name="Architector" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="de65-a8c0-6b56-bfbb" name="Architector" publicationId="725a-c43a-6b56-7af0" hidden="false" collective="false" type="upgrade">
       <rules>
         <rule id="74a6-cc11-e73b-c02a" name="Architector" publicationId="c339-677a-pubN108522" page="83" hidden="false">
           <description>• Virai Architector damage chart table
@@ -7691,7 +7695,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c72b-a1e2-ea9a-3b3f" name="Fractal DBC/Demolisher" publicationId="c339-677a-pubN108522" page="74" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c72b-a1e2-ea9a-3b3f" name="Fractal DBC/Demolisher" publicationId="725a-c43a-6b56-7af0" page="74" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="8e64-3f7d-4d1b-a904" name="Fractal DBC/Demolisher" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
@@ -7792,7 +7796,7 @@
         <cost name="pts" typeId="points" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af6e-5445-df1f-6ad5" name="Iso-Drone" hidden="false" collective="false" type="unit">
+    <selectionEntry id="af6e-5445-df1f-6ad5" name="Iso-Drone" publicationId="d375-02e1-9e2d-200e" page="68" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="0ce7-50e7-2093-937e" name="Iso-Drone" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
           <characteristics>
@@ -8097,7 +8101,7 @@
       <description>• Can Point Blank shoot
 • Confer +1 Str in H2H</description>
     </rule>
-    <rule id="3c69-0775-51bd-bf1c" name="Hazard Armour" publicationId="c339-677a-pubN78024" page="67" hidden="false">
+    <rule id="3c69-0775-51bd-bf1c" name="Hazard Armour" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false">
       <description>• Affected by Scrambler
 • Cannot Sprint
 • If hit by SV5+ unit takes extra pin
@@ -8137,7 +8141,7 @@
     <rule id="7ffb-4ae6-61b1-9bac" name="HL Booster" publicationId="c339-677a-pubN76607" page="93, 111, 121" hidden="false">
       <description>• +1 Res to exisitng boosts</description>
     </rule>
-    <rule id="6096-a77e-b179-d6e2" name="HL Booster Armour Upgrade" publicationId="c339-677a-pubN111317" page="" hidden="false">
+    <rule id="6096-a77e-b179-d6e2" name="HL Booster Armour Upgrade" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false">
       <description>• +1 Res</description>
     </rule>
     <rule id="6add-f3a8-9fbf-8031" name="HL Booster Drone" publicationId="c339-677a-pubN76607" page="111" hidden="false">
@@ -8189,22 +8193,22 @@
     <rule id="8cb3-4c3e-dc5f-b952" name="Limited Choice" publicationId="c339-677a-pubN76607" hidden="false">
       <description>May only be taken as 1 in 4 choices of entire force.</description>
     </rule>
-    <rule id="5e14-02ad-7216-29b2" name="Man of Destiny! (1)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="5e14-02ad-7216-29b2" name="Man of Destiny! (1)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD2 or MOD3)</description>
     </rule>
-    <rule id="1033-9d2c-bbad-b22b" name="Man of Destiny! (2)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="1033-9d2c-bbad-b22b" name="Man of Destiny! (2)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD3 or MOD4)</description>
     </rule>
-    <rule id="9184-7b76-3961-e6cf" name="Man of Destiny! (3)" publicationId="c339-677a-pubN70241" page="53" hidden="false">
+    <rule id="9184-7b76-3961-e6cf" name="Man of Destiny! (3)" publicationId="dd50-7358-c6db-e22a" page="53" hidden="false">
       <description>• Only used once per game
 • Gives unit an extra Order die (i.e. becomes MOD4 or MOD5)</description>
     </rule>
     <rule id="8622-ce63-c303-a2ed" name="Massive Damage" publicationId="c339-677a-pubN76607" page="75" hidden="false">
       <description>• Target rolls for Damage on Massive Damage table (p37)</description>
     </rule>
-    <rule id="0951-997c-361a-9f84" name="Mastermind" publicationId="c339-677a-pubN70241" page="108" hidden="false">
+    <rule id="0951-997c-361a-9f84" name="Mastermind" publicationId="dd50-7358-c6db-e22a" page="108" hidden="false">
       <description>• If given successful Rally order then in addition to removing D6 pins then every Ghar unit in 10&quot; removes 1 pin
 • If there are enemy within 10&quot; then Karg can only Run but not to assault</description>
     </rule>
@@ -8266,7 +8270,7 @@
     <rule id="02a5-5867-b0d9-bb0a" name="Nano Drone Boost" publicationId="c339-677a-pubN76607" page="67" hidden="false">
       <description>• May use enhanced stats if unit has Nano Drone</description>
     </rule>
-    <rule id="1b2f-b87d-729f-2ea4" name="Nano Probe Net" publicationId="c339-677a-pubN111848" page="117 BX, p73 CS" hidden="false">
+    <rule id="1b2f-b87d-729f-2ea4" name="Nano Probe Net" publicationId="d375-02e1-9e2d-200e" page="73" hidden="false">
       <description>• Must maintain formation within 5&quot;
 • Must have at least two functioning Probes to maintain the Net
 • If the Net is functioning then command range is extended 10&quot; from any probe in the Net</description>
@@ -8388,7 +8392,7 @@
     <rule id="537e-7615-a0a1-4f5f" name="Rapid Sprint" publicationId="c339-677a-pubN76607" page="136" hidden="false">
       <description>• Sprint at 4M</description>
     </rule>
-    <rule id="5f8a-3172-909d-a27e" name="Rebels" publicationId="c339-677a-pubN70241" page="84" hidden="false">
+    <rule id="5f8a-3172-909d-a27e" name="Rebels" publicationId="dd50-7358-c6db-e22a" page="84" hidden="false">
       <description>• If a friendly unit in 5&quot; has Rebel then may ignore one pin for all purposes
 • Effect is not accumulative</description>
     </rule>
@@ -8412,7 +8416,7 @@
       <description>• Can either fire single shot or 5 shots
 • -1 Acc if Rapid Fire</description>
     </rule>
-    <rule id="09f7-1ca4-b8c3-30a5" name="Ruthless" publicationId="c339-677a-pubN70241" page="108" hidden="false">
+    <rule id="09f7-1ca4-b8c3-30a5" name="Ruthless" publicationId="dd50-7358-c6db-e22a" page="108" hidden="false">
       <description>• If use Command rule to boost Ghar unit then add additional +1</description>
     </rule>
     <rule id="8844-c265-3bcf-2959" name="Savage Strike" publicationId="c339-677a-pubN76607" page="136, 137" hidden="false">
@@ -8437,7 +8441,7 @@
 • May attempt repair immobilisation or one malfunctioning weapon
 • Roll D10, successful on 6+</description>
     </rule>
-    <rule id="a39d-a506-6033-a3df" name="Sensor Module" publicationId="c339-677a-pubN111317" page="" hidden="false">
+    <rule id="a39d-a506-6033-a3df" name="Sensor Module" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false">
       <description>• Ef: 30&quot;, Lo: 50&quot;, Ex: 100&quot;, SV: -, -, Light Support
 • Can act as spotter drone for the equipped unit and for friendly units in 10&quot;
 • Hits from Sensor Module do not give pins
@@ -8449,7 +8453,7 @@
 • Sharded units never take pins, all deploy at same time</description>
     </rule>
     <rule id="4d11-0423-9b5b-8d3a" name="Shared SV" publicationId="c339-677a-pubN76607" hidden="false"/>
-    <rule id="8330-ddbe-10a8-d9ae" name="Shock Wave" publicationId="c339-677a-pubN78024" page="62" hidden="false">
+    <rule id="8330-ddbe-10a8-d9ae" name="Shock Wave" publicationId="d375-02e1-9e2d-200e" page="62" hidden="false">
       <description>• SV and attacks depend on range</description>
     </rule>
     <rule id="90a9-5b29-2686-846e" name="Shooting Mode" publicationId="c339-677a-pubN76607" page="70, 71, 73" hidden="false">
@@ -8495,7 +8499,7 @@
 • If a probe is targeted it is destroyed
 • At the end of the turn both players roll D10 for the removed die, highest score wins.  If owning player wins then return dice to bag, if loses then dice remains contested for the next turn</description>
     </rule>
-    <rule id="8bba-bf54-4439-2f32" name="Synchroniser Drone" publicationId="c339-677a-pubN70241" page="79" hidden="false">
+    <rule id="8bba-bf54-4439-2f32" name="Synchroniser Drone" publicationId="dd50-7358-c6db-e22a" page="79" hidden="false">
       <description>• Used if unit given an order (and passes order test if required) and has a friendly unit in 10&quot;
 • If unit passes a Command test then place an order dice and allocate it to second unit 
 • Second unit still requires an Order test if neccessary
@@ -8538,10 +8542,10 @@
     <rule id="6ea4-40e6-718c-0d2f" name="Wound 3" publicationId="c339-677a-pubN76607" page="237" hidden="false">
       <description>• When fails first Res test becomes wounded, this can happen thrice, if fails further Res test then removed as casualty</description>
     </rule>
-    <rule id="d584-98e1-53cc-4397" name="Iso-Shield" publicationId="c339-677a-pubN78024" page="68" hidden="false">
+    <rule id="d584-98e1-53cc-4397" name="Iso-Shield" publicationId="d375-02e1-9e2d-200e" page="68" hidden="false">
       <description>• Shield protects Drone and units within 5&quot; from Scramble and Hazardous Environments</description>
     </rule>
-    <rule id="64fc-4815-0b06-8b5a" name="Hazard Armour" publicationId="c339-677a-pubN78024" page="67" hidden="false">
+    <rule id="64fc-4815-0b06-8b5a" name="Hazard Armour" publicationId="d375-02e1-9e2d-200e" page="67" hidden="false">
       <description>• Affected by Scrambler
 • Cannot Sprint
 • If hit by SV5+ unit takes extra pin
@@ -8554,20 +8558,20 @@
       <description>• Can either fire single shot or 4 shots
 • -1 Acc if Rapid Fire</description>
     </rule>
-    <rule id="9dbb-d186-34b5-197e" name="Reprogram" publicationId="c339-677a-pubN74522" page="86" hidden="false">
+    <rule id="9dbb-d186-34b5-197e" name="Reprogram" publicationId="725a-c43a-6b56-7af0" page="86" hidden="false">
       <description>• Can use Overclock or Reset on units within command range
     • Overclock - Forgo Architects orderto return a units dice to the bag
     • Reset - Forgo Architects order to rally one or more other units</description>
     </rule>
-    <rule id="cc70-1124-5734-ca2d" name="Repair Swarm" publicationId="c339-677a-pubN74522" page="80" hidden="false">
+    <rule id="cc70-1124-5734-ca2d" name="Repair Swarm" publicationId="725a-c43a-6b56-7af0" page="80" hidden="false">
       <description>• Res re-roll or repair if Virai unit within 10&quot;
     • Res re-roll - As per leader special rule
     • Repair - As per self-repair special rule</description>
     </rule>
-    <rule id="4f5e-e8cd-28b4-9365" name="Breaching" publicationId="c339-677a-pubN108522" page="72-73" hidden="false">
+    <rule id="4f5e-e8cd-28b4-9365" name="Breaching" publicationId="725a-c43a-6b56-7af0" page="72-73" hidden="false">
       <description>• The Dronescourge Returns pg 72-73</description>
     </rule>
-    <rule id="41a7-938e-3b77-fa28" name="Architector" publicationId="c339-677a-pubN108522" page="83" hidden="false">
+    <rule id="41a7-938e-3b77-fa28" name="Architector" publicationId="725a-c43a-6b56-7af0" page="83" hidden="false">
       <description>When a failed re-roll is made for an Architector, roll on the damage table
 
 D10    Effect
@@ -8585,14 +8589,14 @@ Functional Degradation: Owning player choose one of Repair Swarm destroyed, Immo
 
 Systems Overload: Take the closest Virai unit without an order dice excluding probes and roll for their order. If none, nearest Virai unit goes Down</description>
     </rule>
-    <rule id="8a4f-1dc2-353a-d242" name="Breaching Kit" publicationId="c339-677a-pubN108522" page="80" hidden="false">
+    <rule id="8a4f-1dc2-353a-d242" name="Breaching Kit" publicationId="725a-c43a-6b56-7af0" page="80" hidden="false">
       <description>• +1 SV to total SV when placing explosives
 • +1 to breaching or destruction tests
 • +1 SV within 5&quot; to any unit shooting at a building</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="af66-926c-667f-6fb2" name="Plasma Pistol" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
+    <profile id="af66-926c-667f-6fb2" name="Plasma Pistol" publicationId="c339-677a-pubN76607" page="68" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="">
       <characteristics>
         <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10</characteristic>
         <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">20</characteristic>

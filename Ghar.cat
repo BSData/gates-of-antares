@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="17" battleScribeVersion="2.02" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="0f2e-f338-pubN66739" name="Beyond the Gates of Antares"/>
-    <publication id="0f2e-f338-pubN72772" name="Main Rulebook"/>
+    <publication id="0f2e-f338-pubN66739" name="Rulebook"/>
+    <publication id="0f2e-f338-pubN72772" name="Rulebook"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="3d57-162c-00ab-4c84" name="Fartok, Outcast High Commander" hidden="false" collective="false" type="unit">
