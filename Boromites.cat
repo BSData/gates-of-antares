@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18ef-359c-e44c-e44a" name="Boromites" revision="18" battleScribeVersion="2.02" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18ef-359c-e44c-e44a" name="Boromites" revision="19" battleScribeVersion="2.02" authorName="zitheran" authorContact="@zitheran" authorUrl="http://zitheran.com/GoA_BSD" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="18ef-359c-pubN65567" name="Rulebook"/>
     <publication id="18ef-359c-pubN65996" name="Rulebook"/>
@@ -96,7 +96,7 @@
           </profiles>
           <entryLinks>
             <entryLink id="4b41-93ef-dcba-4337" hidden="false" collective="false" targetId="ddf6-21b8-6d01-7ac5" type="selectionEntry"/>
-            <entryLink id="7a0f-5f7b-ca7e-55e7" hidden="false" collective="false" targetId="35b8-81bd-4c11-6bf8" type="selectionEntry"/>
+            <entryLink id="7a0f-5f7b-ca7e-55e7" name="Auto-Workshop" hidden="false" collective="false" targetId="35b8-81bd-4c11-6bf8" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="22.0"/>
@@ -166,7 +166,7 @@
     </selectionEntry>
     <selectionEntry id="ec14-449b-d3d2-25fc" name="Gang Fighters" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="c8a4-a4aa-b20c-88bb" name="Infantry Unit" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule"/>
+        <infoLink id="c8a4-a4aa-b20c-88bb" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ec14-449b-d3d2-25fc-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -202,7 +202,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="8e1c-da7a-9908-f96e" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="8e1c-da7a-9908-f96e" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -213,7 +213,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="e4c5-195c-7fea-a0b1" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+                    <infoLink id="e4c5-195c-7fea-a0b1" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -336,13 +336,13 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="0d38-940a-7447-94e9" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="38ed-145f-dc31-69a7" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="5d7b-9651-ea89-8f00" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
-            <infoLink id="14fa-d567-f169-4c37" hidden="false" targetId="6a72-9858-7f5e-22be" type="rule"/>
-            <infoLink id="ab1e-7cb7-9a87-44a1" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-            <infoLink id="69f6-541a-c712-6f8f" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
-            <infoLink id="4df5-3363-28fc-3557" hidden="false" targetId="587b-7c27-52f5-56a7" type="rule"/>
+            <infoLink id="0d38-940a-7447-94e9" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="38ed-145f-dc31-69a7" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="5d7b-9651-ea89-8f00" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
+            <infoLink id="14fa-d567-f169-4c37" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+            <infoLink id="ab1e-7cb7-9a87-44a1" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+            <infoLink id="69f6-541a-c712-6f8f" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
+            <infoLink id="4df5-3363-28fc-3557" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="3624-7104-03ed-6a8b" hidden="false" collective="false" targetId="de1a-0dd2-8671-8dae" type="selectionEntry"/>
@@ -373,8 +373,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="0686-4de1-34fe-a824" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
-            <infoLink id="1064-8898-63a9-36ed" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+            <infoLink id="0686-4de1-34fe-a824" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="3058-a290-c56c-518d" hidden="false" collective="false" targetId="ddf6-21b8-6d01-7ac5" type="selectionEntry"/>
@@ -450,9 +449,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b75d-7484-ae78-dab0" hidden="false" targetId="8d80-a4ff-fb59-92e9" type="rule"/>
-        <infoLink id="2f79-dd76-bf5f-8690" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-        <infoLink id="449f-52d4-9e3b-e8e5" hidden="false" targetId="4a4d-04f6-0073-5c53" type="rule"/>
+        <infoLink id="b75d-7484-ae78-dab0" name="Transport 10" hidden="false" targetId="8509-6fcc-0fc0-21ae" type="rule"/>
+        <infoLink id="2f79-dd76-bf5f-8690" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="449f-52d4-9e3b-e8e5" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6828-7101-7889-cdd8-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -526,10 +525,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0002-2eee-efcb-aba2" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-        <infoLink id="c5fc-c32a-e043-1853" hidden="false" targetId="7d25-d2b6-7130-a3c0" type="rule"/>
-        <infoLink id="c2b7-f461-f18b-df55" hidden="false" targetId="7557-700d-2fc6-e203" type="rule"/>
-        <infoLink id="3811-aec3-3cef-d27e" hidden="false" targetId="2687-f7ac-3c1e-fb30" type="rule"/>
+        <infoLink id="0002-2eee-efcb-aba2" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="c5fc-c32a-e043-1853" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
+        <infoLink id="c2b7-f461-f18b-df55" name="MOD3" hidden="false" targetId="3297-97ec-8602-752c" type="rule"/>
+        <infoLink id="3811-aec3-3cef-d27e" name="Transport 15" hidden="false" targetId="6921-a9d1-f6db-af27" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e756-1e74-0dba-d8e8-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -586,10 +585,9 @@
     </selectionEntry>
     <selectionEntry id="cfb5-737a-e7e0-f42f" name="Boromite Heavy Support Team" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="4b36-55b9-eea8-8528" hidden="false" targetId="eb7b-7605-9eca-cb60" type="rule"/>
-        <infoLink id="708c-9680-b0ce-6521" hidden="false" targetId="eb7b-7605-9eca-cb60" type="rule"/>
-        <infoLink id="10b1-ce07-3cee-1888" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-        <infoLink id="304d-5ccd-7ab2-5ba9" hidden="false" targetId="7d25-d2b6-7130-a3c0" type="rule"/>
+        <infoLink id="708c-9680-b0ce-6521" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
+        <infoLink id="10b1-ce07-3cee-1888" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="304d-5ccd-7ab2-5ba9" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cfb5-737a-e7e0-f42f-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
@@ -632,7 +630,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="640d-b97a-49b1-974d" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+            <infoLink id="640d-b97a-49b1-974d" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -690,7 +688,7 @@
     </selectionEntry>
     <selectionEntry id="5755-dc85-c2d9-a6bb" name="Lavamites" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="42fe-d56e-c860-4954" hidden="false" targetId="3c9b-f86d-32c6-bf69" type="rule"/>
+        <infoLink id="42fe-d56e-c860-4954" name="Infantry/Beast Unit" hidden="false" targetId="9ff4-49b8-d77a-24d0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5755-dc85-c2d9-a6bb-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -726,7 +724,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="bc01-2c0a-ae0f-5f94" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="bc01-2c0a-ae0f-5f94" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -737,7 +735,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="9793-53c0-b463-eb74" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+                    <infoLink id="9793-53c0-b463-eb74" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -854,7 +852,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3f3e-cb10-bf7e-84a2" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+            <infoLink id="3f3e-cb10-bf7e-84a2" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -883,8 +881,8 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="4bed-5692-0439-8e7b" hidden="false" targetId="d1fe-dbdc-fdd9-94c8" type="rule"/>
-        <infoLink id="68f4-25bd-b462-db17" hidden="false" targetId="b72c-b9d6-e702-b322" type="rule"/>
+        <infoLink id="4bed-5692-0439-8e7b" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
+        <infoLink id="68f4-25bd-b462-db17" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a79c-4719-0b12-ee25-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -909,9 +907,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="6221-84d4-273d-ff27" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="7b96-06a2-3665-032a" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="0f69-438b-64e4-cff1" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+            <infoLink id="6221-84d4-273d-ff27" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="7b96-06a2-3665-032a" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="0f69-438b-64e4-cff1" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="28f3-7994-9d9a-9f3b" name="Leader Level" hidden="false" collective="false" defaultSelectionEntryId="b720-951e-a82f-a2c2">
@@ -925,7 +923,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b599-5180-4012-5b81" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="b599-5180-4012-5b81" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -936,7 +934,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b6d4-194e-2730-90c1" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
+                    <infoLink id="b6d4-194e-2730-90c1" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -976,8 +974,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8eeb-ec59-f89e-6e44" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="8e75-38b8-2ea8-0cca" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
+            <infoLink id="8eeb-ec59-f89e-6e44" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="8e75-38b8-2ea8-0cca" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="1c3e-fb7e-5b7e-5d91" name="Leader Level" hidden="false" collective="false" defaultSelectionEntryId="cc78-7f08-e08c-d3b8">
@@ -991,7 +989,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="be4b-0252-9586-065b" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+                    <infoLink id="be4b-0252-9586-065b" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1002,7 +1000,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="7fb7-ff8d-0642-ddba" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="7fb7-ff8d-0642-ddba" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -1116,9 +1114,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7f11-5f90-9467-7bf0" hidden="false" targetId="4a4d-04f6-0073-5c53" type="rule"/>
-            <infoLink id="9bf6-a343-52ed-a144" hidden="false" targetId="7d25-d2b6-7130-a3c0" type="rule"/>
-            <infoLink id="f4d3-96e2-e278-582f" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
+            <infoLink id="7f11-5f90-9467-7bf0" name="MOD2" hidden="false" targetId="88ae-fedb-5c1c-3a7b" type="rule"/>
+            <infoLink id="9bf6-a343-52ed-a144" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
+            <infoLink id="f4d3-96e2-e278-582f" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="0e9a-2386-e809-ac20" name="Select One Of" hidden="false" collective="false" defaultSelectionEntryId="a789-befd-2a47-f6df">
@@ -1174,8 +1172,8 @@
     </selectionEntry>
     <selectionEntry id="bad3-3ce1-0258-9da3" name="Overseer Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="77a2-561e-3125-4535" hidden="false" targetId="b72c-b9d6-e702-b322" type="rule"/>
-        <infoLink id="ea6e-5198-274e-c4e7" hidden="false" targetId="d1fe-dbdc-fdd9-94c8" type="rule"/>
+        <infoLink id="77a2-561e-3125-4535" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+        <infoLink id="ea6e-5198-274e-c4e7" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bad3-3ce1-0258-9da3-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -1200,9 +1198,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="03a9-28f6-49c4-6c18" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="2751-9122-b259-b986" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="af7a-23eb-bbac-265c" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+            <infoLink id="03a9-28f6-49c4-6c18" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="2751-9122-b259-b986" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="af7a-23eb-bbac-265c" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="59a9-6996-155e-e7ce" name="Leader Level" hidden="false" collective="false" defaultSelectionEntryId="88cf-9c54-2584-1c59">
@@ -1216,7 +1214,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="43ff-21bc-1791-5cfa" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="43ff-21bc-1791-5cfa" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1227,7 +1225,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="3fcd-1c9b-ae6e-586c" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
+                    <infoLink id="3fcd-1c9b-ae6e-586c" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -1307,8 +1305,8 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="2681-6193-0e07-13a6" hidden="false" targetId="b72c-b9d6-e702-b322" type="rule"/>
-        <infoLink id="d160-b1ae-39eb-9232" hidden="false" targetId="d1fe-dbdc-fdd9-94c8" type="rule"/>
+        <infoLink id="2681-6193-0e07-13a6" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+        <infoLink id="d160-b1ae-39eb-9232" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cc6a-97b9-b9d6-b3c6-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -1333,9 +1331,9 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a30c-5b68-8dae-4aa0" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="3269-0cc4-8901-4cbf" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="75a2-08c4-6e69-9af4" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
+            <infoLink id="a30c-5b68-8dae-4aa0" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="3269-0cc4-8901-4cbf" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="75a2-08c4-6e69-9af4" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="b8a2-ee20-bfdf-1841" name="Give Rock Father Plasma Carbine" hidden="false" collective="false" type="upgrade">
@@ -1413,10 +1411,10 @@
     </selectionEntry>
     <selectionEntry id="0b2d-9790-62ec-8c53" name="Rock Rider Overseer Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="9c4f-a31d-e5a8-9d32" hidden="false" targetId="b72c-b9d6-e702-b322" type="rule"/>
-        <infoLink id="5bcb-5b0c-c584-db3b" hidden="false" targetId="ecb8-89fb-5d9e-2211" type="rule"/>
-        <infoLink id="48d4-1461-0769-1773" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-        <infoLink id="d6ff-ab95-696d-d560" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+        <infoLink id="9c4f-a31d-e5a8-9d32" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
+        <infoLink id="5bcb-5b0c-c584-db3b" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
+        <infoLink id="48d4-1461-0769-1773" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="d6ff-ab95-696d-d560" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0b2d-9790-62ec-8c53-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1441,8 +1439,8 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="489f-41e1-04a5-6ff9" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="6945-0440-007a-3bdb" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
+            <infoLink id="489f-41e1-04a5-6ff9" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="6945-0440-007a-3bdb" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="3b18-f456-4a8d-61d2" name="Leader Level" hidden="false" collective="false" defaultSelectionEntryId="f45b-bb75-70c5-e9c6">
@@ -1456,7 +1454,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="e55b-dfbc-2272-5d80" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="e55b-dfbc-2272-5d80" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1467,7 +1465,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="e31a-2683-b26a-ddb2" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
+                    <infoLink id="e31a-2683-b26a-ddb2" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -1553,9 +1551,9 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="58f5-96ae-51b5-3ec3" hidden="false" targetId="ecb8-89fb-5d9e-2211" type="rule"/>
-        <infoLink id="bbc9-a073-071b-8750" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-        <infoLink id="0c07-2b3b-0131-f400" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+        <infoLink id="58f5-96ae-51b5-3ec3" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
+        <infoLink id="bbc9-a073-071b-8750" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+        <infoLink id="0c07-2b3b-0131-f400" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d5ef-06cb-43ef-3095-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1591,7 +1589,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="68d5-9416-a5e4-fa24" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+                    <infoLink id="68d5-9416-a5e4-fa24" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1602,7 +1600,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="71bb-a2e3-1652-f1d4" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
+                    <infoLink id="71bb-a2e3-1652-f1d4" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -1615,7 +1613,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c970-335b-5e0c-2b95" hidden="false" collective="false" targetId="b2de-b74b-feb6-e489" type="selectionEntry"/>
+                <entryLink id="c970-335b-5e0c-2b95" name="Lectro Lash" hidden="false" collective="false" targetId="b2de-b74b-feb6-e489" type="selectionEntry"/>
                 <entryLink id="6130-46d7-ca0b-d78a" hidden="false" collective="false" targetId="5d18-58b5-a126-a741" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -1667,7 +1665,7 @@
     </selectionEntry>
     <selectionEntry id="82d5-be12-098b-3661" name="Boromite Specialist Support Team" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="74c1-a397-87af-454a" hidden="false" targetId="eb7b-7605-9eca-cb60" type="rule"/>
+        <infoLink id="74c1-a397-87af-454a" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="82d5-be12-098b-3661-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1710,7 +1708,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="aa9c-a8b1-8e72-c626" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+            <infoLink id="aa9c-a8b1-8e72-c626" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -1757,7 +1755,7 @@
     </selectionEntry>
     <selectionEntry id="9c54-7e9b-3a46-2bc2" name="Boromite Support Team" publicationId="f35d-2f51-66f2-ac58" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="8780-f8a8-73e2-dbc2" hidden="false" targetId="eb7b-7605-9eca-cb60" type="rule"/>
+        <infoLink id="8780-f8a8-73e2-dbc2" name="Weapon Team Unit" hidden="false" targetId="3f2c-9814-0c0d-e4d7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c54-7e9b-3a46-2bc2-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1800,7 +1798,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="814d-a648-2997-b594" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+            <infoLink id="814d-a648-2997-b594" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -1849,7 +1847,7 @@
     </selectionEntry>
     <selectionEntry id="383b-6550-ee5b-d6cf" name="Work Gang" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="1d38-6bba-39a5-149d" name="Infantry Unit" hidden="false" targetId="8e57-0c0e-9630-533d" type="rule"/>
+        <infoLink id="1d38-6bba-39a5-149d" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="383b-6550-ee5b-d6cf-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true"/>
@@ -1881,7 +1879,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="7e2d-5f0d-441b-e806" hidden="false" targetId="1ebf-4e01-6d59-3d0f" type="rule"/>
+            <infoLink id="7e2d-5f0d-441b-e806" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="ecc8-17ab-a6b5-c850" hidden="false" collective="false" targetId="eb88-0bbb-1f8d-009f" type="selectionEntry"/>
@@ -1966,7 +1964,7 @@
         <entryLink id="aba8-21e3-1058-94c8" hidden="false" collective="false" targetId="a1f9-70eb-a8cc-d9bf" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="maxSelections" value="3.0"/>
-            <modifier type="increment" field="points" value="10.0"/>
+            <modifier type="increment" field="points" value="10"/>
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -1987,7 +1985,7 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158d-f776-607e-45b0" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e4cb-daeb-8943-bb3f" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule"/>
+        <infoLink id="e4cb-daeb-8943-bb3f" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9acf-c00a-365e-0d2c-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
@@ -2012,7 +2010,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="641e-aa49-d6d6-ca7a" hidden="false" targetId="6dc1-69d0-6655-5615" type="rule"/>
+            <infoLink id="641e-aa49-d6d6-ca7a" name="Shard" hidden="false" targetId="e1b9-e087-1984-fde7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -2055,12 +2053,12 @@
             <rule id="6f55-7e6d-f90f-416c" name="Unitary-suspensor platform" publicationId="18ef-359c-pubN77497" page="111" hidden="false"/>
           </rules>
           <infoLinks>
-            <infoLink id="f3ff-de2f-d127-80c4" name="Command" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="714a-3980-273d-6809" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="5ee8-a1c1-b75f-e7bc" hidden="false" targetId="6a72-9858-7f5e-22be" type="rule"/>
-            <infoLink id="9d6a-ecbc-58f7-1d85" name="Wound" hidden="false" targetId="587b-7c27-52f5-56a7" type="rule"/>
-            <infoLink id="f5ae-7e21-5585-f4b6" name="Leader 2" hidden="false" targetId="5819-f10c-2a26-41a2" type="rule"/>
-            <infoLink id="cba0-61a1-e4fe-6011" name="Rapid Sprint" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+            <infoLink id="f3ff-de2f-d127-80c4" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="714a-3980-273d-6809" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="5ee8-a1c1-b75f-e7bc" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+            <infoLink id="9d6a-ecbc-58f7-1d85" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
+            <infoLink id="f5ae-7e21-5585-f4b6" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
+            <infoLink id="cba0-61a1-e4fe-6011" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="9fc2-7175-7c40-6521" name="Mass compactor" hidden="false" collective="false" targetId="4f01-44bb-2188-fc1a" type="selectionEntry">
@@ -2128,11 +2126,11 @@
     </selectionEntry>
     <selectionEntry id="4c54-e8d0-98ab-2330" name="Rover Drone Surveyor" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" type="unit">
       <rules>
-        <rule id="bb4d-ed49-935f-10de" name="Scramble Proof" hidden="false"/>
         <rule id="bdbb-4ca4-c5dd-5d79" name="Micromite Relay" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="fe6e-9bb6-b205-255c" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule"/>
+        <infoLink id="fe6e-9bb6-b205-255c" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
+        <infoLink id="e1d4-2918-3dc7-3859" name="Scramble Proof" hidden="false" targetId="377d-0cdc-6ba7-f1d2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5bdd-88da-aa52-fdb7" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
@@ -2201,13 +2199,11 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="b6c7-f155-2347-bb97" name="Slow" hidden="false"/>
-        <rule id="04f6-7d9a-ec6d-023b" name="Iso-shield" hidden="false"/>
-        <rule id="61e8-9f85-7a02-5cf5" name="Scramble Proof" hidden="false"/>
-      </rules>
       <infoLinks>
-        <infoLink id="092a-e71a-8654-271a" name="Probe Unit" hidden="false" targetId="5660-b448-a09d-5338" type="rule"/>
+        <infoLink id="092a-e71a-8654-271a" name="Probe Unit" hidden="false" targetId="b8e9-1952-608c-accf" type="rule"/>
+        <infoLink id="102e-4d2e-bae3-8873" name="Iso-Shield" hidden="false" targetId="d584-98e1-53cc-4397" type="rule"/>
+        <infoLink id="8394-ef87-76e5-e98c" name="Scramble Proof" hidden="false" targetId="377d-0cdc-6ba7-f1d2" type="rule"/>
+        <infoLink id="d586-c319-78ed-de7a" name="Slow" hidden="false" targetId="04bc-743b-092f-8c3a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="84b1-d2bd-bd32-167e" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true"/>
@@ -2244,13 +2240,13 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="5735-607a-22ab-03aa" hidden="false" targetId="ff3a-5fc0-452b-22d7" type="rule"/>
-            <infoLink id="5a9d-fd91-345e-eea6" hidden="false" targetId="5958-48e4-8481-41ed" type="rule"/>
-            <infoLink id="d1a7-8a06-f852-db33" hidden="false" targetId="903c-c5cd-53d4-52cc" type="rule"/>
-            <infoLink id="62db-b750-70ab-e319" hidden="false" targetId="6a72-9858-7f5e-22be" type="rule"/>
-            <infoLink id="e036-067b-c8cf-412c" hidden="false" targetId="418e-35d2-e555-d54f" type="rule"/>
-            <infoLink id="b40e-a07d-a354-48f7" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
-            <infoLink id="78a6-7287-d09f-28fc" hidden="false" targetId="587b-7c27-52f5-56a7" type="rule"/>
+            <infoLink id="5735-607a-22ab-03aa" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
+            <infoLink id="5a9d-fd91-345e-eea6" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
+            <infoLink id="d1a7-8a06-f852-db33" name="Leader 3" hidden="false" targetId="ce3b-c908-3ded-7a49" type="rule"/>
+            <infoLink id="62db-b750-70ab-e319" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
+            <infoLink id="e036-067b-c8cf-412c" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
+            <infoLink id="b40e-a07d-a354-48f7" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
+            <infoLink id="78a6-7287-d09f-28fc" name="Wound" hidden="false" targetId="98a7-475a-f0ed-fa91" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="01c6-6c30-2f4e-2047" hidden="false" collective="false" targetId="de1a-0dd2-8671-8dae" type="selectionEntry"/>
@@ -2281,8 +2277,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="9ff7-4d65-6756-8835" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
-            <infoLink id="17a3-eb35-fd2e-74e2" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+            <infoLink id="17a3-eb35-fd2e-74e2" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="346b-3605-3994-e07c" hidden="false" collective="false" targetId="ddf6-21b8-6d01-7ac5" type="selectionEntry"/>
@@ -2960,7 +2955,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="b576-fce5-dbfc-cba1" hidden="false" targetId="ec07-8982-914d-8377" type="rule"/>
+        <infoLink id="b576-fce5-dbfc-cba1" name="Rapid Sprint" hidden="false" targetId="537e-7615-a0a1-4f5f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3177,30 +3172,4 @@ The unit may perform any action that it normally would be able to pick.</descrip
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="ff3a-5fc0-452b-22d7" name="Command" publicationId="c339-677a-pubN76607" page="133" hidden="false"/>
-    <rule id="5958-48e4-8481-41ed" name="Follow" publicationId="c339-677a-pubN76607" page="133" hidden="false"/>
-    <rule id="6a72-9858-7f5e-22be" name="Hero" publicationId="c339-677a-pubN76607" page="134" hidden="false"/>
-    <rule id="d1fe-dbdc-fdd9-94c8" name="Infantry Command Unit" publicationId="c339-677a-pubN76607" page="9" hidden="false"/>
-    <rule id="8e57-0c0e-9630-533d" name="Infantry Unit" publicationId="c339-677a-pubN76607" page="9" hidden="false"/>
-    <rule id="3c9b-f86d-32c6-bf69" name="Infantry/Beast Unit" publicationId="c339-677a-pubN76607" page="10" hidden="false"/>
-    <rule id="418e-35d2-e555-d54f" name="Large" publicationId="c339-677a-pubN76607" page="134" hidden="false"/>
-    <rule id="1ebf-4e01-6d59-3d0f" name="Leader" publicationId="c339-677a-pubN76607" page="135" hidden="false"/>
-    <rule id="5819-f10c-2a26-41a2" name="Leader 2" publicationId="c339-677a-pubN76607" page="135" hidden="false"/>
-    <rule id="903c-c5cd-53d4-52cc" name="Leader 3" publicationId="c339-677a-pubN76607" page="135" hidden="false"/>
-    <rule id="b72c-b9d6-e702-b322" name="Limited Choice" publicationId="c339-677a-pubN76607" page="158" hidden="false"/>
-    <rule id="4a4d-04f6-0073-5c53" name="MOD2" publicationId="c339-677a-pubN76607" page="136" hidden="false"/>
-    <rule id="7557-700d-2fc6-e203" name="MOD3" publicationId="c339-677a-pubN76607" page="136" hidden="false"/>
-    <rule id="ecb8-89fb-5d9e-2211" name="Mounted Command Unit" publicationId="c339-677a-pubN76607" page="95" hidden="false"/>
-    <rule id="02cd-3f1c-faf4-46c2" name="Mounted Unit" publicationId="c339-677a-pubN76607" page="95" hidden="false"/>
-    <rule id="5660-b448-a09d-5338" name="Probe Unit" publicationId="c339-677a-pubN76607" page="118" hidden="false"/>
-    <rule id="ec07-8982-914d-8377" name="Rapid Sprint" publicationId="c339-677a-pubN76607" page="136" hidden="false"/>
-    <rule id="6dc1-69d0-6655-5615" name="Shard" publicationId="c339-677a-pubN76607" page="137" hidden="false"/>
-    <rule id="7d25-d2b6-7130-a3c0" name="Slow" publicationId="c339-677a-pubN76607" page="137" hidden="false"/>
-    <rule id="4107-3248-4948-5e1f" name="Spotter Drone" publicationId="c339-677a-pubN76607" page="114" hidden="false"/>
-    <rule id="8d80-a4ff-fb59-92e9" name="Transport 10" publicationId="c339-677a-pubN76607" page="95" hidden="false"/>
-    <rule id="2687-f7ac-3c1e-fb30" name="Transport 15" publicationId="c339-677a-pubN76607" page="95" hidden="false"/>
-    <rule id="eb7b-7605-9eca-cb60" name="Weapon Team Unit" publicationId="c339-677a-pubN76607" page="9" hidden="false"/>
-    <rule id="587b-7c27-52f5-56a7" name="Wound" publicationId="c339-677a-pubN76607" page="230" hidden="false"/>
-  </sharedRules>
 </catalogue>
