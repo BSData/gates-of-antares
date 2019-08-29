@@ -580,7 +580,7 @@
           <modifiers>
             <modifier type="increment" field="points" value="1">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="1044-b654-0ca0-e5ad" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
