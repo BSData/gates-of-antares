@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="14" battleScribeVersion="2.03" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="15" battleScribeVersion="2.03" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="64d6-1cd3-pubN65565" name="Battle for Xilos"/>
     <publication id="64d6-1cd3-pubN66836" name="Rulebook"/>
@@ -1149,8 +1149,7 @@
       <infoLinks>
         <infoLink id="c8b0-00c2-4509-d681" name="Fast" hidden="false" targetId="166d-5d48-1fc6-4a4b" type="rule"/>
         <infoLink id="3fb0-934a-d1a8-ed1e" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
-        <infoLink id="10a8-47fc-1923-3d3f" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
-        <infoLink id="683e-b3fb-ce78-b8a4" name="Mounted Command Unit" hidden="false" targetId="4294-13e8-90a8-2e17" type="rule"/>
+        <infoLink id="683e-b3fb-ce78-b8a4" name="Mounted Unit" hidden="false" targetId="878e-3922-3d01-8f26" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0223-7d39-0a7c-f8a9-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
@@ -1162,8 +1161,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="7e77-cac2-feab-67d6" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
-            <infoLink id="a17a-173b-6907-b7ee" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
             <infoLink id="1491-1d08-a7c9-d0f4" hidden="false" targetId="e18f-34de-2624-4133" type="profile"/>
             <infoLink id="212a-5750-9cf2-9c7a" hidden="false" targetId="e18f-34de-2624-4133" type="profile">
               <modifiers>
@@ -1867,7 +1864,7 @@
           <infoLinks>
             <infoLink id="0b4f-18e9-64d4-1bc8" name="Command" hidden="false" targetId="f001-a3be-81f7-f74f" type="rule"/>
             <infoLink id="7780-1ba7-1b1c-b4c2" name="Follow" hidden="false" targetId="4bdd-65b7-6ee8-89b2" type="rule"/>
-            <infoLink id="f186-3a30-6680-477f" hidden="false" targetId="e18f-34de-2624-4133" type="profile"/>
+            <infoLink id="f186-3a30-6680-477f" name="Skyraider Captain" hidden="false" targetId="74dc-b388-dc1d-fb61" type="profile"/>
             <infoLink id="8ac3-35e0-d064-d5b0" hidden="false" targetId="74dc-b388-dc1d-fb61" type="profile">
               <modifiers>
                 <modifier type="set" field="3baa-9cfd-f273-822d" value="Command, Hero, Follow, Large, Fast, Leader 3">
@@ -1877,6 +1874,8 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink id="4cfa-84b2-0e05-d76d" name="Leader 2" hidden="false" targetId="f7db-9f56-2fd9-fd72" type="rule"/>
+            <infoLink id="6796-9385-17af-9712" name="Hero" hidden="false" targetId="e70c-a7b7-b782-acad" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="e0b2-8c3a-7575-9736" name="Leader Level" hidden="false" collective="false" import="true">
@@ -5351,7 +5350,7 @@ D10 Result:
         <characteristic name="Str" typeId="8294-36f1-6431-2145">5</characteristic>
         <characteristic name="Res" typeId="f214-abe8-c922-c51b">5(7)</characteristic>
         <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
-        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">9</characteristic>
+        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
         <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Fast, Leader </characteristic>
       </characteristics>
     </profile>
