@@ -5696,6 +5696,32 @@
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntries>
+            <selectionEntry id="acd0-2acf-413c-a611" name="Plasma Light Support" publicationId="c339-677a-pubN76607" page="76" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3557-f2ef-888c-70ad" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e719-6937-f948-2fd0" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="084f-33bf-b1a5-a46d" name="Plasma Light Support" publicationId="c339-677a-pubN76607" page="76" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">30</characteristic>
+                    <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">40</characteristic>
+                    <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">80</characteristic>
+                    <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">3</characteristic>
+                    <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">RF3, Light Support Weapon</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bb2b-58ff-2a72-a2cd" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
+                <infoLink id="fc00-034b-0b5d-ac4d" name="Light Support Weapon" hidden="false" targetId="c43d-552b-d553-8f20" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="59.0"/>
           </costs>
@@ -5737,34 +5763,6 @@
               </constraints>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="e05f-210c-0acf-1ade" name="Weapon Options" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9977-57e5-7614-c871" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10bc-6303-f325-bcfa" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="db42-78c3-9f57-1b1c" name="Plasma Light Support" publicationId="c339-677a-pubN76607" page="76" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="07da-6f6e-8718-5f90" name="Plasma Light Support" publicationId="c339-677a-pubN76607" page="76" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">30</characteristic>
-                    <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">40</characteristic>
-                    <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">80</characteristic>
-                    <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">3</characteristic>
-                    <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">RF3, Light Support Weapon</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="9c11-97d4-4178-3467" name="RF3" hidden="false" targetId="89ce-469b-2b76-90fa" type="rule"/>
-                <infoLink id="d916-7283-1723-30b9" name="Light Support Weapon" hidden="false" targetId="c43d-552b-d553-8f20" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -6643,6 +6641,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3b8b-10f2-fca8-036f" name="C3 Strike Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="points" value="66.0">
+          <conditions>
+            <condition field="selections" scope="3b8b-10f2-fca8-036f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="2e7e-393e-f274-5050" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="3c75-6627-7cd9-ec94" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -6794,10 +6799,17 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="66.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3501-d057-3845-b85d" name="C3 Drop Command Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="points" value="87.0">
+          <conditions>
+            <condition field="selections" scope="3501-d057-3845-b85d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="0b0d-a653-0e77-f305" name="Limited Choice" hidden="false" targetId="8cb3-4c3e-dc5f-b952" type="rule"/>
         <infoLink id="bf7a-be17-842f-70d8" name="Infantry Command Unit" hidden="false" targetId="0a6b-dcfb-ccc3-6a0d" type="rule"/>
@@ -6953,14 +6965,19 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="87.0"/>
+        <cost name="pts" typeId="points" value="132.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e94-c221-3417-75c9" name="C3 Drop Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="16a9-17b0-6db6-6f50" value="-1">
+        <modifier type="set" field="16a9-17b0-6db6-6f50" value="-1.0">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3501-d057-3845-b85d" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="points" value="42.0">
+          <conditions>
+            <condition field="selections" scope="1e94-c221-3417-75c9" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6991,7 +7008,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6963-aa72-7023-3a30" name="Leader Level" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6963-aa72-7023-3a30" name="Leader Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="f710-b880-65d4-4d44">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e56f-bab2-907a-6ca4" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ed4-4815-3632-783f" type="max"/>
@@ -7127,10 +7144,17 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="42.0"/>
+        <cost name="pts" typeId="points" value="151.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57c6-ba82-53f7-68af" name="C3 Strike Squad" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="points" value="32.0">
+          <conditions>
+            <condition field="selections" scope="57c6-ba82-53f7-68af" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="4330-af70-dd6f-4584" name="Infantry Unit" hidden="false" targetId="9a87-2673-83b1-3986" type="rule"/>
       </infoLinks>
@@ -7328,7 +7352,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="32.0"/>
+        <cost name="pts" typeId="points" value="112.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23ef-7122-b64d-e36a" name="Concord T7 Transporter Drone (Support)" publicationId="f35d-2f51-66f2-ac58" page="" hidden="false" collective="false" import="true" type="model">
