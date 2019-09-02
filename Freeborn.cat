@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="16" battleScribeVersion="2.03" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64d6-1cd3-6226-4554" name="Freeborn" revision="17" battleScribeVersion="2.03" authorName="Michael Ovsenik / Vescarea" authorContact="FB" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="64d6-1cd3-pubN65565" name="Battle for Xilos"/>
     <publication id="64d6-1cd3-pubN66836" name="Rulebook"/>
@@ -735,11 +735,6 @@
                     <repeat field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26dc-46a0-f598-e869" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="increment" field="points" value="2.0">
-                  <conditions>
-                    <condition field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2223-cd79-2176-f186" type="equalTo"/>
-                  </conditions>
-                </modifier>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -758,11 +753,6 @@
                 <repeat field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26dc-46a0-f598-e869" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="points" value="2.0">
-              <conditions>
-                <condition field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2223-cd79-2176-f186" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </entryLink>
         <entryLink id="49e8-198a-92af-6784" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="d118-8115-df5f-2402" type="selectionEntry">
@@ -772,11 +762,6 @@
               <repeats>
                 <repeat field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26dc-46a0-f598-e869" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="increment" field="points" value="2.0">
-              <conditions>
-                <condition field="selections" scope="5cda-2300-7dae-8090" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2223-cd79-2176-f186" type="equalTo"/>
-              </conditions>
             </modifier>
           </modifiers>
         </entryLink>
@@ -1156,7 +1141,7 @@
         <entryLink id="b557-70e8-d27c-aa9d" name="Nano Drone" hidden="false" collective="false" import="true" targetId="cadc-e1ce-3615-ac4b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0223-7d39-0a7c-f8a9" name="Skyraider Squad" publicationId="64d6-1cd3-pubN66836" page="174" hidden="false" collective="false" import="true" type="unit">
@@ -1238,7 +1223,11 @@
           </constraints>
           <entryLinks>
             <entryLink id="e34a-7c57-c72d-b20e" hidden="false" collective="false" import="true" targetId="47d9-8149-9744-9849" type="selectionEntry"/>
-            <entryLink id="8a5a-b8d3-b9f7-cffb" hidden="false" collective="false" import="true" targetId="a00c-0542-f2a5-8124" type="selectionEntry"/>
+            <entryLink id="8a5a-b8d3-b9f7-cffb" hidden="false" collective="false" import="true" targetId="a00c-0542-f2a5-8124" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="8.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d56e-be22-258f-698c" name="Unit Options" hidden="false" collective="false" import="true">
@@ -1271,7 +1260,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="121.0"/>
+        <cost name="pts" typeId="points" value="109.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5db6-c261-8463-2fde" name="Freeborn Specialist Heavy Support Team" publicationId="64d6-1cd3-pubN66836" page="194" hidden="false" collective="false" import="true" type="unit">
@@ -1529,7 +1518,6 @@
     </selectionEntry>
     <selectionEntry id="bd58-a73b-e17b-89ae" name="Light General Purpose Drone" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="bd92-cca5-ea64-865d" name="Weapon Drone" hidden="false" targetId="7fc6-0ec5-7957-b530" type="rule"/>
         <infoLink id="dddb-ac67-3b45-fb13" name="Weapon Drone Unit" hidden="false" targetId="4513-5976-042c-d38c" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1958,7 +1946,11 @@
           </constraints>
           <entryLinks>
             <entryLink id="b3cb-790e-d4ae-710a" hidden="false" collective="false" import="true" targetId="47d9-8149-9744-9849" type="selectionEntry"/>
-            <entryLink id="0f9b-216d-3f08-d82e" hidden="false" collective="false" import="true" targetId="a00c-0542-f2a5-8124" type="selectionEntry"/>
+            <entryLink id="0f9b-216d-3f08-d82e" hidden="false" collective="false" import="true" targetId="a00c-0542-f2a5-8124" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="8.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1858-3233-777b-6a0f" name="Unit Options" hidden="false" collective="false" import="true">
@@ -1975,6 +1967,9 @@
           </constraints>
         </entryLink>
         <entryLink id="5a47-8810-8886-eec9" hidden="false" collective="false" import="true" targetId="2e3d-bbaa-3f5c-ac53" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3001-9c54-a35e-b48c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c8b-f085-099d-ac33" type="max"/>
@@ -1988,7 +1983,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="163.0"/>
+        <cost name="pts" typeId="points" value="152.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa6c-67b7-3d3b-2a61" name="Targeter Probe Shard" publicationId="64d6-1cd3-pubN66836" page="196" hidden="false" collective="false" import="true" type="unit">
@@ -3722,7 +3717,7 @@
         <profile id="3bdc-c653-a2ab-de1c" name="Micro X-Launcher - Direct Fire" publicationId="64d6-1cd3-pubN66836" page="71" hidden="false" typeId="ecae-8ac8-2c13-0dd3" typeName="Weapon">
           <characteristics>
             <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">20</characteristic>
-            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">3</characteristic>
+            <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">30</characteristic>
             <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">None</characteristic>
             <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">1</characteristic>
             <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">Standard Weapon</characteristic>
@@ -3732,7 +3727,7 @@
           <characteristics>
             <characteristic name="Effective" typeId="c2de-17f1-10e2-2c0a">10-20</characteristic>
             <characteristic name="Long" typeId="995e-b5e6-4c63-0baa">30</characteristic>
-            <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">5</characteristic>
+            <characteristic name="Extreme" typeId="bf58-0ad5-c7ee-3fd9">50</characteristic>
             <characteristic name="Strike Value" typeId="897c-d3c4-3983-896a">0</characteristic>
             <characteristic name="Special Rules" typeId="7e87-2586-653f-d6ec">OH, Blast D4, No Cover, Standard Weapon</characteristic>
           </characteristics>
@@ -4669,13 +4664,22 @@
           </modifiers>
           <modifierGroups>
             <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6cf-bfc1-8051-c0c3" type="equalTo"/>
-              </conditions>
               <modifiers>
-                <modifier type="set" field="017a-9b43-b7b3-030d" value="6"/>
-                <modifier type="set" field="08b9-e038-7ba6-488e" value="8"/>
-                <modifier type="set" field="3993-27b0-c3d9-de20" value="8"/>
+                <modifier type="set" field="017a-9b43-b7b3-030d" value="6">
+                  <conditions>
+                    <condition field="selections" scope="82f3-a775-50ab-eb8f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6cf-bfc1-8051-c0c3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="08b9-e038-7ba6-488e" value="8">
+                  <conditions>
+                    <condition field="selections" scope="82f3-a775-50ab-eb8f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6cf-bfc1-8051-c0c3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="3993-27b0-c3d9-de20" value="8">
+                  <conditions>
+                    <condition field="selections" scope="82f3-a775-50ab-eb8f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6cf-bfc1-8051-c0c3" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
@@ -5379,15 +5383,15 @@ D10 Result:
     <profile id="5425-1edf-f536-d5a1" name="T7 Type GP Transporter Drone" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
-        <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">6</characteristic>
+        <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
         <characteristic name="Str" typeId="8294-36f1-6431-2145">1</characteristic>
         <characteristic name="Res" typeId="f214-abe8-c922-c51b">11</characteristic>
-        <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
-        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
+        <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
+        <characteristic name="Co" typeId="3993-27b0-c3d9-de20">7</characteristic>
         <characteristic name="Special" typeId="3baa-9cfd-f273-822d">MOD2, Transport 10, Large</characteristic>
       </characteristics>
     </profile>
-    <profile id="702f-c8a7-d8cf-01c1" name="Vardanari Gaurd Trooper" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+    <profile id="702f-c8a7-d8cf-01c1" name="Vardanari Guard Trooper" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
         <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>

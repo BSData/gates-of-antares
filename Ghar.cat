@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f2e-f338-5620-a215" name="Ghar" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="c339-677a-60db-4060" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0f2e-f338-pubN66739" name="Rulebook"/>
     <publication id="0f2e-f338-pubN72772" name="Rulebook"/>
@@ -69,7 +69,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">3</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">-</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">-</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Shard, Scramble Proof</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -193,13 +193,13 @@
         <categoryLink id="c27a-aa4f-97c0-ebef-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8974-5164-823a-fe6c" name="Ghar Attack Scutter Leader" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8974-5164-823a-fe6c" name="Attack Scutter Leader" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="98cb-1e8a-385f-e77e" name="Ghar Attack Scutter Leader" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="98cb-1e8a-385f-e77e" name="Attack Scutter Leader" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
@@ -207,7 +207,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4(10)</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Leader, Large, Crawler, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -218,13 +218,13 @@
             <cost name="pts" typeId="points" value="39.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7fdb-3754-be08-c953" name="Ghar Attack Scutter" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7fdb-3754-be08-c953" name="Attack Scutter" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="011c-3842-decf-b59b" name="Ghar Attack Scutter" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="011c-3842-decf-b59b" name="Attack Scutter" publicationId="0f2e-f338-pubN66739" page="170" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">5</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
@@ -232,7 +232,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4(10)</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">7</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Crawler, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -394,13 +394,13 @@
         <categoryLink id="f21b-beb2-224e-5e3f-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1a33-1125-41be-a84c" name="Ghar Bombardment Crawler" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1a33-1125-41be-a84c" name="Bombardment Crawler" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9eb2-f76c-73b5-402f" name="Ghar Bombardment Crawler" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="9eb2-f76c-73b5-402f" name="Bombardment Crawler" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">3</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
@@ -408,7 +408,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">13</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">9</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Crawler, MOD2, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -470,12 +470,12 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef3d-dcd6-70ae-c6c6" name="Ghar Scutter" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ef3d-dcd6-70ae-c6c6" name="Scutter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ba55-480e-906f-39ce" name="Ghar Scutter" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="ba55-480e-906f-39ce" name="Scutter" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">3</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
@@ -483,7 +483,8 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">10</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Crawler, Scramble Proof,
+Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -514,13 +515,13 @@
         <categoryLink id="8b5a-d5f0-e539-a0ee-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4a98-4c68-15aa-a072" name="Ghar Leader" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4a98-4c68-15aa-a072" name="Ghar Battle Leader" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c216-69a9-3e8a-0f02" name="Ghar Leader" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="c216-69a9-3e8a-0f02" name="Ghar Battle Leader" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">3</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
@@ -528,7 +529,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4 (12)</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">8</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">8</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Leader, Large, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -540,20 +541,20 @@
             <cost name="pts" typeId="points" value="64.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a18c-40ae-d918-8109" name="Ghar Trooper" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a18c-40ae-d918-8109" name="Ghar Battle Troopers" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="be58-28f6-c6ca-323c" name="Ghar Trooper" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+            <profile id="be58-28f6-c6ca-323c" name="Ghar Battle Troopers" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
               <characteristics>
                 <characteristic name="Ag" typeId="cf30-f234-691c-47bd">3</characteristic>
                 <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
                 <characteristic name="Str" typeId="8294-36f1-6431-2145">10</characteristic>
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4 (12)</characteristic>
-                <characteristic name="Init" typeId="08b9-e038-7ba6-488e"/>
-                <characteristic name="Co" typeId="3993-27b0-c3d9-de20"/>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
+                <characteristic name="Co" typeId="3993-27b0-c3d9-de20">7</characteristic>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -638,7 +639,7 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4 (12)</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">7</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Large, Scramble Proof, Plasma Reactor</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -653,6 +654,19 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="c4d6-39d0-9349-83bb" name="Scutter" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
+              <characteristics>
+                <characteristic name="Ag" typeId="cf30-f234-691c-47bd">3</characteristic>
+                <characteristic name="Acc" typeId="017a-9b43-b7b3-030d">5</characteristic>
+                <characteristic name="Str" typeId="8294-36f1-6431-2145">1</characteristic>
+                <characteristic name="Res" typeId="f214-abe8-c922-c51b">4(10)</characteristic>
+                <characteristic name="Init" typeId="08b9-e038-7ba6-488e">7</characteristic>
+                <characteristic name="Co" typeId="3993-27b0-c3d9-de20">7</characteristic>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Crawler, Large, Scramble Proof, Plasma Reactor</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <entryLinks>
             <entryLink id="6790-53e2-2efa-2be5" name="Bomb Feeder" hidden="false" collective="false" import="true" targetId="562c-13be-8455-d77b" type="selectionEntry"/>
             <entryLink id="e66e-6adf-a0cd-5f9c" name="Scourer Cannon" hidden="false" collective="false" import="true" targetId="3fde-b133-beb3-43d7" type="selectionEntry"/>
@@ -915,6 +929,9 @@
                 <infoLink id="35b9-c862-b83a-4adf" hidden="false" targetId="b292-161d-d26f-b5e9" type="profile"/>
                 <infoLink id="e0b6-6baa-3b40-a373" hidden="false" targetId="9770-5f42-fa8c-247c" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7ae7-44e0-c239-8407" name="Vac Armour" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -953,6 +970,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1001,23 +1021,37 @@
                 <characteristic name="Res" typeId="f214-abe8-c922-c51b">4</characteristic>
                 <characteristic name="Init" typeId="08b9-e038-7ba6-488e">-</characteristic>
                 <characteristic name="Co" typeId="3993-27b0-c3d9-de20">-</characteristic>
-                <characteristic name="Special" typeId="3baa-9cfd-f273-822d"/>
+                <characteristic name="Special" typeId="3baa-9cfd-f273-822d">Leader, Shard, Scramble Proof</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule id="7742-fdbf-8c91-0d44" name="Scramble Proof" publicationId="0f2e-f338-pubN66739" page="88" hidden="false">
+              <description>Scrambler munitions do not affect units with the &quot;Scramble Proof&quot; rule.</description>
+            </rule>
+          </rules>
           <infoLinks>
-            <infoLink id="9d42-7e5f-bbf0-acd4" name="Outcasts" hidden="false" targetId="ccca-f1e8-512c-ade7" type="rule"/>
             <infoLink id="f6a8-13c6-b9ac-c035" name="Leader" hidden="false" targetId="4675-d30d-3451-8672" type="rule"/>
             <infoLink id="8061-c0ee-f0f9-6958" name="Shard" hidden="false" targetId="e1b9-e087-1984-fde7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="3a10-56f7-f95a-9300" hidden="false" collective="false" import="true" targetId="3b86-3198-ef3c-030e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="466a-df87-e0bc-4ab1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470d-7b5c-aaf7-34ea" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="ebd2-f5fa-e48c-f057" name="Tector Rods" publicationId="0f2e-f338-pubN66739" page="124" hidden="false">
+                  <description>A Ghar unit can re-roll one shooting miss if there is one (or more) models with a Tector Rod within 15&quot; of the target. Only one re-roll no matter how many such models within detection range.</description>
+                </rule>
+              </rules>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="bee5-b458-d288-7e29" hidden="false" collective="false" import="true" targetId="3b86-3198-ef3c-030e" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -1120,7 +1154,7 @@ If there are enemy units within 10” of Karg then the only order he can be give
     </selectionEntry>
     <selectionEntry id="0efd-70a6-93ff-76e8" name="Ghar Tactical Command Squad" page="169" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f237-dbeb-e5d1-c435" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f237-dbeb-e5d1-c435" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4576-d659-de05-e674" name="Large" hidden="false" targetId="59d7-7273-b97c-0dff" type="rule"/>
@@ -1634,9 +1668,14 @@ If a unit has the Outcast rule then it cannot benefit from the command, hero and
     <rule id="f5cb-d1fc-6b00-39f5" name="Plasma Reactor" hidden="false"/>
     <rule id="30d6-c6b7-e415-04b6" name="Random SV" hidden="false"/>
     <rule id="a9b4-063d-b7f2-c577" name="Rapid Fire (RF)" hidden="false"/>
-    <rule id="a985-d1e1-a15f-c261" name="Scramble Proof" hidden="false"/>
+    <rule id="a985-d1e1-a15f-c261" name="Scramble Proof" publicationId="0f2e-f338-pubN66739" page="88" hidden="false">
+      <description>Scrambler munitions do not affect units with the &quot;Scramble Proof&quot; rule.</description>
+    </rule>
     <rule id="485f-1f8e-7808-4a17" name="Shard" hidden="false"/>
     <rule id="57d1-980d-ee47-f717" name="Wound" hidden="false"/>
+    <rule id="0312-2150-49a5-fdec" name="Tector Rods" publicationId="0f2e-f338-pubN66739" page="124" hidden="false">
+      <description>A Ghar unit can re-roll one shooting miss if there is one (or more) models with a Tector Rod within 15&quot; of the target. Only one re-roll no matter how many such models within detection range.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="562d-6cd9-4b4a-7019" name="Ghar Leader" hidden="false" typeId="1650-77b3-10d1-6406" typeName="Model">
