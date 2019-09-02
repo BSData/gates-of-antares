@@ -1141,7 +1141,7 @@
         <entryLink id="b557-70e8-d27c-aa9d" name="Nano Drone" hidden="false" collective="false" import="true" targetId="cadc-e1ce-3615-ac4b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="130.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0223-7d39-0a7c-f8a9" name="Skyraider Squad" publicationId="64d6-1cd3-pubN66836" page="174" hidden="false" collective="false" import="true" type="unit">
